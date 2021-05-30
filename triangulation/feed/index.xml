@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Triangulation!	</title>
+	<atom:link href="/triangulation/feed/" rel="self" type="application/rss+xml" />
+	<link>/triangulation/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Fri, 20 Nov 2015 22:23:56 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>
+		By: Laura		</title>
+		<link>/triangulation/#comment-1043</link>
+
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Mon, 14 Apr 2014 00:18:48 +0000</pubDate>
+		<guid isPermaLink="false">/?p=677#comment-1043</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/triangulation/#comment-1042&quot;&gt;Photophiliac&lt;/a&gt;.
+
+Thank you too for the feedback. I&#039;m glad it&#039;s helpful!]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/triangulation/#comment-1042">Photophiliac</a>.</p>
+<p>Thank you too for the feedback. I&#8217;m glad it&#8217;s helpful!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Photophiliac		</title>
+		<link>/triangulation/#comment-1042</link>
+
+		<dc:creator><![CDATA[Photophiliac]]></dc:creator>
+		<pubDate>Sun, 13 Apr 2014 04:46:34 +0000</pubDate>
+		<guid isPermaLink="false">/?p=677#comment-1042</guid>
+
+					<description><![CDATA[Thank you so much for sharing your beautiful hard work with the world! It is very kind of you. These sketches were what inspired me to begin learning the processing language and I truly cannot thank you enough for showing me this facet of code generated art. It is a truly stunning media.  Thanks again!]]></description>
+			<content:encoded><![CDATA[<p>Thank you so much for sharing your beautiful hard work with the world! It is very kind of you. These sketches were what inspired me to begin learning the processing language and I truly cannot thank you enough for showing me this facet of code generated art. It is a truly stunning media.  Thanks again!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

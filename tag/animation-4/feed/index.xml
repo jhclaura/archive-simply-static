@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>animation &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/animation-4/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Sun, 25 Mar 2018 17:52:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Tzina: Symphony of Longing</title>
+		<link>/tzina-symphony-of-longing/</link>
+					<comments>/tzina-symphony-of-longing/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sun, 25 Mar 2018 17:13:06 +0000</pubDate>
+				<category><![CDATA[Work]]></category>
+		<category><![CDATA[animation]]></category>
+		<category><![CDATA[three.js]]></category>
+		<category><![CDATA[WebVR]]></category>
+		<guid isPermaLink="false">/?p=2674</guid>
+
+					<description><![CDATA[Tzina: Symphony of Longing is a WebVR documentary about people inhabited Tzina Dizengoff square, talking about their lives, love, and loneliness. The square was demolished at the beginning of 2017. Created... <a class="read-more" href="/tzina-symphony-of-longing/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="alignnone size-full wp-image-2675" src="/wp-content/uploads/2018/03/cover_tzina.jpg" alt="" width="1034" height="594" srcset="/wp-content/uploads/2018/03/cover_tzina.jpg 1034w, /wp-content/uploads/2018/03/cover_tzina-300x172.jpg 300w, /wp-content/uploads/2018/03/cover_tzina-768x441.jpg 768w, /wp-content/uploads/2018/03/cover_tzina-1024x588.jpg 1024w, /wp-content/uploads/2018/03/cover_tzina-400x230.jpg 400w, /wp-content/uploads/2018/03/cover_tzina-210x121.jpg 210w" sizes="(max-width: 1034px) 100vw, 1034px" /></p>
+<p><strong>Tzina: Symphony of Longing</strong> is a WebVR documentary about people inhabited Tzina Dizengoff square, talking about their lives, love, and loneliness. The square was demolished at the beginning of 2017.</p>
+<p>Created and directed by <a href="https://www.shirin.works/">Shirin Anlen</a>, the project invites the viewer for a physical walk to explore the square, to visit and hear the characters, at different times of the day. It&#8217;s made by Shirin, ​<a href="http://portfolio.ziv.bz/">Ziv Schneider</a>, <a href="http://phenomenalabs.com/">Or Fleisher</a>, ​<a href="http://avner.js.org/">Avner Peled</a>, and me. Read more here: <a href="https://www.shirin.works/tzina-symphony-of-longing">shirin.works/tzina-symphony-of-longing</a></p>
+<p>I was invited to join the team in Summer 2016, to create the back-animation for the character interviews, which were captured with <a href="http://www.depthkit.tv/">DepthKit</a>. It&#8217;s a pleasant process to discuss with director Shirin, from her understanding of the people she interviewed and her visions, to my interpretation and visualization.</p>
+<p>For me, it&#8217;s an interesting yet challenging task to maintain the balance of interpretation. I learned how to intrigue viewers without overshadowing the monologue, and am really happy with the result of magical feeling. I feel I might purposefully highlight the more lovely moment of each characters stories, and I hope I did a not-bad-job in the end to try to interpret their lives :)</p>
+<p>&nbsp;</p>
+<p><strong>Characters sketch</strong></p>
+<p>&nbsp;</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2677" src="/wp-content/uploads/2018/03/haim.jpg" alt="" width="934" height="500" srcset="/wp-content/uploads/2018/03/haim.jpg 934w, /wp-content/uploads/2018/03/haim-300x161.jpg 300w, /wp-content/uploads/2018/03/haim-768x411.jpg 768w, /wp-content/uploads/2018/03/haim-400x214.jpg 400w, /wp-content/uploads/2018/03/haim-210x112.jpg 210w" sizes="(max-width: 934px) 100vw, 934px" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2678" src="/wp-content/uploads/2018/03/itzik.jpg" alt="" width="1268" height="500" srcset="/wp-content/uploads/2018/03/itzik.jpg 1268w, /wp-content/uploads/2018/03/itzik-300x118.jpg 300w, /wp-content/uploads/2018/03/itzik-768x303.jpg 768w, /wp-content/uploads/2018/03/itzik-1024x404.jpg 1024w, /wp-content/uploads/2018/03/itzik-400x158.jpg 400w, /wp-content/uploads/2018/03/itzik-210x83.jpg 210w" sizes="(max-width: 1268px) 100vw, 1268px" /></p>
+<p><a href='/wp-content/uploads/2018/03/Lupo.jpg'><img width="300" height="241" src="/wp-content/uploads/2018/03/Lupo-300x241.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/Lupo-300x241.jpg 300w, /wp-content/uploads/2018/03/Lupo-768x616.jpg 768w, /wp-content/uploads/2018/03/Lupo-400x321.jpg 400w, /wp-content/uploads/2018/03/Lupo-210x168.jpg 210w, /wp-content/uploads/2018/03/Lupo.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/wp-content/uploads/2018/03/Miriam.jpg'><img width="300" height="198" src="/wp-content/uploads/2018/03/Miriam-300x198.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/Miriam-300x198.jpg 300w, /wp-content/uploads/2018/03/Miriam-400x263.jpg 400w, /wp-content/uploads/2018/03/Miriam-210x138.jpg 210w, /wp-content/uploads/2018/03/Miriam.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>&nbsp;</p>
+<p><strong>Process Stills</strong></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2691" src="/wp-content/uploads/2018/03/Screen-Shot-2016-08-13-at-7.05.00-PM-copy.png" alt="" width="1000" height="452" srcset="/wp-content/uploads/2018/03/Screen-Shot-2016-08-13-at-7.05.00-PM-copy.png 1000w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-13-at-7.05.00-PM-copy-300x136.png 300w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-13-at-7.05.00-PM-copy-768x347.png 768w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-13-at-7.05.00-PM-copy-400x181.png 400w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-13-at-7.05.00-PM-copy-210x95.png 210w" sizes="(max-width: 1000px) 100vw, 1000px" /> <img loading="lazy" class="alignnone size-full wp-image-2692" src="/wp-content/uploads/2018/03/Screen-Shot-2016-08-16-at-1.06.22-PM-copy.png" alt="" width="1000" height="429" srcset="/wp-content/uploads/2018/03/Screen-Shot-2016-08-16-at-1.06.22-PM-copy.png 1000w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-16-at-1.06.22-PM-copy-300x129.png 300w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-16-at-1.06.22-PM-copy-768x329.png 768w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-16-at-1.06.22-PM-copy-400x172.png 400w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-16-at-1.06.22-PM-copy-210x90.png 210w" sizes="(max-width: 1000px) 100vw, 1000px" /> <img loading="lazy" class="alignnone size-full wp-image-2693" src="/wp-content/uploads/2018/03/Screen-Shot-2017-02-09-at-6.20.23-AM-copy.png" alt="" width="1000" height="552" srcset="/wp-content/uploads/2018/03/Screen-Shot-2017-02-09-at-6.20.23-AM-copy.png 1000w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-09-at-6.20.23-AM-copy-300x166.png 300w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-09-at-6.20.23-AM-copy-768x424.png 768w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-09-at-6.20.23-AM-copy-400x221.png 400w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-09-at-6.20.23-AM-copy-210x116.png 210w" sizes="(max-width: 1000px) 100vw, 1000px" /> <img loading="lazy" class="alignnone size-full wp-image-2694" src="/wp-content/uploads/2018/03/Screen-Shot-2017-02-11-at-12.08.32-PM-copy.png" alt="" width="1000" height="514" srcset="/wp-content/uploads/2018/03/Screen-Shot-2017-02-11-at-12.08.32-PM-copy.png 1000w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-11-at-12.08.32-PM-copy-300x154.png 300w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-11-at-12.08.32-PM-copy-768x395.png 768w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-11-at-12.08.32-PM-copy-400x206.png 400w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-11-at-12.08.32-PM-copy-210x108.png 210w" sizes="(max-width: 1000px) 100vw, 1000px" /> <img loading="lazy" class="alignnone size-full wp-image-2695" src="/wp-content/uploads/2018/03/Screen-Shot-2017-02-17-at-1.04.04-AM-copy.png" alt="" width="1000" height="514" srcset="/wp-content/uploads/2018/03/Screen-Shot-2017-02-17-at-1.04.04-AM-copy.png 1000w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-17-at-1.04.04-AM-copy-300x154.png 300w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-17-at-1.04.04-AM-copy-768x395.png 768w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-17-at-1.04.04-AM-copy-400x206.png 400w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-17-at-1.04.04-AM-copy-210x108.png 210w" sizes="(max-width: 1000px) 100vw, 1000px" /></p>
+<p><strong>Animation Extracts</strong></p>
+<p><img loading="lazy" class="alignnone size-full" src="https://media.giphy.com/media/9FZmJ7LAhxfZCPCWBS/giphy.gif" width="480" height="226" /></p>
+<p><img loading="lazy" class="alignnone size-full" src="https://media.giphy.com/media/6Ee0lcHQpikBZ0AFU4/giphy.gif" width="480" height="204" /></p>
+<p><img loading="lazy" class="alignnone size-full" src="https://media.giphy.com/media/KWwOSKTPiYgEhDdJ5L/giphy.gif" width="480" height="300" /></p>
+<p><img loading="lazy" class="alignnone size-full" src="https://media.giphy.com/media/9RWeq9aHbzUSUSdMvq/giphy.gif" width="480" height="256" /></p>
+<p><img loading="lazy" class="alignnone size-full" src="https://media.giphy.com/media/7zSivJEw6t1iFzkpKO/giphy.gif" width="480" height="316" /></p>
+<p><iframe loading="lazy" width="500" height="281" src="https://www.youtube.com/embed/DdsKuAUBSLE?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/tzina-symphony-of-longing/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

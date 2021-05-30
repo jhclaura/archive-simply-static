@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>rigging &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/rigging/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Mon, 28 Aug 2017 00:49:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Reminder: Maya =&gt; Blender =&gt; Three.js</title>
+		<link>/reminder-maya-blender-three-js/</link>
+					<comments>/reminder-maya-blender-three-js/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Mon, 28 Aug 2017 00:49:30 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[blender]]></category>
+		<category><![CDATA[Maya]]></category>
+		<category><![CDATA[rigging]]></category>
+		<category><![CDATA[three.js]]></category>
+		<guid isPermaLink="false">/?p=2665</guid>
+
+					<description><![CDATA[AHHH why is it so difficult to export rigged model to Three.js? This is a reminder post of how did I export with correct joint rotations. &#160; [From Maya] &#8211;... <a class="read-more" href="/reminder-maya-blender-three-js/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="alignnone size-full wp-image-2666" src="/wp-content/uploads/2017/08/sleeper.gif" alt="" width="686" height="323" /></p>
+<p>AHHH why is it so difficult to export rigged model to Three.js?</p>
+<p>This is a reminder post of how did I export with correct joint rotations.</p>
+<p>&nbsp;</p>
+<p>[From Maya] &#8211; export selection as FBX, set Up Axis from Y to Z</p>
+<p><img loading="lazy" class="alignnone  wp-image-2667" src="/wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.58-PM.png" alt="" width="563" height="148" srcset="/wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.58-PM.png 700w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.58-PM-300x79.png 300w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.58-PM-400x105.png 400w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.58-PM-210x55.png 210w" sizes="(max-width: 563px) 100vw, 563px" /></p>
+<p>&nbsp;</p>
+<p>[Import to Blender] &#8211; Scale up!</p>
+<p>&nbsp;</p>
+<p>[Export to Three.js] &#8211; Select Mesh and export as Three.js. Geometry: also select &#8220;Bones&#8221; and &#8220;Skinning&#8221;. Type: choose &#8220;Geometry&#8221; instead of BufferGeometry. Skeletal animations: select &#8220;Rest&#8221; instead of &#8220;Pose&#8221;</p>
+<p><img loading="lazy" class="alignnone  wp-image-2668" src="/wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.17.46-PM.png" alt="" width="294" height="364" srcset="/wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.17.46-PM.png 426w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.17.46-PM-242x300.png 242w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.17.46-PM-400x496.png 400w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.17.46-PM-210x260.png 210w" sizes="(max-width: 294px) 100vw, 294px" /> <img loading="lazy" class="alignnone  wp-image-2669" src="/wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.07-PM.png" alt="" width="257" height="364" srcset="/wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.07-PM.png 436w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.07-PM-212x300.png 212w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.07-PM-400x567.png 400w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.07-PM-210x298.png 210w" sizes="(max-width: 257px) 100vw, 257px" /></p>
+<p>&nbsp;</p>
+<p>[Import to Three.js] &#8211; Load with THREE.JSONLoader. Set &#8220;skinning: true&#8221; in material. Create with THREE.SkinnedMesh. And finally manipulate with THREE.SkinnedMesh&#8217;s skeleton.bones array.</p>
+<p>&nbsp;</p>
+<p>Geez.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/reminder-maya-blender-three-js/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

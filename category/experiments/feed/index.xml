@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Experiments &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/category/experiments/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Wed, 23 Sep 2015 03:27:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Summer Throwback Two: Big Mac Index VR</title>
+		<link>/summer-throwback-two-big-mac-index-vr/</link>
+					<comments>/summer-throwback-two-big-mac-index-vr/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Thu, 17 Sep 2015 21:59:46 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Experiments]]></category>
+		<category><![CDATA[Summer 2015]]></category>
+		<category><![CDATA[3D]]></category>
+		<category><![CDATA[burger]]></category>
+		<category><![CDATA[Cardboard]]></category>
+		<category><![CDATA[The Economist]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VR]]></category>
+		<guid isPermaLink="false">/?p=2349</guid>
+
+					<description><![CDATA[In this summer, I was interning in The Economist Media Lab. It&#8217;s a tight team of Ron Diorio, Frank J. Andrejasich, and Ziv Schneider. The goal of this internship is exploring how... <a class="read-more" href="/summer-throwback-two-big-mac-index-vr/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>In this summer, I was interning in The Economist Media Lab. It&#8217;s a tight team of Ron Diorio, Frank J. Andrejasich, and <a href="http://zivschneider.com/" target="_blank">Ziv Schneider</a>. The goal of this internship is exploring how The Economist can use virtual reality to enhance the editorial piece, reach broader audience, and create unusual experience.</p>
+<p>Because of my previous <a href="/portfolio/urbanization/" target="_blank">3D data visualization</a> experiments, The Economist is interested how they can do data viz in VR, since data representation is one of their forte. Luckily, I could choose what I want to create, so I picked Big Mac Index. Why? Because it is <em><span style="font-family: 'Andale Mono', Times;">BURGER</span></em> dude. <strong><em><span style="font-family: 'Andale Mono', Times;">BURGER</span></em></strong>.</p>
+<p>About Big Mac Index:</p>
+<blockquote><p><span style="font-family: 'Times New Roman', Times;"><em>One of the most famous index of The Economist. The earliest data starts from</em><em> September 1986, and it has been used as a semi-humorous illustration of purchasing power parity (PPP). It makes exchange-rate theory a bit more digestible.</em></span></p></blockquote>
+<p>For this, I use the every half a year data since 2000, and the countries include: Argentina, Australia, Brazil, Britain, Canada, Chile, China, Czech Republic, Denmark, Euro area, Hong Kong, Hungary, Indonesia, Japan, Malaysia, Mexico, New Zealand, Poland, Russia, Singapore, South Africa, South Korea, Sweden, Switzerland, Taiwan, Thailand, and United States.</p>
+<p><iframe loading="lazy" src="https://player.vimeo.com/video/135134993?color=c9ff23" width="750" height="422" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>&nbsp;</p>
+<p>There are total three scenes in this Big Mac Index VR: 1) Intro, 2) Map, 3) Comparison Mode.</p>
+<p><strong><span style="font-family: 'Andale Mono', Times;">INTRO</span></strong></p>
+<p><a href='/summer-throwback-two-big-mac-index-vr/1-2/'><img width="300" height="202" src="/wp-content/uploads/2015/09/1-300x202.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/1-300x202.png 300w, /wp-content/uploads/2015/09/1-400x270.png 400w, /wp-content/uploads/2015/09/1-210x142.png 210w, /wp-content/uploads/2015/09/1.png 1022w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/2-2/'><img width="300" height="203" src="/wp-content/uploads/2015/09/2-300x203.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/2-300x203.png 300w, /wp-content/uploads/2015/09/2-400x271.png 400w, /wp-content/uploads/2015/09/2-210x142.png 210w, /wp-content/uploads/2015/09/2.png 1021w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/4-2/'><img width="300" height="203" src="/wp-content/uploads/2015/09/4-300x203.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/4-300x203.png 300w, /wp-content/uploads/2015/09/4-400x271.png 400w, /wp-content/uploads/2015/09/4-210x142.png 210w, /wp-content/uploads/2015/09/4.png 1021w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/5-2/'><img width="300" height="203" src="/wp-content/uploads/2015/09/5-300x203.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/5-300x203.png 300w, /wp-content/uploads/2015/09/5-1024x693.png 1024w, /wp-content/uploads/2015/09/5-400x271.png 400w, /wp-content/uploads/2015/09/5-210x142.png 210w, /wp-content/uploads/2015/09/5.png 1025w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>With bunch of graphics and little texts, the opening shows how to navigate and interact in the virtual world, and gives an intro about the Index. It’s like the traditional motion graphic voice-over video, yet it’s 3D and interactable.</p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Andale Mono', Times;"><strong>MAP</strong></span></p>
+<p>Map is the major part of Big Mac Index VR. There are two kinds of data: first one is “How many Big Mac you can buy with $10 value equivalent in the currency?”, second one is: “The valuation of the currency compared with US Dollar”. For each one, I use burger tower and color of map to represent it. Throughout different time periods, the height of the burger tower and the color of the map change.</p>
+<p><a href="/wp-content/uploads/2015/09/views.png"><img loading="lazy" class="alignnone size-full wp-image-2365" src="/wp-content/uploads/2015/09/views.png" alt="views" width="965" height="536" srcset="/wp-content/uploads/2015/09/views.png 965w, /wp-content/uploads/2015/09/views-300x167.png 300w, /wp-content/uploads/2015/09/views-400x222.png 400w, /wp-content/uploads/2015/09/views-210x117.png 210w" sizes="(max-width: 965px) 100vw, 965px" /></a></p>
+<p>There are also two modes for how to display the data, one is automatic time passing by (default), another one is being designated. By tilting the headset 90 degree clockwise, the menu is toggled up to be chosen from. Once it&#8217;s not in auto mode, the time period appears in the sky for be chosen, and the map only shows data for specific year.</p>
+<p><a href='/summer-throwback-two-big-mac-index-vr/6-2/'><img width="300" height="199" src="/wp-content/uploads/2015/09/6-300x199.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/6-300x199.png 300w, /wp-content/uploads/2015/09/6-400x265.png 400w, /wp-content/uploads/2015/09/6-210x139.png 210w, /wp-content/uploads/2015/09/6.png 1022w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/9-2/'><img width="300" height="199" src="/wp-content/uploads/2015/09/9-300x199.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/9-300x199.png 300w, /wp-content/uploads/2015/09/9-400x265.png 400w, /wp-content/uploads/2015/09/9-210x139.png 210w, /wp-content/uploads/2015/09/9.png 1023w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/8-2/'><img width="300" height="199" src="/wp-content/uploads/2015/09/8-300x199.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/8-300x199.png 300w, /wp-content/uploads/2015/09/8.png 1024w, /wp-content/uploads/2015/09/8-400x265.png 400w, /wp-content/uploads/2015/09/8-210x139.png 210w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/7-2/'><img width="300" height="198" src="/wp-content/uploads/2015/09/7-300x198.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/7-300x198.png 300w, /wp-content/uploads/2015/09/7-400x264.png 400w, /wp-content/uploads/2015/09/7-210x139.png 210w, /wp-content/uploads/2015/09/7.png 1022w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Andale Mono', Times;"><strong>COMPARISON</strong></span></p>
+<p>Still in progress :) It&#8217;s for clear comparison in small group with selected countries.</p>
+<p><a href="/wp-content/uploads/2015/09/11.png"><img loading="lazy" class="alignnone size-full wp-image-2359" src="/wp-content/uploads/2015/09/11.png" alt="11" width="1019" height="670" srcset="/wp-content/uploads/2015/09/11.png 1019w, /wp-content/uploads/2015/09/11-300x197.png 300w, /wp-content/uploads/2015/09/11-400x263.png 400w, /wp-content/uploads/2015/09/11-210x138.png 210w" sizes="(max-width: 1019px) 100vw, 1019px" /></a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/summer-throwback-two-big-mac-index-vr/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Summer Throwback One: Facebook Land</title>
+		<link>/summer-throwback-one-facebook-land/</link>
+					<comments>/summer-throwback-one-facebook-land/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Thu, 17 Sep 2015 19:23:03 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Experiments]]></category>
+		<category><![CDATA[Summer 2015]]></category>
+		<category><![CDATA[2D]]></category>
+		<category><![CDATA[3D]]></category>
+		<category><![CDATA[gif]]></category>
+		<category><![CDATA[mini project]]></category>
+		<category><![CDATA[Unity]]></category>
+		<guid isPermaLink="false">/?p=2342</guid>
+
+					<description><![CDATA[Originally is a birthday present to Andy S. But it ends up to be an Facebook post exploration journey. Below is the instructions: Start the journey Log into Facebook with... <a class="read-more" href="/summer-throwback-one-facebook-land/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="alignnone" src="https://33.media.tumblr.com/6064b666e7b3fca97b827fa2b0db2653/tumblr_nqs7chv7wG1u7sgsso1_1280.gif" alt="" width="900" height="446" /></p>
+<p>Originally is a birthday present to Andy S. But it ends up to be an Facebook post exploration journey. Below is the instructions:</p>
+<ul>
+<li>Start the journey</li>
+<li>Log into Facebook with token</li>
+<li>Hear happy birthday wishes from <span style="font-family: 'Andale Mono', Times; color: #999999;"><strong>Yelling Kid</strong></span></li>
+<li>Your latest 20 posts from the news feed show up, include: name, contents, and picture.</li>
+<li>Be checked out by <span style="font-family: 'Andale Mono', Times; color: #ff6600;"><strong>Andy the Candy</strong></span></li>
+<li>Press <em>Space</em> key to have confusing conversations with <span style="font-family: 'Andale Mono', Times;"><strong><span style="color: #ff6600;">Andy the Candy</span></strong></span></li>
+<li><span style="font-family: 'Andale Mono', Times; color: #ff6600;"><strong>Andy the Candy</strong></span> starts walking</li>
+<li>Follow <span style="font-family: 'Andale Mono', Times;"><strong><span style="color: #ff6600;">Andy the Candy</span></strong></span> to a post</li>
+<li>Press <em>Space</em> key to view the content</li>
+<li><span style="font-family: 'Andale Mono', Times; color: #ff6600;"><strong>Andy the Candy</strong></span> greets you when you are back</li>
+<li><span style="font-family: 'Andale Mono', Times; color: #ff6600;"><strong>Andy the Candy</strong></span> leads you to another post</li>
+<li>(Loop)</li>
+</ul>
+<p><iframe loading="lazy" src="https://player.vimeo.com/video/139623501?color=c9ff23" width="750" height="422" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Very fun experiments! Possible next steps: More posts you browse, the darker the environment it becomes, and eventually shut down the application :&gt;</p>
+<p><span style="color: #33cccc; font-size: 17pt;"><strong><span style="font-family: 'Andale Mono', Times;"><em>Just don&#8217;t fall for FB too much yo ^_&lt;</em></span></strong></span></p>
+<p>&nbsp;</p>
+<p>Materials &#8211;&gt; 3D-like 2D gif images</p>
+<p><img loading="lazy" class="alignnone" src="https://38.media.tumblr.com/1d4fb242c36a88d687a426e15f93739d/tumblr_npskuqHWGy1u7sgsso1_1280.gif" alt="" width="538" height="538" /></p>
+<p><img loading="lazy" class="alignnone" src="https://38.media.tumblr.com/c54be7af95faf8646dba09caad1ab718/tumblr_npslrzPSeW1u7sgsso1_540.gif" alt="" width="540" height="540" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/summer-throwback-one-facebook-land/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

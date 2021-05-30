@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>arduino &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/arduino/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Fri, 20 Nov 2015 22:20:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Haunted House _{ Brothers&#8217; Room }</title>
+		<link>/haunted-house-_-brothers-room/</link>
+					<comments>/haunted-house-_-brothers-room/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Fri, 02 Jan 2015 20:40:46 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Fall 2014]]></category>
+		<category><![CDATA[Haunted House]]></category>
+		<category><![CDATA[arduino]]></category>
+		<category><![CDATA[dmx lights]]></category>
+		<category><![CDATA[final]]></category>
+		<category><![CDATA[haunted house]]></category>
+		<category><![CDATA[immersive theatre]]></category>
+		<category><![CDATA[installation]]></category>
+		<category><![CDATA[max/msp]]></category>
+		<guid isPermaLink="false">/?p=1842</guid>
+
+					<description><![CDATA[For the class Haunted House Final, which is a real haunted house held on the floor of ITP, Jonathan, Michelle and I created &#8220;Brothers&#8217; Room&#8220;, depicting a tragedy happened between... <a class="read-more" href="/haunted-house-_-brothers-room/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2015/01/poster.jpg"><img loading="lazy" class="alignnone size-full wp-image-1862" src="/wp-content/uploads/2015/01/poster.jpg" alt="poster" width="667" height="1000" srcset="/wp-content/uploads/2015/01/poster.jpg 667w, /wp-content/uploads/2015/01/poster-200x300.jpg 200w, /wp-content/uploads/2015/01/poster-304x455.jpg 304w" sizes="(max-width: 667px) 100vw, 667px" /></a></p>
+<p>For the class <strong>Haunted House</strong> Final, which is a real haunted house held on the floor of ITP, <a href="http://jonathansparks.com/" target="_blank">Jonathan</a>, <a href="http://www.michellechandra.com/" target="_blank">Michelle</a> and I created &#8220;<span style="font-family: 'Book Antiqua', Palatino; font-size: 12pt;"><strong>Brothers&#8217; Room</strong></span>&#8220;, depicting a tragedy happened between brothers and how the lived one is haunted by the guilt and grief.</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt;"><strong><span style="font-family: 'Andale Mono', Times;">Story</span></strong></span></p>
+<ul>
+<li>Pere and his brother died in an accident and arrived at this intermediate stage between life/death. Brother, feeling unconflicted, moved on to afterlife, but Pere stays out of guilt, because he’s responsible for his brother’s death.</li>
+<li>Pere is haunted by himself.</li>
+</ul>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Andale Mono', Times; font-size: 14pt;"><strong>Concept</strong></span></p>
+<ul>
+<li>The room is a representation of Pere&#8217;s mind.</li>
+<li>Showing the loop of emotions</li>
+<li>(1) sweet memory with brother</li>
+<li>(2) scared of Brother&#8217;s death</li>
+<li>(3) freaks out as Brother&#8217;s ghost showing up in the mirror</li>
+<li>(4) guilty and asks for forgiving</li>
+<li>back to (1)</li>
+</ul>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt;"><strong><span style="font-family: 'Andale Mono', Times;">Technique / Effects</span></strong></span><br />
+&#8211;&gt; Reflecting Pere&#8217;s emotions, the room reflects this with more intense light, sound, and walls shaking. At the climax, the man realizes he&#8217;s responsible for his brother&#8217;s death, the wall of the hidden room drops, and his brother appears in the 2-way mirror. The man sees him and cracks. Annnnd, start over!</p>
+<ul>
+<li>DMX lights: controlled by Arduino, Tinker.it! DMX shield, and Max/Msp patch</li>
+<li>Sounds / Music: controlled by Max/Msp patch</li>
+<li>Burned scar of Brother: latex gel, tissues, and colors</li>
+<li>Hidden Room Revealed: fabric and strings!</li>
+</ul>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Andale Mono', Times; font-size: 14pt;"><strong>Script</strong></span></p>
+<p><iframe loading="lazy" src="https://docs.google.com/document/d/1ve6zJlP6JA-JbEVyS-L8knrjYkQcQIs04ScedIysGzc/pub?embedded=true" width="800" height="300"></iframe></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Andale Mono', Times; font-size: 14pt;"><strong>Prep / Installation</strong></span></p>
+<p><a href='/haunted-house-_-brothers-room/layout/'><img width="150" height="150" src="/wp-content/uploads/2015/01/layout-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/2014-10-30-21-17-24/'><img width="150" height="150" src="/wp-content/uploads/2015/01/2014-10-30-21.17.24-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/2014-10-31-21-29-54/'><img width="150" height="150" src="/wp-content/uploads/2015/01/2014-10-31-21.29.54-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/2014-10-31-23-47-58/'><img width="150" height="150" src="/wp-content/uploads/2015/01/2014-10-31-23.47.58-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/2014-11-01-21-46-22/'><img width="150" height="150" src="/wp-content/uploads/2015/01/2014-11-01-21.46.22-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/2014-11-02-00-04-37/'><img width="150" height="150" src="/wp-content/uploads/2015/01/2014-11-02-00.04.37-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/2014-11-01-22-15-31/'><img width="150" height="150" src="/wp-content/uploads/2015/01/2014-11-01-22.15.31-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt;"><strong><span style="font-family: 'Andale Mono', Times;">Show Time</span></strong></span></p>
+<p><a href='/haunted-house-_-brothers-room/2014-11-01-19-07-09/'><img width="150" height="150" src="/wp-content/uploads/2015/01/2014-11-01-19.07.09-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/2014-11-01-19-07-45/'><img width="150" height="150" src="/wp-content/uploads/2015/01/2014-11-01-19.07.45-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/2014-11-01-21-48-19/'><img width="150" height="150" src="/wp-content/uploads/2015/01/2014-11-01-21.48.19-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/2014-11-01-21-00-45/'><img width="150" height="150" src="/wp-content/uploads/2015/01/2014-11-01-21.00.45-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/broom/'><img width="150" height="150" src="/wp-content/uploads/2015/01/bRoom-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/broom2/'><img width="150" height="150" src="/wp-content/uploads/2015/01/bRoom2-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/broom3/'><img width="150" height="150" src="/wp-content/uploads/2015/01/bRoom3-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/2014-11-02-00-03-10/'><img width="150" height="150" src="/wp-content/uploads/2015/01/2014-11-02-00.03.10-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/broom4/'><img width="150" height="150" src="/wp-content/uploads/2015/01/bRoom4-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Andale Mono', Times; font-size: 14pt;"><strong>Other Scenes</strong></span></p>
+<p><a href='/haunted-house-_-brothers-room/mask/'><img width="150" height="150" src="/wp-content/uploads/2015/01/mask-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/mask2/'><img width="150" height="150" src="/wp-content/uploads/2015/01/mask2-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/mazz/'><img width="150" height="150" src="/wp-content/uploads/2015/01/mazz-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/indie/'><img width="150" height="150" src="/wp-content/uploads/2015/01/indie-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/haunted-house-_-brothers-room/finale/'><img width="150" height="150" src="/wp-content/uploads/2015/01/finale-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Andale Mono', Times; font-size: 14pt;"><strong>Whole Crews :D</strong></span></p>
+<p><a href="/wp-content/uploads/2015/01/staff.jpg"><img loading="lazy" class="alignnone wp-image-1864 size-full" src="/wp-content/uploads/2015/01/staff.jpg" alt="" width="1000" height="750" srcset="/wp-content/uploads/2015/01/staff.jpg 1000w, /wp-content/uploads/2015/01/staff-300x225.jpg 300w, /wp-content/uploads/2015/01/staff-304x228.jpg 304w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/haunted-house-_-brothers-room/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

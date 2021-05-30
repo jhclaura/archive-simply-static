@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Wearable Tech Design &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/category/spring-2016/wearable-tech-design/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Sun, 31 Jan 2016 23:56:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>WTD &#8211; 1</title>
+		<link>/wtd-1/</link>
+					<comments>/wtd-1/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sun, 31 Jan 2016 23:56:16 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Wearable Tech Design]]></category>
+		<guid isPermaLink="false">/?p=2507</guid>
+
+					<description><![CDATA[Wearable Electronics and Smart Textiles: A Critical Review by Matteo Stoppa and Alessandro Chiolerio smart material &#8211; sense + react biomedical! ECG, EMG, EEG Fabric-based antennas (cute) bio-sensor! Losing the Thread... <a class="read-more" href="/wtd-1/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><a href="http://itp.nyu.edu/classes/msw-spring2016/files/2015/01/sensors-14-11957-v2.pdf">Wearable Electronics and Smart Textiles: A Critical Review by Matteo Stoppa and Alessandro Chiolerio</a></p>
+<ul>
+<li>smart material &#8211; sense + react</li>
+<li>biomedical!</li>
+<li>ECG, EMG, EEG</li>
+<li>Fabric-based antennas (cute)</li>
+<li>bio-sensor!</li>
+</ul>
+<p><a href="https://aeon.co/essays/how-textiles-repeatedly-revolutionised-human-technology">Losing the Thread by Virginia Postrel</a></p>
+<ul>
+<li>forgetting about textiles, remembering about textiles</li>
+<li>to contrive function and beauty from the simplest of elements.</li>
+</ul>
+<p>Interesting to think about what does &#8220;weave&#8221; mean &#8211; the idea of designing something with simple unit in a structural way to achieve something unforgettable.</p>
+<p>&nbsp;</p>
+<p>My keywords: <strong><span style="font-family: 'Andale Mono', Times;">bio, comfortable yet strong, mechanical, puppet with emotion, readymades, armor</span></strong></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Andale Mono', Times;"><strong>Mood board</strong> <span style="color: #ff295b;"><strong>&lt;3</strong></span></span></p>
+<p><a href="https://www.pinterest.com/jhclaura/wearable/" data-pin-do="embedBoard" data-pin-scale-width="80" data-pin-scale-height="200" data-pin-board-width="400"> Follow Laura&#8217;s board wearable on Pinterest.</a><!-- Please call pinit.js only once per page --><script src="//assets.pinterest.com/js/pinit.js" async="" type="text/javascript"></script></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/wtd-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

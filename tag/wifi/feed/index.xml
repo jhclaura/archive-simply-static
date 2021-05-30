@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>wifi &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/wifi/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Sat, 19 Sep 2015 21:28:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>MASK v2.0 &#8211; Local server(*2) network!</title>
+		<link>/mask-v2-0-local-closed-network/</link>
+					<comments>/mask-v2-0-local-closed-network/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sat, 19 Sep 2015 17:02:59 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Fall 2015]]></category>
+		<category><![CDATA[network]]></category>
+		<category><![CDATA[router]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[websocket]]></category>
+		<category><![CDATA[wifi]]></category>
+		<guid isPermaLink="false">/?p=2415</guid>
+
+					<description><![CDATA[Quick notes on how I made local Peer.js server, and also closed network! When making my thesis, I used cloud hosted PeerServer with API key, so the project was constrained by internet... <a class="read-more" href="/mask-v2-0-local-closed-network/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2015/09/Screen-Shot-2015-09-18-at-8.40.12-PM.png"><img loading="lazy" class="alignnone size-full wp-image-2453" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-18-at-8.40.12-PM.png" alt="Screen Shot 2015-09-18 at 8.40.12 PM" width="1000" height="625" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-18-at-8.40.12-PM.png 1000w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-18-at-8.40.12-PM-300x188.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-18-at-8.40.12-PM-400x250.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-18-at-8.40.12-PM-210x131.png 210w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Quick notes on how I made local Peer.js server, and also closed network!</p>
+<p>When making my thesis, I used cloud hosted PeerServer with API key, so the project was constrained by internet access. In order to make the project more robust and stable, I decided to create PeerServer on my own laptop, and let devices (mobile phones) access the laptop (server) through Wi-Fi.</p>
+<p>Here are the quick notes on how I did those (OMG such a googling / debugging hell!):</p>
+<p>&nbsp;</p>
+<p><strong><span style="font-family: 'Andale Mono', Times;">Create PeerServer accompanying another WebSocket system</span></strong></p>
+<p>Peer.js documented well about how to create your own PeerServer, even with examples of <a href="https://github.com/peers/peerjs-server#combining-with-existing-express-app" target="_blank">combining with existing express app</a>, which is perfect for me. But because I have my own Node server as well, I struggled for a while to realize that, I should create two servers for each websocket with different ports!!! Finding this out through non-stop console.log and try &amp; error!</p>
+<p><span style="font-family: 'Andale Mono', Times;"><em>Server codes</em></span></p>
+<pre class="brush: javascript; gutter: true">var express = require(&#039;express&#039;);
+var app = express();
+var http = require(&#039;http&#039;);
+var server = http.createServer(app);
+var port = process.env.PORT || 7000;
+
+// peer_server
+var ExpressPeerServer = require(&#039;peer&#039;).ExpressPeerServer;
+var peerExpress = require(&#039;express&#039;);
+var peerApp = peerExpress();
+var peerServer = require(&#039;http&#039;).createServer(peerApp);
+var options = { debug: true }
+var peerPort = 9000;
+
+app.get(&#039;*&#039;, function(req, res){
+    res.sendFile(__dirname + req.url);
+});
+peerApp.use(&#039;/pp&#039;, ExpressPeerServer(peerServer, options));
+
+server.listen(port);
+peerServer.listen(peerPort);</pre>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Andale Mono', Times;"><em>Client side sudocode</em></span></p>
+<pre class="brush: javascript; gutter: true">var peerConnect = function() {			
+	/* WebRTC - Peer.js */
+	peer = new Peer( ID(), { secure: false, host: &#039;YOUR_IP&#039;, port: 5000, path:&#039;/pp&#039;, debug:true} );
+
+	// Get an ID from the PeerJS server		
+	peer.on(&#039;open&#039;, function(id) {
+		console.log(&#039;My peer ID is: &#039; + id);
+		peer_id = id;
+
+		// Now we can connect to my socket server						
+		connectSocket();
+	});
+
+	peer.on(&#039;call&#039;, function(incoming_call) {
+		console.log(&quot;Got a call!&quot;);
+		incoming_call.answer(my_stream); // Answer the call with an A/V stream.
+		// do what you want~~~
+	});
+};</pre>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Andale Mono', Times;"><strong>MacbookPro as server, accessing by devices through Wi-Fi with router</strong></span></p>
+<ol>
+<li>Connect Router with MacbookPro</li>
+<li>Click Wi-Fi symbol to expand the list &#8211;&gt; Create Network&#8230;<a href="/wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.43.25-PM.png"><img loading="lazy" class="alignnone size-full wp-image-2445" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.43.25-PM.png" alt="Screen Shot 2015-09-19 at 12.43.25 PM" width="368" height="765" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.43.25-PM.png 368w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.43.25-PM-144x300.png 144w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.43.25-PM-210x437.png 210w" sizes="(max-width: 368px) 100vw, 368px" /></a></li>
+<li>Setup name and password<a href="/wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.44.53-PM.png"><img loading="lazy" class="alignnone size-full wp-image-2446" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.44.53-PM.png" alt="Screen Shot 2015-09-19 at 12.44.53 PM" width="448" height="370" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.44.53-PM.png 448w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.44.53-PM-300x248.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.44.53-PM-400x330.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.44.53-PM-210x173.png 210w" sizes="(max-width: 448px) 100vw, 448px" /></a></li>
+<li>System Preferences&#8230; &#8211;&gt; Sharing<a href="/wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.46.06-PM.png"><img loading="lazy" class="alignnone size-full wp-image-2447" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.46.06-PM.png" alt="Screen Shot 2015-09-19 at 12.46.06 PM" width="661" height="544" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.46.06-PM.png 661w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.46.06-PM-300x247.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.46.06-PM-400x329.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.46.06-PM-210x173.png 210w" sizes="(max-width: 661px) 100vw, 661px" /></a>
+<ul>
+<li>Setup computer name</li>
+<li>Click Internet Sharing</li>
+<li>Share your connection from: Ethernet</li>
+<li>To computer using: Wi-Fi</li>
+<li>Click Wi-Fi Options &#8211;&gt; setup Wi-Fi name and password<a href="/wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.48.59-PM.png"><img loading="lazy" class="alignnone size-full wp-image-2448" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.48.59-PM.png" alt="Screen Shot 2015-09-19 at 12.48.59 PM" width="662" height="541" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.48.59-PM.png 662w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.48.59-PM-300x245.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.48.59-PM-400x327.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.48.59-PM-210x172.png 210w" sizes="(max-width: 662px) 100vw, 662px" /></a></li>
+<li>Click on box next to Internet Sharing to start<a href="/wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.50.45-PM.png"><img loading="lazy" class="alignnone size-full wp-image-2449" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.50.45-PM.png" alt="Screen Shot 2015-09-19 at 12.50.45 PM" width="662" height="543" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.50.45-PM.png 662w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.50.45-PM-300x246.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.50.45-PM-400x328.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-19-at-12.50.45-PM-210x172.png 210w" sizes="(max-width: 662px) 100vw, 662px" /></a></li>
+</ul>
+</li>
+<li>@ your device&#8217;s Wi-Fi list, choose the Wi-Fi shared by MacbookPro and enter password</li>
+<li>Voila! Now your device and MacbookPro have same IP address, thus the device and go to the page that MacbookPro serves with &lt;IP_address&gt;:7000/index.html.</li>
+</ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>/mask-v2-0-local-closed-network/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

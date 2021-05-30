@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Oculus Rift &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/oculus-rift/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Fri, 20 Nov 2015 22:17:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Virtual Reality Tour of Met</title>
+		<link>/virtual-reality-tour-of-met/</link>
+					<comments>/virtual-reality-tour-of-met/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Fri, 09 May 2014 22:40:34 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[3D]]></category>
+		<category><![CDATA[Oculus Rift]]></category>
+		<category><![CDATA[The Metropolitan Museum of Art]]></category>
+		<category><![CDATA[tour]]></category>
+		<category><![CDATA[Unity]]></category>
+		<guid isPermaLink="false">/?p=1444</guid>
+
+					<description><![CDATA[For my internship during Spring semester 2014 in Media Lab of The Metropolitan Museum of Art, I hooked up 3D models of Met from the Architecture Department Official Audio Guide... <a class="read-more" href="/virtual-reality-tour-of-met/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>For my internship during Spring semester 2014 in Media Lab of The Metropolitan Museum of Art, I hooked up</p>
+<ol>
+<ol>
+<li>3D models of Met from the Architecture Department</li>
+<li>Official Audio Guide</li>
+<li>3D models art pieces in Greek and Roman gallery, made by 3D scan with photos</li>
+<li>Unity as game engine</li>
+<li>virtual reality head-mounted display Oculus Rift as controller</li>
+</ol>
+</ol>
+<p>and create an immersive virtual reality tour of Met!</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/98892817?byline=0&amp;color=c9ff23" width="840" height="473" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><a href="/wp-content/uploads/2014/05/forBlog.png"><img loading="lazy" class="alignnone size-full wp-image-1448" src="/wp-content/uploads/2014/05/forBlog.png" alt="forBlog" width="1000" height="548" srcset="/wp-content/uploads/2014/05/forBlog.png 1000w, /wp-content/uploads/2014/05/forBlog-300x164.png 300w, /wp-content/uploads/2014/05/forBlog-304x166.png 304w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> With Oculus Rift, users can wonder around the museum, listening to the audio guide and admiring art pieces, walk upstair, watch butterflies, being blocked by huge bowl, and being inside of the surreal mash-up models(credits to Decho&lt;horse&gt; and Rui&lt;uncolor triangulars&gt;). <a href="/wp-content/uploads/2014/05/metTour.png"><img loading="lazy" class="alignnone size-full wp-image-1446" src="/wp-content/uploads/2014/05/metTour.png" alt="metTour" width="3318" height="804" srcset="/wp-content/uploads/2014/05/metTour.png 3318w, /wp-content/uploads/2014/05/metTour-300x72.png 300w, /wp-content/uploads/2014/05/metTour-1024x248.png 1024w, /wp-content/uploads/2014/05/metTour-304x73.png 304w" sizes="(max-width: 3318px) 100vw, 3318px" /></a></p>
+<h2><span style="font-family: 'andale mono', times;">IDEA</span></h2>
+<p>With a background as VFX artist of 3D animation and post production, I&#8217;m always interested in 3D and how it can be interactive in the creative way. Once I got the chance to intern in Media Lab of the Met and knew we can access the 3D models of museum, I wanted to use Oculus Rift to walk inside the fantasy version of the Met, and to enjoy the immersive experience in space.</p>
+<p>&nbsp;</p>
+<h2><span style="font-family: 'andale mono', times;">PROJECT_DEVELOPMENT</span></h2>
+<p>Virtual Met Museum &#8211;&gt; Fantasy Experiment &#8211;&gt; Art piece + Audio Guide</p>
+<p>&nbsp;</p>
+<h2><span style="font-family: 'andale mono', times;">BASIC_SETUP_HOW_TO</span></h2>
+<p style="padding-left: 30px;">First of all, tons of basic knowledge about Unity <a href="https://unity3d.com/learn/tutorials/projects/stealth" target="_blank">here</a>. And setup a project from scratch, <a href="https://unity3d.com/learn/tutorials/projects/roll-a-ball/set-up" target="_blank">here</a>.</p>
+<p>&nbsp;</p>
+<h3><span style="font-family: 'andale mono', times;"><span style="color: #545454;">✓ </span>Import BIM 3D models into Unity</span></h3>
+<p style="padding-left: 30px;">Basically just put the <strong>fbx</strong> file into the <span style="color: #ff6600;"><strong>Assets</strong></span> folder of the project you just created. Not too complicated but there&#8217;s one thing you should be aware of, the SCALE. It&#8217;s a good practice to setup scale right in the modeling application before importing the model to Unity, and associated details described as below:</p>
+<ul>
+<li>1 Unity unit = 1m</li>
+<li>the fewer GameObjects the better. Also, use 1 material if you can</li>
+<li>useful link: <a href="http://wiki.unity3d.com/index.php/Tips#3D_Tools" target="_blank">wiki unity3d</a></li>
+</ul>
+<p>&nbsp;</p>
+<h3><span style="font-family: 'andale mono', times;"><span style="color: #545454;">✓ </span>Oculus Rift Plugin in Unity 3d Setup</span></h3>
+<p style="padding-left: 30px;">Just follow<a href="https://www.youtube.com/watch?v=7kuQYcIYPvQ" target="_blank"> the clear instruction on youtube</a>!</p>
+<p>&nbsp;</p>
+<h3><span style="font-family: 'andale mono', times;"><span style="color: #545454;">✓ Add collider to meshes</span></span></h3>
+<p style="padding-left: 30px;">In order to preventing player walking through meshes(e.g. walls, stairs), we need to add <span style="color: #ff6600;"><strong>Collider</strong></span> attribute on models, steps as below:</p>
+<ul>
+<li>select model</li>
+<li>@inspector</li>
+<li><span style="color: #ff6600;"><strong>Add Component</strong></span> &#8211;&gt; <strong><span style="color: #ff6600;">Physics</span></strong> &#8211;&gt; <span style="color: #ff6600;"><strong>Box Collider</strong></span> or <strong><span style="color: #ff6600;">Mesh Collider</span></strong></li>
+<li>Mesh Collider is more specific than box collider but at the same time is more expensive to use.</li>
+</ul>
+<p><a href="/wp-content/uploads/2014/05/collider-copy.png"><img loading="lazy" class="alignnone size-full wp-image-1456" src="/wp-content/uploads/2014/05/collider-copy.png" alt="collider copy" width="1000" height="537" srcset="/wp-content/uploads/2014/05/collider-copy.png 1000w, /wp-content/uploads/2014/05/collider-copy-300x161.png 300w, /wp-content/uploads/2014/05/collider-copy-304x163.png 304w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>&nbsp;</p>
+<h3><span style="font-family: 'andale mono', times;"><span style="color: #545454;">✓ </span>Occlusion Culling</span></h3>
+<p style="padding-left: 30px;">Means that things you aren&#8217;t looking at, aren&#8217;t loading into memory, so game will run faster.</p>
+<ul>
+<li> geometry must be broken into sensibly sized pieces.
+<ul>
+<li>if you have one object that contains all the furniture, either all or none of the entire set of furniture will be culled.</li>
+</ul>
+</li>
+<li>tag all scene objects that you want to be part of the occlusion to <b>Occluder Static</b> in the <b>Inspector</b>.</li>
+<li>Back!</li>
+<li>useful link: <a href="https://docs.unity3d.com/Documentation/Manual/OcclusionCulling.html" target="_blank">unity3d manual</a></li>
+</ul>
+<p>&nbsp;</p>
+<h3><span style="font-family: 'andale mono', times;"><span style="color: #545454;">✓ Import 3D-Scanned Models from </span></span></h3>
+<ul>
+<li>Take about 20 photos around the object you want to 3D scan of(360 degrees!).</li>
+<li>Upload the photos to <a href="http://www.123dapp.com/catch" target="_blank">123D Catch</a>.</li>
+<li>Yeah now you&#8217;ll have both .obj model file and texture file!</li>
+<li>Just download the file, and drag whole folder into the <span style="color: #ff6600; font-size: 12pt;"><strong>Asset</strong></span> folder of Unity!</li>
+</ul>
+<p>&nbsp;</p>
+<h2><span style="font-family: 'andale mono', times;">POSSIBILITIES</span></h2>
+<ul>
+<li>Gain accessibility for people who can&#8217;t visit the museum in person.</li>
+<li>Installation design simulation.</li>
+</ul>
+<p>&nbsp;</p>
+<h2><span style="font-family: 'andale mono', times;">Thank_to</span></h2>
+<p style="padding-left: 30px;">It&#8217;s really a good experience interning at MediaLab of Met. I know I want to keep working on 3D and also step into virtual reality world with Oculus Rift, and it&#8217;s a great match that I can have this topic as my own project, and also match to the needs of Met! From this internship, I gained valuable resources from the museum, and also knowing amazing mentors and colleagues from Labs. This project leads me to the world of virtual reality and I&#8217;m glad and also thankful that I&#8217;m a Spring 14&#8242; intern of Media Lab of The Metropolitan Museum of Art.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/virtual-reality-tour-of-met/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

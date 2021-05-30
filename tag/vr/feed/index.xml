@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>VR &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/vr/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Sat, 17 Aug 2019 20:54:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>We Dwell Below</title>
+		<link>/we-dwell-below/</link>
+					<comments>/we-dwell-below/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Wed, 27 Feb 2019 04:21:14 +0000</pubDate>
+				<category><![CDATA[Personal project]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[costumes]]></category>
+		<category><![CDATA[Daily Life VR]]></category>
+		<category><![CDATA[eat]]></category>
+		<category><![CDATA[MASK]]></category>
+		<category><![CDATA[physical computing]]></category>
+		<category><![CDATA[VR]]></category>
+		<guid isPermaLink="false">/?p=2748</guid>
+
+					<description><![CDATA[I was contacted by Gabrielle Jenks, Director of Abandon Normal Devices, in May 17&#8242;, about creating a VR experience for their biennial festival, which took place in September 17&#8242; in... <a class="read-more" href="/we-dwell-below/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-image">
+<figure class="aligncenter"><img loading="lazy" width="680" height="453" src="/wp-content/uploads/2019/02/mouth1.jpg" alt="" class="wp-image-2751" srcset="/wp-content/uploads/2019/02/mouth1.jpg 680w, /wp-content/uploads/2019/02/mouth1-300x200.jpg 300w, /wp-content/uploads/2019/02/mouth1-400x266.jpg 400w, /wp-content/uploads/2019/02/mouth1-210x140.jpg 210w" sizes="(max-width: 680px) 100vw, 680px" /></figure>
+</div>
+<p>I was contacted by Gabrielle Jenks, Director of <a rel="noreferrer noopener" href="https://www.andfestival.org.uk/" target="_blank">Abandon Normal Devices</a>, in May 17&#8242;, about creating a VR experience for their biennial festival, which took place in September 17&#8242; in Castleton, a village inside Derbyshire Peak District National Park of UK, with tons of caves! Together with Planeta, we created something crazy, unusual, and definitely push the boundaries of VR.</p>
+<div style="height:41px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Concept</strong></p>
+<p>Inspired by the cave theme, I had an idea to transform normal people into cave dwellers. From an ordinary, clean, constraint person, to a bizarre, messy, loose wilder who acts freely! I imagine it&#8217;s the process of traversing the underground together, doing weird things together, that make the bounds between participants and shape whom they become.</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><a href="/wp-content/uploads/2019/02/character.jpg"><img loading="lazy" width="1024" height="428" src="/wp-content/uploads/2019/02/character-1024x428.jpg" alt="" class="wp-image-2822" srcset="/wp-content/uploads/2019/02/character-1024x428.jpg 1024w, /wp-content/uploads/2019/02/character-300x125.jpg 300w, /wp-content/uploads/2019/02/character-768x321.jpg 768w, /wp-content/uploads/2019/02/character-400x167.jpg 400w, /wp-content/uploads/2019/02/character-210x88.jpg 210w, /wp-content/uploads/2019/02/character.jpg 1279w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+</div>
+<p>So, we settled down the idea to transform participants as cave dwellers, but what weird behavior can we ask the participants to do?</p>
+<p>Around that time, I was developing a Chewing Device for Google Cardboard for my Daily Life VR Ch. 2 Eat (see my <a href="https://www.instructables.com/id/Chewing-Mask/">instructables</a> here!). Chewing Device is an analog mechanism to bring in the &#8220;chewing data&#8221; of real life, in order to reenact the chewing behavior in virtual world. <strong>Mouth</strong> apparently can do a lot of things, what if besides eating, it can also <em>dig the ground</em>? The image of people &#8220;chewing at the floor&#8221; together is so ridiculous that we all agree it is something worth of experiment.</p>
+<div class="wp-block-media-text alignwide">
+<figure class="wp-block-media-text__media"><img loading="lazy" width="1000" height="640" src="/wp-content/uploads/2019/08/abhi.gif" alt="" class="wp-image-3006"/></figure>
+<div class="wp-block-media-text__content">
+<p>Analog chewing device in action with real food!</p>
+</div>
+</div>
+<div style="height:53px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Process: Interaction</strong></p>
+<p>Since we are bring in the chewing data, we need to use the most of the <em><strong>mouth / jaw movement</strong></em>. First of all, mouth is the only way and mean to travel down the ground, literally open &amp; close mouth close to the floor, a.k.a. digging the ground.</p>
+<ul class="wp-block-gallery columns-2">
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="555" height="310" src="/wp-content/uploads/2019/02/and-instruction_horizontal.jpg" alt="" data-id="3020" data-link="/we-dwell-below/and-instruction_horizontal/" class="wp-image-3020" srcset="/wp-content/uploads/2019/02/and-instruction_horizontal.jpg 555w, /wp-content/uploads/2019/02/and-instruction_horizontal-300x168.jpg 300w, /wp-content/uploads/2019/02/and-instruction_horizontal-400x223.jpg 400w, /wp-content/uploads/2019/02/and-instruction_horizontal-210x117.jpg 210w" sizes="(max-width: 555px) 100vw, 555px" /></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="480" height="268" src="/wp-content/uploads/2019/08/eat_ground.gif" alt="" data-id="3014" data-link="/we-dwell-below/eat_ground/" class="wp-image-3014"/></figure>
+</li>
+</ul>
+<div class="wp-block-media-text alignwide" style="grid-template-columns:15% auto">
+<figure class="wp-block-media-text__media"><img loading="lazy" width="278" height="480" src="/wp-content/uploads/2019/08/symbols-2.gif" alt="" class="wp-image-3022"/></figure>
+<div class="wp-block-media-text__content">
+<p>We encourage participants to go wild and loose, so in experience participants can hear their voices in an echoey way. And the voice volume will generate gibberish, inspired by the 32 categorized symbols being used in Ice Age (<a rel="noreferrer noopener" href="https://ideas.ted.com/what-the-mysterious-symbols-made-by-early-humans-can-teach-us-about-how-we-evolved/" target="_blank">source</a>).</p>
+</div>
+</div>
+<p>With mouth, participants can also eat stuff (meat), and puke stuff (hair ball, rock, etc). And when a participant <strong>opens mouth aiming at another participant</strong>, he/she will puke <em>heart</em>. And surprisingly that makes opening mouth as a major way to communicate! I&#8217;m so thrilled with this non-verbal communication, and really think it helps to shape the behaviors to be raw and primitive, and fun :)</p>
+<ul class="wp-block-gallery columns-2 is-cropped">
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="480" height="268" src="/wp-content/uploads/2019/08/open_mouth.gif" alt="" data-id="3017" data-link="/we-dwell-below/open_mouth/" class="wp-image-3017"/></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="480" height="268" src="/wp-content/uploads/2019/08/ahh-1.gif" alt="" data-id="3018" data-link="/we-dwell-below/ahh-3/" class="wp-image-3018"/></figure>
+</li>
+</ul>
+<p>Also, body contact is something we all love to encourage, so whenever participants touch others, random &#8220;twig&#8221; will be generated and planted on body where the contact point is.</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img loading="lazy" width="640" height="360" src="/wp-content/uploads/2019/08/twigs.gif" alt="" class="wp-image-3023"/></figure>
+</div>
+<div style="height:52px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Process: Content</strong></p>
+<p>Avatar &#8211; I used FinalIK library for creating VR avatar, and the result is quirky but at the same time very effective. The avatar looks like a possessed doll, and knowing in it is a real human being is a very strange and strong feeling. Throughout the journey, the participants will transform (both visually and mentally) from normal human to wilder, hence the shape and texture of the avatar will change every level down as well.</p>
+<ul class="wp-block-gallery columns-2 is-cropped">
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="480" height="270" src="/wp-content/uploads/2019/08/avatar_1.gif" alt="" data-id="3029" data-link="/avatar_1/" class="wp-image-3029"/></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="480" height="270" src="/wp-content/uploads/2019/08/avatar_2.gif" alt="" data-id="3030" data-link="/avatar_2/" class="wp-image-3030"/></figure>
+</li>
+</ul>
+<p>As for environments, it&#8217;s the part I probably spent the least time on because of the tight timeline. Luckily with Dan Brewster and Nick Dangerfield&#8217;s advice and encouragement, we settled on the heavy hand-drawn textured style.</p>
+<p style="text-align:center"><strong>↓</strong> before</p>
+<ul class="wp-block-gallery columns-2 is-cropped">
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="500" height="310" src="/wp-content/uploads/2019/08/L1_hole.jpg" alt="" data-id="3024" data-link="/we-dwell-below/l1_hole/" class="wp-image-3024" srcset="/wp-content/uploads/2019/08/L1_hole.jpg 500w, /wp-content/uploads/2019/08/L1_hole-300x186.jpg 300w, /wp-content/uploads/2019/08/L1_hole-400x248.jpg 400w, /wp-content/uploads/2019/08/L1_hole-210x130.jpg 210w" sizes="(max-width: 500px) 100vw, 500px" /></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="500" height="291" src="/wp-content/uploads/2019/08/L2_fall.jpg" alt="" data-id="3025" data-link="/we-dwell-below/l2_fall/" class="wp-image-3025" srcset="/wp-content/uploads/2019/08/L2_fall.jpg 500w, /wp-content/uploads/2019/08/L2_fall-300x175.jpg 300w, /wp-content/uploads/2019/08/L2_fall-400x233.jpg 400w, /wp-content/uploads/2019/08/L2_fall-210x122.jpg 210w" sizes="(max-width: 500px) 100vw, 500px" /></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="500" height="311" src="/wp-content/uploads/2019/08/L3_painting.jpg" alt="" data-id="3026" data-link="/we-dwell-below/l3_painting/" class="wp-image-3026" srcset="/wp-content/uploads/2019/08/L3_painting.jpg 500w, /wp-content/uploads/2019/08/L3_painting-300x187.jpg 300w, /wp-content/uploads/2019/08/L3_painting-400x249.jpg 400w, /wp-content/uploads/2019/08/L3_painting-210x131.jpg 210w" sizes="(max-width: 500px) 100vw, 500px" /></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="500" height="313" src="/wp-content/uploads/2019/08/L5_ritual.jpg" alt="" data-id="3027" data-link="/we-dwell-below/l5_ritual/" class="wp-image-3027" srcset="/wp-content/uploads/2019/08/L5_ritual.jpg 500w, /wp-content/uploads/2019/08/L5_ritual-300x188.jpg 300w, /wp-content/uploads/2019/08/L5_ritual-400x250.jpg 400w, /wp-content/uploads/2019/08/L5_ritual-210x131.jpg 210w" sizes="(max-width: 500px) 100vw, 500px" /></figure>
+</li>
+</ul>
+<p style="text-align:center"><strong>↓</strong> after</p>
+<ul class="wp-block-gallery columns-2 is-cropped">
+<li class="blocks-gallery-item">
+<figure><a href="/wp-content/uploads/2019/02/WeDwellBelow_fall_01-1024x534.png" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="1024" height="534" src="/wp-content/uploads/2019/02/WeDwellBelow_fall_01-1024x534.png" alt="" data-id="2823" data-link="/?attachment_id=2823" class="wp-image-2823" srcset="/wp-content/uploads/2019/02/WeDwellBelow_fall_01-1024x534.png 1024w, /wp-content/uploads/2019/02/WeDwellBelow_fall_01-300x156.png 300w, /wp-content/uploads/2019/02/WeDwellBelow_fall_01-768x401.png 768w, /wp-content/uploads/2019/02/WeDwellBelow_fall_01-400x209.png 400w, /wp-content/uploads/2019/02/WeDwellBelow_fall_01-210x110.png 210w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><a href="/wp-content/uploads/2019/02/WeDwellBelow_fall_04-1024x533.png" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="1024" height="533" src="/wp-content/uploads/2019/02/WeDwellBelow_fall_04-1024x533.png" alt="" data-id="2824" data-link="/?attachment_id=2824" class="wp-image-2824" srcset="/wp-content/uploads/2019/02/WeDwellBelow_fall_04-1024x533.png 1024w, /wp-content/uploads/2019/02/WeDwellBelow_fall_04-300x156.png 300w, /wp-content/uploads/2019/02/WeDwellBelow_fall_04-768x400.png 768w, /wp-content/uploads/2019/02/WeDwellBelow_fall_04-400x208.png 400w, /wp-content/uploads/2019/02/WeDwellBelow_fall_04-210x109.png 210w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><a href="/wp-content/uploads/2019/02/WeDwellBelow_well_05-1024x513.png" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="1024" height="513" src="/wp-content/uploads/2019/02/WeDwellBelow_well_05-1024x513.png" alt="" data-id="2829" data-link="/?attachment_id=2829" class="wp-image-2829" srcset="/wp-content/uploads/2019/02/WeDwellBelow_well_05-1024x513.png 1024w, /wp-content/uploads/2019/02/WeDwellBelow_well_05-300x150.png 300w, /wp-content/uploads/2019/02/WeDwellBelow_well_05-768x384.png 768w, /wp-content/uploads/2019/02/WeDwellBelow_well_05-400x200.png 400w, /wp-content/uploads/2019/02/WeDwellBelow_well_05-210x105.png 210w, /wp-content/uploads/2019/02/WeDwellBelow_well_05.png 1914w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><a href="/wp-content/uploads/2019/02/WeDwellBelow_well_13-1024x533.png" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="1024" height="533" src="/wp-content/uploads/2019/02/WeDwellBelow_well_13-1024x533.png" alt="" data-id="2830" data-link="/?attachment_id=2830" class="wp-image-2830" srcset="/wp-content/uploads/2019/02/WeDwellBelow_well_13-1024x533.png 1024w, /wp-content/uploads/2019/02/WeDwellBelow_well_13-300x156.png 300w, /wp-content/uploads/2019/02/WeDwellBelow_well_13-768x400.png 768w, /wp-content/uploads/2019/02/WeDwellBelow_well_13-400x208.png 400w, /wp-content/uploads/2019/02/WeDwellBelow_well_13-210x109.png 210w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><a href="/wp-content/uploads/2019/02/WeDwellBelow_meat_00-1024x513.png" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="1024" height="513" src="/wp-content/uploads/2019/02/WeDwellBelow_meat_00-1024x513.png" alt="" data-id="2825" data-link="/?attachment_id=2825" class="wp-image-2825" srcset="/wp-content/uploads/2019/02/WeDwellBelow_meat_00-1024x513.png 1024w, /wp-content/uploads/2019/02/WeDwellBelow_meat_00-300x150.png 300w, /wp-content/uploads/2019/02/WeDwellBelow_meat_00-768x384.png 768w, /wp-content/uploads/2019/02/WeDwellBelow_meat_00-400x200.png 400w, /wp-content/uploads/2019/02/WeDwellBelow_meat_00-210x105.png 210w, /wp-content/uploads/2019/02/WeDwellBelow_meat_00.png 1914w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><a href="/wp-content/uploads/2019/02/WeDwellBelow_meat_02-1024x513.png" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="1024" height="513" src="/wp-content/uploads/2019/02/WeDwellBelow_meat_02-1024x513.png" alt="" data-id="2826" data-link="/?attachment_id=2826" class="wp-image-2826" srcset="/wp-content/uploads/2019/02/WeDwellBelow_meat_02-1024x513.png 1024w, /wp-content/uploads/2019/02/WeDwellBelow_meat_02-300x150.png 300w, /wp-content/uploads/2019/02/WeDwellBelow_meat_02-768x384.png 768w, /wp-content/uploads/2019/02/WeDwellBelow_meat_02-400x200.png 400w, /wp-content/uploads/2019/02/WeDwellBelow_meat_02-210x105.png 210w, /wp-content/uploads/2019/02/WeDwellBelow_meat_02.png 1914w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><a href="/wp-content/uploads/2019/02/WeDwellBelow_meat_06-1024x533.png" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="1024" height="533" src="/wp-content/uploads/2019/02/WeDwellBelow_meat_06-1024x533.png" alt="" data-id="2827" data-link="/?attachment_id=2827" class="wp-image-2827" srcset="/wp-content/uploads/2019/02/WeDwellBelow_meat_06-1024x533.png 1024w, /wp-content/uploads/2019/02/WeDwellBelow_meat_06-300x156.png 300w, /wp-content/uploads/2019/02/WeDwellBelow_meat_06-768x400.png 768w, /wp-content/uploads/2019/02/WeDwellBelow_meat_06-400x208.png 400w, /wp-content/uploads/2019/02/WeDwellBelow_meat_06-210x109.png 210w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><a href="/wp-content/uploads/2019/02/WeDwellBelow_ritual_17-1024x528.png" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="1024" height="528" src="/wp-content/uploads/2019/02/WeDwellBelow_ritual_17-1024x528.png" alt="" data-id="2828" data-link="/?attachment_id=2828" class="wp-image-2828" srcset="/wp-content/uploads/2019/02/WeDwellBelow_ritual_17-1024x528.png 1024w, /wp-content/uploads/2019/02/WeDwellBelow_ritual_17-300x155.png 300w, /wp-content/uploads/2019/02/WeDwellBelow_ritual_17-768x396.png 768w, /wp-content/uploads/2019/02/WeDwellBelow_ritual_17-400x206.png 400w, /wp-content/uploads/2019/02/WeDwellBelow_ritual_17-210x108.png 210w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><a href="/wp-content/uploads/2019/02/WeDwellBelow_ritual_11-1024x513.png" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="1024" height="513" src="/wp-content/uploads/2019/02/WeDwellBelow_ritual_11-1024x513.png" alt="" data-id="2831" data-link="/wedwellbelow_ritual_11/" class="wp-image-2831" srcset="/wp-content/uploads/2019/02/WeDwellBelow_ritual_11-1024x513.png 1024w, /wp-content/uploads/2019/02/WeDwellBelow_ritual_11-300x150.png 300w, /wp-content/uploads/2019/02/WeDwellBelow_ritual_11-768x384.png 768w, /wp-content/uploads/2019/02/WeDwellBelow_ritual_11-400x200.png 400w, /wp-content/uploads/2019/02/WeDwellBelow_ritual_11-210x105.png 210w, /wp-content/uploads/2019/02/WeDwellBelow_ritual_11.png 1914w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><a href="/wp-content/uploads/2019/02/WeDwellBelow_ritual_05-1024x537.png" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="1024" height="537" src="/wp-content/uploads/2019/02/WeDwellBelow_ritual_05-1024x537.png" alt="" data-id="2832" data-link="/wedwellbelow_ritual_05/" class="wp-image-2832" srcset="/wp-content/uploads/2019/02/WeDwellBelow_ritual_05-1024x537.png 1024w, /wp-content/uploads/2019/02/WeDwellBelow_ritual_05-300x157.png 300w, /wp-content/uploads/2019/02/WeDwellBelow_ritual_05-768x403.png 768w, /wp-content/uploads/2019/02/WeDwellBelow_ritual_05-400x210.png 400w, /wp-content/uploads/2019/02/WeDwellBelow_ritual_05-210x110.png 210w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+</li>
+</ul>
+<div style="height:54px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Technology</strong></p>
+<p>We Dwell Below roughly has four parts involved: 1) Chewing Device, 2) Multiuser (networking) system in Unity, 3) Costumes, 4) Story.</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img loading="lazy" width="1024" height="713" src="/wp-content/uploads/2019/02/system-1024x713.jpg" alt="" class="wp-image-2767" srcset="/wp-content/uploads/2019/02/system-1024x713.jpg 1024w, /wp-content/uploads/2019/02/system-300x209.jpg 300w, /wp-content/uploads/2019/02/system-768x535.jpg 768w, /wp-content/uploads/2019/02/system-400x279.jpg 400w, /wp-content/uploads/2019/02/system-210x146.jpg 210w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</div>
+<p class="has-medium-font-size"><strong>Chewing Device</strong></p>
+<p>For this project, I need to redesign the one used with Google Cardboard + web browser completely, for it to work with HTC Vive + Unity3D. I laser-cut the base and used leather for strong strap in the end. Circular pressure sensor (FSR) for the input.</p>
+<ul class="wp-block-gallery columns-2 is-cropped">
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="1024" height="768" src="/wp-content/uploads/2019/08/button_sideview-1024x768.jpg" alt="" data-id="3049" data-link="/we-dwell-below/button_sideview/" class="wp-image-3049" srcset="/wp-content/uploads/2019/08/button_sideview-1024x768.jpg 1024w, /wp-content/uploads/2019/08/button_sideview-300x225.jpg 300w, /wp-content/uploads/2019/08/button_sideview-768x576.jpg 768w, /wp-content/uploads/2019/08/button_sideview-400x300.jpg 400w, /wp-content/uploads/2019/08/button_sideview-210x158.jpg 210w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="1000" height="750" src="/wp-content/uploads/2019/08/spring_button.gif" alt="" data-id="3050" data-link="/we-dwell-below/spring_button/" class="wp-image-3050"/></figure>
+</li>
+</ul>
+<ul class="wp-block-gallery columns-2 is-cropped">
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="270" height="480" src="/wp-content/uploads/2019/02/IMG_3154.gif" alt="" data-id="2763" data-link="/we-dwell-below/img_3154/" class="wp-image-2763"/></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="683" height="1024" src="/wp-content/uploads/2019/02/43264894440_b8f20a5fa4_o-683x1024.jpg" alt="" data-id="2815" data-link="/we-dwell-below/43264894440_b8f20a5fa4_o/" class="wp-image-2815" srcset="/wp-content/uploads/2019/02/43264894440_b8f20a5fa4_o-683x1024.jpg 683w, /wp-content/uploads/2019/02/43264894440_b8f20a5fa4_o-200x300.jpg 200w, /wp-content/uploads/2019/02/43264894440_b8f20a5fa4_o-768x1152.jpg 768w, /wp-content/uploads/2019/02/43264894440_b8f20a5fa4_o-400x600.jpg 400w, /wp-content/uploads/2019/02/43264894440_b8f20a5fa4_o-210x315.jpg 210w, /wp-content/uploads/2019/02/43264894440_b8f20a5fa4_o.jpg 1800w" sizes="(max-width: 683px) 100vw, 683px" /></figure>
+</li>
+</ul>
+<p>I made the prototype with FSR sensor and Arduino, and <a rel="noreferrer noopener" aria-label="Joseph Saavedra (opens in a new tab)" href="http://jos.ph/" target="_blank">Joseph Saavedra</a> helped on perfecting the hardware design and making! It uses Teensy board in the end. The wonderful chin strap is made by <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="http://cargocollective.com/KelseyLaSeur/About-Kelsey-LaSeur" target="_blank">Kelsey LaSeur</a>.</p>
+<ul class="wp-block-gallery columns-2">
+<li class="blocks-gallery-item">
+<figure><a href="/wp-content/uploads/2019/02/tumblr_ow4pwoXxvM1wv3h4fo1_1280-1024x689.png" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="1024" height="689" src="/wp-content/uploads/2019/02/tumblr_ow4pwoXxvM1wv3h4fo1_1280-1024x689.png" alt="" data-id="2812" data-link="/?attachment_id=2812" class="wp-image-2812" srcset="/wp-content/uploads/2019/02/tumblr_ow4pwoXxvM1wv3h4fo1_1280-1024x689.png 1024w, /wp-content/uploads/2019/02/tumblr_ow4pwoXxvM1wv3h4fo1_1280-300x202.png 300w, /wp-content/uploads/2019/02/tumblr_ow4pwoXxvM1wv3h4fo1_1280-768x517.png 768w, /wp-content/uploads/2019/02/tumblr_ow4pwoXxvM1wv3h4fo1_1280-400x269.png 400w, /wp-content/uploads/2019/02/tumblr_ow4pwoXxvM1wv3h4fo1_1280-210x141.png 210w, /wp-content/uploads/2019/02/tumblr_ow4pwoXxvM1wv3h4fo1_1280.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><a href="/wp-content/uploads/2019/02/tumblr_ow4q7l3bkc1wv3h4fo1_r1_1280.jpg" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="850" height="638" src="/wp-content/uploads/2019/02/tumblr_ow4q7l3bkc1wv3h4fo1_r1_1280.jpg" alt="" data-id="2813" data-link="/?attachment_id=2813" class="wp-image-2813" srcset="/wp-content/uploads/2019/02/tumblr_ow4q7l3bkc1wv3h4fo1_r1_1280.jpg 850w, /wp-content/uploads/2019/02/tumblr_ow4q7l3bkc1wv3h4fo1_r1_1280-300x225.jpg 300w, /wp-content/uploads/2019/02/tumblr_ow4q7l3bkc1wv3h4fo1_r1_1280-768x576.jpg 768w, /wp-content/uploads/2019/02/tumblr_ow4q7l3bkc1wv3h4fo1_r1_1280-400x300.jpg 400w, /wp-content/uploads/2019/02/tumblr_ow4q7l3bkc1wv3h4fo1_r1_1280-210x158.jpg 210w" sizes="(max-width: 850px) 100vw, 850px" /></a></figure>
+</li>
+</ul>
+<div style="height:49px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Multi-user / Networking VR in Unity</strong></p>
+<p>This is really a <strong>pain</strong> in the butt lol</p>
+<p>I&#8217;ve spent a lot of time on the Unity Networking system. The documentation improved a lot but it&#8217;s still quite limited in 2017. Websocket is so much clear and transparent compared to this!</p>
+<p>According to the latest news, Unity is going to re-write all its way to do networking (2019), so I guess all my efforts won&#8217;t be able to reuse anymore hahaha (cry cry).</p>
+<p>Still, I could share some thoughts on multi-player in VR&#8212; it&#8217;s really fun to be able to interact with other people both virtually and physically. It is still awkward to interact with strangers, but with people you know, it feels like going through a great trip together.</p>
+<div class="wp-block-image">
+<figure class="aligncenter"><a href="/wp-content/uploads/2019/02/group.jpg" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="680" height="453" src="/wp-content/uploads/2019/02/group.jpg" alt="" class="wp-image-2750" srcset="/wp-content/uploads/2019/02/group.jpg 680w, /wp-content/uploads/2019/02/group-300x200.jpg 300w, /wp-content/uploads/2019/02/group-400x266.jpg 400w, /wp-content/uploads/2019/02/group-210x140.jpg 210w" sizes="(max-width: 680px) 100vw, 680px" /></a></figure>
+</div>
+<div class="wp-block-image">
+<figure class="aligncenter"><a href="/wp-content/uploads/2019/02/behind_s.jpg"><img loading="lazy" width="680" height="453" src="/wp-content/uploads/2019/02/behind_s.jpg" alt="" class="wp-image-2752" srcset="/wp-content/uploads/2019/02/behind_s.jpg 680w, /wp-content/uploads/2019/02/behind_s-300x200.jpg 300w, /wp-content/uploads/2019/02/behind_s-400x266.jpg 400w, /wp-content/uploads/2019/02/behind_s-210x140.jpg 210w" sizes="(max-width: 680px) 100vw, 680px" /></a></figure>
+</div>
+<div style="height:45px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Costumes</strong></p>
+<p>Suggested by AND Festival to have some elements of the scenography manufactured in material which was wearable like my project <a rel="noreferrer noopener" href="/portfolio/brain/" target="_blank">brain</a>, we went a bit far :) Based on the cave theme and idea of participants having some sort of tribal ritual together, costume designer <a rel="noreferrer noopener" aria-label="Kelsey (opens in a new tab)" href="http://cargocollective.com/KelseyLaSeur/About-Kelsey-LaSeur" target="_blank">Kelsey</a> designed 4 big coats and head-wears that are easy to take on and off. All 100% hand made!</p>
+<ul class="wp-block-gallery columns-3 is-cropped">
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="504" height="378" src="/wp-content/uploads/2019/08/tumblr_ovz0qrbB561wv3h4fo1_540.jpg" alt="" data-id="3054" data-link="/we-dwell-below/tumblr_ovz0qrbb561wv3h4fo1_540/" class="wp-image-3054" srcset="/wp-content/uploads/2019/08/tumblr_ovz0qrbB561wv3h4fo1_540.jpg 504w, /wp-content/uploads/2019/08/tumblr_ovz0qrbB561wv3h4fo1_540-300x225.jpg 300w, /wp-content/uploads/2019/08/tumblr_ovz0qrbB561wv3h4fo1_540-400x300.jpg 400w, /wp-content/uploads/2019/08/tumblr_ovz0qrbB561wv3h4fo1_540-210x158.jpg 210w" sizes="(max-width: 504px) 100vw, 504px" /></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="504" height="378" src="/wp-content/uploads/2019/08/tumblr_ovz0qrbB561wv3h4fo2_540.jpg" alt="" data-id="3055" data-link="/we-dwell-below/tumblr_ovz0qrbb561wv3h4fo2_540/" class="wp-image-3055" srcset="/wp-content/uploads/2019/08/tumblr_ovz0qrbB561wv3h4fo2_540.jpg 504w, /wp-content/uploads/2019/08/tumblr_ovz0qrbB561wv3h4fo2_540-300x225.jpg 300w, /wp-content/uploads/2019/08/tumblr_ovz0qrbB561wv3h4fo2_540-400x300.jpg 400w, /wp-content/uploads/2019/08/tumblr_ovz0qrbB561wv3h4fo2_540-210x158.jpg 210w" sizes="(max-width: 504px) 100vw, 504px" /></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="504" height="378" src="/wp-content/uploads/2019/08/tumblr_ovz0qrbB561wv3h4fo3_540.jpg" alt="" data-id="3056" data-link="/we-dwell-below/tumblr_ovz0qrbb561wv3h4fo3_540/" class="wp-image-3056" srcset="/wp-content/uploads/2019/08/tumblr_ovz0qrbB561wv3h4fo3_540.jpg 504w, /wp-content/uploads/2019/08/tumblr_ovz0qrbB561wv3h4fo3_540-300x225.jpg 300w, /wp-content/uploads/2019/08/tumblr_ovz0qrbB561wv3h4fo3_540-400x300.jpg 400w, /wp-content/uploads/2019/08/tumblr_ovz0qrbB561wv3h4fo3_540-210x158.jpg 210w" sizes="(max-width: 504px) 100vw, 504px" /></figure>
+</li>
+</ul>
+<p>To reduce infrared blocking for HTC Vive sensors as few as possible, we used mostly mesh fabric for the headwear.</p>
+<ul class="wp-block-gallery columns-2 is-cropped">
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="500" height="319" src="/wp-content/uploads/2019/08/tumblr_ov7em0dBe91wv3h4fo1_500.jpg" alt="" data-id="3057" data-link="/we-dwell-below/tumblr_ov7em0dbe91wv3h4fo1_500/" class="wp-image-3057" srcset="/wp-content/uploads/2019/08/tumblr_ov7em0dBe91wv3h4fo1_500.jpg 500w, /wp-content/uploads/2019/08/tumblr_ov7em0dBe91wv3h4fo1_500-300x191.jpg 300w, /wp-content/uploads/2019/08/tumblr_ov7em0dBe91wv3h4fo1_500-400x255.jpg 400w, /wp-content/uploads/2019/08/tumblr_ov7em0dBe91wv3h4fo1_500-210x134.jpg 210w" sizes="(max-width: 500px) 100vw, 500px" /></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="504" height="378" src="/wp-content/uploads/2019/08/tumblr_ow0u44yTtb1wv3h4fo1_540.jpg" alt="" data-id="3058" data-link="/we-dwell-below/tumblr_ow0u44yttb1wv3h4fo1_540/" class="wp-image-3058" srcset="/wp-content/uploads/2019/08/tumblr_ow0u44yTtb1wv3h4fo1_540.jpg 504w, /wp-content/uploads/2019/08/tumblr_ow0u44yTtb1wv3h4fo1_540-300x225.jpg 300w, /wp-content/uploads/2019/08/tumblr_ow0u44yTtb1wv3h4fo1_540-400x300.jpg 400w, /wp-content/uploads/2019/08/tumblr_ow0u44yTtb1wv3h4fo1_540-210x158.jpg 210w" sizes="(max-width: 504px) 100vw, 504px" /></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="504" height="378" src="/wp-content/uploads/2019/08/tumblr_ow0u44yTtb1wv3h4fo2_540.jpg" alt="" data-id="3059" data-link="/we-dwell-below/tumblr_ow0u44yttb1wv3h4fo2_540/" class="wp-image-3059" srcset="/wp-content/uploads/2019/08/tumblr_ow0u44yTtb1wv3h4fo2_540.jpg 504w, /wp-content/uploads/2019/08/tumblr_ow0u44yTtb1wv3h4fo2_540-300x225.jpg 300w, /wp-content/uploads/2019/08/tumblr_ow0u44yTtb1wv3h4fo2_540-400x300.jpg 400w, /wp-content/uploads/2019/08/tumblr_ow0u44yTtb1wv3h4fo2_540-210x158.jpg 210w" sizes="(max-width: 504px) 100vw, 504px" /></figure>
+</li>
+</ul>
+<p>For the 2018 Newcastle tour, we modified the helmet to make it stronger with more obvious face outlines. I used steal wire to make difference eye contours.</p>
+<ul class="wp-block-gallery columns-2 is-cropped">
+<li class="blocks-gallery-item">
+<figure><a href="/wp-content/uploads/2019/02/IMG_7132-711x1024.jpg" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="711" height="1024" src="/wp-content/uploads/2019/02/IMG_7132-711x1024.jpg" alt="" data-id="2834" data-link="/?attachment_id=2834" class="wp-image-2834" srcset="/wp-content/uploads/2019/02/IMG_7132-711x1024.jpg 711w, /wp-content/uploads/2019/02/IMG_7132-208x300.jpg 208w, /wp-content/uploads/2019/02/IMG_7132-768x1106.jpg 768w, /wp-content/uploads/2019/02/IMG_7132-400x576.jpg 400w, /wp-content/uploads/2019/02/IMG_7132-210x302.jpg 210w, /wp-content/uploads/2019/02/IMG_7132.jpg 2006w" sizes="(max-width: 711px) 100vw, 711px" /></a></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><a href="/wp-content/uploads/2019/02/tumblr_pehqarbgtb1wv3h4fo1_r1_540.jpg" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="512" height="512" src="/wp-content/uploads/2019/02/tumblr_pehqarbgtb1wv3h4fo1_r1_540.jpg" alt="" data-id="2835" data-link="/?attachment_id=2835" class="wp-image-2835" srcset="/wp-content/uploads/2019/02/tumblr_pehqarbgtb1wv3h4fo1_r1_540.jpg 512w, /wp-content/uploads/2019/02/tumblr_pehqarbgtb1wv3h4fo1_r1_540-150x150.jpg 150w, /wp-content/uploads/2019/02/tumblr_pehqarbgtb1wv3h4fo1_r1_540-300x300.jpg 300w, /wp-content/uploads/2019/02/tumblr_pehqarbgtb1wv3h4fo1_r1_540-400x400.jpg 400w, /wp-content/uploads/2019/02/tumblr_pehqarbgtb1wv3h4fo1_r1_540-210x210.jpg 210w" sizes="(max-width: 512px) 100vw, 512px" /></a></figure>
+</li>
+</ul>
+<figure class="wp-block-image"><a href="/wp-content/uploads/2019/02/WDB_Newcastle-18.jpg"><img loading="lazy" width="1024" height="815" src="/wp-content/uploads/2019/02/WDB_Newcastle-18-1024x815.jpg" alt="" class="wp-image-2836" srcset="/wp-content/uploads/2019/02/WDB_Newcastle-18-1024x815.jpg 1024w, /wp-content/uploads/2019/02/WDB_Newcastle-18-300x239.jpg 300w, /wp-content/uploads/2019/02/WDB_Newcastle-18-768x611.jpg 768w, /wp-content/uploads/2019/02/WDB_Newcastle-18-400x318.jpg 400w, /wp-content/uploads/2019/02/WDB_Newcastle-18-210x167.jpg 210w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Final Installation</strong></p>
+<p>I am very lucky that <a rel="noreferrer noopener" aria-label="Planeta (opens in a new tab)" href="https://planeta.cc/" target="_blank">Planeta</a>, where I work at, was interested in co-producing the piece, or this would never happen in this short amount of time! We were all working hard until the last minutes, in the stone cottage near the installation site.</p>
+<ul class="wp-block-gallery columns-2 is-cropped">
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="1024" height="768" src="/wp-content/uploads/2019/02/IMG_4515-1024x768.jpg" alt="" data-id="2777" data-link="/we-dwell-below/img_4515/" class="wp-image-2777" srcset="/wp-content/uploads/2019/02/IMG_4515-1024x768.jpg 1024w, /wp-content/uploads/2019/02/IMG_4515-300x225.jpg 300w, /wp-content/uploads/2019/02/IMG_4515-768x576.jpg 768w, /wp-content/uploads/2019/02/IMG_4515-400x300.jpg 400w, /wp-content/uploads/2019/02/IMG_4515-210x158.jpg 210w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="1024" height="768" src="/wp-content/uploads/2019/02/site-1024x768.jpg" alt="" data-id="2784" data-link="/we-dwell-below/site/" class="wp-image-2784" srcset="/wp-content/uploads/2019/02/site-1024x768.jpg 1024w, /wp-content/uploads/2019/02/site-300x225.jpg 300w, /wp-content/uploads/2019/02/site-768x576.jpg 768w, /wp-content/uploads/2019/02/site-400x300.jpg 400w, /wp-content/uploads/2019/02/site-210x158.jpg 210w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="1024" height="768" src="/wp-content/uploads/2019/02/crew-1024x768.jpg" alt="" data-id="2774" data-link="/we-dwell-below/crew/" class="wp-image-2774" srcset="/wp-content/uploads/2019/02/crew-1024x768.jpg 1024w, /wp-content/uploads/2019/02/crew-300x225.jpg 300w, /wp-content/uploads/2019/02/crew-768x576.jpg 768w, /wp-content/uploads/2019/02/crew-400x300.jpg 400w, /wp-content/uploads/2019/02/crew-210x158.jpg 210w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Dan &amp; Kelsey</figcaption></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="1024" height="768" src="/wp-content/uploads/2019/02/IMG_4502-1024x768.jpg" alt="" data-id="2775" data-link="/we-dwell-below/img_4502/" class="wp-image-2775" srcset="/wp-content/uploads/2019/02/IMG_4502-1024x768.jpg 1024w, /wp-content/uploads/2019/02/IMG_4502-300x225.jpg 300w, /wp-content/uploads/2019/02/IMG_4502-768x576.jpg 768w, /wp-content/uploads/2019/02/IMG_4502-400x300.jpg 400w, /wp-content/uploads/2019/02/IMG_4502-210x158.jpg 210w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</li>
+</ul>
+<p>The project turned out to be a huge hit &#8211; thanks to the arrangement of AND Festival, we had a tent thus looked very secretive and seductive ;) Also the costume and weird behaviors with the Chewing Device, both make the experience not just interesting to try, but also entertaining to look at.</p>
+<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/andfestival/albums/72157706819007965" title="We Dwell Below - AND Festival 2017"><img loading="lazy" src="https://live.staticflickr.com/7880/40189955163_9d097c3399_z.jpg" width="640" height="427" alt="We Dwell Below - AND Festival 2017"></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<p>In 2018, we brought the project back to England again, this time<a rel="noreferrer noopener" aria-label=" a two day installation in The Great North Museum: Hancock in Newcastle (opens in a new tab)" href="https://www.andfestival.org.uk/blog/we-dwell-below-documentation/" target="_blank"> a two day installation in The Great North Museum: Hancock in Newcastle</a>. The participants are mostly kids this time! :D</p>
+<p><a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/andfestival/albums/72157706961150774" title="We Dwell Below at Hancock Museum (2018)"><img loading="lazy" src="https://live.staticflickr.com/7872/46422078804_d910910bfd_z.jpg" width="640" height="427" alt="We Dwell Below at Hancock Museum (2018)"></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/we-dwell-below/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Sleep Together</title>
+		<link>/sleep-together/</link>
+					<comments>/sleep-together/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sun, 25 Mar 2018 21:43:52 +0000</pubDate>
+				<category><![CDATA[Personal project]]></category>
+		<category><![CDATA[Daily Life VR]]></category>
+		<category><![CDATA[doclab]]></category>
+		<category><![CDATA[idfa]]></category>
+		<category><![CDATA[nfb]]></category>
+		<category><![CDATA[three.js]]></category>
+		<category><![CDATA[VR]]></category>
+		<category><![CDATA[WebVR]]></category>
+		<guid isPermaLink="false">/?p=2704</guid>
+
+					<description><![CDATA[Sleep Together is a virtual reality group experience for people to use before going to sleep. In 60 seconds, participant (a.k.a. sleepyhead) will go through a series of breathing exercise,... <a class="read-more" href="/sleep-together/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>Sleep Together</strong> is a virtual reality group experience for people to use before going to sleep. In 60 seconds, participant (a.k.a. sleepyhead) will go through a series of breathing exercise, with other sleepyheads floating inside a big bird nest, breathing together.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2721" src="/wp-content/uploads/2018/03/sleep_together_poster_en-copy.jpg" alt="" width="900" height="400" srcset="/wp-content/uploads/2018/03/sleep_together_poster_en-copy.jpg 900w, /wp-content/uploads/2018/03/sleep_together_poster_en-copy-300x133.jpg 300w, /wp-content/uploads/2018/03/sleep_together_poster_en-copy-768x341.jpg 768w, /wp-content/uploads/2018/03/sleep_together_poster_en-copy-400x178.jpg 400w, /wp-content/uploads/2018/03/sleep_together_poster_en-copy-210x93.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></p>
+<p>I&#8217;m very lucky to make one of the 10 #veryveryshort projects, produced by NFB and ARTE, and co-commissioned by IDFA DocLab. The idea is to create something short yet sweet, because &#8220;Life is short, very very short.&#8221;</p>
+<p>Continuing the idea of <strong>Daily Life VR</strong> &#8211; a WebVR series about life’s most basic and essential pursuits, I installed Sleep Together for the sleep aspect of life.</p>
+<p>&nbsp;</p>
+<p><strong>Storyboard</strong></p>
+<p><a href='/sleep-together/attachment/0/'><img width="300" height="193" src="/wp-content/uploads/2018/03/0-300x193.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/0-300x193.jpg 300w, /wp-content/uploads/2018/03/0-400x258.jpg 400w, /wp-content/uploads/2018/03/0-210x135.jpg 210w, /wp-content/uploads/2018/03/0.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/1-1/'><img width="300" height="192" src="/wp-content/uploads/2018/03/1-1-300x192.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/1-1-300x192.jpg 300w, /wp-content/uploads/2018/03/1-1-400x256.jpg 400w, /wp-content/uploads/2018/03/1-1-210x135.jpg 210w, /wp-content/uploads/2018/03/1-1.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/1-2-2/'><img width="300" height="191" src="/wp-content/uploads/2018/03/1-2-300x191.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/1-2-300x191.jpg 300w, /wp-content/uploads/2018/03/1-2-400x255.jpg 400w, /wp-content/uploads/2018/03/1-2-210x134.jpg 210w, /wp-content/uploads/2018/03/1-2.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/1-3-2/'><img width="300" height="196" src="/wp-content/uploads/2018/03/1-3-300x196.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/1-3-300x196.jpg 300w, /wp-content/uploads/2018/03/1-3-400x262.jpg 400w, /wp-content/uploads/2018/03/1-3-210x137.jpg 210w, /wp-content/uploads/2018/03/1-3.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/2-6/'><img width="300" height="190" src="/wp-content/uploads/2018/03/2-300x190.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/2-300x190.jpg 300w, /wp-content/uploads/2018/03/2-400x254.jpg 400w, /wp-content/uploads/2018/03/2-210x133.jpg 210w, /wp-content/uploads/2018/03/2.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/3-4/'><img width="300" height="191" src="/wp-content/uploads/2018/03/3-300x191.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/3-300x191.jpg 300w, /wp-content/uploads/2018/03/3-400x255.jpg 400w, /wp-content/uploads/2018/03/3-210x134.jpg 210w, /wp-content/uploads/2018/03/3.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/4-6/'><img width="300" height="192" src="/wp-content/uploads/2018/03/4-300x192.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/4-300x192.jpg 300w, /wp-content/uploads/2018/03/4-400x256.jpg 400w, /wp-content/uploads/2018/03/4-210x135.jpg 210w, /wp-content/uploads/2018/03/4.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/5-3/'><img width="300" height="188" src="/wp-content/uploads/2018/03/5-300x188.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/5-300x188.png 300w, /wp-content/uploads/2018/03/5-400x250.png 400w, /wp-content/uploads/2018/03/5-210x131.png 210w, /wp-content/uploads/2018/03/5.png 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/6-4/'><img width="300" height="191" src="/wp-content/uploads/2018/03/6-300x191.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/6-300x191.png 300w, /wp-content/uploads/2018/03/6-400x255.png 400w, /wp-content/uploads/2018/03/6-210x134.png 210w, /wp-content/uploads/2018/03/6.png 512w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>&nbsp;</p>
+<p><strong>Moving Schematic</strong></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2731" src="/wp-content/uploads/2018/03/eye_contact_s.jpg" alt="" width="900" height="281" srcset="/wp-content/uploads/2018/03/eye_contact_s.jpg 900w, /wp-content/uploads/2018/03/eye_contact_s-300x94.jpg 300w, /wp-content/uploads/2018/03/eye_contact_s-768x240.jpg 768w, /wp-content/uploads/2018/03/eye_contact_s-400x125.jpg 400w, /wp-content/uploads/2018/03/eye_contact_s-210x66.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></p>
+<p>&nbsp;</p>
+<p><strong>Extracts of Experience</strong></p>
+<p><img loading="lazy" class="alignnone size-full" src="https://media.giphy.com/media/5q23a6tq467aZ7Uvle/giphy.gif" width="480" height="222" /></p>
+<p><img loading="lazy" class="alignnone size-full" src="https://media.giphy.com/media/mntaQ4uSTudCt5lUg2/giphy.gif" width="480" height="212" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2712" src="/wp-content/uploads/2018/03/IMG_5588.png" alt="" width="680" height="382" srcset="/wp-content/uploads/2018/03/IMG_5588.png 680w, /wp-content/uploads/2018/03/IMG_5588-300x169.png 300w, /wp-content/uploads/2018/03/IMG_5588-400x225.png 400w, /wp-content/uploads/2018/03/IMG_5588-210x118.png 210w" sizes="(max-width: 680px) 100vw, 680px" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2736" src="/wp-content/uploads/2018/03/IMG_5605.png" alt="" width="680" height="382" srcset="/wp-content/uploads/2018/03/IMG_5605.png 680w, /wp-content/uploads/2018/03/IMG_5605-300x169.png 300w, /wp-content/uploads/2018/03/IMG_5605-400x225.png 400w, /wp-content/uploads/2018/03/IMG_5605-210x118.png 210w" sizes="(max-width: 680px) 100vw, 680px" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2735" src="/wp-content/uploads/2018/03/IMG_5600.png" alt="" width="680" height="382" srcset="/wp-content/uploads/2018/03/IMG_5600.png 680w, /wp-content/uploads/2018/03/IMG_5600-300x169.png 300w, /wp-content/uploads/2018/03/IMG_5600-400x225.png 400w, /wp-content/uploads/2018/03/IMG_5600-210x118.png 210w" sizes="(max-width: 680px) 100vw, 680px" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2737" src="/wp-content/uploads/2018/03/IMG_5609.png" alt="" width="680" height="382" srcset="/wp-content/uploads/2018/03/IMG_5609.png 680w, /wp-content/uploads/2018/03/IMG_5609-300x169.png 300w, /wp-content/uploads/2018/03/IMG_5609-400x225.png 400w, /wp-content/uploads/2018/03/IMG_5609-210x118.png 210w" sizes="(max-width: 680px) 100vw, 680px" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2713" src="/wp-content/uploads/2018/03/IMG_5590.png" alt="" width="680" height="382" srcset="/wp-content/uploads/2018/03/IMG_5590.png 680w, /wp-content/uploads/2018/03/IMG_5590-300x169.png 300w, /wp-content/uploads/2018/03/IMG_5590-400x225.png 400w, /wp-content/uploads/2018/03/IMG_5590-210x118.png 210w" sizes="(max-width: 680px) 100vw, 680px" /></p>
+<p>&nbsp;</p>
+<p>And I&#8217;m also fortunate to share it with people in IDFA DocLab 2017 :)</p>
+<p><img loading="lazy" class="alignnone wp-image-2733" src="/wp-content/uploads/2018/03/IMG_5079.jpg" alt="" width="683" height="512" srcset="/wp-content/uploads/2018/03/IMG_5079.jpg 900w, /wp-content/uploads/2018/03/IMG_5079-300x225.jpg 300w, /wp-content/uploads/2018/03/IMG_5079-768x576.jpg 768w, /wp-content/uploads/2018/03/IMG_5079-400x300.jpg 400w, /wp-content/uploads/2018/03/IMG_5079-210x158.jpg 210w" sizes="(max-width: 683px) 100vw, 683px" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2720" src="/wp-content/uploads/2018/03/23596197_2007230156215033_4829513217648623616_n-copy.jpg" alt="" width="680" height="680" srcset="/wp-content/uploads/2018/03/23596197_2007230156215033_4829513217648623616_n-copy.jpg 680w, /wp-content/uploads/2018/03/23596197_2007230156215033_4829513217648623616_n-copy-150x150.jpg 150w, /wp-content/uploads/2018/03/23596197_2007230156215033_4829513217648623616_n-copy-300x300.jpg 300w, /wp-content/uploads/2018/03/23596197_2007230156215033_4829513217648623616_n-copy-400x400.jpg 400w, /wp-content/uploads/2018/03/23596197_2007230156215033_4829513217648623616_n-copy-210x210.jpg 210w" sizes="(max-width: 680px) 100vw, 680px" /></p>
+<p><img loading="lazy" class="alignnone wp-image-2738" src="/wp-content/uploads/2018/03/logos.png" alt="" width="673" height="154" srcset="/wp-content/uploads/2018/03/logos.png 900w, /wp-content/uploads/2018/03/logos-300x69.png 300w, /wp-content/uploads/2018/03/logos-768x176.png 768w, /wp-content/uploads/2018/03/logos-400x92.png 400w, /wp-content/uploads/2018/03/logos-210x48.png 210w" sizes="(max-width: 673px) 100vw, 673px" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/sleep-together/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>MASK v2.0 &#8211; Unity!</title>
+		<link>/mask-v2-0-unity/</link>
+					<comments>/mask-v2-0-unity/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Fri, 09 Oct 2015 16:02:08 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Fall 2015]]></category>
+		<category><![CDATA[MASK]]></category>
+		<category><![CDATA[Personal project]]></category>
+		<category><![CDATA[3D]]></category>
+		<category><![CDATA[Cardboard]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VR]]></category>
+		<guid isPermaLink="false">/?p=2484</guid>
+
+					<description><![CDATA[Unity3D version of MASK! Since it&#8217;s much more stable with App than with Webpage, maybe it&#8217;s worth a try to make a unity version of MASK collection. Hmm such a sweet... <a class="read-more" href="/mask-v2-0-unity/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="alignnone" src="https://lh3.googleusercontent.com/-TYJP_pDkPZeSm402qRb4koBLDGQRGsiTw2rPIotM8BC8ZP70n-7-2dS1grUlSDk0DbmnKoyw_Uav4df9AkrNUi1uIxYmuvAisy0IwxdsM8dcpVzJ77q87aykcypp86p_2DHOzgbUFGLPk67FqhYJ4DP_lI7qaAHKlljikBujrybbItG29fdJ4bqljfAHDdXxaln3OcBf3-TxSPiYOgwljehHFD2LKu38wt9tVev1jEva8mUN1SX-sJgp1R_Fta_iTRbXXIgdvKlI2It_I47EMebFVN9IDkpPYO3XVQk4dMb0_hTIfZycPxIH4cN0xKQpIb9a4Oc2jmWcL3b59ZiiaVPvSB5yk9SL5L1nt9K_cf8WzqmlL_5qcTGNgR0cDGNta-1eM_rTB1PEjazOzf0kXu35-ORiPa2sBmRxdqlT8Px-JaAbsQA05ZJvAeWfkeRqvsphPk6sfqrCRQgJusQXDfmGt6TNBdgPjnl96A2IOftXhOS8n65A0dwVLItHPfNLNqMrbEFjxxAWIP0VRVzNgneznhEuV_uAg4VJq3coHun=w1307-h735-no" alt="" width="1307" height="735" /></p>
+<p>Unity3D version of MASK!</p>
+<p>Since it&#8217;s much more stable with App than with Webpage, maybe it&#8217;s worth a try to make a unity version of MASK collection. Hmm such a sweet dilemma!</p>
+<p>Codes of accessing camera on the phone&#8230; omg so simple!</p>
+<pre class="brush: csharp; gutter: true">WebCamDevice[] devices = WebCamTexture.devices;
+mCamera = new WebCamTexture ();
+
+//for(var i=0; i&lt;devices.Length; i++){
+//	Debug.Log(devices[i].name);
+//}
+
+if (devices.Length &gt; 0) {
+	mCamera.deviceName = devices[0].name;
+	displayPlan.GetComponent&lt;Renderer&gt;().material.mainTexture = mCamera;
+	mCamera.Play ();
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>/mask-v2-0-unity/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Summer Throwback Three: We Are What We Pretend To Be Inc. established!</title>
+		<link>/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/</link>
+					<comments>/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Fri, 18 Sep 2015 00:07:53 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Fall 2015]]></category>
+		<category><![CDATA[Personal project]]></category>
+		<category><![CDATA[Summer 2015]]></category>
+		<category><![CDATA[3D]]></category>
+		<category><![CDATA[Cardboard]]></category>
+		<category><![CDATA[handcraft]]></category>
+		<category><![CDATA[installation]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VR]]></category>
+		<category><![CDATA[WAWPRE]]></category>
+		<guid isPermaLink="false">/?p=2337</guid>
+
+					<description><![CDATA[The third major experiment I had this summer was a street car journey. At first it&#8217;s just another experiment with Unity, but then it leads me to an idea for the project... <a class="read-more" href="/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="alignnone" src="https://lh3.googleusercontent.com/XTEpQxO_3nX643aCcenQUnajE_mqPsB_5kWvYziqr1uRcwU_bstBUDuzOg9DOcXgJVc5s_ZF58Bi5zj65Px0sEHvZV2sKKBIoV6RgqBfu8sjl8IXbfxKmFSHNEi-lapROHWrgAGoAvbYKPgrjhq02cS_hyJC36fjVn52wcND7IrQdM5zaEqM4OpqVU56oW8Z631xejWucTGRBv84sSo0QH9S0ar5JnYbVwc12IP7voJ4EA7A5QiDYpvunOkgTakKopGcor9wG5RPNhqPHXanhDrEe_UwejNiFvP-4e9ZLYyPJ_dQ3kuMe3kTQTBpXXeBoHhtGCXaGHIbk3NqBSE8MFRzLLaDQkqT6BLYUgvuoLInRh7pcE5VO1N-RPUkzSu_eWxrRg38MYv8zobmUPpeAI1lD5epCjpPd3FK4aBpStYZBDce6CBcGtFpT-tZLH98q6xIQ8MIeFUvItBpZyeRK_3D-srHr4GijxEgZ0k4enZ24UzmxiCbiSXJFk1VJqBisyH8dUj7s68Boz2Mpu6PZybRfScQi82J9u-4-6PKR5PC=w1268-h691-no" alt="" width="1268" height="691" />The third major experiment I had this summer was a street car journey. At first it&#8217;s just another experiment with Unity, but then it leads me to an idea for the project I want to do this year, as the Research Fellow at ITP.</p>
+<p>I decided to establish an incorporation, called <span style="font-size: 18pt;"><em><strong>WE ARE WHAT WE PRETEND TO BE Inc.</strong></em></span>.</p>
+<p>It&#8217;s inspired by the quotes of writer <a href="https://en.wikipedia.org/wiki/Kurt_Vonnegut" target="_blank">Kurt Vonnegut</a>:</p>
+<blockquote><p>&#8220;We are what we pretend to be, so we must be careful about what we pretend to be.&#8221;</p></blockquote>
+<p>I discovered this when I was doing research for my thesis, and it inspired me a lot to shape the idea, and to make the <strong><span style="font-family: 'Andale Mono', Times;"><a href="http://jhclaura.github.io/MASK/" target="_blank">MASK</a></span></strong> series.</p>
+<p><em>WE ARE WHAT WE PRETEND TO BE Inc.(<strong>WAWPRE</strong>) </em>is an entity for my series experiments about the relationship between our <strong>free will</strong> and <strong>unfree (uncontrollable) will</strong>. Can I change my unfree will by change my free will? How can I shift self identity by ultering my and also others perspective?</p>
+<p>&nbsp;</p>
+<p>The first product of <em><strong>WE ARE WHAT WE PRETEND TO BE Inc.</strong> </em>is <span style="color: #33cccc;"><strong><span style="font-family: 'Andale Mono', Times;"><a style="color: #33cccc;" href="http://jhclaura.github.io/MASK/" target="_blank">MASK</a></span></strong></span>, a customized VR headset that helps the user become what they want to be.</p>
+<p><a href="/wp-content/uploads/2015/09/MASK_lineup.png"><img loading="lazy" class="alignnone size-full wp-image-2378" src="/wp-content/uploads/2015/09/MASK_lineup.png" alt="MASK_lineup" width="2880" height="1920" srcset="/wp-content/uploads/2015/09/MASK_lineup.png 2880w, /wp-content/uploads/2015/09/MASK_lineup-300x200.png 300w, /wp-content/uploads/2015/09/MASK_lineup-1024x683.png 1024w, /wp-content/uploads/2015/09/MASK_lineup-400x267.png 400w, /wp-content/uploads/2015/09/MASK_lineup-210x140.png 210w" sizes="(max-width: 2880px) 100vw, 2880px" /></a></p>
+<p>&nbsp;</p>
+<p>The second service of <strong><em>WE ARE WHAT WE PRETEND TO BE Inc.</em></strong> is <span style="font-family: 'Andale Mono', Times; color: #33cccc;"><strong>THE TRAM</strong></span>.</p>
+<p><a href="/wp-content/uploads/2015/09/We-Are-What-We-Pretend-To-Be.jpg"><img loading="lazy" class="alignnone size-full wp-image-2375" src="/wp-content/uploads/2015/09/We-Are-What-We-Pretend-To-Be.jpg" alt="We Are What We Pretend To Be" width="3201" height="2400" srcset="/wp-content/uploads/2015/09/We-Are-What-We-Pretend-To-Be.jpg 3201w, /wp-content/uploads/2015/09/We-Are-What-We-Pretend-To-Be-300x225.jpg 300w, /wp-content/uploads/2015/09/We-Are-What-We-Pretend-To-Be-1024x768.jpg 1024w, /wp-content/uploads/2015/09/We-Are-What-We-Pretend-To-Be-400x300.jpg 400w, /wp-content/uploads/2015/09/We-Are-What-We-Pretend-To-Be-210x157.jpg 210w" sizes="(max-width: 3201px) 100vw, 3201px" /></a></p>
+<p>It&#8217;s an installation that provided customized virtual reality experience that users (aka passengers) can design their tram journey based on their mood, destination, favorite color, and cloth to wear. Also from the cutout hole on the cardboard box, which is usually covered with curtain, I will take a picture of the passengers, so the passengers will be able to see themselves in the VR.</p>
+<blockquote><p><strong><em>WE ARE WHAT WE PRETEND TO BE Inc. THE TRAM</em> </strong>takes you to wherever you want, fulfill whatever desire you want, therefore you become whomever you want. You set yourself free.</p></blockquote>
+<p>I joined <em><a href="http://yami-ichi.biz/nyc/" target="_blank">Internet Yami-Ichi in New York</a></em> this summer, and displayed my little handcraft Home Depot cardboard box as an installation + experience seller. For the software, I used Unity and started developing it on and off since August, since I was notified that I was selected to join the event. As for the box, I made it with recycled materials I found in junk shelf in <em><strong>one night</strong></em> before the event! Holy cow SO NERVOUS.</p>
+<p>It&#8217;s really a successful experiments, for first ever user test! The users used it for a long time, average at least more than 1 minute! Which is a huge difference for me.  I think that&#8217;s because the tram keeps moving, the scenery outside the window keeps changing, plus there are ghost passengers getting on the bus when the tram stops at the tram station, the user is expecting things to happen, thus enjoys the VR experience for the longer time.<br />
+<iframe loading="lazy" src="https://player.vimeo.com/video/139861020?color=c9ff23" width="750" height="422" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><span style="font-family: 'Andale Mono', Times;"><strong>Screen captures with different customized setup</strong></span></p>
+<p><a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-31-57-pm/'><img width="300" height="151" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.31.57-PM-300x151.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.31.57-PM-300x151.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.31.57-PM-400x201.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.31.57-PM-210x106.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.31.57-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-32-29-pm/'><img width="300" height="150" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.29-PM-300x150.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.29-PM-300x150.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.29-PM-400x200.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.29-PM-210x105.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.29-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-32-19-pm/'><img width="300" height="149" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.19-PM-300x149.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.19-PM-300x149.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.19-PM-400x199.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.19-PM-210x104.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.19-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-32-53-pm/'><img width="300" height="150" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.53-PM-300x150.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.53-PM-300x150.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.53-PM-400x200.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.53-PM-210x105.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.53-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-33-11-pm/'><img width="300" height="149" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.11-PM-300x149.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.11-PM-300x149.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.11-PM-400x199.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.11-PM-210x104.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.11-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-33-46-pm/'><img width="300" height="149" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.46-PM-300x149.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.46-PM-300x149.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.46-PM-400x199.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.46-PM-210x104.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.46-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-33-56-pm/'><img width="300" height="148" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.56-PM-300x148.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.56-PM-300x148.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.56-PM-400x198.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.56-PM-210x104.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.56-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-34-36-pm/'><img width="300" height="149" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.36-PM-300x149.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.36-PM-300x149.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.36-PM-400x198.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.36-PM-210x104.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.36-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-34-46-pm/'><img width="300" height="149" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.46-PM-300x149.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.46-PM-300x149.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.46-PM-400x198.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.46-PM-210x104.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.46-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-35-06-pm/'><img width="300" height="150" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.06-PM-300x150.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.06-PM-300x150.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.06-PM-400x200.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.06-PM-210x105.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.06-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-35-21-pm/'><img width="300" height="150" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.21-PM-300x150.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.21-PM-300x150.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.21-PM-400x200.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.21-PM-210x105.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.21-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-35-46-pm/'><img width="300" height="150" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.46-PM-300x150.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.46-PM-300x150.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.46-PM-400x200.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.46-PM-210x105.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.46-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-36-09-pm/'><img width="300" height="150" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.09-PM-300x150.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.09-PM-300x150.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.09-PM-400x200.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.09-PM-210x105.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.09-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-36-42-pm/'><img width="300" height="150" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.42-PM-300x150.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.42-PM-300x150.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.42-PM-400x200.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.42-PM-210x105.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.42-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-family: 'Andale Mono', Times;">Contents development</span></strong></p>
+<p>It&#8217;s a subtraction process, because of limited time haha</p>
+<div style="width: 481px" class="wp-caption alignnone"><img loading="lazy" class="" src="https://lh3.googleusercontent.com/KbS5Ma_tv_94fCi11olXKh8r1JBvb_LjB19vlgMMSiHtkuZLp90V7_RuoHoPthBr9S5zDvJoOV8smEMXAeqg-_3_6La3VYyeFYqykH_b0i-Jq4WL6l0N2PLScWUg2Kd28xlfIA22pOIDBV19nM_s5YQw9QmLkel8CSxR6Cja5GrUp9Y-yKtlgT2s2JfXxqaVhFlhrWQbmxs3qc2HGKdIzpu8ONss6KiHC0NKSrIu3JK1rzqCnWCjJw0SblUM0DnWTOs-VKj-5azQM3BA42bW6ZmBOX-lJoX7CvJySolmtV6_P5XdKaF68YXTo2vIjYyULYyAx-Oh2b9n6CWJlBnidZS9Wlm459ikBijvryAAeXa4blNqj2pItt38Z_J1P5yywY9siYuDF62haKHCTbXEaaWvwSeR9UBdPm-inNVnUOQhJe8GXCjj-VaEbovvwpcO0fen1c0C2eqJUVKL2jYEUwe3_gG6N0U4AY8sBkX65i9sp9A9jT6x6KZimWVVlodKp529XQLZBBsd1i26CGB4r3XjaR7lgO_7aq_IaHcuy0xS=w493-h691-no" alt="" width="471" height="662" /></p>
+<p class="wp-caption-text">You can escape into different spaces, under different circumstances.</p>
+</div>
+<div style="width: 479px" class="wp-caption alignnone"><img loading="lazy" class="" src="https://lh3.googleusercontent.com/ktgJII5vFXS56tvCmnDkIKz40Uc8rhe8nXd2TwwJ54ca103A7FRFDBU30o41jyfzEx5o7qQWn5j27iY0IpK4R8tX2DjV9bYYIQQ957Ogt8M74mQx8L2xuTm28XD_B3E9zHtC0tlASWsDdZUIzo2dMKz-EAXAkL55M6AJ6nxhDXLPUivC73IPCGnUxgPVRuJBn8YXy8kc25fdt3RvlBJ9fxEIwWuKYLkW1h_e_e7iaQjodFD7Izq52enJ52VoRJ5m42OHSm0i2lY78JspRip2mRI4hQoMKWpUd8wO7r6hpR2OzQ6Rsk0t-OU__xo991QV3lXGkaUeFlrjRf3sbhFqOciO9-ClbjVm9LJN94DP8V5THsUmdjTqnkmsEO3LV3zn1KuowueigekANtdGy9Vkm3CCN8fegOER3ATjkUSWZ_J4u9IFeMhpvay-3VNrOePJ5GrswDlRpKahAX55cug1fIKS3Qv4INbpYMUG0GdTUkLN4BHk9mN9d6UxdA0l6SrqhB4PpO58-vuN5hdNO0SCBIbAUF6_OisGfNZV8tCpAxtf=w507-h691-no" alt="" width="469" height="639" /></p>
+<p class="wp-caption-text">Different customized options &amp; graphic design</p>
+</div>
+<div style="width: 478px" class="wp-caption alignnone"><img loading="lazy" src="https://lh3.googleusercontent.com/IpVmw659WMIJCeXfncYB01sK72bTkPHijoI_FTS_iHhIg_J6JvtvT5BGEyDLDTvHGmL56Ewrv5AhGOJTLACSMN6_lFAJDYZwOkVFNVg4FPduhaMs7GqnMHeQ7Ry7uPkU6bTcNMINViGV7TQChhuLKo2SlJYPIYyXVfYpmznS5H4oDRvwJ41OpsvnmGlkg587orR8vgq4eO9jbfRkKCDnGg39v96zOyMMP1aIFtpkvyL6aEuRocCkhDLjMjg9NE8yx-VpKv7_tsGpnHo1_Bhgv3jPndBBZtcVtGvyxflrc9He0MkFy7cqPXV6NKL6CjJyl0f25nDvp8x_nuVfchrJKKPzdgTpG5qoQ5e0IPeB_GDoXA5T9xFFdvzyvwMo2-G_ZZv43dDpEge0VfnUkAx0Y3tKha2a_YZhUVGM2a2x2Is3eUCStFs_vUHNNjZuWTlOAtomN3xCIMEJdnXzHB6ymJ_yY8LVG6vezO-_Q_FdH9s7zoXJ6SKJYDQr4iafgJCGNuN-xNDc6jqhTXQagDiSDNVIDA_D48C0bX9_VUAhSN3n=w469-h691-no" alt="" width="468" height="691" /></p>
+<p class="wp-caption-text">Ideas finalizing</p>
+</div>
+<p>&nbsp;</p>
+<p><strong><span style="font-family: 'Andale Mono', Times;">Internet Yami-Ichi </span></strong></p>
+<p><a href="/wp-content/uploads/2015/09/IMG_20150912_131813.jpg"><img loading="lazy" class="alignnone wp-image-2429" src="/wp-content/uploads/2015/09/IMG_20150912_131813.jpg" alt="IMG_20150912_131813" width="700" height="525" srcset="/wp-content/uploads/2015/09/IMG_20150912_131813.jpg 1000w, /wp-content/uploads/2015/09/IMG_20150912_131813-300x225.jpg 300w, /wp-content/uploads/2015/09/IMG_20150912_131813-400x300.jpg 400w, /wp-content/uploads/2015/09/IMG_20150912_131813-210x158.jpg 210w" sizes="(max-width: 700px) 100vw, 700px" /></a> <a href="/wp-content/uploads/2015/09/IMG_20150912_133938.jpg"><img loading="lazy" class="alignnone wp-image-2430" src="/wp-content/uploads/2015/09/IMG_20150912_133938.jpg" alt="IMG_20150912_133938" width="700" height="525" srcset="/wp-content/uploads/2015/09/IMG_20150912_133938.jpg 1000w, /wp-content/uploads/2015/09/IMG_20150912_133938-300x225.jpg 300w, /wp-content/uploads/2015/09/IMG_20150912_133938-400x300.jpg 400w, /wp-content/uploads/2015/09/IMG_20150912_133938-210x158.jpg 210w" sizes="(max-width: 700px) 100vw, 700px" /></a> <a href="/wp-content/uploads/2015/09/IMG_20150912_142812.jpg"><img loading="lazy" class="alignnone wp-image-2432" src="/wp-content/uploads/2015/09/IMG_20150912_142812.jpg" alt="IMG_20150912_142812" width="700" height="525" srcset="/wp-content/uploads/2015/09/IMG_20150912_142812.jpg 1000w, /wp-content/uploads/2015/09/IMG_20150912_142812-300x225.jpg 300w, /wp-content/uploads/2015/09/IMG_20150912_142812-400x300.jpg 400w, /wp-content/uploads/2015/09/IMG_20150912_142812-210x158.jpg 210w" sizes="(max-width: 700px) 100vw, 700px" /></a><a href="/wp-content/uploads/2015/09/11997881_10207456961200394_772412524_n.jpg"><img loading="lazy" class="alignnone wp-image-2428" src="/wp-content/uploads/2015/09/11997881_10207456961200394_772412524_n.jpg" alt="11997881_10207456961200394_772412524_n" width="350" height="467" srcset="/wp-content/uploads/2015/09/11997881_10207456961200394_772412524_n.jpg 720w, /wp-content/uploads/2015/09/11997881_10207456961200394_772412524_n-225x300.jpg 225w, /wp-content/uploads/2015/09/11997881_10207456961200394_772412524_n-400x533.jpg 400w, /wp-content/uploads/2015/09/11997881_10207456961200394_772412524_n-210x280.jpg 210w" sizes="(max-width: 350px) 100vw, 350px" /></a><a href="/wp-content/uploads/2015/09/IMG_20150912_182150.jpg"><img loading="lazy" class="alignnone wp-image-2433" src="/wp-content/uploads/2015/09/IMG_20150912_182150.jpg" alt="IMG_20150912_182150" width="350" height="467" srcset="/wp-content/uploads/2015/09/IMG_20150912_182150.jpg 750w, /wp-content/uploads/2015/09/IMG_20150912_182150-225x300.jpg 225w, /wp-content/uploads/2015/09/IMG_20150912_182150-400x533.jpg 400w, /wp-content/uploads/2015/09/IMG_20150912_182150-210x280.jpg 210w" sizes="(max-width: 350px) 100vw, 350px" /></a> <a href="/wp-content/uploads/2015/09/IMG_20150912_184804.jpg"><img loading="lazy" class="alignnone wp-image-2434" src="/wp-content/uploads/2015/09/IMG_20150912_184804.jpg" alt="IMG_20150912_184804" width="700" height="525" srcset="/wp-content/uploads/2015/09/IMG_20150912_184804.jpg 1000w, /wp-content/uploads/2015/09/IMG_20150912_184804-300x225.jpg 300w, /wp-content/uploads/2015/09/IMG_20150912_184804-400x300.jpg 400w, /wp-content/uploads/2015/09/IMG_20150912_184804-210x158.jpg 210w" sizes="(max-width: 700px) 100vw, 700px" /></a></p>
+<p>&nbsp;</p>
+<p>Thank you all my lovely first ever passengers&lt;3 &lt;3 &lt;3</p>
+<p><a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_124011/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_124011-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_125657/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_125657-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_130351/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_130351-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_132442/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_132442-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_134449/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_134449-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_134824/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_134824-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_141430/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_141430-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_143038/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_143038-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_143718/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_143718-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_144732/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_144732-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_145814/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_145814-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_150621/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_150621-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_152401/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_152401-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_152824/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_152824-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_154941/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_154941-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_160328/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_160328-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_161038/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_161038-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_161929/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_161929-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_163806/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_163806-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_164922/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_164922-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_171712/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_171712-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_173024/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_173024-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_173351/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_173351-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_173738/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_173738-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_175451/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_175451-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_180148/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_180148-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_182412/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_182412-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_183809/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_183809-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+<p>Let me thank you with this passengers all together gif &lt;3&lt;3&lt;3 Thank you guys!!!</p>
+<p><a href="/wp-content/uploads/2015/09/ppp.gif"><img loading="lazy" class="alignnone size-full wp-image-2437" src="/wp-content/uploads/2015/09/ppp.gif" alt="ppp" width="1400" height="692" /></a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Summer Throwback Two: Big Mac Index VR</title>
+		<link>/summer-throwback-two-big-mac-index-vr/</link>
+					<comments>/summer-throwback-two-big-mac-index-vr/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Thu, 17 Sep 2015 21:59:46 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Experiments]]></category>
+		<category><![CDATA[Summer 2015]]></category>
+		<category><![CDATA[3D]]></category>
+		<category><![CDATA[burger]]></category>
+		<category><![CDATA[Cardboard]]></category>
+		<category><![CDATA[The Economist]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VR]]></category>
+		<guid isPermaLink="false">/?p=2349</guid>
+
+					<description><![CDATA[In this summer, I was interning in The Economist Media Lab. It&#8217;s a tight team of Ron Diorio, Frank J. Andrejasich, and Ziv Schneider. The goal of this internship is exploring how... <a class="read-more" href="/summer-throwback-two-big-mac-index-vr/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>In this summer, I was interning in The Economist Media Lab. It&#8217;s a tight team of Ron Diorio, Frank J. Andrejasich, and <a href="http://zivschneider.com/" target="_blank">Ziv Schneider</a>. The goal of this internship is exploring how The Economist can use virtual reality to enhance the editorial piece, reach broader audience, and create unusual experience.</p>
+<p>Because of my previous <a href="/portfolio/urbanization/" target="_blank">3D data visualization</a> experiments, The Economist is interested how they can do data viz in VR, since data representation is one of their forte. Luckily, I could choose what I want to create, so I picked Big Mac Index. Why? Because it is <em><span style="font-family: 'Andale Mono', Times;">BURGER</span></em> dude. <strong><em><span style="font-family: 'Andale Mono', Times;">BURGER</span></em></strong>.</p>
+<p>About Big Mac Index:</p>
+<blockquote><p><span style="font-family: 'Times New Roman', Times;"><em>One of the most famous index of The Economist. The earliest data starts from</em><em> September 1986, and it has been used as a semi-humorous illustration of purchasing power parity (PPP). It makes exchange-rate theory a bit more digestible.</em></span></p></blockquote>
+<p>For this, I use the every half a year data since 2000, and the countries include: Argentina, Australia, Brazil, Britain, Canada, Chile, China, Czech Republic, Denmark, Euro area, Hong Kong, Hungary, Indonesia, Japan, Malaysia, Mexico, New Zealand, Poland, Russia, Singapore, South Africa, South Korea, Sweden, Switzerland, Taiwan, Thailand, and United States.</p>
+<p><iframe loading="lazy" src="https://player.vimeo.com/video/135134993?color=c9ff23" width="750" height="422" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>&nbsp;</p>
+<p>There are total three scenes in this Big Mac Index VR: 1) Intro, 2) Map, 3) Comparison Mode.</p>
+<p><strong><span style="font-family: 'Andale Mono', Times;">INTRO</span></strong></p>
+<p><a href='/summer-throwback-two-big-mac-index-vr/1-2/'><img width="300" height="202" src="/wp-content/uploads/2015/09/1-300x202.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/1-300x202.png 300w, /wp-content/uploads/2015/09/1-400x270.png 400w, /wp-content/uploads/2015/09/1-210x142.png 210w, /wp-content/uploads/2015/09/1.png 1022w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/2-2/'><img width="300" height="203" src="/wp-content/uploads/2015/09/2-300x203.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/2-300x203.png 300w, /wp-content/uploads/2015/09/2-400x271.png 400w, /wp-content/uploads/2015/09/2-210x142.png 210w, /wp-content/uploads/2015/09/2.png 1021w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/4-2/'><img width="300" height="203" src="/wp-content/uploads/2015/09/4-300x203.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/4-300x203.png 300w, /wp-content/uploads/2015/09/4-400x271.png 400w, /wp-content/uploads/2015/09/4-210x142.png 210w, /wp-content/uploads/2015/09/4.png 1021w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/5-2/'><img width="300" height="203" src="/wp-content/uploads/2015/09/5-300x203.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/5-300x203.png 300w, /wp-content/uploads/2015/09/5-1024x693.png 1024w, /wp-content/uploads/2015/09/5-400x271.png 400w, /wp-content/uploads/2015/09/5-210x142.png 210w, /wp-content/uploads/2015/09/5.png 1025w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>With bunch of graphics and little texts, the opening shows how to navigate and interact in the virtual world, and gives an intro about the Index. It’s like the traditional motion graphic voice-over video, yet it’s 3D and interactable.</p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Andale Mono', Times;"><strong>MAP</strong></span></p>
+<p>Map is the major part of Big Mac Index VR. There are two kinds of data: first one is “How many Big Mac you can buy with $10 value equivalent in the currency?”, second one is: “The valuation of the currency compared with US Dollar”. For each one, I use burger tower and color of map to represent it. Throughout different time periods, the height of the burger tower and the color of the map change.</p>
+<p><a href="/wp-content/uploads/2015/09/views.png"><img loading="lazy" class="alignnone size-full wp-image-2365" src="/wp-content/uploads/2015/09/views.png" alt="views" width="965" height="536" srcset="/wp-content/uploads/2015/09/views.png 965w, /wp-content/uploads/2015/09/views-300x167.png 300w, /wp-content/uploads/2015/09/views-400x222.png 400w, /wp-content/uploads/2015/09/views-210x117.png 210w" sizes="(max-width: 965px) 100vw, 965px" /></a></p>
+<p>There are also two modes for how to display the data, one is automatic time passing by (default), another one is being designated. By tilting the headset 90 degree clockwise, the menu is toggled up to be chosen from. Once it&#8217;s not in auto mode, the time period appears in the sky for be chosen, and the map only shows data for specific year.</p>
+<p><a href='/summer-throwback-two-big-mac-index-vr/6-2/'><img width="300" height="199" src="/wp-content/uploads/2015/09/6-300x199.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/6-300x199.png 300w, /wp-content/uploads/2015/09/6-400x265.png 400w, /wp-content/uploads/2015/09/6-210x139.png 210w, /wp-content/uploads/2015/09/6.png 1022w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/9-2/'><img width="300" height="199" src="/wp-content/uploads/2015/09/9-300x199.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/9-300x199.png 300w, /wp-content/uploads/2015/09/9-400x265.png 400w, /wp-content/uploads/2015/09/9-210x139.png 210w, /wp-content/uploads/2015/09/9.png 1023w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/8-2/'><img width="300" height="199" src="/wp-content/uploads/2015/09/8-300x199.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/8-300x199.png 300w, /wp-content/uploads/2015/09/8.png 1024w, /wp-content/uploads/2015/09/8-400x265.png 400w, /wp-content/uploads/2015/09/8-210x139.png 210w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/7-2/'><img width="300" height="198" src="/wp-content/uploads/2015/09/7-300x198.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/7-300x198.png 300w, /wp-content/uploads/2015/09/7-400x264.png 400w, /wp-content/uploads/2015/09/7-210x139.png 210w, /wp-content/uploads/2015/09/7.png 1022w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Andale Mono', Times;"><strong>COMPARISON</strong></span></p>
+<p>Still in progress :) It&#8217;s for clear comparison in small group with selected countries.</p>
+<p><a href="/wp-content/uploads/2015/09/11.png"><img loading="lazy" class="alignnone size-full wp-image-2359" src="/wp-content/uploads/2015/09/11.png" alt="11" width="1019" height="670" srcset="/wp-content/uploads/2015/09/11.png 1019w, /wp-content/uploads/2015/09/11-300x197.png 300w, /wp-content/uploads/2015/09/11-400x263.png 400w, /wp-content/uploads/2015/09/11-210x138.png 210w" sizes="(max-width: 1019px) 100vw, 1019px" /></a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/summer-throwback-two-big-mac-index-vr/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

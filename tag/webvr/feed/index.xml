@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>WebVR &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/webvr/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Sun, 25 Mar 2018 21:43:52 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Sleep Together</title>
+		<link>/sleep-together/</link>
+					<comments>/sleep-together/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sun, 25 Mar 2018 21:43:52 +0000</pubDate>
+				<category><![CDATA[Personal project]]></category>
+		<category><![CDATA[Daily Life VR]]></category>
+		<category><![CDATA[doclab]]></category>
+		<category><![CDATA[idfa]]></category>
+		<category><![CDATA[nfb]]></category>
+		<category><![CDATA[three.js]]></category>
+		<category><![CDATA[VR]]></category>
+		<category><![CDATA[WebVR]]></category>
+		<guid isPermaLink="false">/?p=2704</guid>
+
+					<description><![CDATA[Sleep Together is a virtual reality group experience for people to use before going to sleep. In 60 seconds, participant (a.k.a. sleepyhead) will go through a series of breathing exercise,... <a class="read-more" href="/sleep-together/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>Sleep Together</strong> is a virtual reality group experience for people to use before going to sleep. In 60 seconds, participant (a.k.a. sleepyhead) will go through a series of breathing exercise, with other sleepyheads floating inside a big bird nest, breathing together.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2721" src="/wp-content/uploads/2018/03/sleep_together_poster_en-copy.jpg" alt="" width="900" height="400" srcset="/wp-content/uploads/2018/03/sleep_together_poster_en-copy.jpg 900w, /wp-content/uploads/2018/03/sleep_together_poster_en-copy-300x133.jpg 300w, /wp-content/uploads/2018/03/sleep_together_poster_en-copy-768x341.jpg 768w, /wp-content/uploads/2018/03/sleep_together_poster_en-copy-400x178.jpg 400w, /wp-content/uploads/2018/03/sleep_together_poster_en-copy-210x93.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></p>
+<p>I&#8217;m very lucky to make one of the 10 #veryveryshort projects, produced by NFB and ARTE, and co-commissioned by IDFA DocLab. The idea is to create something short yet sweet, because &#8220;Life is short, very very short.&#8221;</p>
+<p>Continuing the idea of <strong>Daily Life VR</strong> &#8211; a WebVR series about life’s most basic and essential pursuits, I installed Sleep Together for the sleep aspect of life.</p>
+<p>&nbsp;</p>
+<p><strong>Storyboard</strong></p>
+<p><a href='/sleep-together/attachment/0/'><img width="300" height="193" src="/wp-content/uploads/2018/03/0-300x193.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/0-300x193.jpg 300w, /wp-content/uploads/2018/03/0-400x258.jpg 400w, /wp-content/uploads/2018/03/0-210x135.jpg 210w, /wp-content/uploads/2018/03/0.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/1-1/'><img width="300" height="192" src="/wp-content/uploads/2018/03/1-1-300x192.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/1-1-300x192.jpg 300w, /wp-content/uploads/2018/03/1-1-400x256.jpg 400w, /wp-content/uploads/2018/03/1-1-210x135.jpg 210w, /wp-content/uploads/2018/03/1-1.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/1-2-2/'><img width="300" height="191" src="/wp-content/uploads/2018/03/1-2-300x191.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/1-2-300x191.jpg 300w, /wp-content/uploads/2018/03/1-2-400x255.jpg 400w, /wp-content/uploads/2018/03/1-2-210x134.jpg 210w, /wp-content/uploads/2018/03/1-2.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/1-3-2/'><img width="300" height="196" src="/wp-content/uploads/2018/03/1-3-300x196.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/1-3-300x196.jpg 300w, /wp-content/uploads/2018/03/1-3-400x262.jpg 400w, /wp-content/uploads/2018/03/1-3-210x137.jpg 210w, /wp-content/uploads/2018/03/1-3.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/2-6/'><img width="300" height="190" src="/wp-content/uploads/2018/03/2-300x190.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/2-300x190.jpg 300w, /wp-content/uploads/2018/03/2-400x254.jpg 400w, /wp-content/uploads/2018/03/2-210x133.jpg 210w, /wp-content/uploads/2018/03/2.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/3-4/'><img width="300" height="191" src="/wp-content/uploads/2018/03/3-300x191.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/3-300x191.jpg 300w, /wp-content/uploads/2018/03/3-400x255.jpg 400w, /wp-content/uploads/2018/03/3-210x134.jpg 210w, /wp-content/uploads/2018/03/3.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/4-6/'><img width="300" height="192" src="/wp-content/uploads/2018/03/4-300x192.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/4-300x192.jpg 300w, /wp-content/uploads/2018/03/4-400x256.jpg 400w, /wp-content/uploads/2018/03/4-210x135.jpg 210w, /wp-content/uploads/2018/03/4.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/5-3/'><img width="300" height="188" src="/wp-content/uploads/2018/03/5-300x188.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/5-300x188.png 300w, /wp-content/uploads/2018/03/5-400x250.png 400w, /wp-content/uploads/2018/03/5-210x131.png 210w, /wp-content/uploads/2018/03/5.png 512w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/sleep-together/6-4/'><img width="300" height="191" src="/wp-content/uploads/2018/03/6-300x191.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/6-300x191.png 300w, /wp-content/uploads/2018/03/6-400x255.png 400w, /wp-content/uploads/2018/03/6-210x134.png 210w, /wp-content/uploads/2018/03/6.png 512w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>&nbsp;</p>
+<p><strong>Moving Schematic</strong></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2731" src="/wp-content/uploads/2018/03/eye_contact_s.jpg" alt="" width="900" height="281" srcset="/wp-content/uploads/2018/03/eye_contact_s.jpg 900w, /wp-content/uploads/2018/03/eye_contact_s-300x94.jpg 300w, /wp-content/uploads/2018/03/eye_contact_s-768x240.jpg 768w, /wp-content/uploads/2018/03/eye_contact_s-400x125.jpg 400w, /wp-content/uploads/2018/03/eye_contact_s-210x66.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></p>
+<p>&nbsp;</p>
+<p><strong>Extracts of Experience</strong></p>
+<p><img loading="lazy" class="alignnone size-full" src="https://media.giphy.com/media/5q23a6tq467aZ7Uvle/giphy.gif" width="480" height="222" /></p>
+<p><img loading="lazy" class="alignnone size-full" src="https://media.giphy.com/media/mntaQ4uSTudCt5lUg2/giphy.gif" width="480" height="212" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2712" src="/wp-content/uploads/2018/03/IMG_5588.png" alt="" width="680" height="382" srcset="/wp-content/uploads/2018/03/IMG_5588.png 680w, /wp-content/uploads/2018/03/IMG_5588-300x169.png 300w, /wp-content/uploads/2018/03/IMG_5588-400x225.png 400w, /wp-content/uploads/2018/03/IMG_5588-210x118.png 210w" sizes="(max-width: 680px) 100vw, 680px" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2736" src="/wp-content/uploads/2018/03/IMG_5605.png" alt="" width="680" height="382" srcset="/wp-content/uploads/2018/03/IMG_5605.png 680w, /wp-content/uploads/2018/03/IMG_5605-300x169.png 300w, /wp-content/uploads/2018/03/IMG_5605-400x225.png 400w, /wp-content/uploads/2018/03/IMG_5605-210x118.png 210w" sizes="(max-width: 680px) 100vw, 680px" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2735" src="/wp-content/uploads/2018/03/IMG_5600.png" alt="" width="680" height="382" srcset="/wp-content/uploads/2018/03/IMG_5600.png 680w, /wp-content/uploads/2018/03/IMG_5600-300x169.png 300w, /wp-content/uploads/2018/03/IMG_5600-400x225.png 400w, /wp-content/uploads/2018/03/IMG_5600-210x118.png 210w" sizes="(max-width: 680px) 100vw, 680px" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2737" src="/wp-content/uploads/2018/03/IMG_5609.png" alt="" width="680" height="382" srcset="/wp-content/uploads/2018/03/IMG_5609.png 680w, /wp-content/uploads/2018/03/IMG_5609-300x169.png 300w, /wp-content/uploads/2018/03/IMG_5609-400x225.png 400w, /wp-content/uploads/2018/03/IMG_5609-210x118.png 210w" sizes="(max-width: 680px) 100vw, 680px" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2713" src="/wp-content/uploads/2018/03/IMG_5590.png" alt="" width="680" height="382" srcset="/wp-content/uploads/2018/03/IMG_5590.png 680w, /wp-content/uploads/2018/03/IMG_5590-300x169.png 300w, /wp-content/uploads/2018/03/IMG_5590-400x225.png 400w, /wp-content/uploads/2018/03/IMG_5590-210x118.png 210w" sizes="(max-width: 680px) 100vw, 680px" /></p>
+<p>&nbsp;</p>
+<p>And I&#8217;m also fortunate to share it with people in IDFA DocLab 2017 :)</p>
+<p><img loading="lazy" class="alignnone wp-image-2733" src="/wp-content/uploads/2018/03/IMG_5079.jpg" alt="" width="683" height="512" srcset="/wp-content/uploads/2018/03/IMG_5079.jpg 900w, /wp-content/uploads/2018/03/IMG_5079-300x225.jpg 300w, /wp-content/uploads/2018/03/IMG_5079-768x576.jpg 768w, /wp-content/uploads/2018/03/IMG_5079-400x300.jpg 400w, /wp-content/uploads/2018/03/IMG_5079-210x158.jpg 210w" sizes="(max-width: 683px) 100vw, 683px" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2720" src="/wp-content/uploads/2018/03/23596197_2007230156215033_4829513217648623616_n-copy.jpg" alt="" width="680" height="680" srcset="/wp-content/uploads/2018/03/23596197_2007230156215033_4829513217648623616_n-copy.jpg 680w, /wp-content/uploads/2018/03/23596197_2007230156215033_4829513217648623616_n-copy-150x150.jpg 150w, /wp-content/uploads/2018/03/23596197_2007230156215033_4829513217648623616_n-copy-300x300.jpg 300w, /wp-content/uploads/2018/03/23596197_2007230156215033_4829513217648623616_n-copy-400x400.jpg 400w, /wp-content/uploads/2018/03/23596197_2007230156215033_4829513217648623616_n-copy-210x210.jpg 210w" sizes="(max-width: 680px) 100vw, 680px" /></p>
+<p><img loading="lazy" class="alignnone wp-image-2738" src="/wp-content/uploads/2018/03/logos.png" alt="" width="673" height="154" srcset="/wp-content/uploads/2018/03/logos.png 900w, /wp-content/uploads/2018/03/logos-300x69.png 300w, /wp-content/uploads/2018/03/logos-768x176.png 768w, /wp-content/uploads/2018/03/logos-400x92.png 400w, /wp-content/uploads/2018/03/logos-210x48.png 210w" sizes="(max-width: 673px) 100vw, 673px" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/sleep-together/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tzina: Symphony of Longing</title>
+		<link>/tzina-symphony-of-longing/</link>
+					<comments>/tzina-symphony-of-longing/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sun, 25 Mar 2018 17:13:06 +0000</pubDate>
+				<category><![CDATA[Work]]></category>
+		<category><![CDATA[animation]]></category>
+		<category><![CDATA[three.js]]></category>
+		<category><![CDATA[WebVR]]></category>
+		<guid isPermaLink="false">/?p=2674</guid>
+
+					<description><![CDATA[Tzina: Symphony of Longing is a WebVR documentary about people inhabited Tzina Dizengoff square, talking about their lives, love, and loneliness. The square was demolished at the beginning of 2017. Created... <a class="read-more" href="/tzina-symphony-of-longing/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="alignnone size-full wp-image-2675" src="/wp-content/uploads/2018/03/cover_tzina.jpg" alt="" width="1034" height="594" srcset="/wp-content/uploads/2018/03/cover_tzina.jpg 1034w, /wp-content/uploads/2018/03/cover_tzina-300x172.jpg 300w, /wp-content/uploads/2018/03/cover_tzina-768x441.jpg 768w, /wp-content/uploads/2018/03/cover_tzina-1024x588.jpg 1024w, /wp-content/uploads/2018/03/cover_tzina-400x230.jpg 400w, /wp-content/uploads/2018/03/cover_tzina-210x121.jpg 210w" sizes="(max-width: 1034px) 100vw, 1034px" /></p>
+<p><strong>Tzina: Symphony of Longing</strong> is a WebVR documentary about people inhabited Tzina Dizengoff square, talking about their lives, love, and loneliness. The square was demolished at the beginning of 2017.</p>
+<p>Created and directed by <a href="https://www.shirin.works/">Shirin Anlen</a>, the project invites the viewer for a physical walk to explore the square, to visit and hear the characters, at different times of the day. It&#8217;s made by Shirin, ​<a href="http://portfolio.ziv.bz/">Ziv Schneider</a>, <a href="http://phenomenalabs.com/">Or Fleisher</a>, ​<a href="http://avner.js.org/">Avner Peled</a>, and me. Read more here: <a href="https://www.shirin.works/tzina-symphony-of-longing">shirin.works/tzina-symphony-of-longing</a></p>
+<p>I was invited to join the team in Summer 2016, to create the back-animation for the character interviews, which were captured with <a href="http://www.depthkit.tv/">DepthKit</a>. It&#8217;s a pleasant process to discuss with director Shirin, from her understanding of the people she interviewed and her visions, to my interpretation and visualization.</p>
+<p>For me, it&#8217;s an interesting yet challenging task to maintain the balance of interpretation. I learned how to intrigue viewers without overshadowing the monologue, and am really happy with the result of magical feeling. I feel I might purposefully highlight the more lovely moment of each characters stories, and I hope I did a not-bad-job in the end to try to interpret their lives :)</p>
+<p>&nbsp;</p>
+<p><strong>Characters sketch</strong></p>
+<p>&nbsp;</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2677" src="/wp-content/uploads/2018/03/haim.jpg" alt="" width="934" height="500" srcset="/wp-content/uploads/2018/03/haim.jpg 934w, /wp-content/uploads/2018/03/haim-300x161.jpg 300w, /wp-content/uploads/2018/03/haim-768x411.jpg 768w, /wp-content/uploads/2018/03/haim-400x214.jpg 400w, /wp-content/uploads/2018/03/haim-210x112.jpg 210w" sizes="(max-width: 934px) 100vw, 934px" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2678" src="/wp-content/uploads/2018/03/itzik.jpg" alt="" width="1268" height="500" srcset="/wp-content/uploads/2018/03/itzik.jpg 1268w, /wp-content/uploads/2018/03/itzik-300x118.jpg 300w, /wp-content/uploads/2018/03/itzik-768x303.jpg 768w, /wp-content/uploads/2018/03/itzik-1024x404.jpg 1024w, /wp-content/uploads/2018/03/itzik-400x158.jpg 400w, /wp-content/uploads/2018/03/itzik-210x83.jpg 210w" sizes="(max-width: 1268px) 100vw, 1268px" /></p>
+<p><a href='/wp-content/uploads/2018/03/Lupo.jpg'><img width="300" height="241" src="/wp-content/uploads/2018/03/Lupo-300x241.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/Lupo-300x241.jpg 300w, /wp-content/uploads/2018/03/Lupo-768x616.jpg 768w, /wp-content/uploads/2018/03/Lupo-400x321.jpg 400w, /wp-content/uploads/2018/03/Lupo-210x168.jpg 210w, /wp-content/uploads/2018/03/Lupo.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/wp-content/uploads/2018/03/Miriam.jpg'><img width="300" height="198" src="/wp-content/uploads/2018/03/Miriam-300x198.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2018/03/Miriam-300x198.jpg 300w, /wp-content/uploads/2018/03/Miriam-400x263.jpg 400w, /wp-content/uploads/2018/03/Miriam-210x138.jpg 210w, /wp-content/uploads/2018/03/Miriam.jpg 700w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>&nbsp;</p>
+<p><strong>Process Stills</strong></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2691" src="/wp-content/uploads/2018/03/Screen-Shot-2016-08-13-at-7.05.00-PM-copy.png" alt="" width="1000" height="452" srcset="/wp-content/uploads/2018/03/Screen-Shot-2016-08-13-at-7.05.00-PM-copy.png 1000w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-13-at-7.05.00-PM-copy-300x136.png 300w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-13-at-7.05.00-PM-copy-768x347.png 768w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-13-at-7.05.00-PM-copy-400x181.png 400w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-13-at-7.05.00-PM-copy-210x95.png 210w" sizes="(max-width: 1000px) 100vw, 1000px" /> <img loading="lazy" class="alignnone size-full wp-image-2692" src="/wp-content/uploads/2018/03/Screen-Shot-2016-08-16-at-1.06.22-PM-copy.png" alt="" width="1000" height="429" srcset="/wp-content/uploads/2018/03/Screen-Shot-2016-08-16-at-1.06.22-PM-copy.png 1000w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-16-at-1.06.22-PM-copy-300x129.png 300w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-16-at-1.06.22-PM-copy-768x329.png 768w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-16-at-1.06.22-PM-copy-400x172.png 400w, /wp-content/uploads/2018/03/Screen-Shot-2016-08-16-at-1.06.22-PM-copy-210x90.png 210w" sizes="(max-width: 1000px) 100vw, 1000px" /> <img loading="lazy" class="alignnone size-full wp-image-2693" src="/wp-content/uploads/2018/03/Screen-Shot-2017-02-09-at-6.20.23-AM-copy.png" alt="" width="1000" height="552" srcset="/wp-content/uploads/2018/03/Screen-Shot-2017-02-09-at-6.20.23-AM-copy.png 1000w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-09-at-6.20.23-AM-copy-300x166.png 300w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-09-at-6.20.23-AM-copy-768x424.png 768w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-09-at-6.20.23-AM-copy-400x221.png 400w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-09-at-6.20.23-AM-copy-210x116.png 210w" sizes="(max-width: 1000px) 100vw, 1000px" /> <img loading="lazy" class="alignnone size-full wp-image-2694" src="/wp-content/uploads/2018/03/Screen-Shot-2017-02-11-at-12.08.32-PM-copy.png" alt="" width="1000" height="514" srcset="/wp-content/uploads/2018/03/Screen-Shot-2017-02-11-at-12.08.32-PM-copy.png 1000w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-11-at-12.08.32-PM-copy-300x154.png 300w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-11-at-12.08.32-PM-copy-768x395.png 768w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-11-at-12.08.32-PM-copy-400x206.png 400w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-11-at-12.08.32-PM-copy-210x108.png 210w" sizes="(max-width: 1000px) 100vw, 1000px" /> <img loading="lazy" class="alignnone size-full wp-image-2695" src="/wp-content/uploads/2018/03/Screen-Shot-2017-02-17-at-1.04.04-AM-copy.png" alt="" width="1000" height="514" srcset="/wp-content/uploads/2018/03/Screen-Shot-2017-02-17-at-1.04.04-AM-copy.png 1000w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-17-at-1.04.04-AM-copy-300x154.png 300w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-17-at-1.04.04-AM-copy-768x395.png 768w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-17-at-1.04.04-AM-copy-400x206.png 400w, /wp-content/uploads/2018/03/Screen-Shot-2017-02-17-at-1.04.04-AM-copy-210x108.png 210w" sizes="(max-width: 1000px) 100vw, 1000px" /></p>
+<p><strong>Animation Extracts</strong></p>
+<p><img loading="lazy" class="alignnone size-full" src="https://media.giphy.com/media/9FZmJ7LAhxfZCPCWBS/giphy.gif" width="480" height="226" /></p>
+<p><img loading="lazy" class="alignnone size-full" src="https://media.giphy.com/media/6Ee0lcHQpikBZ0AFU4/giphy.gif" width="480" height="204" /></p>
+<p><img loading="lazy" class="alignnone size-full" src="https://media.giphy.com/media/KWwOSKTPiYgEhDdJ5L/giphy.gif" width="480" height="300" /></p>
+<p><img loading="lazy" class="alignnone size-full" src="https://media.giphy.com/media/9RWeq9aHbzUSUSdMvq/giphy.gif" width="480" height="256" /></p>
+<p><img loading="lazy" class="alignnone size-full" src="https://media.giphy.com/media/7zSivJEw6t1iFzkpKO/giphy.gif" width="480" height="316" /></p>
+<p><iframe loading="lazy" width="500" height="281" src="https://www.youtube.com/embed/DdsKuAUBSLE?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/tzina-symphony-of-longing/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

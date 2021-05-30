@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>test &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/test/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Fri, 20 Nov 2015 22:17:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Ani_Butter Test Shot</title>
+		<link>/ani_butter-test-shot/</link>
+					<comments>/ani_butter-test-shot/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Wed, 06 Nov 2013 06:56:58 +0000</pubDate>
+				<category><![CDATA[Animation]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[fantasy]]></category>
+		<category><![CDATA[group]]></category>
+		<category><![CDATA[ohyay]]></category>
+		<category><![CDATA[test]]></category>
+		<category><![CDATA[video]]></category>
+		<guid isPermaLink="false">/?p=361</guid>
+
+					<description><![CDATA[which is totally useable! Working on Sunday to pull it off. Setting up took the most of the time, and the filming was definitely less than 1 hour&#8230; But it&#8217;s... <a class="read-more" href="/ani_butter-test-shot/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>which is totally useable!</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/78509659" width="800" height="450" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/78510375" width="800" height="450" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Working on Sunday to pull it off. Setting up took the most of the time, and the filming was definitely less than 1 hour&#8230; But it&#8217;s totally worth it! What a lovely home of a little cube of Butter. And <a href="http://make.kategodwin.com/" target="_blank">Kate</a> showed magic to knit the rug. UNBELIEVABLE. It&#8217;s a magical world of cardboard and bread :D</p>
+<p>&nbsp;</p>
+<p><a href='/ani_butter-test-shot/set/'><img width="150" height="150" src="/wp-content/uploads/2013/11/set-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/ani_butter-test-shot/equipments/'><img width="150" height="150" src="/wp-content/uploads/2013/11/equipments-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/ani_butter-test-shot/homeofbutter/'><img width="150" height="150" src="/wp-content/uploads/2013/11/homeofbutter-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/ani_butter-test-shot/closet/'><img width="150" height="150" src="/wp-content/uploads/2013/11/closet-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/ani_butter-test-shot/curtains/'><img width="150" height="150" src="/wp-content/uploads/2013/11/curtains-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/ani_butter-test-shot/frames/'><img width="150" height="150" src="/wp-content/uploads/2013/11/frames-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+<p style="text-align: left;">More to come :)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/ani_butter-test-shot/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Blog &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/category/blog/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Sun, 11 Oct 2020 20:50:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>David Bowie Is &#8211; AR Exhibition</title>
+		<link>/david-bowie-is/</link>
+					<comments>/david-bowie-is/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sat, 17 Aug 2019 21:09:47 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[AR]]></category>
+		<category><![CDATA[exhibition]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[Unity]]></category>
+		<guid isPermaLink="false">/?p=3064</guid>
+
+					<description><![CDATA[David Bowie Is &#8211; AR Exhibition, is an AR project by The David Bowie Archive, Sony Music Entertainment (Japan) Inc. and Planeta. In this post, I jotted down some of... <a class="read-more" href="/david-bowie-is/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<figure class="wp-block-image size-large is-resized"><img loading="lazy" src="/wp-content/uploads/2019/03/16x9-1024x576.jpg" alt="" class="wp-image-2863" width="512" height="288" srcset="/wp-content/uploads/2019/03/16x9-1024x576.jpg 1024w, /wp-content/uploads/2019/03/16x9-300x169.jpg 300w, /wp-content/uploads/2019/03/16x9-768x432.jpg 768w, /wp-content/uploads/2019/03/16x9-400x225.jpg 400w, /wp-content/uploads/2019/03/16x9-210x118.jpg 210w, /wp-content/uploads/2019/03/16x9.jpg 1200w" sizes="(max-width: 512px) 100vw, 512px" /></figure>
+<p><a rel="noreferrer noopener" aria-label="David Bowie Is - AR Exhibition (opens in a new tab)" href="https://davidbowieisreal.com/" target="_blank">David Bowie Is &#8211; AR Exhibition</a>, is an AR project by The David Bowie Archive, Sony Music Entertainment (Japan) Inc. and Planeta. In this post, I jotted down some of my development as Lead Developer, under Director Nick Dangerfield, Art Direction Seth Tillett, and Tech Director Dan Brewster.</p>
+<figure class="wp-block-image is-resized"><img loading="lazy" src="/wp-content/uploads/2019/08/IMG_7817.png" alt="" class="wp-image-3104" width="514" height="289" srcset="/wp-content/uploads/2019/08/IMG_7817.png 1000w, /wp-content/uploads/2019/08/IMG_7817-300x169.png 300w, /wp-content/uploads/2019/08/IMG_7817-768x432.png 768w, /wp-content/uploads/2019/08/IMG_7817-400x225.png 400w, /wp-content/uploads/2019/08/IMG_7817-210x118.png 210w" sizes="(max-width: 514px) 100vw, 514px" /></figure>
+<div style="height:33px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Paper Interaction</strong></p>
+<p>The irl exhibition has a lot of 2D materials, and for browsing them in a mobile app, there is a subtle balance we want to maintain, a balance between <strong>efficiency</strong> and <strong>AR-ness</strong>. We tried several ways, shuffle, fade in/out, but ultimately it feels the most natural to see them laying or leaning on some sort of surface. </p>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile is-image-fill" style="grid-template-columns:64% auto">
+<figure class="wp-block-media-text__media" style="background-image:url(/wp-content/uploads/2019/08/paper_move.jpg);background-position:50% 50%"><img loading="lazy" width="900" height="506" src="/wp-content/uploads/2019/08/paper_move.jpg" alt="" class="wp-image-3099" srcset="/wp-content/uploads/2019/08/paper_move.jpg 900w, /wp-content/uploads/2019/08/paper_move-300x169.jpg 300w, /wp-content/uploads/2019/08/paper_move-768x432.jpg 768w, /wp-content/uploads/2019/08/paper_move-400x225.jpg 400w, /wp-content/uploads/2019/08/paper_move-210x118.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+<div class="wp-block-media-text__content">
+<p>And just like how you would expect and do in real life, we made the 2D materials move with your fingertip. </p>
+</div>
+</div>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/paper.mp4"></video></figure>
+<p class="has-text-align-center">The effect especially works great on small paper cutout.<br />(<em>Note</em> &#8211; all videos in the post are direct screen recordings on my old iPhone6s)</p>
+<p>And as a tabletop AR, some 2D artifacts need to be stacked in order for all to fit in, thus we need to a way to shuffle them. </p>
+<div class="wp-block-media-text alignwide is-image-fill" style="grid-template-columns:68% auto">
+<figure class="wp-block-media-text__media" style="background-image:url(/wp-content/uploads/2019/08/paper_stack-1.jpg);background-position:50% 50%"><img loading="lazy" width="900" height="506" src="/wp-content/uploads/2019/08/paper_stack-1.jpg" alt="" class="wp-image-3094" srcset="/wp-content/uploads/2019/08/paper_stack-1.jpg 900w, /wp-content/uploads/2019/08/paper_stack-1-300x169.jpg 300w, /wp-content/uploads/2019/08/paper_stack-1-768x432.jpg 768w, /wp-content/uploads/2019/08/paper_stack-1-400x225.jpg 400w, /wp-content/uploads/2019/08/paper_stack-1-210x118.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+<div class="wp-block-media-text__content">
+<p>After testing, we found out that, bringing the &#8220;focus&#8221; artifact to the front of the stack after being sent back, feels the most natural and intuitive.</p>
+</div>
+</div>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/sort.mov"></video></figure>
+<p class="has-text-align-center">Paper stack shuffle.</p>
+<div style="height:38px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Scene Changes Mask</strong></p>
+<p>To pack the whole physical show into a tabletop AR mobile app, it is important to find a way to navigate the rich contents.</p>
+<blockquote style="text-align:center" class="wp-block-quote is-style-large">
+<p style="font-family: Helvetica; font-size: 1.1em; margin-bottom:0px"> It includes over 400 high resolution captures of David Bowie’s costumes, sketches, handwritten lyrics, notes, music videos and original works of art are presented in striking arrangements and immersive settings, as well as dozens of never before seen items, including archival videos, drawings, photographs, and notes.</p>
+<p><cite style="font-size: 0.6em"><a href="https://davidbowieisreal.com/">davidbowieisreal.com</a></cite></p></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center is-image-fill" style="grid-template-columns:65% auto">
+<figure class="wp-block-media-text__media" style="background-image:url(/wp-content/uploads/2019/08/menu.jpg);background-position:51% 52%"><img loading="lazy" width="900" height="506" src="/wp-content/uploads/2019/08/menu.jpg" alt="" class="wp-image-3098" srcset="/wp-content/uploads/2019/08/menu.jpg 900w, /wp-content/uploads/2019/08/menu-300x169.jpg 300w, /wp-content/uploads/2019/08/menu-768x432.jpg 768w, /wp-content/uploads/2019/08/menu-400x225.jpg 400w, /wp-content/uploads/2019/08/menu-210x118.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+<div class="wp-block-media-text__content">
+<p>Within the show, we decided to condense each section into a digestible <em>Diorama</em>, and make them navigable through a map.</p>
+<p>And within each diorama, we need to make some sub-scene changes as well to accommodate all the contents.</p>
+</div>
+</div>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile is-image-fill" style="grid-template-columns:65% auto">
+<figure class="wp-block-media-text__media" style="background-image:url(/wp-content/uploads/2019/08/slider_mask.jpg);background-position:50% 50%"><img loading="lazy" width="900" height="506" src="/wp-content/uploads/2019/08/slider_mask.jpg" alt="" class="wp-image-3097" srcset="/wp-content/uploads/2019/08/slider_mask.jpg 900w, /wp-content/uploads/2019/08/slider_mask-300x169.jpg 300w, /wp-content/uploads/2019/08/slider_mask-768x432.jpg 768w, /wp-content/uploads/2019/08/slider_mask-400x225.jpg 400w, /wp-content/uploads/2019/08/slider_mask-210x118.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+<div class="wp-block-media-text__content">
+<p>For this, I used a lot of invisible 3D mask.</p>
+<p>The mask uses depth buffer to occlude and prevent the contents from being shown. It is a simple but effective graphic trick, and more can be found <a rel="noreferrer noopener" href="http://wiki.unity3d.com/index.php?title=DepthMask" target="_blank">here</a>. </p>
+</div>
+</div>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/hunger.mp4"></video></figure>
+<p class="has-text-align-center">For example in <em>Hunger City</em>, two masks are places on the sides of the stage, to hide the off-stage contents.</p>
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Scene Making</strong></p>
+<p>Under the guidance of Director and Art Director and with feedback from the whole development team, I build the AR scenes including: Early Influences, Space Oddity, Cultural Influences, Songwriting, Recording, Characters, Collaborations, Life On Mars, Ziggy Stardust, Hunger City, Stage and Screen, New York, and Black &amp; White Years. Below are the in-app screen recording of some of those scenes.</p>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/early.mp4"></video></figure>
+<p class="has-text-align-center">Early Influences</p>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/hunger_transition.mp4"></video></figure>
+<p class="has-text-align-center">Hunger City</p>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/bnw.mp4"></video></figure>
+<p class="has-text-align-center">Black and White Years</p>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/s_n_s.mp4"></video></figure>
+<p class="has-text-align-center">Stage and Screen</p>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/ny.mp4"></video></figure>
+<p class="has-text-align-center">New York</p>
+<figure class="wp-block-video aligncenter"><video autoplay loop muted style="height:600px" src="/wp-content/uploads/2019/08/ziggy_.mp4"></video></figure>
+<p class="has-text-align-center">Ziggy Stardust</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/david-bowie-is/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		<enclosure url="/wp-content/uploads/2019/08/paper.mp4" length="3093927" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/sort.mov" length="8745823" type="video/quicktime" />
+<enclosure url="/wp-content/uploads/2019/08/hunger.mp4" length="4716610" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/early.mp4" length="2776595" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/hunger_transition.mp4" length="6500929" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/bnw.mp4" length="4466937" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/s_n_s.mp4" length="3097039" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/ny.mp4" length="4357604" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/ziggy_.mp4" length="12887943" type="video/mp4" />
+
+			</item>
+		<item>
+		<title>Lost and to Find</title>
+		<link>/lost-and-to-find/</link>
+					<comments>/lost-and-to-find/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Thu, 08 Aug 2019 14:22:39 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<guid isPermaLink="false">/?p=2914</guid>
+
+					<description><![CDATA[Slowly starting working on a personal project &#8220;Lost and to Find&#8221;, it&#8217;s a point &#38; click browser based exploration with chapters of Lazy, Same, Jealous, Unconfident, No Likes, and Can&#8217;t... <a class="read-more" href="/lost-and-to-find/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>Slowly starting working on a personal project &#8220;Lost and to Find&#8221;, it&#8217;s a point &amp; click browser based exploration with chapters of <em>Lazy</em>, <em>Same</em>, <em>Jealous</em>, <em>Unconfident</em>, <em>No Likes</em>, and <em>Can&#8217;t See</em>. ( i know! it&#8217;s so cheesy ;) )</p>
+<figure class="wp-block-image is-resized"><img loading="lazy" src="/wp-content/uploads/2019/08/Screen-Shot-2019-06-15-at-4.25.02-PM-1024x397.png" alt="" class="wp-image-2915" width="567" height="221" srcset="/wp-content/uploads/2019/08/Screen-Shot-2019-06-15-at-4.25.02-PM-1024x397.png 1024w, /wp-content/uploads/2019/08/Screen-Shot-2019-06-15-at-4.25.02-PM-300x116.png 300w, /wp-content/uploads/2019/08/Screen-Shot-2019-06-15-at-4.25.02-PM-768x298.png 768w, /wp-content/uploads/2019/08/Screen-Shot-2019-06-15-at-4.25.02-PM-400x155.png 400w, /wp-content/uploads/2019/08/Screen-Shot-2019-06-15-at-4.25.02-PM-210x81.png 210w, /wp-content/uploads/2019/08/Screen-Shot-2019-06-15-at-4.25.02-PM.png 1450w" sizes="(max-width: 567px) 100vw, 567px" /></figure>
+<p>Just wrapped up a mvp version of Chapter Same ↓</p>
+<figure class="wp-block-gallery columns-2 is-cropped">
+<ul class="blocks-gallery-grid">
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="1024" height="561" src="/wp-content/uploads/2019/08/Screen-Shot-2019-07-18-at-11.07.55-PM-1024x561.png" alt="" data-id="2916" data-link="/?attachment_id=2916" class="wp-image-2916" srcset="/wp-content/uploads/2019/08/Screen-Shot-2019-07-18-at-11.07.55-PM-1024x561.png 1024w, /wp-content/uploads/2019/08/Screen-Shot-2019-07-18-at-11.07.55-PM-300x164.png 300w, /wp-content/uploads/2019/08/Screen-Shot-2019-07-18-at-11.07.55-PM-768x421.png 768w, /wp-content/uploads/2019/08/Screen-Shot-2019-07-18-at-11.07.55-PM-400x219.png 400w, /wp-content/uploads/2019/08/Screen-Shot-2019-07-18-at-11.07.55-PM-210x115.png 210w, /wp-content/uploads/2019/08/Screen-Shot-2019-07-18-at-11.07.55-PM.png 1150w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><img loading="lazy" width="1024" height="716" src="/wp-content/uploads/2019/08/Screen-Shot-2019-07-24-at-10.41.43-PM-1024x716.png" alt="" data-id="2917" data-link="/?attachment_id=2917" class="wp-image-2917" srcset="/wp-content/uploads/2019/08/Screen-Shot-2019-07-24-at-10.41.43-PM-1024x716.png 1024w, /wp-content/uploads/2019/08/Screen-Shot-2019-07-24-at-10.41.43-PM-300x210.png 300w, /wp-content/uploads/2019/08/Screen-Shot-2019-07-24-at-10.41.43-PM-768x537.png 768w, /wp-content/uploads/2019/08/Screen-Shot-2019-07-24-at-10.41.43-PM-400x280.png 400w, /wp-content/uploads/2019/08/Screen-Shot-2019-07-24-at-10.41.43-PM-210x147.png 210w, /wp-content/uploads/2019/08/Screen-Shot-2019-07-24-at-10.41.43-PM.png 2044w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</li>
+</ul>
+</figure>
+<p>I will post updates here: <a href="https://jhclaura.tumblr.com/">https://jhclaura.tumblr.com/</a>. Okay back to work!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/lost-and-to-find/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Reminder: Maya =&gt; Blender =&gt; Three.js</title>
+		<link>/reminder-maya-blender-three-js/</link>
+					<comments>/reminder-maya-blender-three-js/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Mon, 28 Aug 2017 00:49:30 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[blender]]></category>
+		<category><![CDATA[Maya]]></category>
+		<category><![CDATA[rigging]]></category>
+		<category><![CDATA[three.js]]></category>
+		<guid isPermaLink="false">/?p=2665</guid>
+
+					<description><![CDATA[AHHH why is it so difficult to export rigged model to Three.js? This is a reminder post of how did I export with correct joint rotations. &#160; [From Maya] &#8211;... <a class="read-more" href="/reminder-maya-blender-three-js/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="alignnone size-full wp-image-2666" src="/wp-content/uploads/2017/08/sleeper.gif" alt="" width="686" height="323" /></p>
+<p>AHHH why is it so difficult to export rigged model to Three.js?</p>
+<p>This is a reminder post of how did I export with correct joint rotations.</p>
+<p>&nbsp;</p>
+<p>[From Maya] &#8211; export selection as FBX, set Up Axis from Y to Z</p>
+<p><img loading="lazy" class="alignnone  wp-image-2667" src="/wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.58-PM.png" alt="" width="563" height="148" srcset="/wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.58-PM.png 700w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.58-PM-300x79.png 300w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.58-PM-400x105.png 400w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.58-PM-210x55.png 210w" sizes="(max-width: 563px) 100vw, 563px" /></p>
+<p>&nbsp;</p>
+<p>[Import to Blender] &#8211; Scale up!</p>
+<p>&nbsp;</p>
+<p>[Export to Three.js] &#8211; Select Mesh and export as Three.js. Geometry: also select &#8220;Bones&#8221; and &#8220;Skinning&#8221;. Type: choose &#8220;Geometry&#8221; instead of BufferGeometry. Skeletal animations: select &#8220;Rest&#8221; instead of &#8220;Pose&#8221;</p>
+<p><img loading="lazy" class="alignnone  wp-image-2668" src="/wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.17.46-PM.png" alt="" width="294" height="364" srcset="/wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.17.46-PM.png 426w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.17.46-PM-242x300.png 242w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.17.46-PM-400x496.png 400w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.17.46-PM-210x260.png 210w" sizes="(max-width: 294px) 100vw, 294px" /> <img loading="lazy" class="alignnone  wp-image-2669" src="/wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.07-PM.png" alt="" width="257" height="364" srcset="/wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.07-PM.png 436w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.07-PM-212x300.png 212w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.07-PM-400x567.png 400w, /wp-content/uploads/2017/08/Screen-Shot-2017-08-27-at-6.18.07-PM-210x298.png 210w" sizes="(max-width: 257px) 100vw, 257px" /></p>
+<p>&nbsp;</p>
+<p>[Import to Three.js] &#8211; Load with THREE.JSONLoader. Set &#8220;skinning: true&#8221; in material. Create with THREE.SkinnedMesh. And finally manipulate with THREE.SkinnedMesh&#8217;s skeleton.bones array.</p>
+<p>&nbsp;</p>
+<p>Geez.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/reminder-maya-blender-three-js/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Chewing Mask on instructables!</title>
+		<link>/chewing-mask-on-instructables/</link>
+					<comments>/chewing-mask-on-instructables/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Mon, 22 May 2017 04:23:22 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Personal project]]></category>
+		<category><![CDATA[chewing]]></category>
+		<category><![CDATA[Daily Life VR]]></category>
+		<category><![CDATA[eat]]></category>
+		<category><![CDATA[MASK]]></category>
+		<guid isPermaLink="false">/?p=2659</guid>
+
+					<description><![CDATA[Yeah finally make one! Time to wrap up the Chapter 2 Eat of Daily Life VR!!! www.instructables.com/id/Chewing-Mask (so long, too long&#8230;)]]></description>
+										<content:encoded><![CDATA[<p>Yeah finally make one! Time to wrap up the Chapter 2 Eat of Daily Life VR!!!</p>
+<p><span style="font-size: 14pt;"><strong><span style="color: #ff6600; font-family: 'Andale Mono', Times;"><a style="color: #ff6600;" href="https://www.instructables.com/id/Chewing-Mask/" target="_blank" rel="noopener noreferrer">www.instructables.com/id/Chewing-Mask</a></span></strong></span></p>
+<div style="width: 280px" class="wp-caption alignnone"><img loading="lazy" class="size-full" src="https://media.giphy.com/media/xfIY8sPUWd344/giphy.gif" width="270" height="480" /></p>
+<p class="wp-caption-text">chew chew chew!</p>
+</div>
+<p>(so long, too long&#8230;)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/chewing-mask-on-instructables/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>[Stupid_Hackathon] Peep Rack / Intestine AR</title>
+		<link>/peep-rack/</link>
+					<comments>/peep-rack/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Tue, 28 Feb 2017 04:07:02 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[analog]]></category>
+		<category><![CDATA[AR]]></category>
+		<category><![CDATA[stupid hackathon]]></category>
+		<guid isPermaLink="false">/?p=2630</guid>
+
+					<description><![CDATA[(Update 3/1) It&#8217;s my honor to give Peep Rack a new name Intestine AR, granted by Stupid Hackathon. For STUPID SHIT NO ONE NEEDS &#38; TERRIBLE IDEAS HACKATHON 2017, I made... <a class="read-more" href="/peep-rack/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="alignnone wp-image-2631" src="/wp-content/uploads/2017/02/PeepRack.jpg" width="2000" height="1125" srcset="/wp-content/uploads/2017/02/PeepRack.jpg 4032w, /wp-content/uploads/2017/02/PeepRack-300x169.jpg 300w, /wp-content/uploads/2017/02/PeepRack-768x432.jpg 768w, /wp-content/uploads/2017/02/PeepRack-1024x576.jpg 1024w, /wp-content/uploads/2017/02/PeepRack-400x225.jpg 400w, /wp-content/uploads/2017/02/PeepRack-210x118.jpg 210w" sizes="(max-width: 2000px) 100vw, 2000px" /></p>
+<p><iframe loading="lazy" src="https://player.vimeo.com/video/205994659?color=c9ff23&amp;portrait=0" width="750" height="422" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>(Update 3/1) It&#8217;s my honor to give Peep Rack a new name <span style="font-family: 'Andale Mono', Times; color: #0be0cf;"><strong>Intestine AR</strong></span>, granted by Stupid Hackathon.</p>
+<p>For <a href="https://stupidhackathon.com/"><em>STUPID SHIT NO ONE NEEDS &amp; TERRIBLE IDEAS HACKATHON 2017</em></a>, I made <span style="font-family: 'Andale Mono', Times; color: #0be0cf;"><strong>Peep Rack</strong></span>, a head-mounted display for you to see the world through intestine, a.k.a. <strong><span style="font-family: 'Times New Roman', Times;"><em>sphincter</em></span></strong>. It&#8217;s analog AR, the combination of <em>Peep Show box</em> and <em>cloth drying rack</em>. Made of wood nails, fragile wood sticks, transparency films, strings, and acrylic paints.</p>
+<p><img width="150" height="150" src="/wp-content/uploads/2017/02/1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" columns="4" link="none" ids="2632,2634,2636,2640" orderby="post__in" include="2632,2634,2636,2640" /><br />
+<img width="150" height="150" src="/wp-content/uploads/2017/02/3-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" columns="4" link="none" ids="2632,2634,2636,2640" orderby="post__in" include="2632,2634,2636,2640" /><br />
+<img width="150" height="150" src="/wp-content/uploads/2017/02/2-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" columns="4" link="none" ids="2632,2634,2636,2640" orderby="post__in" include="2632,2634,2636,2640" /><br />
+<img width="150" height="150" src="/wp-content/uploads/2017/02/4-3-e1488254360130-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" columns="4" link="none" ids="2632,2634,2636,2640" orderby="post__in" include="2632,2634,2636,2640" /></p>
+<p>Because it&#8217;s transparency films, user can create whatever contents they want, and it&#8217;s sharable! Besides the sphincter, I also made a less practical one, containing different moods, scenarios, and functions.</p>
+<p><img loading="lazy" class="alignnone wp-image-2639 size-full" src="/wp-content/uploads/2017/02/PeepRack_useless.png" width="2446" height="1376" srcset="/wp-content/uploads/2017/02/PeepRack_useless.png 2446w, /wp-content/uploads/2017/02/PeepRack_useless-300x169.png 300w, /wp-content/uploads/2017/02/PeepRack_useless-768x432.png 768w, /wp-content/uploads/2017/02/PeepRack_useless-1024x576.png 1024w, /wp-content/uploads/2017/02/PeepRack_useless-400x225.png 400w, /wp-content/uploads/2017/02/PeepRack_useless-210x118.png 210w" sizes="(max-width: 2446px) 100vw, 2446px" /></p>
+<p><img loading="lazy" class="alignnone wp-image-2641" src="/wp-content/uploads/2017/02/IMG_3381.jpg" width="2032" height="1143" srcset="/wp-content/uploads/2017/02/IMG_3381.jpg 4032w, /wp-content/uploads/2017/02/IMG_3381-300x169.jpg 300w, /wp-content/uploads/2017/02/IMG_3381-768x432.jpg 768w, /wp-content/uploads/2017/02/IMG_3381-1024x576.jpg 1024w, /wp-content/uploads/2017/02/IMG_3381-400x225.jpg 400w, /wp-content/uploads/2017/02/IMG_3381-210x118.jpg 210w" sizes="(max-width: 2032px) 100vw, 2032px" /></p>
+<p><span style="color: #ff428e;"><em><span style="font-family: 'Andale Mono', Times;">&lt;&lt; clock, apps, map, life, reminder, target, curtain, snow, grass, ocean &gt;&gt;</span></em></span></p>
+<p><img loading="lazy" class="alignnone wp-image-2643" src="/wp-content/uploads/2017/02/IMG_3400-1.jpg" width="2000" height="1125" srcset="/wp-content/uploads/2017/02/IMG_3400-1.jpg 3876w, /wp-content/uploads/2017/02/IMG_3400-1-300x169.jpg 300w, /wp-content/uploads/2017/02/IMG_3400-1-768x432.jpg 768w, /wp-content/uploads/2017/02/IMG_3400-1-1024x576.jpg 1024w, /wp-content/uploads/2017/02/IMG_3400-1-400x225.jpg 400w, /wp-content/uploads/2017/02/IMG_3400-1-210x118.jpg 210w" sizes="(max-width: 2000px) 100vw, 2000px" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/peep-rack/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>dev blog of Daily Life VR</title>
+		<link>/dev-blog-of-daily-life-vr/</link>
+					<comments>/dev-blog-of-daily-life-vr/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Mon, 10 Oct 2016 02:32:38 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Fall 2016]]></category>
+		<guid isPermaLink="false">/?p=2616</guid>
+
+					<description><![CDATA[Here: about.dailylifevr.com!]]></description>
+										<content:encoded><![CDATA[<p>Here: <a href="http://about.dailylifevr.com/" target="_blank">about.dailylifevr.com</a>!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/dev-blog-of-daily-life-vr/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>[sketch] As One</title>
+		<link>/sketch-as-one/</link>
+					<comments>/sketch-as-one/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Tue, 17 May 2016 02:34:31 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Fall 2016]]></category>
+		<category><![CDATA[MASK]]></category>
+		<guid isPermaLink="false">/?p=2619</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2016/10/AsOne_diagram-2.jpg" target="_blank"><img loading="lazy" class="alignnone wp-image-2622 size-full" src="/wp-content/uploads/2016/10/AsOne_diagram-2.jpg" alt="asone_diagram" width="3500" height="1969" srcset="/wp-content/uploads/2016/10/AsOne_diagram-2.jpg 3500w, /wp-content/uploads/2016/10/AsOne_diagram-2-300x169.jpg 300w, /wp-content/uploads/2016/10/AsOne_diagram-2-768x432.jpg 768w, /wp-content/uploads/2016/10/AsOne_diagram-2-1024x576.jpg 1024w, /wp-content/uploads/2016/10/AsOne_diagram-2-400x225.jpg 400w, /wp-content/uploads/2016/10/AsOne_diagram-2-210x118.jpg 210w" sizes="(max-width: 3500px) 100vw, 3500px" /></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/sketch-as-one/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>5P Iteration_one</title>
+		<link>/5p-iteration_one/</link>
+					<comments>/5p-iteration_one/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sat, 02 Apr 2016 16:58:23 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[MASK]]></category>
+		<category><![CDATA[multi user]]></category>
+		<category><![CDATA[sketches]]></category>
+		<guid isPermaLink="false">/?p=2571</guid>
+
+					<description><![CDATA[5P key values daily based, multi user, interactions, physical Iteration One AS ONE Users need to cooperate to live the life. Total 5 users: eye *2, nose * 1, mouth... <a class="read-more" href="/5p-iteration_one/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>5P key values</p>
+<ul>
+<li>daily based, multi user, interactions, physical</li>
+</ul>
+<p>Iteration One</p>
+<p>AS ONE</p>
+<p>Users need to cooperate to live the life. Total 5 users: eye *2, nose * 1, mouth *1, ear *1.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2572" src="/wp-content/uploads/2016/04/sketch.jpg" alt="sketch" width="3264" height="1796" srcset="/wp-content/uploads/2016/04/sketch.jpg 3264w, /wp-content/uploads/2016/04/sketch-300x165.jpg 300w, /wp-content/uploads/2016/04/sketch-768x423.jpg 768w, /wp-content/uploads/2016/04/sketch-1024x563.jpg 1024w, /wp-content/uploads/2016/04/sketch-400x220.jpg 400w, /wp-content/uploads/2016/04/sketch-210x116.jpg 210w" sizes="(max-width: 3264px) 100vw, 3264px" /></p>
+<p>Test</p>
+<p>All wear the masks, from waking up to going to bed. Camera follows the whole process.</p>
+<p>Goal</p>
+<p>Country doesn&#8217;t have all the resources, and the world operates by countries exchanging resources. This mask let users to experience this in an extreme way. After the experience, users will have unexplainable binding.</p>
+<p>Features</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2575" src="/wp-content/uploads/2016/04/ideas.jpg" alt="ideas" width="1878" height="1634" srcset="/wp-content/uploads/2016/04/ideas.jpg 1878w, /wp-content/uploads/2016/04/ideas-300x261.jpg 300w, /wp-content/uploads/2016/04/ideas-768x668.jpg 768w, /wp-content/uploads/2016/04/ideas-1024x891.jpg 1024w, /wp-content/uploads/2016/04/ideas-400x348.jpg 400w, /wp-content/uploads/2016/04/ideas-210x183.jpg 210w" sizes="(max-width: 1878px) 100vw, 1878px" /></p>
+<p>Eye &#8211; able to see the world, and can use camera to pass down what he/she sees</p>
+<p>Nose &#8211; has fan attached to the belly, provide air circulation and can change the smell of the air</p>
+<p>Mouse &#8211; has opening to get food, and pass down what he/she gets</p>
+<p>Ear &#8211; hear &#8220;outside sound&#8221; with radio and podcast</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/5p-iteration_one/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Button</title>
+		<link>/button/</link>
+					<comments>/button/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Tue, 09 Feb 2016 21:45:16 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Readymades]]></category>
+		<category><![CDATA[button]]></category>
+		<category><![CDATA[storyboard]]></category>
+		<guid isPermaLink="false">/?p=2524</guid>
+
+					<description><![CDATA[A button&#8217;s desire and personality. And this is the sound that button wants to deliver. It wants to share what it hears, and thinks maybe the sound can comfort the soul... <a class="read-more" href="/button/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>A button&#8217;s desire and personality.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2527" src="/wp-content/uploads/2016/02/button.png" alt="button" width="2250" height="1000" srcset="/wp-content/uploads/2016/02/button.png 2250w, /wp-content/uploads/2016/02/button-300x133.png 300w, /wp-content/uploads/2016/02/button-768x341.png 768w, /wp-content/uploads/2016/02/button-1024x455.png 1024w, /wp-content/uploads/2016/02/button-400x178.png 400w, /wp-content/uploads/2016/02/button-210x93.png 210w" sizes="(max-width: 2250px) 100vw, 2250px" /></p>
+<p>And this is the sound that button wants to deliver. It wants to share what it hears, and thinks maybe the sound can comfort the soul of all the other buttons.</p>
+<p><iframe loading="lazy" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/246265613&amp;color=00deb8&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" width="100%" height="166" frameborder="no" scrolling="no"></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/button/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Automated Butt Spray</title>
+		<link>/automated-butt-spray/</link>
+					<comments>/automated-butt-spray/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Tue, 09 Feb 2016 00:08:14 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Readymades]]></category>
+		<guid isPermaLink="false">/?p=2522</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<p><iframe loading="lazy" width="500" height="281" src="https://www.youtube.com/embed/ML6LwgGnBlE?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/automated-butt-spray/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

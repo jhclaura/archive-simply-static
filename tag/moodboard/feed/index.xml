@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>moodboard &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/moodboard/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Mon, 01 Feb 2016 03:17:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Hybrid Mood Board</title>
+		<link>/hybrid-mood-board/</link>
+					<comments>/hybrid-mood-board/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Wed, 04 Feb 2015 04:43:49 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Thesis - MASK]]></category>
+		<category><![CDATA[chaos]]></category>
+		<category><![CDATA[hybrid]]></category>
+		<category><![CDATA[moodboard]]></category>
+		<guid isPermaLink="false">/?p=2256</guid>
+
+					<description><![CDATA[Torn between two ideas: 1) Show, which is multiplayer VR experiments; 2) Room, which is a tiny cardboard room hybrid of virtual and physical interaction, thus for my mood board, I... <a class="read-more" href="/hybrid-mood-board/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>Torn between two ideas: 1) Show, which is multiplayer VR experiments; 2) Room, which is a tiny cardboard room hybrid of virtual and physical interaction, thus for my mood board, I created a hybrid of graphics &amp; tangible, pro-Show (right side, with drawings and different helmets) &amp; pro-Room (left side, with thread, wires, bottles, wood cubes, and feedback tray) as well.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2519" src="/wp-content/uploads/2015/02/mb01.jpeg" alt="mb01" width="1000" height="750" srcset="/wp-content/uploads/2015/02/mb01.jpeg 1000w, /wp-content/uploads/2015/02/mb01-300x225.jpeg 300w, /wp-content/uploads/2015/02/mb01-768x576.jpeg 768w, /wp-content/uploads/2015/02/mb01-400x300.jpeg 400w, /wp-content/uploads/2015/02/mb01-210x158.jpeg 210w" sizes="(max-width: 1000px) 100vw, 1000px" /></p>
+<p>&nbsp;</p>
+<p>And here&#8217;s the digital collages of my two ideas under the realm of Nonsense.</p>
+<p><strong>[ Show ]</strong></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2517" src="/wp-content/uploads/2015/02/moodBoard_Show.png" alt="moodBoard_Show" width="1400" height="993" srcset="/wp-content/uploads/2015/02/moodBoard_Show.png 1400w, /wp-content/uploads/2015/02/moodBoard_Show-300x213.png 300w, /wp-content/uploads/2015/02/moodBoard_Show-768x545.png 768w, /wp-content/uploads/2015/02/moodBoard_Show-1024x726.png 1024w, /wp-content/uploads/2015/02/moodBoard_Show-400x284.png 400w, /wp-content/uploads/2015/02/moodBoard_Show-210x149.png 210w" sizes="(max-width: 1400px) 100vw, 1400px" /></p>
+<p>&nbsp;</p>
+<p><strong>[ Room ]</strong></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2516" src="/wp-content/uploads/2015/02/moodBoard_Room.png" alt="moodBoard_Room" width="1400" height="993" srcset="/wp-content/uploads/2015/02/moodBoard_Room.png 1400w, /wp-content/uploads/2015/02/moodBoard_Room-300x213.png 300w, /wp-content/uploads/2015/02/moodBoard_Room-768x545.png 768w, /wp-content/uploads/2015/02/moodBoard_Room-1024x726.png 1024w, /wp-content/uploads/2015/02/moodBoard_Room-400x284.png 400w, /wp-content/uploads/2015/02/moodBoard_Room-210x149.png 210w" sizes="(max-width: 1400px) 100vw, 1400px" /></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/hybrid-mood-board/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

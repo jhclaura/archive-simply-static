@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>fun &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/fun/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Fri, 02 Oct 2015 15:36:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Spider Cookie 2.0 &#8212; now in P5.js!</title>
+		<link>/spider-cookie-2-0-now-in-p5-js/</link>
+					<comments>/spider-cookie-2-0-now-in-p5-js/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Fri, 02 Oct 2015 15:33:00 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Fall 2015]]></category>
+		<category><![CDATA[cookie]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[p5]]></category>
+		<guid isPermaLink="false">/?p=2479</guid>
+
+					<description><![CDATA[Okkkiiee so when I was young, it&#8217;s an age using Processing. Now, it&#8217;s P5.js. OMG And Shawn also make a serialport library for P5.js so the browser can talk to... <a class="read-more" href="/spider-cookie-2-0-now-in-p5-js/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>Okkkiiee so when I was young, it&#8217;s an age using <span style="font-size: 14pt;"><strong><em><span style="font-family: 'Book Antiqua', Palatino;">Processing</span></em></strong></span>.</p>
+<p>Now, it&#8217;s <em><span style="font-family: 'Andale Mono', Times; font-size: 36pt;"><strong><span style="color: #99cc00;">P</span><span style="color: #ff6600;">5</span><span style="color: #00ffff;">.</span><span style="color: #ff00ff;">j</span><span style="color: #33cccc;">s</span></strong></span></em>.</p>
+<p>OMG</p>
+<p>And Shawn also make a serialport library for P5.js so the browser can talk to Arduino without sweat. No terminal, Node.js, websocket, modules and stuff. Whoo. But since not everyone has an Arduino with you all the time, <span style="font-size: 18pt; font-family: 'Andale Mono', Times; color: #33cccc;"><a style="color: #33cccc;" href="http://jhclaura.com/cookieSpider/" target="_blank">here&#8217;s the standalone version</a></span>, of my <a href="http://www.itp.jhclaura.com/2013/10/07/icm_5_cookiespider/" target="_blank">Spider Cookie sketch two years ago</a>!</p>
+<p><a href="/wp-content/uploads/2015/10/Screen-Shot-2015-10-02-at-11.31.33-AM.png" target="_blank" rel="http://jhclaura.com/cookieSpider/"><img loading="lazy" class="alignnone wp-image-2480 size-full" src="/wp-content/uploads/2015/10/Screen-Shot-2015-10-02-at-11.31.33-AM.png" alt="Screen Shot 2015-10-02 at 11.31.33 AM" width="603" height="594" srcset="/wp-content/uploads/2015/10/Screen-Shot-2015-10-02-at-11.31.33-AM.png 603w, /wp-content/uploads/2015/10/Screen-Shot-2015-10-02-at-11.31.33-AM-300x296.png 300w, /wp-content/uploads/2015/10/Screen-Shot-2015-10-02-at-11.31.33-AM-400x394.png 400w, /wp-content/uploads/2015/10/Screen-Shot-2015-10-02-at-11.31.33-AM-210x207.png 210w" sizes="(max-width: 603px) 100vw, 603px" /></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/spider-cookie-2-0-now-in-p5-js/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>motor &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/motor/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Fri, 20 Nov 2015 22:13:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>{ Brain } &#8211; process of painfully crafting your idea</title>
+		<link>/brain-process-of-painfully-crafting-your-idea/</link>
+					<comments>/brain-process-of-painfully-crafting-your-idea/#comments</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Mon, 01 Dec 2014 22:48:10 +0000</pubDate>
+				<category><![CDATA[Automata]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[brain-squeezing]]></category>
+		<category><![CDATA[fantasy]]></category>
+		<category><![CDATA[final]]></category>
+		<category><![CDATA[motor]]></category>
+		<category><![CDATA[noooooo]]></category>
+		<guid isPermaLink="false">/?p=1757</guid>
+
+					<description><![CDATA[SO. Here&#8217;s the report of my { brain } automata making process. First, prototype with cardboard. Laser cut 11 pieces of pentagons, and stick them together with my favorite tool... <a class="read-more" href="/brain-process-of-painfully-crafting-your-idea/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>SO. Here&#8217;s the report of my { brain } automata making process.</p>
+<p>First, prototype with cardboard. Laser cut 11 pieces of pentagons, and stick them together with my favorite tool &#8211; duck tapes.<br />
+<a href="/wp-content/uploads/2014/12/helmet.jpg"><img loading="lazy" class="alignnone size-full wp-image-1758" src="/wp-content/uploads/2014/12/helmet.jpg" alt="helmet" width="1000" height="1000" srcset="/wp-content/uploads/2014/12/helmet.jpg 1000w, /wp-content/uploads/2014/12/helmet-150x150.jpg 150w, /wp-content/uploads/2014/12/helmet-300x300.jpg 300w, /wp-content/uploads/2014/12/helmet-304x304.jpg 304w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>&nbsp;</p>
+<p>And endless steel wire bending.<a href="/wp-content/uploads/2014/12/2014-11-23-22.56.04.jpg"><img loading="lazy" class="alignnone size-full wp-image-1759" src="/wp-content/uploads/2014/12/2014-11-23-22.56.04.jpg" alt="2014-11-23 22.56.04" width="1000" height="750" srcset="/wp-content/uploads/2014/12/2014-11-23-22.56.04.jpg 1000w, /wp-content/uploads/2014/12/2014-11-23-22.56.04-300x225.jpg 300w, /wp-content/uploads/2014/12/2014-11-23-22.56.04-304x228.jpg 304w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>&nbsp;</p>
+<p>Laser Cut transparent 3/16&#8243; acrylic and build into dodecahedron  with hinges and machine screws.<br />
+<a href="/wp-content/uploads/2014/12/2014-11-30-17.00.26.jpg"><img loading="lazy" class="alignnone size-full wp-image-1760" src="/wp-content/uploads/2014/12/2014-11-30-17.00.26.jpg" alt="2014-11-30 17.00.26" width="1000" height="750" srcset="/wp-content/uploads/2014/12/2014-11-30-17.00.26.jpg 1000w, /wp-content/uploads/2014/12/2014-11-30-17.00.26-300x225.jpg 300w, /wp-content/uploads/2014/12/2014-11-30-17.00.26-304x228.jpg 304w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>And mount the motor my pulley system!<br />
+<a href="/wp-content/uploads/2014/12/pully_Motor.gif"><img loading="lazy" class="alignnone size-full wp-image-1762" src="/wp-content/uploads/2014/12/pully_Motor.gif" alt="pully_Motor" width="492" height="264" /></a></p>
+<p>&nbsp;</p>
+<p>Things all sound easy but there are actually lot of painful struggling &#8211;&gt;</p>
+<ol>
+<li>Pre drilling hole on small wood tube is hard. Crack easily.</li>
+<li>Rope has to be trimmed neatly or it will stuck with wires.</li>
+<li>Bad binding with wire and motor shaft. Asked magical Ben Light, ordered a shaft coupler to connect wire and DC motor.</li>
+<li>Have to relocation the motor. Should leave more space for the shaft side.</li>
+<li>Friction debugging nightmare&#8230;</li>
+</ol>
+<p>SO. I&#8217;m really concerned about the possibility of finishing it before Final&#8230;. but whatever, I&#8217;ll keep working on it :DDDDD</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/brain-process-of-painfully-crafting-your-idea/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

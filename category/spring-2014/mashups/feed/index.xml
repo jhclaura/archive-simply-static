@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Mashups Web APIs &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/category/spring-2014/mashups/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Fri, 20 Nov 2015 22:07:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>{Tune In, Tune Out}</title>
+		<link>/tune-in-tune-out/</link>
+					<comments>/tune-in-tune-out/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Tue, 27 May 2014 18:44:19 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Mashups Web APIs]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<guid isPermaLink="false">/?p=1507</guid>
+
+					<description><![CDATA[For the final of Mash-up class, Jeff Ong and I teamed up and made &#8220;Tune In, Tune Out&#8221;. It&#8217;s a webite uses your computer&#8217;s on-board microphone, listens to the surrounding... <a class="read-more" href="/tune-in-tune-out/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2014/05/Screen-Shot-2014-05-27-at-2.34.35-PM.png"><img loading="lazy" class="alignnone size-full wp-image-1509" src="/wp-content/uploads/2014/05/Screen-Shot-2014-05-27-at-2.34.35-PM.png" alt="Screen Shot 2014-05-27 at 2.34.35 PM" width="1500" height="765" srcset="/wp-content/uploads/2014/05/Screen-Shot-2014-05-27-at-2.34.35-PM.png 1500w, /wp-content/uploads/2014/05/Screen-Shot-2014-05-27-at-2.34.35-PM-300x153.png 300w, /wp-content/uploads/2014/05/Screen-Shot-2014-05-27-at-2.34.35-PM-1024x522.png 1024w, /wp-content/uploads/2014/05/Screen-Shot-2014-05-27-at-2.34.35-PM-304x155.png 304w" sizes="(max-width: 1500px) 100vw, 1500px" /></a></p>
+<p>For the final of Mash-up class, <a href="https://jffng.com/" target="_blank">Jeff Ong</a> and I teamed up and made &#8220;Tune In, Tune Out&#8221;. It&#8217;s a webite uses your computer&#8217;s on-board microphone, listens to the surrounding environmental sound, and translates it into a musical landscape.</p>
+<p>An accompanying visualization appears on-screen, along with options to change the musical fundamentals (key, scale, mode) of the sounds. Build with Web Audio API and Tone.js for audio, and Three.js for visual.</p>
+<p>We started idea of filtering out the &#8220;sound of the sound&#8221;. So much effort and energy has gone into our attempts to &#8220;escape&#8221; our immediate sonic environment: conversations, distracting noises, and try to drown out the surrounding chaos.</p>
+<p>There&#8217;s no denying the need to focus, and there&#8217;s also no shortage of aural distractions, especially living in urban areas. &#8220;Tune In, Tune Out&#8221; offers an alternative to the music and tools we use to tune out the noise around us, channeling that very noise into a sonic landscape.</p>
+<p><a href="/wp-content/uploads/2014/05/The_eight_musical_modes.png"><img loading="lazy" class="alignnone size-full wp-image-1508" src="/wp-content/uploads/2014/05/The_eight_musical_modes.png" alt="The_eight_musical_modes" width="1500" height="386" srcset="/wp-content/uploads/2014/05/The_eight_musical_modes.png 1500w, /wp-content/uploads/2014/05/The_eight_musical_modes-300x77.png 300w, /wp-content/uploads/2014/05/The_eight_musical_modes-1024x263.png 1024w, /wp-content/uploads/2014/05/The_eight_musical_modes-304x78.png 304w" sizes="(max-width: 1500px) 100vw, 1500px" /></a></p>
+<p>An additional project inspiration and goal is to build some basic tools around making it easier to use music theory concepts in tandem with data representation. There are different types of <strong>Key</strong>, <strong>Mode</strong>, <strong>Scale</strong>, and <strong>Sound Wave</strong> to choose from. Thank <a href="http://www.ambientisotopy.com/" target="_blank">Aaron Arntz</a> for the music theory Fly by!</p>
+<p><a href="https://github.com/jffng/tune-in-tune-out" target="_blank">GitHub</a> here.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/tune-in-tune-out/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

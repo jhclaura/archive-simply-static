@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Fall 2016 &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/category/fall-2016/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Mon, 10 Oct 2016 02:38:11 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>dev blog of Daily Life VR</title>
+		<link>/dev-blog-of-daily-life-vr/</link>
+					<comments>/dev-blog-of-daily-life-vr/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Mon, 10 Oct 2016 02:32:38 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Fall 2016]]></category>
+		<guid isPermaLink="false">/?p=2616</guid>
+
+					<description><![CDATA[Here: about.dailylifevr.com!]]></description>
+										<content:encoded><![CDATA[<p>Here: <a href="http://about.dailylifevr.com/" target="_blank">about.dailylifevr.com</a>!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/dev-blog-of-daily-life-vr/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>[sketch] As One</title>
+		<link>/sketch-as-one/</link>
+					<comments>/sketch-as-one/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Tue, 17 May 2016 02:34:31 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Fall 2016]]></category>
+		<category><![CDATA[MASK]]></category>
+		<guid isPermaLink="false">/?p=2619</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2016/10/AsOne_diagram-2.jpg" target="_blank"><img loading="lazy" class="alignnone wp-image-2622 size-full" src="/wp-content/uploads/2016/10/AsOne_diagram-2.jpg" alt="asone_diagram" width="3500" height="1969" srcset="/wp-content/uploads/2016/10/AsOne_diagram-2.jpg 3500w, /wp-content/uploads/2016/10/AsOne_diagram-2-300x169.jpg 300w, /wp-content/uploads/2016/10/AsOne_diagram-2-768x432.jpg 768w, /wp-content/uploads/2016/10/AsOne_diagram-2-1024x576.jpg 1024w, /wp-content/uploads/2016/10/AsOne_diagram-2-400x225.jpg 400w, /wp-content/uploads/2016/10/AsOne_diagram-2-210x118.jpg 210w" sizes="(max-width: 3500px) 100vw, 3500px" /></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/sketch-as-one/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

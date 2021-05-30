@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>project &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/project/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Fri, 20 Nov 2015 22:26:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>{Rabbit_Hole}</title>
+		<link>/composition-rabbit_hole/</link>
+					<comments>/composition-rabbit_hole/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Mon, 14 Apr 2014 02:41:32 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Coding for Emotional Impact]]></category>
+		<category><![CDATA[brain-squeezing]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[fantasy]]></category>
+		<category><![CDATA[final]]></category>
+		<category><![CDATA[game]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[life]]></category>
+		<category><![CDATA[Maya]]></category>
+		<category><![CDATA[project]]></category>
+		<category><![CDATA[three.js]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">/?p=1409</guid>
+
+					<description><![CDATA[{currently works with Chrome and Firefox browser} For the composition assignment the final of Coding for Emotional Impact class, I want to create something with multiple layers and is self-explained. Inspired by... <a class="read-more" href="/composition-rabbit_hole/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><span style="font-size: 14pt;">{currently works with <span style="color: #000000;">Chrome</span> and Firefox browser}</span></p>
+<p>For <del>the composition assignment</del> the final of <em>Coding for Emotional Impact</em> class, I want to create something with multiple layers and is self-explained. Inspired by the description of computer vision is a rabbit hole from <a href="http://andysigler.com/" target="_blank">Andy</a>(because I&#8217;m learning <a href="http://threejs.org/" target="_blank">Three.js</a> by myself recently), I wanted to make a game about &#8220;Rabbit Hole&#8221;, and my biggest assumption is that everyone is sort of down the rabbit hole.</p>
+<p>ps. It&#8217;s not really a fun game to play. Still confusing should it be fun to play or just an emotion-building nowhere&#8230;</p>
+<div style="color: #222222;">&#8211; Title</div>
+<div style="color: #222222;"><strong><span style="font-size: 12pt;"><span style="font-family: 'andale mono', times;">Rabbit Hole</span></span></strong></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;">&#8211; Environment</div>
+<div style="color: #222222;"><a href="/wp-content/uploads/2014/04/environment.png"><img loading="lazy" class="alignnone wp-image-1426 " src="/wp-content/uploads/2014/04/environment.png" alt="environment" width="382" height="494" srcset="/wp-content/uploads/2014/04/environment.png 500w, /wp-content/uploads/2014/04/environment-231x300.png 231w, /wp-content/uploads/2014/04/environment-304x393.png 304w" sizes="(max-width: 382px) 100vw, 382px" /></a>     <a href="/wp-content/uploads/2014/04/environment2.png"><img loading="lazy" class="alignnone wp-image-1427 " src="/wp-content/uploads/2014/04/environment2.png" alt="environment2" width="383" height="496" srcset="/wp-content/uploads/2014/04/environment2.png 500w, /wp-content/uploads/2014/04/environment2-231x300.png 231w, /wp-content/uploads/2014/04/environment2-304x393.png 304w" sizes="(max-width: 383px) 100vw, 383px" /></a></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;">&#8211; Audience</div>
+<div style="color: #222222;"><span style="font-family: 'andale mono', times; font-size: 12pt;">Whoever also down the rabbit hole or wonder how it feel down there.</span></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;"><span style="font-family: 'andale mono', times; font-size: 12pt;"> </span></div>
+<div style="color: #222222;">&#8211; Narrative arc</div>
+<div style="color: #222222;"><span style="font-family: 'Book Antiqua', Palatino; font-size: medium;"><span style="font-family: 'Andale Mono', Times;"><strong>Rabbit Hole</strong>&#8211;</span></span><span style="font-family: 'Book Antiqua', Palatino; font-size: medium; color: #888888;"><em>Metaphor for the conceptual path which is thought to lead to the true nature of reality. Infinitesimally deep and complex, venturing too far down is probably not that great of an idea.</em></span></div>
+<p dir="ltr"><span style="font-family: 'Andale Mono', Times; font-size: medium;"><strong>Literary Nonsense-</strong></span> <span style="font-size: medium; color: #808080;"><em><span style="line-height: 1.5em; font-family: 'Book Antiqua', Palatino;">has no system of logic, although it may imply the existence of an inscrutable one, just beyond our grasp.</span></em></span></p>
+<p dir="ltr">And below are three snapshots of what I&#8217;ve built so far. I made my own models in Maya and drew textures in Photoshop. <span style="color: #999999;"><del>Can&#8217;t view online because of some web-related issue I can&#8217;t solve to load the music</del></span>(SOLVED_by hard coding the url of music file path). But have no ideas how to do the transition from scene to scene&#8230;</p>
+<p dir="ltr">SCENE_ZERO: <a href="http://www.rabbithole.link/" target="_blank">http://www.rabbithole.link/</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/open.png"><img loading="lazy" class="alignnone size-full wp-image-1477" src="/wp-content/uploads/2014/04/open.png" alt="open" width="800" height="403" srcset="/wp-content/uploads/2014/04/open.png 800w, /wp-content/uploads/2014/04/open-300x151.png 300w, /wp-content/uploads/2014/04/open-304x153.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_ONE: <a href="http://www.rabbithole.link/index_D.html" target="_blank">http://www.rabbithole.link/index_D.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM.png"><img loading="lazy" class="alignnone size-full wp-image-1411" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM.png" alt="Screen Shot 2014-04-13 at 10.26.14 PM" width="800" height="436" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM.png 800w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM-300x163.png 300w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM-304x165.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENCE_TWO: <a href="http://www.rabbithole.link/index_G.html" target="_blank">http://www.rabbithole.link/index_G.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM.png"><img loading="lazy" class="alignnone size-full wp-image-1412" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM.png" alt="Screen Shot 2014-04-13 at 10.27.30 PM" width="800" height="436" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM.png 800w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM-300x163.png 300w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM-304x165.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_THREE: <a href="http://www.rabbithole.link/index_S.html" target="_blank">http://www.rabbithole.link/index_S.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM.png"><img loading="lazy" class="alignnone size-full wp-image-1425" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM.png" alt="Screen Shot 2014-04-20 at 6.44.00 PM" width="800" height="397" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM.png 800w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM-300x148.png 300w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM-304x150.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_FOUR: <a href="http://www.rabbithole.link/index_M.html" target="_blank">http://www.rabbithole.link/index_M.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/maze.png"><img loading="lazy" class="alignnone size-full wp-image-1463" src="/wp-content/uploads/2014/04/maze.png" alt="maze" width="800" height="401" srcset="/wp-content/uploads/2014/04/maze.png 800w, /wp-content/uploads/2014/04/maze-300x150.png 300w, /wp-content/uploads/2014/04/maze-304x152.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_FIVE: <a href="http://www.rabbithole.link/index_T.html" target="_blank">http://www.rabbithole.link/index_T.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/TV.png"><img loading="lazy" class="alignnone size-full wp-image-1467" src="/wp-content/uploads/2014/04/TV.png" alt="TV" width="800" height="295" srcset="/wp-content/uploads/2014/04/TV.png 800w, /wp-content/uploads/2014/04/TV-300x110.png 300w, /wp-content/uploads/2014/04/TV-304x112.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_SIX: <a href="http://www.rabbithole.link/index_F.html" target="_blank">http://www.rabbithole.link/index_F.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/jump.png"><img loading="lazy" class="alignnone size-full wp-image-1472" src="/wp-content/uploads/2014/04/jump.png" alt="jump" width="800" height="397" srcset="/wp-content/uploads/2014/04/jump.png 800w, /wp-content/uploads/2014/04/jump-300x148.png 300w, /wp-content/uploads/2014/04/jump-304x150.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_SEVEN: <a href="http://www.rabbithole.link/index_V.html" target="_blank">http://www.rabbithole.link/index_V.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/voice.png"><img loading="lazy" class="alignnone size-full wp-image-1469" src="/wp-content/uploads/2014/04/voice.png" alt="voice" width="800" height="309" srcset="/wp-content/uploads/2014/04/voice.png 800w, /wp-content/uploads/2014/04/voice-300x115.png 300w, /wp-content/uploads/2014/04/voice-304x117.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_EIGHT: <a href="http://www.rabbithole.link/index_E.html" target="_blank">http://www.rabbithole.link/index_E.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Elevator.png"><img loading="lazy" class="alignnone size-full wp-image-1474" src="/wp-content/uploads/2014/04/Elevator.png" alt="Elevator" width="800" height="399" srcset="/wp-content/uploads/2014/04/Elevator.png 800w, /wp-content/uploads/2014/04/Elevator-300x149.png 300w, /wp-content/uploads/2014/04/Elevator-304x151.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">( Three.js + web stuff ) == super deep rabbit hole.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/composition-rabbit_hole/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Awareness</title>
+		<link>/awareness/</link>
+					<comments>/awareness/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Tue, 25 Mar 2014 15:48:37 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Fungus Among Us]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[experiment]]></category>
+		<category><![CDATA[fabrication]]></category>
+		<category><![CDATA[final]]></category>
+		<category><![CDATA[LED]]></category>
+		<category><![CDATA[materials]]></category>
+		<category><![CDATA[nature]]></category>
+		<category><![CDATA[project]]></category>
+		<category><![CDATA[prototype]]></category>
+		<guid isPermaLink="false">/?p=1266</guid>
+
+					<description><![CDATA[(3/25_Updated_footage version) It&#8217;s a project of material experiment and mycelium network simulation. The ultimate goal is to pull closer humans&#8217; relationship with fungus, increase awareness, and explore the usage of mycelium... <a class="read-more" href="/awareness/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><span style="font-family: 'Andale Mono', Times; font-size: medium; color: #ff6600;"><strong>(3/25_Updated_footage version)</strong></span></p>
+<p>It&#8217;s a project of <em><strong>material experiment</strong></em> and <em><strong>mycelium network simulation</strong></em>. The ultimate goal is to pull closer humans&#8217; relationship with fungus, increase <em><strong>awareness</strong></em>, and explore the usage of mycelium by holding workshop and gathering public source.</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/89543127?byline=0&amp;color=c9ff23" height="450" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/90080846?byline=0&amp;color=c9ff23" height="450" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><span style="font-family: 'Andale Mono', Times;">material experiment</span></h2>
+<p>In 2007, Eben Bayer and Gavin McIntyre noticed mycelium&#8217;s self-assembling glue-like character. By growing mycelium with agricultural byproducts, they discovered a biological, durable, and compostable material that performs, and they found a company called <a href="http://www.ecovativedesign.com/" target="_blank"><strong><em>ecovatice</em></strong></a>. Their products are pressed with pressure during production, and are thick, chunky, and volumetric. Inspired by artist <a href="http://www.ericklarenbeek.com/" target="_blank">Eric Klarenbeek</a>&#8216;s 3D printed case with straw, I guessed as long as I follow the principle that &#8220;mycelium digests nutrient and water and grows harder&#8221;, the process of production can be free-formed and without boundary. So I gave it a try.</p>
+<p><a href="/wp-content/uploads/2014/03/diagram.jpg"><img loading="lazy" class="alignnone size-large wp-image-1313" alt="diagram" src="/wp-content/uploads/2014/03/diagram-1024x275.jpg" width="1024" height="275" srcset="/wp-content/uploads/2014/03/diagram-1024x275.jpg 1024w, /wp-content/uploads/2014/03/diagram-300x80.jpg 300w, /wp-content/uploads/2014/03/diagram-304x81.jpg 304w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>For the blender part, the ratio of mycelium+straw &amp; water is approximately 2:1.</p>
+<p>Hang the balls in a separated area in order to avoid be contaminated. And after 3~5 days the ball will become obvious white, showing the growing of mycelium.</p>
+<p>After 10 days, harvest the balls and pop the balloons, and voila!</p>
+<p>Put them aside and dry their interiors for a day(because they were blocked by the balloon).</p>
+<p><a href="/wp-content/uploads/2014/03/IMG_3105.jpg"><img loading="lazy" class="alignnone size-large wp-image-1273" alt="IMG_3105" src="/wp-content/uploads/2014/03/IMG_3105-1024x683.jpg" width="1024" height="683" srcset="/wp-content/uploads/2014/03/IMG_3105-1024x683.jpg 1024w, /wp-content/uploads/2014/03/IMG_3105-300x200.jpg 300w, /wp-content/uploads/2014/03/IMG_3105-304x202.jpg 304w, /wp-content/uploads/2014/03/IMG_3105.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><a href="/wp-content/uploads/2014/03/IMG_3145.jpg"><img loading="lazy" class="alignnone size-large wp-image-1282" alt="IMG_3145" src="/wp-content/uploads/2014/03/IMG_3145-1024x683.jpg" width="1024" height="683" srcset="/wp-content/uploads/2014/03/IMG_3145-1024x683.jpg 1024w, /wp-content/uploads/2014/03/IMG_3145-300x200.jpg 300w, /wp-content/uploads/2014/03/IMG_3145-304x202.jpg 304w, /wp-content/uploads/2014/03/IMG_3145.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><a href="/wp-content/uploads/2014/03/IMG_3130.jpg"><img loading="lazy" class="alignnone size-large wp-image-1279" alt="IMG_3130" src="/wp-content/uploads/2014/03/IMG_3130-1024x593.jpg" width="1024" height="593" srcset="/wp-content/uploads/2014/03/IMG_3130-1024x593.jpg 1024w, /wp-content/uploads/2014/03/IMG_3130-300x174.jpg 300w, /wp-content/uploads/2014/03/IMG_3130-304x176.jpg 304w, /wp-content/uploads/2014/03/IMG_3130.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><a href="/wp-content/uploads/2014/03/IMG_3110.jpg"><img loading="lazy" class="alignnone size-large wp-image-1274" alt="IMG_3110" src="/wp-content/uploads/2014/03/IMG_3110-1024x683.jpg" width="1024" height="683" srcset="/wp-content/uploads/2014/03/IMG_3110-1024x683.jpg 1024w, /wp-content/uploads/2014/03/IMG_3110-300x200.jpg 300w, /wp-content/uploads/2014/03/IMG_3110-304x202.jpg 304w, /wp-content/uploads/2014/03/IMG_3110.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><a href="/wp-content/uploads/2014/03/IMG_3157.jpg"><img loading="lazy" class="alignnone size-large wp-image-1284" alt="IMG_3157" src="/wp-content/uploads/2014/03/IMG_3157-1024x683.jpg" width="1024" height="683" srcset="/wp-content/uploads/2014/03/IMG_3157-1024x683.jpg 1024w, /wp-content/uploads/2014/03/IMG_3157-300x200.jpg 300w, /wp-content/uploads/2014/03/IMG_3157-304x202.jpg 304w, /wp-content/uploads/2014/03/IMG_3157.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><a href='/img_2999/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_2999-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/2014-02-26-21-18-33/'><img width="150" height="150" src="/wp-content/uploads/2014/03/2014-02-26-21.18.33-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/img_3118/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3118-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/img_3120/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3120-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/img_3103/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3103-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/img_3112/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3112-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/img_3140/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3140-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/img_3143/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3143-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/img_3152/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3152-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/img_3121/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3121-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2><span style="font-family: 'Courier New', Courier;">mycelium network</span></h2>
+<p>I&#8217;m also interested in how mycelium communicates with each others. The roots of most land plants are colonised by mycorrhizal fungi that provide mineral nutrients in exchange for carbon, and based on <em>&#8220;Underground signals carried through common mycelial networks warn neighbouring plants of aphid attack”</em> on <em>Ecology Letter</em>, <em>by Zdenka Babikova, Lucy Gilbert, Toby J. A. Bruce,3 Michael Birkett, John C. Caulfield, Christine Woodcock, John A. Pickett and David Johnson</em>, mycorrhizal mycelia can also act as a conduit for signaling between plants, acting as an early warning system for herbivore attack.</p>
+<p><a href="/wp-content/uploads/2014/03/Screen-Shot-2014-03-19-at-10.39.44-AM.png"><img loading="lazy" class="alignnone size-full wp-image-1319" alt="Screen Shot 2014-03-19 at 10.39.44 AM" src="/wp-content/uploads/2014/03/Screen-Shot-2014-03-19-at-10.39.44-AM.png" width="1000" height="556" srcset="/wp-content/uploads/2014/03/Screen-Shot-2014-03-19-at-10.39.44-AM.png 1000w, /wp-content/uploads/2014/03/Screen-Shot-2014-03-19-at-10.39.44-AM-300x166.png 300w, /wp-content/uploads/2014/03/Screen-Shot-2014-03-19-at-10.39.44-AM-304x169.png 304w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>The experiment is based on the fact that Vicia Faba will emit plant volatiles, particularly methyl salicylate, making this bean plants repellent to aphids but attractive to aphid(bugs) enemies such as parasitoids. It sets up 5 Vicia Faba, having only one of them attacked by aphids,  and having it either connected to other plants with roots or without roots, with mycelium or without mycelium(as picture right above). And the result(as picture left above) shows that the plants, which are connected to the Donor(infested w/ aphids) by mycelium, act same as the Donor, producing volatiles to repel aphids and attract aphids&#8217; enemy. It means This underground messaging system allows neighboring plants to invoke herbivore defenses before attack.</p>
+<p>It interests me a lot, and I want to use it as the content to inform people about the amazing behavior of fungus by visualizing the network of mycelium. The idea is&#8211;&gt;</p>
+<ol>
+<li>when there&#8217;s no one around, the mycelium bulb will breathe in its own pattern, presenting w/ LEDs, and there is a video playing footages of fungus &amp; mycelium life.</li>
+<li>once someone comes near, the mycelium bulbs will communicate with each other, lighting up and off one by one, and the video will change to broadcast the human-related footages(e.g. garbage, oil spill, and <span style="font-family: 'Andale Mono', Times; font-size: medium;"><em>mycoremediation</em></span>).</li>
+</ol>
+<p><a href="/wp-content/uploads/2014/03/2014-03-12-09.48.46.jpg"><img loading="lazy" class="alignnone size-large wp-image-1293" alt="2014-03-12 09.48.46" src="/wp-content/uploads/2014/03/2014-03-12-09.48.46-1024x529.jpg" width="1024" height="529" srcset="/wp-content/uploads/2014/03/2014-03-12-09.48.46-1024x529.jpg 1024w, /wp-content/uploads/2014/03/2014-03-12-09.48.46-300x155.jpg 300w, /wp-content/uploads/2014/03/2014-03-12-09.48.46-304x157.jpg 304w, /wp-content/uploads/2014/03/2014-03-12-09.48.46.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>footage <em><strong>Breathing</strong></em>, password: fungus</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/90084660?byline=0&amp;color=c9ff23" height="450" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p>footage <em><strong>Aware</strong></em><em><strong>, </strong></em>password: fungus</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/90084659?byline=0&amp;color=c9ff23" height="438" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>And here are my <em><span style="font-family: 'Andale Mono', Times; font-size: large;"><strong>Arduino</strong></span></em> code. I wrote digitalWrite into PMW pins.</p>
+<pre class="brush: c; gutter: true">//#include &lt;LED.h&gt;
+#include &lt;NewPing.h&gt;
+
+#define TRIGGER_PIN 8
+#define ECHO_PIN 7
+#define MAX_DISTANCE 30
+
+//for ultrasonic sensor
+NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
+int value;
+int interval;  //to trigger the change of LEDs
+
+//for smoothing
+const int numReadings = 5;
+int readings[numReadings];
+int oriReading;
+int index = 0;
+int total = 0;
+int average = 0;
+
+//pin
+int ledPins[] = { 
+  3,5,6,9,10,11 };
+
+int lastFade[6] = {
+  0};
+int level[] = {
+  10, 23, 45, 50, 100, 205};
+
+//output
+int maxV = 220;
+int minV = 5;
+
+//slope &amp; intercept
+double ain[6], bin[6], aex[6], bex[6];
+
+//time
+double inTime[] = {
+  1500, 1700, 1900, 2000, 2100, 2300};
+double pauseTime[] = {
+  350, 400, 450, 500, 550, 600};
+double outTime[] = {
+  2000, 2200, 2400, 2500, 2600, 2800};
+double thirdT[6], cycleT[6];
+double levels[6];
+
+boolean lightUp[6];
+int awareTime[] = {
+  0, 1, 2, 3, 4, 5};
+int awareOriTime[] = {
+  0, 1, 2, 3, 4, 5};
+
+void setup() {
+  Serial.begin(9600);
+
+  //smoothing
+  for(int i=0; i&lt;numReadings; i++){
+    readings[i] = 0;
+  }
+
+  for(int i=0; i&lt;6; i++) {
+    pinMode(ledPins[i], OUTPUT);
+
+    thirdT[i] = inTime[i] + pauseTime[i];
+    cycleT[i] = inTime[i] + pauseTime[i] + outTime[i];
+
+    ain[i] = (maxV - minV)/inTime[i];
+    bin[i] = minV;
+    aex[i] = (minV - maxV)/outTime[i];
+    bex[i] = maxV - aex[i]*(inTime[i]+pauseTime[i]);
+
+    lightUp[i] = false;
+  }  
+}
+
+unsigned long tstart[6];
+double time;
+
+void loop() {
+
+  //ultrasonic sensor
+  oriReading = sonar.ping();
+  value = (int) oriReading/US_ROUNDTRIP_CM;
+
+  for(int thisChannel=0; thisChannel&lt;6; thisChannel++) {
+
+    //if detect ppl, all light up
+    if(value &gt; 0) {
+
+      //if time can be dividable by 60
+      if ( (awareTime[thisChannel])%6 == 0 ) {
+        lightUp[thisChannel] = !lightUp[thisChannel];
+      }
+
+      if(lightUp[thisChannel] == true)
+        levels[thisChannel] = 255;
+      else
+        levels[thisChannel] = 0;
+
+      analogWrite(ledPins[thisChannel], levels[thisChannel]);
+
+      //determin whether to restart the cycle of time
+      awareTime[thisChannel] += 1;
+
+      if( awareTime[thisChannel] &gt;= (180) )
+        awareTime[thisChannel] = awareOriTime[0];
+    } 
+
+    //if not, do LED pattern
+    else {
+
+      if (lastFade[thisChannel] &lt;= inTime[thisChannel]) {
+        levels[thisChannel] = int( ain[thisChannel]*lastFade[thisChannel] + bin[thisChannel] );
+      }
+      else if (lastFade[thisChannel] &lt;= thirdT[thisChannel]) {
+        levels[thisChannel] = maxV;
+      }
+      else {
+        levels[thisChannel] = int( aex[thisChannel]*lastFade[thisChannel] + bex[thisChannel] );
+      }
+
+      analogWrite(ledPins[thisChannel], levels[thisChannel]);
+      delay(1);
+
+      //determin whether to restart the cycle of time
+      if(lastFade[thisChannel] &gt;= cycleT[thisChannel]) {
+        lastFade[thisChannel] = 0;
+        tstart[thisChannel] = millis();
+      }
+      else {
+        lastFade[thisChannel] = millis() - tstart[thisChannel];
+      }
+    }
+  }
+}</pre>
+<p>&nbsp;</p>
+<p>And my <em><span style="font-family: 'Andale Mono', Times; font-size: large;"><strong>Processing</strong></span></em> code to switch footages based on the Serial signal got from Arduino.</p>
+<pre class="brush: java; gutter: true">import processing.serial.*;
+import processing.video.*;
+import java.awt.MouseInfo;
+import java.util.Arrays;
+import java.util.Collections;
+import java.awt.Rectangle;
+
+Movie aware;
+Movie grow;
+boolean playGrow = true;
+
+Serial myPort;
+
+void setup() {
+  size(displayWidth, displayHeight);
+  if (frame != null) {
+    frame.setResizable(true);
+  }
+  background(0);
+  // Load and play the video in a loop
+  aware = new Movie(this, &quot;aware_2.mp4&quot;);
+  grow = new Movie(this, &quot;grow_v2.mp4&quot;);
+  aware.loop();
+  grow.loop();
+
+//  println(Serial.list());
+  String portName = Serial.list()[5];
+  myPort = new Serial(this, portName, 9600);
+}
+
+void movieEvent(Movie m) {
+  m.read();
+}
+
+void draw() {
+  if(playGrow)
+    image(grow, 0, 0, width, height);
+  else
+    image(aware, 0, 0, width, height);
+}
+
+void serialEvent (Serial myPort) {
+  int inByte = myPort.read();
+  println(inByte);
+
+  if (inByte &gt; 10)
+    playGrow = false;
+  else
+    playGrow = true;
+
+}
+
+void keyPressed() {
+  if(key == &#039;1&#039;)
+    playGrow = true;
+  if(key == &#039;2&#039;)
+    playGrow = false;
+}
+
+int mX;
+int mY;
+
+boolean sketchFullScreen() {
+  return true;
+}
+
+void mouseDragged() {
+  frame.setLocation(
+  MouseInfo.getPointerInfo().getLocation().x-mX, 
+  MouseInfo.getPointerInfo().getLocation().y-mY);
+}
+
+public void init() {
+  frame.removeNotify();
+  frame.setUndecorated(true);
+  frame.addNotify();
+  super.init();
+}</pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>photos of <span style="font-family: 'Andale Mono', Times; font-size: large;"><em><strong>Fabrication</strong></em></span><a href="/wp-content/uploads/2014/03/2014-03-11-12.19.29.jpg"><img loading="lazy" class="alignnone size-large wp-image-1288" alt="2014-03-11 12.19.29" src="/wp-content/uploads/2014/03/2014-03-11-12.19.29-1024x613.jpg" width="1024" height="613" srcset="/wp-content/uploads/2014/03/2014-03-11-12.19.29-1024x613.jpg 1024w, /wp-content/uploads/2014/03/2014-03-11-12.19.29-300x179.jpg 300w, /wp-content/uploads/2014/03/2014-03-11-12.19.29-304x182.jpg 304w, /wp-content/uploads/2014/03/2014-03-11-12.19.29.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><a href="/wp-content/uploads/2014/03/2014-03-12-00.24.24.jpg"><img loading="lazy" class="alignnone size-large wp-image-1290" alt="2014-03-12 00.24.24" src="/wp-content/uploads/2014/03/2014-03-12-00.24.24-1024x613.jpg" width="1024" height="613" srcset="/wp-content/uploads/2014/03/2014-03-12-00.24.24-1024x613.jpg 1024w, /wp-content/uploads/2014/03/2014-03-12-00.24.24-300x179.jpg 300w, /wp-content/uploads/2014/03/2014-03-12-00.24.24-304x182.jpg 304w, /wp-content/uploads/2014/03/2014-03-12-00.24.24.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><a href="/wp-content/uploads/2014/03/lightUp2.gif"><img loading="lazy" class="alignnone size-large wp-image-1268" alt="lightUp2" src="/wp-content/uploads/2014/03/lightUp2-1024x534.gif" width="1024" height="534" srcset="/wp-content/uploads/2014/03/lightUp2-1024x534.gif 1024w, /wp-content/uploads/2014/03/lightUp2-300x156.gif 300w, /wp-content/uploads/2014/03/lightUp2-304x158.gif 304w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><a style="line-height: 1.5em;" href="/wp-content/uploads/2014/03/lightUp1.gif"><img loading="lazy" class="alignnone size-full wp-image-1267" alt="lightUp1" src="/wp-content/uploads/2014/03/lightUp1.gif" width="804" height="800" /></a></p>
+<p>&nbsp;</p>
+<p><a style="line-height: 1.5em;" href="/wp-content/uploads/2014/03/IMG_9685.jpg"><img loading="lazy" class="alignnone size-large wp-image-1369" alt="IMG_9685" src="/wp-content/uploads/2014/03/IMG_9685-1024x682.jpg" width="1024" height="682" srcset="/wp-content/uploads/2014/03/IMG_9685-1024x682.jpg 1024w, /wp-content/uploads/2014/03/IMG_9685-300x200.jpg 300w, /wp-content/uploads/2014/03/IMG_9685-304x202.jpg 304w, /wp-content/uploads/2014/03/IMG_9685.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><a href="/wp-content/uploads/2014/03/IMG_9701.jpg"><img loading="lazy" class="alignnone size-large wp-image-1368" alt="IMG_9701" src="/wp-content/uploads/2014/03/IMG_9701-1024x682.jpg" width="1024" height="682" srcset="/wp-content/uploads/2014/03/IMG_9701-1024x682.jpg 1024w, /wp-content/uploads/2014/03/IMG_9701-300x200.jpg 300w, /wp-content/uploads/2014/03/IMG_9701-304x202.jpg 304w, /wp-content/uploads/2014/03/IMG_9701.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><a href='/2014-03-11-23-22-37/'><img width="150" height="150" src="/wp-content/uploads/2014/03/2014-03-11-23.22.37-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/awareness/2014-03-12-00-30-52/'><img width="150" height="150" src="/wp-content/uploads/2014/03/2014-03-12-00.30.52-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/2014-03-12-00-30-32/'><img width="150" height="150" src="/wp-content/uploads/2014/03/2014-03-12-00.30.32-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/awareness/img_1860/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_1860-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/img_1876/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_1876-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/awareness/img_9695/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_9695-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+<p>For further development, I&#8217;m thinking about maybe cooperate with <a href="http://make.kategodwin.com/" target="_blank">Kate</a>&#8216;s &#8220;<em>mushroom craft</em>&#8221; and have some craft workshops! After all the process of making those mycelium light bulbs, I&#8217;ve been through the fabrication works which I&#8217;ve never tried before, and it felt great! I think direct &#8220;<span style="font-size: medium; color: #33cccc;"><em><strong><span style="font-family: 'Book Antiqua', Palatino;">Hand</span></strong></em></span>&#8221; touch is the most effective way to pull closer the relationship between people and materials.</p>
+<p>By starting the production from searching and growing the material, we can appreciate more about the resource we take from nature and also be more aware about the environmental issues. Not just sitting there receiving the news from TV, but actually  caring and being aware of it because you feel it affecting the fabrication process directly. Maker/Crafter spirit is one of the answer to the future.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/awareness/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>mushroom. intervention. systemic.</title>
+		<link>/mushroom-intervention-systemic/</link>
+					<comments>/mushroom-intervention-systemic/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sat, 22 Feb 2014 00:19:29 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Fungus Among Us]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[feedback]]></category>
+		<category><![CDATA[inspiration]]></category>
+		<category><![CDATA[observation]]></category>
+		<category><![CDATA[project]]></category>
+		<guid isPermaLink="false">/?p=1112</guid>
+
+					<description><![CDATA[First thought after reading “Unruly Edges: Mushrooms as Companion Species”, “Arts of Inclusion, or, How to Love a Mushroom”, and the interview with Oliver during weekend is that, I kind of found... <a class="read-more" href="/mushroom-intervention-systemic/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p style="text-align: left;">First thought after reading “<a href="http://tsingmushrooms.blogspot.com/2010/11/anna-tsing-anthropology-university-of.html" target="_blank">Unruly Edges: Mushrooms as Companion Species</a>”, <span style="line-height: 1.5em;">“</span><a style="line-height: 1.5em;" href="http://www.australianhumanitiesreview.org/archive/Issue-May-2011/tsing.html" target="_blank">Arts of Inclusion, or, How to Love a Mushroom</a><span style="line-height: 1.5em;">”, and the interview with <a href="www.oliverk.org" target="_blank">Oliver</a> during weekend is that, I kind of found the purpose of a project, what can I do about it and what&#8217;s the possible future of a project. As an artist, I can start from</span></p>
+<pre>&quot;love&quot;</pre>
+<p>, start from developing deeper and knowing thoroughly about what I love, and then gradually, with the creative interventions, I can bridge worlds between public and the field where my passion lies.  Quoted from Anna &#8220;<em>&#8230; my stories tell how advocacy for mushrooms can lead to projects for democratic science and publicly inclusive wellbeing.</em>&#8220;, I&#8217;m inspired to search what I&#8217;m crazy about and immerse myself in it. Before that, I don&#8217;t really understand the goal of this class now I&#8217;ve found it. It&#8217;s not about just trying to use fungi in your projects and trying to involve Led, motor, Arduino, but trying to intervene this mysterious field with your point of view. Then as a messenger, you expose the rarely-knew info and make it connect to the public.</p>
+<p>Thus, simplifying and more comprehensive project update:</p>
+<p><a href="/wp-content/uploads/2014/02/2014-02-19-08.08.44.jpg"><img loading="lazy" class="alignnone size-full wp-image-1114" alt="2014-02-19 08.08.44" src="/wp-content/uploads/2014/02/2014-02-19-08.08.44.jpg" width="600" height="729" srcset="/wp-content/uploads/2014/02/2014-02-19-08.08.44.jpg 600w, /wp-content/uploads/2014/02/2014-02-19-08.08.44-246x300.jpg 246w, /wp-content/uploads/2014/02/2014-02-19-08.08.44-304x369.jpg 304w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+<p><strong>Idea</strong></p>
+<ul>
+<li>One line description:<strong> See the world through fungus</strong>.</li>
+<li><span style="line-height: 1.5em;">I want to build up connections between fungus and people, and further take fungus as a bridge to connect people with the world beyond fungus. Thus being aware of what fungus is, what fungus does, how does it affect the planet.</span></li>
+<li>The idea is playing with the notions from &#8220;Mycelium Running&#8221; by Paul Stamets,
+<ul>
+<li><span style="line-height: 1.5em;">“<em>I see the mycelium as the Earth&#8217;s natural Internet, a consciousness with which we might be able to communicate. <span style="color: #2aabab;">Through cross-species interfacing, we may one day exchange information with these sentient cellular networks.</span> </em></span><span style="line-height: 1.5em;"><em>Because <span style="color: #2aabab;">these externalized neurological nets sense any impression upon them</span>, from footsteps to falling tree branches, they could relay enormous amounts of data regarding the movements of all organisms through the landscape.</em>”</span></li>
+</ul>
+</li>
+<li><span style="line-height: 1.5em;">One particular thing I&#8217;d love to highlight is fungus&#8217;s decomposing ability. It is the key of the nutrient cycling system, and also degrade or remove toxins from the environment.</span></li>
+<li>So yes, it&#8217;s a project with eco-friendly aspect and hope people will be more aware of the environmental issue.</li>
+</ul>
+<p><strong style="line-height: 1.5em;">Content</strong></p>
+<ul>
+<li>Upon a box of soil, are 5~8 mycelium lights hanging and changing between bright and dim gradually.</li>
+<li>In the background screen, playing the collage of the mycelium activities(growing, moving, etc) video footages, representing fungus&#8217;s daily life.</li>
+<li>Once  someone comes near(detected by ultrasonic sensor), the mycelium lights speed up changing, and forming a pattern of spreading. Also, the screen&#8217;s content turns to show the interactions between fungus and humankind, including foraging, pollution, infection, bio-chemical etc.</li>
+<li>If time permits, the soil will be pushed by the solenoids beneath, amplifying fungus&#8217;s awareness of us.</li>
+</ul>
+<p><strong>Materials</strong></p>
+<ul>
+<li>Mycelium Lights * 5~8
+<ul>
+<li>wrap mycelium(post-blender) around balloons, and poke the balloons once mycelium eats all the materials</li>
+</ul>
+</li>
+<li>Wood sticks * 4</li>
+<li>Wires hiding in flax ropes</li>
+<li>Wood base
+<ul>
+<li>soil in wood box</li>
+<li>ultrasonic sensor attached</li>
+<li>solenoid beneath(if time permits)</li>
+</ul>
+</li>
+</ul>
+<p><a href="/wp-content/uploads/2014/02/mycelium_ball.jpeg"><img loading="lazy" class="alignnone size-full wp-image-1123" alt="mycelium_ball" src="/wp-content/uploads/2014/02/mycelium_ball.jpeg" width="599" height="1000" srcset="/wp-content/uploads/2014/02/mycelium_ball.jpeg 599w, /wp-content/uploads/2014/02/mycelium_ball-179x300.jpeg 179w, /wp-content/uploads/2014/02/mycelium_ball-304x507.jpeg 304w" sizes="(max-width: 599px) 100vw, 599px" /></a></p>
+<p>Also about the case study, one thing interests me that most of the projects from reading and from Oliver, all have certain degree of public influence, and create new behavior. I wonder how many artist originally had this kind of visions and how many artist eventually made it and change the real world? Or are they actually all make it through but just in different level? And how can we keep our vision and passion vivid and lively?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/mushroom-intervention-systemic/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

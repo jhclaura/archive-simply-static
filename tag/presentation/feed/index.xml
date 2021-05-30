@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>presentation &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/presentation/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Mon, 21 Mar 2016 14:09:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Projects Preview</title>
+		<link>/projects-preview/</link>
+					<comments>/projects-preview/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Mon, 02 Feb 2015 04:42:53 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Thesis - MASK]]></category>
+		<category><![CDATA[draft]]></category>
+		<category><![CDATA[presentation]]></category>
+		<guid isPermaLink="false">/?p=2254</guid>
+
+					<description><![CDATA[/////////// Before coming to ITP, I was never a person who makes things or codes. I grew up pursuing high grades, good college, and proper stable jobs, and kept my fantasy... <a class="read-more" href="/projects-preview/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><iframe loading="lazy" src="https://docs.google.com/presentation/d/140QZp4bm8G3mlOY7z-kWZnaWZDicHNPfJy9pynELvWM/embed?start=false&amp;loop=false&amp;delayms=3000" width="760" height="456" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>///////////</p>
+<p>Before coming to ITP, I was never a person who makes things or codes. I grew up pursuing high grades, good college, and proper stable jobs, and kept my fantasy and daydreaming well within leisure time and doodling. After graduated, I&#8217;d worked as macro economic analyst for 2 years, forecasting &#8220;far to reach&#8221; numbers in the market manipulated by many big hands, and I gradually became numb and the job became just task. Thus I decided to change the life path when I still can, and desire to do <strong>something that will only end good if you pay enough efforts in it</strong>. Something is not made by talking but made by hand. Learning 3D animation was my first step, and then I was in ITP.</p>
+<p>///////////</p>
+<p>Reviewed my past projects, I concluded myself <strong>a graphic person who want to do physical stuff</strong>. In the coding worlds, everything is so perfect, yet in the real world, everything is so against my will. I don&#8217;t know why I kept challenge myself with to do physical stuff even I know I&#8217;ll spend extra time on fabrication than other people. The connections of physical &amp; physical, physical &amp; graphics just fascinate me.</p>
+<p>Overall, the projects can roughly summarized as</p>
+<ul>
+<li>animated</li>
+<li>fantasy realization</li>
+<li>lighthearted</li>
+<li>trying to be weird</li>
+<li>hoping to be provoking</li>
+<li>and most of them were out of self desire.</li>
+</ul>
+<p>I&#8217;ve been focus on web based <strong>3D graphic</strong> using Three.js since Spring 14&#8242;, and extended to <strong>virtual reality</strong> exploration. In Fall 14&#8242;, I fell in love with gears and kinetic movement, <strong>with blood and tears</strong>, because of Automata class.</p>
+<p>///////////</p>
+<p>Thus(?) for my thesis, I&#8217;m interested in</p>
+<ul>
+<li>Daydreams / doodles realization</li>
+<li>Mask / helmet / thing that hides face: transform myself, communicate with the world as another identification</li>
+<li>VR: experience the impossibility, challenge with contradiction and illusion, combine with audio and physical feedback</li>
+<li>Chain reactions: both physical computing and analog (e.g. automata); to connect virtual with reality, experience virtual in reality, to make reality in virtual</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>/projects-preview/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>{Roofwing}_storyboards and 3D view</title>
+		<link>/roofwing_storyboards-and-3d-view/</link>
+					<comments>/roofwing_storyboards-and-3d-view/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Thu, 20 Feb 2014 18:08:38 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Spatial Media]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[fantasy]]></category>
+		<category><![CDATA[Maya]]></category>
+		<category><![CDATA[presentation]]></category>
+		<guid isPermaLink="false">/?p=1117</guid>
+
+					<description><![CDATA[Spatial Media project with John. A multiple players game to feel the wing, feel the swing, and feel the height. Storyboards*3 3D perspective view software: Maya &#160; &#160; Next, should... <a class="read-more" href="/roofwing_storyboards-and-3d-view/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>Spatial Media project with John. A multiple players game to feel the wing, feel the swing, and feel the height.</p>
+<h2>Storyboards*3</h2>
+<p><a href="/wp-content/uploads/2014/02/Rooftop_storyBoard_1.jpg"><img loading="lazy" class="alignnone size-full wp-image-1118" alt="Rooftop_storyBoard_1" src="/wp-content/uploads/2014/02/Rooftop_storyBoard_1.jpg" width="800" height="515" srcset="/wp-content/uploads/2014/02/Rooftop_storyBoard_1.jpg 800w, /wp-content/uploads/2014/02/Rooftop_storyBoard_1-300x193.jpg 300w, /wp-content/uploads/2014/02/Rooftop_storyBoard_1-304x195.jpg 304w" sizes="(max-width: 800px) 100vw, 800px" /></a> <a href="/wp-content/uploads/2014/02/Rooftop_storyBoard_2.jpg"><img loading="lazy" class="alignnone size-large wp-image-1119" alt="Rooftop_storyBoard_2" src="/wp-content/uploads/2014/02/Rooftop_storyBoard_2.jpg" width="800" height="515" srcset="/wp-content/uploads/2014/02/Rooftop_storyBoard_2.jpg 800w, /wp-content/uploads/2014/02/Rooftop_storyBoard_2-300x193.jpg 300w, /wp-content/uploads/2014/02/Rooftop_storyBoard_2-304x195.jpg 304w" sizes="(max-width: 800px) 100vw, 800px" /></a> <a href="/wp-content/uploads/2014/02/Rooftop_storyBoard_3-1.jpg"><img loading="lazy" class="alignnone size-large wp-image-1120" alt="Rooftop_storyBoard_3-1" src="/wp-content/uploads/2014/02/Rooftop_storyBoard_3-1.jpg" width="800" height="515" srcset="/wp-content/uploads/2014/02/Rooftop_storyBoard_3-1.jpg 800w, /wp-content/uploads/2014/02/Rooftop_storyBoard_3-1-300x193.jpg 300w, /wp-content/uploads/2014/02/Rooftop_storyBoard_3-1-304x195.jpg 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<h2>3D perspective view</h2>
+<p>software: Maya<br />
+<a href="/wp-content/uploads/2014/02/total.png"><img loading="lazy" class="alignnone size-large wp-image-1121" alt="total" src="/wp-content/uploads/2014/02/total.png" width="800" height="450" srcset="/wp-content/uploads/2014/02/total.png 800w, /wp-content/uploads/2014/02/total-300x168.png 300w, /wp-content/uploads/2014/02/total-304x171.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Next, should be a miniature or simple version set in the lounge of ITP.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/roofwing_storyboards-and-3d-view/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ICM_Glitchtchtchitch</title>
+		<link>/glitchtchtchitch/</link>
+					<comments>/glitchtchtchitch/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Thu, 28 Nov 2013 17:21:32 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[ICM_Processing]]></category>
+		<category><![CDATA[final]]></category>
+		<category><![CDATA[ohyay]]></category>
+		<category><![CDATA[presentation]]></category>
+		<category><![CDATA[processing]]></category>
+		<category><![CDATA[video]]></category>
+		<guid isPermaLink="false">/?p=470</guid>
+
+					<description><![CDATA[ICM Final&#8211; Glitchtchtchitch. Manipulation and surveillance visualization. Featured in ITP Winter Show 2013(See all the pics!). Glitchtchtchitch is a live interactive installation showing multiple short-lived fault in a system. By... <a class="read-more" href="/glitchtchtchitch/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>ICM Final&#8211; <strong>Glitchtchtchitch</strong>.</p>
+<blockquote><p>Manipulation and surveillance visualization.</p></blockquote>
+<p>Featured in <a href="/wshow_glitchtchtchitch/" target="_blank">ITP Winter Show 2013(See all the pics!)</a>.</p>
+<p>Glitchtchtchitch is a live interactive installation showing multiple short-lived fault in a system. By bringing out the imperfection of technology with massive pixels manipulation, sound distortion, and multiple screens display, Glitchtchtchitch visualize the transient fault and the incapability of communication. Although mainly sending serious messages, with the effect of headless illusions, heads displacement, and delay, it leaves audience undergoing an experience without too much pressure.</p>
+<p>Glitchtchtchitch is presented by running more than 10 Processing sketches at the same time, and using 2-3 projectors to increase the amount of screen, the variety, and increase the level of distortion.</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/80522589?color=c9ff23" width="700" height="383" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>&nbsp;</p>
+<p>Main idea &#8211;&gt;  In order to cubify heads, instead of just altering pixels, I made an object &#8220;Cube&#8221; to get, restore, alter, and display the pixels of specific range. Also to achieve the headless effect, besides the library <a href="https://github.com/atduskgreg/opencv-processing" target="_blank">OpenCV</a>, I took a background image beforehand, and display its pixels within certain ranges, once detecting a face. <a href="http://bit.ly/Glitchtchtchitch" target="_blank">ALL THE SOURCE CODES</a></p>
+<p>&nbsp;</p>
+<p><a href='/glitchtchtchitch/attachment/2/'><img width="150" height="150" src="/wp-content/uploads/2013/11/2-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/13/'><img width="150" height="150" src="/wp-content/uploads/2013/11/13-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/8/'><img width="150" height="150" src="/wp-content/uploads/2013/11/8-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/20/'><img width="150" height="150" src="/wp-content/uploads/2013/11/20-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/12/'><img width="150" height="150" src="/wp-content/uploads/2013/11/12-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/7/'><img width="150" height="150" src="/wp-content/uploads/2013/11/7-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/4/'><img width="150" height="150" src="/wp-content/uploads/2013/11/4-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/18/'><img width="150" height="150" src="/wp-content/uploads/2013/11/18-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/15/'><img width="150" height="150" src="/wp-content/uploads/2013/11/15-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/11/'><img width="150" height="150" src="/wp-content/uploads/2013/11/11-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/9/'><img width="150" height="150" src="/wp-content/uploads/2013/11/9-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/19/'><img width="150" height="150" src="/wp-content/uploads/2013/11/19-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/16/'><img width="150" height="150" src="/wp-content/uploads/2013/11/16-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/1/'><img width="150" height="150" src="/wp-content/uploads/2013/11/1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/6/'><img width="150" height="150" src="/wp-content/uploads/2013/11/6-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/10/'><img width="150" height="150" src="/wp-content/uploads/2013/11/10-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/3/'><img width="150" height="150" src="/wp-content/uploads/2013/11/3-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/14/'><img width="150" height="150" src="/wp-content/uploads/2013/11/14-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/5/'><img width="150" height="150" src="/wp-content/uploads/2013/11/5-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/17/'><img width="150" height="150" src="/wp-content/uploads/2013/11/17-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+<p><strong>Notes</strong></p>
+<ul>
+<li>Speed issue has room for improvement.</li>
+<li>Different scale presentation style(projectors included) looks nice.</li>
+<li>From user test and presentation feedback, people love headless and delay effect the most. Because they’re the most bizarre, unrealistic, and uncommon visual impact.</li>
+</ul>
+<p><strong>Problems with solutions</strong></p>
+<ul>
+<li>OutOfBounds —&gt; constrain(xxx, 0, numPixels-1)</li>
+<li>flip horizontal —&gt; video.width-fx-1</li>
+<li>can’t cover image with pixels[ ] —&gt; solved by using pixels for both</li>
+<li>improve the sketch speed —&gt; P2D, PFrame,</li>
+<li>connect to webcam? PS eye? —&gt; camera list, example</li>
+</ul>
+<p><strong>References</strong></p>
+<ul>
+<li>scale PImage <span style="text-decoration: underline;">http://stackoverflow.com/questions/17705781/video-delay-buffer-in-processing-2-0</span></li>
+<li>Minim noise <span style="text-decoration: underline;">http://code.compartmental.net/tools/minim/manual-noise/</span></li>
+<li>hide menu <span style="text-decoration: underline;">http://processing.org/discourse/beta/num_1224367967.html</span></li>
+</ul>
+<p><strong>Original proposal </strong>&#8211;&gt; <a href="http://jhclaura.com/Glitchtchtchlitch_proposal/assets/player/KeynoteDHTMLPlayer.html#0" target="_blank">Here</a>.</p>
+<p><![if !IE]><iframe loading="lazy" src="http://docs.google.com/viewer?url=http%3A%2F%2Fjhclaura.com%2FGlitchtchtchlitch_proposal%2FGlitchtchtchlitch_proposal.pdf&amp;embedded=true" class="pdf" frameborder="0" style="height:750px;width:500px;border:0" width="500" height="750"></iframe><![endif]><!--[if IE]><object width="500" height="750" type="application/pdf" data="http://jhclaura.com/Glitchtchtchlitch_proposal/Glitchtchtchlitch_proposal.pdf" class="pdf ie">
+ 
+<div style="width:500;height:750;text-align:center;background:#fff;color:#000;margin:0;border:0;padding:0">Unable to display PDF<br /><a href="http://jhclaura.com/Glitchtchtchlitch_proposal/Glitchtchtchlitch_proposal.pdf">Click here to download</a></div>
+ 
+</object><![endif]--></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/glitchtchtchitch/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

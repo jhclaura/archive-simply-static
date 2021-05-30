@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>dumb &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/dumb/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Fri, 20 Nov 2015 22:16:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>ICM_Faking multi-window display mode! (update)</title>
+		<link>/icm_faking-multi-window-display-mode/</link>
+					<comments>/icm_faking-multi-window-display-mode/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sat, 23 Nov 2013 16:15:57 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[ICM_Processing]]></category>
+		<category><![CDATA[dumb]]></category>
+		<category><![CDATA[final]]></category>
+		<category><![CDATA[nerd]]></category>
+		<category><![CDATA[ohyay]]></category>
+		<guid isPermaLink="false">/?p=422</guid>
+
+					<description><![CDATA[(Update_11/25) Find the way to move menu-hidden sketch window! import java.awt.MouseInfo; // do whatever you want int mX; int mY; void mousePressed() { mX = mouseX; mY = mouseY; }... <a class="read-more" href="/icm_faking-multi-window-display-mode/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<div id="attachment_423" style="width: 510px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2013/11/Screen-Shot-2013-11-23-at-10.46.39-AM.png"><img aria-describedby="caption-attachment-423" loading="lazy" class="size-large wp-image-423" alt="black desktop!" src="/wp-content/uploads/2013/11/Screen-Shot-2013-11-23-at-10.46.39-AM-1024x640.png" width="500" height="312" srcset="/wp-content/uploads/2013/11/Screen-Shot-2013-11-23-at-10.46.39-AM-1024x640.png 1024w, /wp-content/uploads/2013/11/Screen-Shot-2013-11-23-at-10.46.39-AM-300x187.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p id="caption-attachment-423" class="wp-caption-text">black desktop!</p>
+</div>
+<p>(Update_11/25)</p>
+<p>Find the way to move menu-hidden sketch window!</p>
+<pre class="brush: java; gutter: true">import java.awt.MouseInfo;
+
+// do whatever you want
+
+int mX;
+int mY;
+
+void mousePressed() {
+  mX = mouseX;
+  mY = mouseY;
+}
+
+void mouseDragged() {
+  frame.setLocation(
+  MouseInfo.getPointerInfo().getLocation().x-mX,
+  MouseInfo.getPointerInfo().getLocation().y-mY);
+}</pre>
+<p>reference from <a href="http://processing.org/discourse/beta/num_1224367967.html" target="_blank">here</a>.</p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<p>Found the Plan-Z to present my Glitchtchtchitch final&#8211; make my desktop all black and  hide the title bar of all my sketches!!! It&#8217;s a dumb way I know&#8230; but at least it works!</p>
+<p>codes for Processing</p>
+<pre class="brush: java; gutter: true">public void init(){
+  frame.removeNotify();
+  frame.setUndecorated(true);
+  frame.addNotify();
+  super.init();
+}</pre>
+<p>The only drawback is&#8230; I can&#8217;t move the sketch window after doing this! Which means I should run my sketches twice for each one, first time comment the magic codes out and adjust the location, then close it and bring the magic codes back, and then run it again&#8230;</p>
+<p><em>Viva la vie.</em></p>
+<p><span style="color: #808080;">resources: <a href="https://itunes.apple.com/us/app/menu-eclipse-2/id420041409?mt=12" target="_blank"><span style="color: #808080;">1</span></a>, <a href="http://workshop.evolutionzone.com/2009/09/29/hack-non-standard-windows-in-processing/" target="_blank"><span style="color: #808080;">2</span></a>, <a href="http://processing.org/discourse/beta/num_1224367967.html" target="_blank"><span style="color: #808080;">3</span></a></span></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/icm_faking-multi-window-display-mode/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

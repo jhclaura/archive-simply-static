@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>storyboard &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/storyboard/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Tue, 09 Feb 2016 22:01:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Button</title>
+		<link>/button/</link>
+					<comments>/button/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Tue, 09 Feb 2016 21:45:16 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Readymades]]></category>
+		<category><![CDATA[button]]></category>
+		<category><![CDATA[storyboard]]></category>
+		<guid isPermaLink="false">/?p=2524</guid>
+
+					<description><![CDATA[A button&#8217;s desire and personality. And this is the sound that button wants to deliver. It wants to share what it hears, and thinks maybe the sound can comfort the soul... <a class="read-more" href="/button/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>A button&#8217;s desire and personality.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2527" src="/wp-content/uploads/2016/02/button.png" alt="button" width="2250" height="1000" srcset="/wp-content/uploads/2016/02/button.png 2250w, /wp-content/uploads/2016/02/button-300x133.png 300w, /wp-content/uploads/2016/02/button-768x341.png 768w, /wp-content/uploads/2016/02/button-1024x455.png 1024w, /wp-content/uploads/2016/02/button-400x178.png 400w, /wp-content/uploads/2016/02/button-210x93.png 210w" sizes="(max-width: 2250px) 100vw, 2250px" /></p>
+<p>And this is the sound that button wants to deliver. It wants to share what it hears, and thinks maybe the sound can comfort the soul of all the other buttons.</p>
+<p><iframe loading="lazy" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/246265613&amp;color=00deb8&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" width="100%" height="166" frameborder="no" scrolling="no"></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/button/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>RabbitHole &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/rabbithole/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Fri, 20 Nov 2015 22:15:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>{Rabbit_Hole} update!</title>
+		<link>/rabbit_hole-update-half-way-to-go/</link>
+					<comments>/rabbit_hole-update-half-way-to-go/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Mon, 28 Apr 2014 03:17:12 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Coding for Emotional Impact]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[final]]></category>
+		<category><![CDATA[RabbitHole]]></category>
+		<category><![CDATA[three.js]]></category>
+		<guid isPermaLink="false">/?p=1436</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<p><iframe loading="lazy" src="https://docs.google.com/presentation/d/1UP_n7l4r-ZdcueNbdV9g5uRBcsBFXeobt2OsJm9b3_Q/embed?start=false&#038;loop=true&#038;delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/rabbit_hole-update-half-way-to-go/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

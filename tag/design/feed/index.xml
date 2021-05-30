@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>design &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/design/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Mon, 21 Mar 2016 14:10:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>{Rabbit_Hole}</title>
+		<link>/composition-rabbit_hole/</link>
+					<comments>/composition-rabbit_hole/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Mon, 14 Apr 2014 02:41:32 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Coding for Emotional Impact]]></category>
+		<category><![CDATA[brain-squeezing]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[fantasy]]></category>
+		<category><![CDATA[final]]></category>
+		<category><![CDATA[game]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[life]]></category>
+		<category><![CDATA[Maya]]></category>
+		<category><![CDATA[project]]></category>
+		<category><![CDATA[three.js]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">/?p=1409</guid>
+
+					<description><![CDATA[{currently works with Chrome and Firefox browser} For the composition assignment the final of Coding for Emotional Impact class, I want to create something with multiple layers and is self-explained. Inspired by... <a class="read-more" href="/composition-rabbit_hole/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><span style="font-size: 14pt;">{currently works with <span style="color: #000000;">Chrome</span> and Firefox browser}</span></p>
+<p>For <del>the composition assignment</del> the final of <em>Coding for Emotional Impact</em> class, I want to create something with multiple layers and is self-explained. Inspired by the description of computer vision is a rabbit hole from <a href="http://andysigler.com/" target="_blank">Andy</a>(because I&#8217;m learning <a href="http://threejs.org/" target="_blank">Three.js</a> by myself recently), I wanted to make a game about &#8220;Rabbit Hole&#8221;, and my biggest assumption is that everyone is sort of down the rabbit hole.</p>
+<p>ps. It&#8217;s not really a fun game to play. Still confusing should it be fun to play or just an emotion-building nowhere&#8230;</p>
+<div style="color: #222222;">&#8211; Title</div>
+<div style="color: #222222;"><strong><span style="font-size: 12pt;"><span style="font-family: 'andale mono', times;">Rabbit Hole</span></span></strong></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;">&#8211; Environment</div>
+<div style="color: #222222;"><a href="/wp-content/uploads/2014/04/environment.png"><img loading="lazy" class="alignnone wp-image-1426 " src="/wp-content/uploads/2014/04/environment.png" alt="environment" width="382" height="494" srcset="/wp-content/uploads/2014/04/environment.png 500w, /wp-content/uploads/2014/04/environment-231x300.png 231w, /wp-content/uploads/2014/04/environment-304x393.png 304w" sizes="(max-width: 382px) 100vw, 382px" /></a>     <a href="/wp-content/uploads/2014/04/environment2.png"><img loading="lazy" class="alignnone wp-image-1427 " src="/wp-content/uploads/2014/04/environment2.png" alt="environment2" width="383" height="496" srcset="/wp-content/uploads/2014/04/environment2.png 500w, /wp-content/uploads/2014/04/environment2-231x300.png 231w, /wp-content/uploads/2014/04/environment2-304x393.png 304w" sizes="(max-width: 383px) 100vw, 383px" /></a></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;">&#8211; Audience</div>
+<div style="color: #222222;"><span style="font-family: 'andale mono', times; font-size: 12pt;">Whoever also down the rabbit hole or wonder how it feel down there.</span></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;"><span style="font-family: 'andale mono', times; font-size: 12pt;"> </span></div>
+<div style="color: #222222;">&#8211; Narrative arc</div>
+<div style="color: #222222;"><span style="font-family: 'Book Antiqua', Palatino; font-size: medium;"><span style="font-family: 'Andale Mono', Times;"><strong>Rabbit Hole</strong>&#8211;</span></span><span style="font-family: 'Book Antiqua', Palatino; font-size: medium; color: #888888;"><em>Metaphor for the conceptual path which is thought to lead to the true nature of reality. Infinitesimally deep and complex, venturing too far down is probably not that great of an idea.</em></span></div>
+<p dir="ltr"><span style="font-family: 'Andale Mono', Times; font-size: medium;"><strong>Literary Nonsense-</strong></span> <span style="font-size: medium; color: #808080;"><em><span style="line-height: 1.5em; font-family: 'Book Antiqua', Palatino;">has no system of logic, although it may imply the existence of an inscrutable one, just beyond our grasp.</span></em></span></p>
+<p dir="ltr">And below are three snapshots of what I&#8217;ve built so far. I made my own models in Maya and drew textures in Photoshop. <span style="color: #999999;"><del>Can&#8217;t view online because of some web-related issue I can&#8217;t solve to load the music</del></span>(SOLVED_by hard coding the url of music file path). But have no ideas how to do the transition from scene to scene&#8230;</p>
+<p dir="ltr">SCENE_ZERO: <a href="http://www.rabbithole.link/" target="_blank">http://www.rabbithole.link/</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/open.png"><img loading="lazy" class="alignnone size-full wp-image-1477" src="/wp-content/uploads/2014/04/open.png" alt="open" width="800" height="403" srcset="/wp-content/uploads/2014/04/open.png 800w, /wp-content/uploads/2014/04/open-300x151.png 300w, /wp-content/uploads/2014/04/open-304x153.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_ONE: <a href="http://www.rabbithole.link/index_D.html" target="_blank">http://www.rabbithole.link/index_D.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM.png"><img loading="lazy" class="alignnone size-full wp-image-1411" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM.png" alt="Screen Shot 2014-04-13 at 10.26.14 PM" width="800" height="436" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM.png 800w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM-300x163.png 300w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM-304x165.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENCE_TWO: <a href="http://www.rabbithole.link/index_G.html" target="_blank">http://www.rabbithole.link/index_G.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM.png"><img loading="lazy" class="alignnone size-full wp-image-1412" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM.png" alt="Screen Shot 2014-04-13 at 10.27.30 PM" width="800" height="436" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM.png 800w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM-300x163.png 300w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM-304x165.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_THREE: <a href="http://www.rabbithole.link/index_S.html" target="_blank">http://www.rabbithole.link/index_S.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM.png"><img loading="lazy" class="alignnone size-full wp-image-1425" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM.png" alt="Screen Shot 2014-04-20 at 6.44.00 PM" width="800" height="397" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM.png 800w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM-300x148.png 300w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM-304x150.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_FOUR: <a href="http://www.rabbithole.link/index_M.html" target="_blank">http://www.rabbithole.link/index_M.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/maze.png"><img loading="lazy" class="alignnone size-full wp-image-1463" src="/wp-content/uploads/2014/04/maze.png" alt="maze" width="800" height="401" srcset="/wp-content/uploads/2014/04/maze.png 800w, /wp-content/uploads/2014/04/maze-300x150.png 300w, /wp-content/uploads/2014/04/maze-304x152.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_FIVE: <a href="http://www.rabbithole.link/index_T.html" target="_blank">http://www.rabbithole.link/index_T.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/TV.png"><img loading="lazy" class="alignnone size-full wp-image-1467" src="/wp-content/uploads/2014/04/TV.png" alt="TV" width="800" height="295" srcset="/wp-content/uploads/2014/04/TV.png 800w, /wp-content/uploads/2014/04/TV-300x110.png 300w, /wp-content/uploads/2014/04/TV-304x112.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_SIX: <a href="http://www.rabbithole.link/index_F.html" target="_blank">http://www.rabbithole.link/index_F.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/jump.png"><img loading="lazy" class="alignnone size-full wp-image-1472" src="/wp-content/uploads/2014/04/jump.png" alt="jump" width="800" height="397" srcset="/wp-content/uploads/2014/04/jump.png 800w, /wp-content/uploads/2014/04/jump-300x148.png 300w, /wp-content/uploads/2014/04/jump-304x150.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_SEVEN: <a href="http://www.rabbithole.link/index_V.html" target="_blank">http://www.rabbithole.link/index_V.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/voice.png"><img loading="lazy" class="alignnone size-full wp-image-1469" src="/wp-content/uploads/2014/04/voice.png" alt="voice" width="800" height="309" srcset="/wp-content/uploads/2014/04/voice.png 800w, /wp-content/uploads/2014/04/voice-300x115.png 300w, /wp-content/uploads/2014/04/voice-304x117.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_EIGHT: <a href="http://www.rabbithole.link/index_E.html" target="_blank">http://www.rabbithole.link/index_E.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Elevator.png"><img loading="lazy" class="alignnone size-full wp-image-1474" src="/wp-content/uploads/2014/04/Elevator.png" alt="Elevator" width="800" height="399" srcset="/wp-content/uploads/2014/04/Elevator.png 800w, /wp-content/uploads/2014/04/Elevator-300x149.png 300w, /wp-content/uploads/2014/04/Elevator-304x151.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">( Three.js + web stuff ) == super deep rabbit hole.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/composition-rabbit_hole/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Roofwing</title>
+		<link>/roofwing/</link>
+					<comments>/roofwing/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sat, 15 Mar 2014 00:49:28 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Spatial Media]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[computer vision]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[documentation]]></category>
+		<category><![CDATA[fantasy]]></category>
+		<category><![CDATA[group]]></category>
+		<category><![CDATA[midterm]]></category>
+		<category><![CDATA[Openframeworks]]></category>
+		<guid isPermaLink="false">/?p=1246</guid>
+
+					<description><![CDATA[A flying + walking, surreal experience design for rooftop. Work done with amazing John. It&#8217;s all start from an assignment in the class Spatial Media, with specific requirement as below:... <a class="read-more" href="/roofwing/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2014/03/IMG_1826.jpg"><img loading="lazy" class="alignnone size-large wp-image-1253" alt="IMG_1826" src="/wp-content/uploads/2014/03/IMG_1826-1024x682.jpg" width="1024" height="682" srcset="/wp-content/uploads/2014/03/IMG_1826-1024x682.jpg 1024w, /wp-content/uploads/2014/03/IMG_1826-300x200.jpg 300w, /wp-content/uploads/2014/03/IMG_1826-304x202.jpg 304w, /wp-content/uploads/2014/03/IMG_1826.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>A flying + walking, surreal experience design for <em><span style="font-family: Georgia, Palatino; font-size: medium;">rooftop</span></em>. Work done with amazing <a href="http://www.j-namuchoi.com/" target="_blank">John</a>.</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/89071351?byline=0&amp;color=c9ff23" height="450" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p>It&#8217;s all start from an assignment in the class <span style="font-family: Georgia, Palatino;"><em>Spatial Media</em></span>, with specific requirement as below:<span style="font-family: Verdana, Geneva;"><br />
+</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;">+ be site specific (i.e. be designed for an actual location)</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + be designed for use by more than one person</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + involve a horizontal surface</span></p>
+<p><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">START FROM SPACE</span></p>
+<p>Because we wanted the experience to be strongly connected with space, we developed the idea starting from <span style="font-size: medium;"><em><span style="font-family: Georgia, Palatino;">space</span></em></span>. We chose rooftop because its exciting yet rusted characters, and we thought it has the potential to be a relaxing playground for citizens, especially for cities with limited space.</p>
+<p><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">CONCEPT</span></p>
+<p><span style="font-family: Verdana, Geneva;"><span style="font-family: Georgia, Palatino; font-size: small;">+ Utilize the height and windy characters directly from space</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;">+ Cooperate with your teammates to maximize and exaggerate the excitement</span><br />
+</span></p>
+<p><a href="/wp-content/uploads/2014/02/SP_Rooftop_old.jpeg"><img loading="lazy" class="alignnone size-large wp-image-1067" alt="SP_Rooftop_old" src="/wp-content/uploads/2014/02/SP_Rooftop_old-1024x854.jpeg" width="1024" height="854" srcset="/wp-content/uploads/2014/02/SP_Rooftop_old-1024x854.jpeg 1024w, /wp-content/uploads/2014/02/SP_Rooftop_old-300x250.jpeg 300w, /wp-content/uploads/2014/02/SP_Rooftop_old-304x253.jpeg 304w, /wp-content/uploads/2014/02/SP_Rooftop_old.jpeg 1853w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">SWINGS PRODUCTION(making miniature!)</span></p>
+<p><span style="font-family: Georgia, Palatino; font-size: small;">+ woods</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + necklace chains &amp; rings</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + thin hemp rope</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + webcam</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + monitor</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + white board</span></p>
+<p><a href='/roofwing/2014-02-27-15-00-18/'><img width="150" height="150" src="/wp-content/uploads/2014/03/2014-02-27-15.00.18-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/2014-02-28-19-39-32/'><img width="150" height="150" src="/wp-content/uploads/2014/03/2014-02-28-19.39.32-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing_progress-media-content/img_3032/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3032-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/img_3229/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3229-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/img_3059/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3059-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing_progress-media-content/img_3018/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3018-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/img_3235/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3235-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+<p><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">TECHNIQUES</span></p>
+<p><span style="font-family: Georgia, Palatino; font-size: small;"> + Openframeworks</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + videoGrabber</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + videoPlayer</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + color detection</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + image sequences</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + soundPlayer</span></p>
+<p><em>Swing range test</em><br />
+<iframe loading="lazy" src="//player.vimeo.com/video/88273783?byline=0&amp;color=c9ff23" height="597" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p><em>Infinite Loop</em><br />
+This is one of the amazing beautiful mistake with the infinite loop between monitor showing what camera capturing and camera capturing monitor.<br />
+<iframe loading="lazy" src="//player.vimeo.com/video/89045870?byline=0&amp;color=c9ff23" height="450" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">HOW IT WORKS</span></p>
+<p><span style="font-family: Georgia, Palatino; font-size: small;"> + Team A &amp; Team B</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + swing people*5 need to cooperate to swing as high as they can to shoot out the strong thunder, or either weak thunder or NO thunder will be shoot out(different thunder sound effects).</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + people in the center can block the thunders by stepping on them(scoring sound effect + spark sequence), so two team have to try to rope in the people in the center</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + once thunders reach the other side, strong thunder gets 2 scores, weak thunder gets 1 score.</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + SWING OR DIE.</span></p>
+<p><a href='/roofwing/img_1841/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_1841-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/img_1834/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_1834-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/?attachment_id=1245'><img width="150" height="150" src="/wp-content/uploads/2014/03/present-150x150.jpeg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/img_1856/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_1856-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/roofwing/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Roofwing_{progress &#038; media content}</title>
+		<link>/roofwing_progress-media-content/</link>
+					<comments>/roofwing_progress-media-content/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Tue, 04 Mar 2014 05:54:11 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Spatial Media]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[design]]></category>
+		<guid isPermaLink="false">/?p=1172</guid>
+
+					<description><![CDATA[&#160; &#160; d]]></description>
+										<content:encoded><![CDATA[<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>d<a href="/wp-content/uploads/2014/03/IMG_3028.jpg"><img loading="lazy" class="alignnone size-full wp-image-1176" alt="IMG_3028" src="/wp-content/uploads/2014/03/IMG_3028.jpg" width="1000" height="668" srcset="/wp-content/uploads/2014/03/IMG_3028.jpg 1000w, /wp-content/uploads/2014/03/IMG_3028-300x200.jpg 300w, /wp-content/uploads/2014/03/IMG_3028-304x203.jpg 304w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="/wp-content/uploads/2014/03/IMG_3018.jpg"><img loading="lazy" class="alignnone size-large wp-image-1175" alt="IMG_3018" src="/wp-content/uploads/2014/03/IMG_3018-1024x683.jpg" width="1024" height="683" srcset="/wp-content/uploads/2014/03/IMG_3018-1024x683.jpg 1024w, /wp-content/uploads/2014/03/IMG_3018-300x200.jpg 300w, /wp-content/uploads/2014/03/IMG_3018-304x202.jpg 304w, /wp-content/uploads/2014/03/IMG_3018.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a> <a href="/wp-content/uploads/2014/03/IMG_3036.jpg"><img loading="lazy" class="alignnone size-large wp-image-1178" alt="IMG_3036" src="/wp-content/uploads/2014/03/IMG_3036-1024x683.jpg" width="1024" height="683" srcset="/wp-content/uploads/2014/03/IMG_3036-1024x683.jpg 1024w, /wp-content/uploads/2014/03/IMG_3036-300x200.jpg 300w, /wp-content/uploads/2014/03/IMG_3036-304x202.jpg 304w, /wp-content/uploads/2014/03/IMG_3036.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a> <a href="/wp-content/uploads/2014/03/IMG_3032.jpg"><img loading="lazy" class="alignnone size-full wp-image-1177" alt="IMG_3032" src="/wp-content/uploads/2014/03/IMG_3032.jpg" width="1000" height="668" srcset="/wp-content/uploads/2014/03/IMG_3032.jpg 1000w, /wp-content/uploads/2014/03/IMG_3032-300x200.jpg 300w, /wp-content/uploads/2014/03/IMG_3032-304x203.jpg 304w" sizes="(max-width: 1000px) 100vw, 1000px" /></a><a href="/wp-content/uploads/2014/03/Roofwing_mediaContent.jpg"><img loading="lazy" class="alignnone size-large wp-image-1173" alt="Roofwing_mediaContent" src="/wp-content/uploads/2014/03/Roofwing_mediaContent-1024x551.jpg" width="1024" height="551" srcset="/wp-content/uploads/2014/03/Roofwing_mediaContent-1024x551.jpg 1024w, /wp-content/uploads/2014/03/Roofwing_mediaContent-300x161.jpg 300w, /wp-content/uploads/2014/03/Roofwing_mediaContent-304x163.jpg 304w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/roofwing_progress-media-content/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>mushroom. intervention. systemic.</title>
+		<link>/mushroom-intervention-systemic/</link>
+					<comments>/mushroom-intervention-systemic/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sat, 22 Feb 2014 00:19:29 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Fungus Among Us]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[feedback]]></category>
+		<category><![CDATA[inspiration]]></category>
+		<category><![CDATA[observation]]></category>
+		<category><![CDATA[project]]></category>
+		<guid isPermaLink="false">/?p=1112</guid>
+
+					<description><![CDATA[First thought after reading “Unruly Edges: Mushrooms as Companion Species”, “Arts of Inclusion, or, How to Love a Mushroom”, and the interview with Oliver during weekend is that, I kind of found... <a class="read-more" href="/mushroom-intervention-systemic/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p style="text-align: left;">First thought after reading “<a href="http://tsingmushrooms.blogspot.com/2010/11/anna-tsing-anthropology-university-of.html" target="_blank">Unruly Edges: Mushrooms as Companion Species</a>”, <span style="line-height: 1.5em;">“</span><a style="line-height: 1.5em;" href="http://www.australianhumanitiesreview.org/archive/Issue-May-2011/tsing.html" target="_blank">Arts of Inclusion, or, How to Love a Mushroom</a><span style="line-height: 1.5em;">”, and the interview with <a href="www.oliverk.org" target="_blank">Oliver</a> during weekend is that, I kind of found the purpose of a project, what can I do about it and what&#8217;s the possible future of a project. As an artist, I can start from</span></p>
+<pre>&quot;love&quot;</pre>
+<p>, start from developing deeper and knowing thoroughly about what I love, and then gradually, with the creative interventions, I can bridge worlds between public and the field where my passion lies.  Quoted from Anna &#8220;<em>&#8230; my stories tell how advocacy for mushrooms can lead to projects for democratic science and publicly inclusive wellbeing.</em>&#8220;, I&#8217;m inspired to search what I&#8217;m crazy about and immerse myself in it. Before that, I don&#8217;t really understand the goal of this class now I&#8217;ve found it. It&#8217;s not about just trying to use fungi in your projects and trying to involve Led, motor, Arduino, but trying to intervene this mysterious field with your point of view. Then as a messenger, you expose the rarely-knew info and make it connect to the public.</p>
+<p>Thus, simplifying and more comprehensive project update:</p>
+<p><a href="/wp-content/uploads/2014/02/2014-02-19-08.08.44.jpg"><img loading="lazy" class="alignnone size-full wp-image-1114" alt="2014-02-19 08.08.44" src="/wp-content/uploads/2014/02/2014-02-19-08.08.44.jpg" width="600" height="729" srcset="/wp-content/uploads/2014/02/2014-02-19-08.08.44.jpg 600w, /wp-content/uploads/2014/02/2014-02-19-08.08.44-246x300.jpg 246w, /wp-content/uploads/2014/02/2014-02-19-08.08.44-304x369.jpg 304w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+<p><strong>Idea</strong></p>
+<ul>
+<li>One line description:<strong> See the world through fungus</strong>.</li>
+<li><span style="line-height: 1.5em;">I want to build up connections between fungus and people, and further take fungus as a bridge to connect people with the world beyond fungus. Thus being aware of what fungus is, what fungus does, how does it affect the planet.</span></li>
+<li>The idea is playing with the notions from &#8220;Mycelium Running&#8221; by Paul Stamets,
+<ul>
+<li><span style="line-height: 1.5em;">“<em>I see the mycelium as the Earth&#8217;s natural Internet, a consciousness with which we might be able to communicate. <span style="color: #2aabab;">Through cross-species interfacing, we may one day exchange information with these sentient cellular networks.</span> </em></span><span style="line-height: 1.5em;"><em>Because <span style="color: #2aabab;">these externalized neurological nets sense any impression upon them</span>, from footsteps to falling tree branches, they could relay enormous amounts of data regarding the movements of all organisms through the landscape.</em>”</span></li>
+</ul>
+</li>
+<li><span style="line-height: 1.5em;">One particular thing I&#8217;d love to highlight is fungus&#8217;s decomposing ability. It is the key of the nutrient cycling system, and also degrade or remove toxins from the environment.</span></li>
+<li>So yes, it&#8217;s a project with eco-friendly aspect and hope people will be more aware of the environmental issue.</li>
+</ul>
+<p><strong style="line-height: 1.5em;">Content</strong></p>
+<ul>
+<li>Upon a box of soil, are 5~8 mycelium lights hanging and changing between bright and dim gradually.</li>
+<li>In the background screen, playing the collage of the mycelium activities(growing, moving, etc) video footages, representing fungus&#8217;s daily life.</li>
+<li>Once  someone comes near(detected by ultrasonic sensor), the mycelium lights speed up changing, and forming a pattern of spreading. Also, the screen&#8217;s content turns to show the interactions between fungus and humankind, including foraging, pollution, infection, bio-chemical etc.</li>
+<li>If time permits, the soil will be pushed by the solenoids beneath, amplifying fungus&#8217;s awareness of us.</li>
+</ul>
+<p><strong>Materials</strong></p>
+<ul>
+<li>Mycelium Lights * 5~8
+<ul>
+<li>wrap mycelium(post-blender) around balloons, and poke the balloons once mycelium eats all the materials</li>
+</ul>
+</li>
+<li>Wood sticks * 4</li>
+<li>Wires hiding in flax ropes</li>
+<li>Wood base
+<ul>
+<li>soil in wood box</li>
+<li>ultrasonic sensor attached</li>
+<li>solenoid beneath(if time permits)</li>
+</ul>
+</li>
+</ul>
+<p><a href="/wp-content/uploads/2014/02/mycelium_ball.jpeg"><img loading="lazy" class="alignnone size-full wp-image-1123" alt="mycelium_ball" src="/wp-content/uploads/2014/02/mycelium_ball.jpeg" width="599" height="1000" srcset="/wp-content/uploads/2014/02/mycelium_ball.jpeg 599w, /wp-content/uploads/2014/02/mycelium_ball-179x300.jpeg 179w, /wp-content/uploads/2014/02/mycelium_ball-304x507.jpeg 304w" sizes="(max-width: 599px) 100vw, 599px" /></a></p>
+<p>Also about the case study, one thing interests me that most of the projects from reading and from Oliver, all have certain degree of public influence, and create new behavior. I wonder how many artist originally had this kind of visions and how many artist eventually made it and change the real world? Or are they actually all make it through but just in different level? And how can we keep our vision and passion vivid and lively?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/mushroom-intervention-systemic/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>{Roofwing}_storyboards and 3D view</title>
+		<link>/roofwing_storyboards-and-3d-view/</link>
+					<comments>/roofwing_storyboards-and-3d-view/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Thu, 20 Feb 2014 18:08:38 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Spatial Media]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[fantasy]]></category>
+		<category><![CDATA[Maya]]></category>
+		<category><![CDATA[presentation]]></category>
+		<guid isPermaLink="false">/?p=1117</guid>
+
+					<description><![CDATA[Spatial Media project with John. A multiple players game to feel the wing, feel the swing, and feel the height. Storyboards*3 3D perspective view software: Maya &#160; &#160; Next, should... <a class="read-more" href="/roofwing_storyboards-and-3d-view/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>Spatial Media project with John. A multiple players game to feel the wing, feel the swing, and feel the height.</p>
+<h2>Storyboards*3</h2>
+<p><a href="/wp-content/uploads/2014/02/Rooftop_storyBoard_1.jpg"><img loading="lazy" class="alignnone size-full wp-image-1118" alt="Rooftop_storyBoard_1" src="/wp-content/uploads/2014/02/Rooftop_storyBoard_1.jpg" width="800" height="515" srcset="/wp-content/uploads/2014/02/Rooftop_storyBoard_1.jpg 800w, /wp-content/uploads/2014/02/Rooftop_storyBoard_1-300x193.jpg 300w, /wp-content/uploads/2014/02/Rooftop_storyBoard_1-304x195.jpg 304w" sizes="(max-width: 800px) 100vw, 800px" /></a> <a href="/wp-content/uploads/2014/02/Rooftop_storyBoard_2.jpg"><img loading="lazy" class="alignnone size-large wp-image-1119" alt="Rooftop_storyBoard_2" src="/wp-content/uploads/2014/02/Rooftop_storyBoard_2.jpg" width="800" height="515" srcset="/wp-content/uploads/2014/02/Rooftop_storyBoard_2.jpg 800w, /wp-content/uploads/2014/02/Rooftop_storyBoard_2-300x193.jpg 300w, /wp-content/uploads/2014/02/Rooftop_storyBoard_2-304x195.jpg 304w" sizes="(max-width: 800px) 100vw, 800px" /></a> <a href="/wp-content/uploads/2014/02/Rooftop_storyBoard_3-1.jpg"><img loading="lazy" class="alignnone size-large wp-image-1120" alt="Rooftop_storyBoard_3-1" src="/wp-content/uploads/2014/02/Rooftop_storyBoard_3-1.jpg" width="800" height="515" srcset="/wp-content/uploads/2014/02/Rooftop_storyBoard_3-1.jpg 800w, /wp-content/uploads/2014/02/Rooftop_storyBoard_3-1-300x193.jpg 300w, /wp-content/uploads/2014/02/Rooftop_storyBoard_3-1-304x195.jpg 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<h2>3D perspective view</h2>
+<p>software: Maya<br />
+<a href="/wp-content/uploads/2014/02/total.png"><img loading="lazy" class="alignnone size-large wp-image-1121" alt="total" src="/wp-content/uploads/2014/02/total.png" width="800" height="450" srcset="/wp-content/uploads/2014/02/total.png 800w, /wp-content/uploads/2014/02/total-300x168.png 300w, /wp-content/uploads/2014/02/total-304x171.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Next, should be a miniature or simple version set in the lounge of ITP.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/roofwing_storyboards-and-3d-view/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

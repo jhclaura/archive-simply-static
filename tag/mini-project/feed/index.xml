@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>mini project &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/mini-project/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Sat, 19 Sep 2015 01:24:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Summer Throwback One: Facebook Land</title>
+		<link>/summer-throwback-one-facebook-land/</link>
+					<comments>/summer-throwback-one-facebook-land/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Thu, 17 Sep 2015 19:23:03 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Experiments]]></category>
+		<category><![CDATA[Summer 2015]]></category>
+		<category><![CDATA[2D]]></category>
+		<category><![CDATA[3D]]></category>
+		<category><![CDATA[gif]]></category>
+		<category><![CDATA[mini project]]></category>
+		<category><![CDATA[Unity]]></category>
+		<guid isPermaLink="false">/?p=2342</guid>
+
+					<description><![CDATA[Originally is a birthday present to Andy S. But it ends up to be an Facebook post exploration journey. Below is the instructions: Start the journey Log into Facebook with... <a class="read-more" href="/summer-throwback-one-facebook-land/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="alignnone" src="https://33.media.tumblr.com/6064b666e7b3fca97b827fa2b0db2653/tumblr_nqs7chv7wG1u7sgsso1_1280.gif" alt="" width="900" height="446" /></p>
+<p>Originally is a birthday present to Andy S. But it ends up to be an Facebook post exploration journey. Below is the instructions:</p>
+<ul>
+<li>Start the journey</li>
+<li>Log into Facebook with token</li>
+<li>Hear happy birthday wishes from <span style="font-family: 'Andale Mono', Times; color: #999999;"><strong>Yelling Kid</strong></span></li>
+<li>Your latest 20 posts from the news feed show up, include: name, contents, and picture.</li>
+<li>Be checked out by <span style="font-family: 'Andale Mono', Times; color: #ff6600;"><strong>Andy the Candy</strong></span></li>
+<li>Press <em>Space</em> key to have confusing conversations with <span style="font-family: 'Andale Mono', Times;"><strong><span style="color: #ff6600;">Andy the Candy</span></strong></span></li>
+<li><span style="font-family: 'Andale Mono', Times; color: #ff6600;"><strong>Andy the Candy</strong></span> starts walking</li>
+<li>Follow <span style="font-family: 'Andale Mono', Times;"><strong><span style="color: #ff6600;">Andy the Candy</span></strong></span> to a post</li>
+<li>Press <em>Space</em> key to view the content</li>
+<li><span style="font-family: 'Andale Mono', Times; color: #ff6600;"><strong>Andy the Candy</strong></span> greets you when you are back</li>
+<li><span style="font-family: 'Andale Mono', Times; color: #ff6600;"><strong>Andy the Candy</strong></span> leads you to another post</li>
+<li>(Loop)</li>
+</ul>
+<p><iframe loading="lazy" src="https://player.vimeo.com/video/139623501?color=c9ff23" width="750" height="422" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Very fun experiments! Possible next steps: More posts you browse, the darker the environment it becomes, and eventually shut down the application :&gt;</p>
+<p><span style="color: #33cccc; font-size: 17pt;"><strong><span style="font-family: 'Andale Mono', Times;"><em>Just don&#8217;t fall for FB too much yo ^_&lt;</em></span></strong></span></p>
+<p>&nbsp;</p>
+<p>Materials &#8211;&gt; 3D-like 2D gif images</p>
+<p><img loading="lazy" class="alignnone" src="https://38.media.tumblr.com/1d4fb242c36a88d687a426e15f93739d/tumblr_npskuqHWGy1u7sgsso1_1280.gif" alt="" width="538" height="538" /></p>
+<p><img loading="lazy" class="alignnone" src="https://38.media.tumblr.com/c54be7af95faf8646dba09caad1ab718/tumblr_npslrzPSeW1u7sgsso1_540.gif" alt="" width="540" height="540" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/summer-throwback-one-facebook-land/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

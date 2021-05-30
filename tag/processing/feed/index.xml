@@ -1,0 +1,1684 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>processing &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/processing/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Fri, 20 Nov 2015 22:23:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Timing and Pacing</title>
+		<link>/timing-and-pacing/</link>
+					<comments>/timing-and-pacing/#comments</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sun, 23 Mar 2014 00:02:40 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Coding for Emotional Impact]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[analyze]]></category>
+		<category><![CDATA[music]]></category>
+		<category><![CDATA[observation]]></category>
+		<category><![CDATA[processing]]></category>
+		<guid isPermaLink="false">/?p=1338</guid>
+
+					<description><![CDATA[For this week&#8217;s subject Timing and Pacing, I chose &#8220;No Safe-House&#8221; in the soundtrack of The Grand Budapest Hotel to decode. &#160; effect I intend to achieve &#8211;&#62; emotion accumulation,... <a class="read-more" href="/timing-and-pacing/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>For this week&#8217;s subject Timing and Pacing, I chose &#8220;<a href="https://play.spotify.com/track/7bPZmJll7J8afrEfjNZ26p?play=true&amp;utm_source=open.spotify.com&amp;utm_medium=open" target="_blank"><strong>No Safe-House</strong></a>&#8221; in the soundtrack of The Grand Budapest Hotel to decode.</p>
+<p><a href="/wp-content/uploads/2014/03/timing.png"><img loading="lazy" class="alignnone size-full wp-image-1339" alt="timing" src="/wp-content/uploads/2014/03/timing.png" width="1000" height="489" srcset="/wp-content/uploads/2014/03/timing.png 1000w, /wp-content/uploads/2014/03/timing-300x146.png 300w, /wp-content/uploads/2014/03/timing-304x148.png 304w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>&nbsp;</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/89797686?byline=0&amp;color=c9ff23" height="637" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p><span style="font-family: 'Andale Mono', Times; font-size: medium;"><em><strong>effect</strong></em></span> I intend to achieve</p>
+<p>&#8211;&gt; emotion accumulation, cheerful and narrative.</p>
+<p><span style="font-size: medium;"><span style="font-family: 'Andale Mono', Times;"><strong><em>notes</em></strong></span></span></p>
+<ul>
+<li>library I used for camera in 3D &#8211;&gt;  http://mrfeinberg.com/peasycam/#about</li>
+<li>using PShape to store the tetrahedron I made and set their movements with trigonometry functions, noise, hsl, and <span style="color: #00ccff; font-size: large;"><strong><em><span style="font-family: 'Book Antiqua', Palatino;">hard-coding</span></em></strong></span> frameCount!!!(see how long and tedious my codes are :P)</li>
+<li><strong>issues</strong> to work on, since I used frameCount, it&#8217;s different all the time, depending how fast my computer run. need to use <span style="color: #ff6666;"><strong><span style="font-family: 'Courier New', Courier; font-size: medium;">millis()</span></strong></span> next time!</li>
+<li>next step will be using library Minim to generate the patterns directly from the analysis of sound file.</li>
+</ul>
+<p><span style="font-family: 'Andale Mono', Times; font-size: medium;"><strong><em>codes</em></strong> </span></p>
+<p><span id="more-1338"></span></p>
+<pre class="brush: java; gutter: true">import peasy.test.*;
+import peasy.org.apache.commons.math.*;
+import peasy.*;
+import peasy.org.apache.commons.math.geometry.*;
+import ddf.minim.*;
+
+Minim minim;
+AudioPlayer player;
+PeasyCam cam;
+
+float spin = 0.0;
+
+SinWave sinW1;
+SinWave sinW2;  //time=0
+CosWave cosW1;
+CosWave cosW2;  //time=0;
+TanWave tanW1;
+TanWave tanW2;  //time=0;
+
+//SinWave sw1;
+//SinWave sw2;
+//first circle
+ArrayList&lt;SinWave&gt; sw1;
+ArrayList&lt;SinWave&gt; sw2;
+ArrayList&lt;TanWave&gt; tw;
+ArrayList&lt;CosWave&gt; cw1;
+
+//second circle
+ArrayList&lt;SinWave&gt; sw1b;
+ArrayList&lt;SinWave&gt; sw2b;
+ArrayList&lt;TanWave&gt; twb;
+ArrayList&lt;CosWave&gt; cw1b;
+
+//3rd circle
+ArrayList&lt;SinWave&gt; sw1c;
+ArrayList&lt;SinWave&gt; sw2c;
+ArrayList&lt;TanWave&gt; twc;
+ArrayList&lt;CosWave&gt; cw1c;
+
+float frequency = 0.01;
+float time1 = PI/2;
+float time2 = 0;
+float amplitude = 5;
+float offset = 0;
+float increaseAmp = 0.01;
+float increaseBri = 0.01;
+float increaseBri2 = 0.01;
+float increaseTime = 0.01;
+float radiusCircle = 0.0;
+
+float ang;
+float posX;
+float posY;
+float posZ;
+
+float posX2;
+float posY2;
+float posZ2;
+
+float posCX;
+float posCY;
+
+ArrayList&lt;Tetrahedron&gt; triS;
+ArrayList&lt;Tetrahedron&gt; triCircleS;
+ArrayList&lt;Tetrahedron&gt; triCircle2S;
+ArrayList&lt;Tetrahedron&gt; triCircle3S;
+
+float noiseVal;
+float noiseScale=0.02;
+
+int octaves;
+float falloff;
+float time;
+
+boolean increase = true;
+
+int circleNum = 60;
+float size;
+
+//Camera
+float xmag, ymag = 0;
+float newXmag, newYmag = 0; 
+float averagePosX = 0;
+
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+//////////////////////  SET_UP  ////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+void setup() {
+  noCursor();
+  noFill();
+  //stroke(255);
+  size(1000, 800, P3D);
+  colorMode(HSB,100);
+
+  //Camera-------------------------------------------------
+  //-------------------------------------------------------
+  cam = new PeasyCam(this, 0, 0, 0, 1000);
+//  cam.setActive(false);
+//  cam.setYawRotationMode();
+
+  //audio
+  minim = new Minim(this);
+  player = minim.loadFile(&quot;No Safe-House.mp3&quot;);
+  player.play();
+
+  sinW1 = new SinWave(time1, frequency, amplitude, offset);
+  sinW2 = new SinWave(time2, frequency, amplitude, offset);
+  cosW1 = new CosWave(time1, frequency, amplitude, offset);
+  cosW2 = new CosWave(time2, frequency, amplitude, offset);
+  tanW1 = new TanWave(time1, frequency, amplitude, offset);
+  tanW2 = new TanWave(time2, frequency, amplitude, offset);
+
+  triS = new ArrayList&lt;Tetrahedron&gt;();
+  triCircleS = new ArrayList&lt;Tetrahedron&gt;();
+  triCircle2S = new ArrayList&lt;Tetrahedron&gt;();
+  triCircle3S = new ArrayList&lt;Tetrahedron&gt;();
+
+  sw1 = new ArrayList&lt;SinWave&gt;();
+  sw2 = new ArrayList&lt;SinWave&gt;();
+  tw = new ArrayList&lt;TanWave&gt;();
+  cw1 = new ArrayList&lt;CosWave&gt;();
+
+  sw1b = new ArrayList&lt;SinWave&gt;();
+  sw2b = new ArrayList&lt;SinWave&gt;();
+  twb = new ArrayList&lt;TanWave&gt;();
+  cw1b = new ArrayList&lt;CosWave&gt;();
+
+  sw1c = new ArrayList&lt;SinWave&gt;();
+  sw2c = new ArrayList&lt;SinWave&gt;();
+  twc = new ArrayList&lt;TanWave&gt;();
+  cw1c = new ArrayList&lt;CosWave&gt;();
+
+  //first circle
+  for(int i=0; i&lt;circleNum; i++){
+    Tetrahedron t = new Tetrahedron(color((i)*(100/circleNum), 100, 100));
+
+    SinWave x = new SinWave(radians(360/circleNum*i), frequency, amplitude, offset);
+    sw1.add(x);
+    SinWave y = new SinWave(PI/2+radians(360/circleNum*i), frequency, amplitude, offset);
+    sw2.add(y);
+    TanWave tt = new TanWave(radians(360/(circleNum*2)*i), frequency, amplitude, offset);
+    tw.add(tt);
+    CosWave v = new CosWave(radians(180/2*i), 0.1, 0.2, offset);
+    cw1.add(v);
+
+    t.update(x.run()*100, v.run()*50, y.run()*100, tt.run()*0.05);
+    triCircleS.add(t);
+  }
+
+  //spread circle
+  int amount = 30;
+  for(int j=0; j&lt;amount; j++){
+    Tetrahedron tet = new Tetrahedron();
+    Tetrahedron t = new Tetrahedron();
+
+    SinWave x2 = new SinWave(radians(360/amount*j), frequency, amplitude, offset);
+    sw1b.add(x2);
+    SinWave y2 = new SinWave(PI/2+radians(360/amount*j), frequency, amplitude, offset);
+    sw2b.add(y2);
+    TanWave tt2 = new TanWave(radians(360/(amount*2)*j), frequency, amplitude, offset);
+    twb.add(tt2);
+    CosWave v2 = new CosWave(radians(180/2*j), 0.1, 0.2, offset);
+    cw1b.add(v2);
+
+    SinWave x3 = new SinWave(radians(360/amount*j), frequency, amplitude, offset);
+    sw1c.add(x3);
+    SinWave y3 = new SinWave(PI/2+radians(360/amount*j), frequency, amplitude, offset);
+    sw2c.add(y3);
+    TanWave tt3 = new TanWave(radians(360/(amount*2)*j), frequency, amplitude, offset);
+    twc.add(tt3);
+    CosWave v3 = new CosWave(PI/2+radians(180/2*j), frequency, amplitude, 0);
+    cw1c.add(v3);
+
+    tet.update(x2.run()*100, v2.run()*50, y2.run()*100, tt2.run()*0.05);
+
+    t.update(x3.run()*100, v3.run()*50, v3.run()*100, tt3.run()*0.05);
+
+    triCircle2S.add(tet);
+    triCircle3S.add(t);
+  }
+
+  size=2;
+
+}
+
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+///////////////////////  DRAW  /////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+void draw() {
+  rotateX(-.2);
+  //rotateY(-.2);
+
+  background(255/23);
+  //lights();
+  noFill();
+  //stroke(255);
+  //strokeWeight(3);
+
+  //Camera-------------------------------------------------
+  //-------------------------------------------------------
+//  if(frameCount &lt; 60*20)
+//    cam.setYawRotationMode();
+
+  //rotateX(-PI/2);
+  noiseDetail(octaves, falloff);
+
+  posX = sinW1.run();
+  posY = cosW2.run();
+  posZ = cosW1.run();
+
+  posX2 = cosW1.run();
+  posY2 = sinW2.run();
+  posZ2 = cosW2.run();
+
+  spin = 0.05*tanW1.run();
+
+  //inner circle---------------------------------------------------
+  //0:00~0:32------------------------------------------------------
+  if(triCircleS.size()&gt;0){    
+    //circle
+    for(int i=0; i&lt;triCircleS.size(); i++){
+      Tetrahedron t = triCircleS.get(i);
+      SinWave x = sw1.get(i);
+      SinWave y = sw2.get(i);
+      TanWave tt = tw.get(i);
+      CosWave v = cw1.get(i);
+
+      t.update(x.run()*(70+radiusCircle), v.run()*50, y.run()*(70+radiusCircle), tt.run()*0.05);      
+
+      if(frameCount &gt; 3500) {
+       if(frameCount &lt; 3720)
+         radiusCircle += 0.002;
+       else if(frameCount &lt; 3720+60*2)
+         radiusCircle -= 0.002;
+      }
+
+      //sizing---------------------------------------------------------
+      //0:00~0:32------------------------------------------------------
+      if(frameCount &lt; 900) {
+        size += 0.00007;
+      }
+      else if(frameCount &lt; 960) {
+        size -= 0.00105;
+      }
+      else if(frameCount &lt; 1860) {
+        size += 0.0001;
+      }
+      else if(frameCount &lt; 1920) {
+        size -= 0.0015;
+      }
+
+      if(frameCount &lt; 60*3.5)
+          radiusCircle += 0.003;
+      else if(frameCount &lt; 60*8)
+        radiusCircle -= 0.003;
+      else if(frameCount &lt; 60*11)
+        radiusCircle += 0.002;
+      else if(frameCount &lt; 60*12)
+        radiusCircle -= 0.003;        
+      else if(frameCount &lt; 60*16)
+        radiusCircle += 0.002;
+
+      else if(frameCount &lt; 60*20)
+        radiusCircle -= 0.003;
+      else if(frameCount &lt; 60*24)
+        radiusCircle += 0.002;
+      else if(frameCount &lt; 60*27)
+        radiusCircle -= 0.003;
+      else if(frameCount &lt; 60*28)
+        radiusCircle += 0.003;        
+      else if(frameCount &lt; 60*32.5)
+        radiusCircle -= 0.002;
+
+      else if(frameCount &lt; 60*36)
+        radiusCircle += 0.003;
+      else if(frameCount &lt; 60*40)
+        radiusCircle -= 0.003;
+      else if(frameCount &lt; 60*42)
+        radiusCircle += 0.003;
+      else if(frameCount &lt; 60*44)
+        radiusCircle -= 0.003;
+      else if(frameCount &lt; 60*48)
+        radiusCircle += 0.003;
+
+      //Up &amp; Down------------------------------------------------------
+      //0:46~------------------------------------------------------
+      if(frameCount &gt; 2800 &amp;&amp; frameCount &lt; 2900){   // &amp;&amp; frameCount &lt; 3900
+        if(size&gt;0)
+          size -= 0.0005;
+      }
+      if(frameCount &gt; 2900 &amp;&amp; frameCount &lt; 3000)
+        size += 0.0005;
+
+      if (frameCount == 2900)
+        v.setTime(radians(180*i));
+      if (frameCount &gt; 2850 &amp;&amp; frameCount &lt; 3300) {
+        if(v.frequency&gt;0.06)
+          v.frequency -= 0.001;
+      } 
+
+      //Up &amp; Down_speedUp----------------------------------------------
+      //0:58~0:70------------------------------------------------------
+      else if (frameCount &gt; 3500 &amp;&amp; frameCount &lt; 4200) {
+        v.frequency += 0.0005;
+      }
+
+      println(v.frequency);
+
+      t.setSize(size);
+
+      t.display();
+    }
+  }
+
+  //spread---------------------------------------------------------
+  //0:32~0:47------------------------------------------------------
+  if(frameCount &gt; 1920){
+    pushStyle();
+    if(frameCount &lt; 4530)
+      stroke(100*53/359, 100, increaseBri);      
+    else {
+      if(frameCount % 60 &lt; 30)
+        stroke(100*184/359, 89, 100);
+      else
+        stroke(100*331/359, 100, 100);
+    }
+    for(int i=0; i&lt;triCircle2S.size(); i++){
+      Tetrahedron tet = triCircle2S.get(i);
+      SinWave x2 = sw1b.get(i);
+      SinWave y2 = sw2b.get(i);
+      TanWave tt2 = twb.get(i);
+      CosWave v2 = cw1b.get(i);
+
+      x2.setAmp(amplitude+increaseAmp);
+      y2.setAmp(amplitude+increaseAmp);
+
+      if(frameCount &lt; 1920+60)
+        increaseAmp +=0.0005;
+      else if(frameCount &lt; 1920+60*2)
+        increaseAmp -=0.0005;
+      else if(frameCount &lt; 1920+60*3)
+        increaseAmp +=0.0005;
+      else if(frameCount &lt; 1920+60*4)
+        increaseAmp -=0.0005;
+      else if(frameCount &lt; 1920+60*5)
+        increaseAmp +=0.0005;
+      else if(frameCount &lt; 1920+60*6)
+        increaseAmp -=0.0005;
+      else if(frameCount &lt; 1920+60*7)
+        increaseAmp +=0.0005;
+      else if(frameCount &lt; 1920+60*8)
+        increaseAmp -=0.0005;
+      else if(frameCount &lt; 1920+60*9)
+        increaseAmp +=0.0005;
+      else if(frameCount &lt; 1920+60*10)
+        increaseAmp -=0.0005;
+      else if(frameCount &lt; 1920+60*11)
+        increaseAmp +=0.0005;
+      else if(frameCount &lt; 1920+60*12)
+        increaseAmp -=0.0005;
+      else if(frameCount &lt; 1920+60*13)
+        increaseAmp +=0.0005;
+      else if(frameCount &lt; 1920+60*14)
+        increaseAmp -=0.0005;
+
+      if(frameCount &gt; 60*75.5 &amp;&amp; frameCount &lt; 60*77.1)   // &amp;&amp; frameCount &lt; 3900
+        v2.amplitude -= 0.05;
+
+      tet.update(x2.run()*100, v2.run()*(50+increaseAmp)+50, y2.run()*100, tt2.run()*0.05);
+      tet.display();
+    }
+    popStyle();
+    increaseBri += 0.8;
+  }
+
+  //another spread-------------------------------------------------
+  //------------------------------------------------------
+  if(frameCount &gt; 60*61){
+    pushStyle();
+
+    stroke((int)random(100)*100/359,100,100);
+
+    for(int i=0; i&lt;triCircle3S.size(); i++){
+      Tetrahedron ttt = triCircle3S.get(i);
+      ttt.setSize(1);
+
+      if(frameCount &lt; 60*70) {
+        if(frameCount % 30 == 0){
+          ttt.setSize(random(2));
+          strokeWeight(random(1,5));
+        }
+      } else if(frameCount &lt; 60*77) {
+        if(frameCount % 30 == 0){
+          ttt.setSize(random(2,5));
+          strokeWeight(random(3,7));
+        }
+      }
+
+      SinWave x3 = sw1c.get(i);
+      SinWave y3 = sw2c.get(i);
+      TanWave tt3 = twc.get(i);
+      CosWave v3 = cw1c.get(i);
+
+      ttt.update(x3.run()*100, y3.run()*50, v3.run()*100, tt3.run()*0.05);
+      ttt.display();
+    }
+    popStyle();
+  }
+
+  //auto create flying ones
+  if(frameCount &gt; 60*16 &amp;&amp; frameCount &lt; 60*46){
+    if(frameCount % (60*4) &lt; (60*1)) {
+      if(frameCount % 10 ==0)
+        newTri();
+    }
+
+  }
+
+  if(frameCount &gt; 60*55 &amp;&amp; frameCount &lt; 60*60) {
+    octaves += 0.1;
+    falloff += 0.007;
+  }
+
+  if(triS.size()&gt;0){
+    pushStyle();
+
+    //flying around
+    color triC = color(50, 70, increaseBri2);
+
+    int direction = 1;
+
+    //appear
+    if(frameCount &gt; 60*10) {
+      if(increaseBri2 &lt; 50) {
+        increaseBri2 += 0.1*direction;
+
+      }
+    } else if (frameCount &gt; 60*77) {
+      if(increaseBri2 &lt; 100) {
+        increaseBri2 += 0.1*direction;
+
+      }
+    }
+
+    for(int i=0; i&lt;triS.size(); i++){
+      Tetrahedron t = triS.get(i);
+
+      if(frameCount &lt; 60*61)
+        t.setSize(size/2);
+      else if(frameCount &lt; 60*70) {
+        if(frameCount % 30 == 15){
+          t.setSize(random(2));
+          strokeWeight(random(1,5));
+        }
+      } else if(frameCount &lt; 60*77) {
+        if(frameCount % 30 == 15){
+          t.setSize(random(2,5));
+          strokeWeight(random(3,7));
+        }
+        triC = color(random(1,100), 70, increaseBri2);
+
+      } else if(frameCount &lt; 60*86) {
+        t.setSize(random(2));
+        triC = color(random(1,100), 70, increaseBri2);
+      } else {
+        t.setSize(random(100,500));
+        triC = color(random(1,100), 70, 100);
+      }
+
+      t.setAngle(radians(i*10));
+
+      if(i%2 == 0)
+        t.update(t.x+posX, t.y+posY, t.z+(noise(time)*posZ), spin);
+      else
+        t.update(t.x+posX2, t.y+posY2, t.z+(noise(time)*posZ2), spin);
+
+      t.display( triC );      
+    }    
+    popStyle();
+  }
+}
+
+void newTri(){
+
+  Tetrahedron t = new Tetrahedron();
+  triS.add(t);
+}
+
+void mousePressed(){
+
+  newTri();
+}
+
+void keyPressed() {
+
+  switch(keyCode) {
+  case UP:
+    octaves++;
+    break;
+  case DOWN:
+    octaves--;
+    break;
+  case RIGHT:
+    falloff+=.1;
+    break;
+  case LEFT:
+    falloff-=.1;
+    break;
+  }
+
+  octaves = constrain(octaves, 0, 25);
+  falloff = constrain(falloff, 0.0, 1.1);
+}</pre>
+<pre class="brush: java; gutter: true">class Tetrahedron {
+
+  PShape t;
+  PShape t1, t2, t3, t4;
+
+  float x, y, z;
+  float scale = 5;
+  float angleY;
+
+  color c;
+
+  Tetrahedron() {
+    //c = color(0,0,100);
+
+    t = createShape(GROUP);
+
+    t1 = createShape();
+    t1.beginShape();
+    t1.stroke(c);
+    t1.vertex(-3, 0, 0);
+    t1.vertex(3, 0, 0);
+    t1.vertex(0, 0, -4);
+    t1.endShape(CLOSE);
+
+    t2 = createShape();
+    t2.beginShape();
+    t2.stroke(c);
+    t2.vertex(-3, 0, 0);
+    t2.vertex(0, 4, -1.7);
+    t2.vertex(3, 0, 0);
+    t2.endShape(CLOSE);
+
+    t3 = createShape();
+    t3.beginShape();
+    t3.stroke(c);
+    t3.vertex(3, 0, 0);
+    t3.vertex(0, 4, -1.7);
+    t3.vertex(0, 0, -4);
+    t3.endShape(CLOSE);
+
+    t4 = createShape();
+    t4.beginShape();
+    t4.stroke(c);
+    t4.vertex(-3, 0, 0);
+    t4.vertex(0, 0, -4);
+    t4.vertex(0, 4, -1.7);
+    t4.endShape(CLOSE);
+
+    t.addChild(t1);
+    t.addChild(t2);
+    t.addChild(t3);
+    t.addChild(t4);
+
+    x = random(-200, 200);
+    y = random(-200, 200);
+    z = random(-200,200);
+
+    t.disableStyle();
+    t1.disableStyle();
+    t2.disableStyle();
+    t3.disableStyle();
+    t4.disableStyle();
+  }
+
+  Tetrahedron(color _c) {
+    c = _c;
+
+    t = createShape(GROUP);
+
+    t1 = createShape();
+    t1.beginShape();
+    t1.stroke(c);
+    t1.vertex(-3, 0, 0);
+    t1.vertex(3, 0, 0);
+    t1.vertex(0, 0, -4);
+    t1.endShape(CLOSE);
+
+    t2 = createShape();
+    t2.beginShape();
+    t2.stroke(c);
+    t2.vertex(-3, 0, 0);
+    t2.vertex(0, 4, -1.7);
+    t2.vertex(3, 0, 0);
+    t2.endShape(CLOSE);
+
+    t3 = createShape();
+    t3.beginShape();
+    t3.stroke(c);
+    t3.vertex(3, 0, 0);
+    t3.vertex(0, 4, -1.7);
+    t3.vertex(0, 0, -4);
+    t3.endShape(CLOSE);
+
+    t4 = createShape();
+    t4.beginShape();
+    t4.stroke(c);
+    t4.vertex(-3, 0, 0);
+    t4.vertex(0, 0, -4);
+    t4.vertex(0, 4, -1.7);
+    t4.endShape(CLOSE);
+
+    t.addChild(t1);
+    t.addChild(t2);
+    t.addChild(t3);
+    t.addChild(t4);
+
+    x = random(-200, 200);
+    y = random(-200, 200);
+    z = random(-200,200);
+
+  }
+
+  void update(float _x, float _y, float _z) {
+    x = _x;
+    y = _y;
+    z = _z;
+  }
+
+  void update(float _x, float _y, float _z, float _angleY) {
+    x = _x;
+    y = _y;
+    z = _z;
+    angleY = _angleY;
+  }
+
+  void update(float _x, float _y, float _z, color _c) {
+    x = _x;
+    y = _y;
+    z = _z;
+    c = _c;
+  }
+
+  void update(float _x, float _y, float _z, color _c, float _angleY) {
+    x = _x;
+    y = _y;
+    z = _z;
+    c = _c;
+    angleY = _angleY;
+  }
+
+  void setZ(float _z) {
+    z = _z;
+  }
+
+  void setAngle(float _angleY) {
+    angleY = _angleY;
+  }
+
+  void setSize(float _scale) {
+    scale = _scale;
+  }
+
+  void display() {
+    pushMatrix();    
+
+    translate(x, y, z);
+    rotateY(angleY);
+    rotateZ(angleY);
+    scale(scale);
+
+    shape(t);
+    popMatrix();
+  }
+
+  void display(color _color) {
+    pushMatrix();    
+    pushStyle();
+
+    fill(_color);
+    noStroke();
+
+    translate(x, y, z);
+    rotateY(angleY);
+    rotateZ(angleY);
+    scale(scale);
+
+    shape(t);
+
+    popStyle();
+    popMatrix();
+  }
+}
+
+class Wave{
+
+  float time, frequency, amplitude, offset;
+
+  Wave(float _time, float _frequency, float _amplitude, float _offset){
+    time = _time;
+    frequency = _frequency;
+    amplitude = _amplitude;
+    offset = _offset;
+  }
+
+  float run(){
+    time += frequency;
+    return sin( time ) * amplitude + offset;
+  }
+
+  void setAmp(float _amp){
+    amplitude = _amp;
+  }
+
+  void setTime(float _ti){
+    time = _ti;
+  }
+
+}
+
+class SinWave {
+  float time, frequency, amplitude, offset;
+
+  SinWave(float _time, float _frequency, float _amplitude, float _offset){
+    time = _time;
+    frequency = _frequency;
+    amplitude = _amplitude;
+    offset = _offset;
+  }
+
+  float run() {
+    time += frequency;
+    return sin( time ) * amplitude + offset;
+  }
+
+  void setAmp(float _amp){
+    amplitude = _amp;
+  }
+
+  void setTime(float _ti){
+    time = _ti;
+  }
+}
+
+class CosWave{
+  float time, frequency, amplitude, offset;
+
+  CosWave(float _time, float _frequency, float _amplitude, float _offset){
+    time = _time;
+    frequency = _frequency;
+    amplitude = _amplitude;
+    offset = _offset;
+  }
+
+  float run() {
+    time += frequency;
+    return cos( time ) * amplitude + offset;
+  }
+
+  void setAmp(float _amp){
+    amplitude = _amp;
+  }
+
+  void setTime(float _ti){
+    time = _ti;
+  }
+
+}
+
+class TanWave {
+  float time, frequency, amplitude, offset;
+
+  TanWave(float _time, float _frequency, float _amplitude, float _offset){
+    time = _time;
+    frequency = _frequency;
+    amplitude = _amplitude;
+    offset = _offset;
+  }
+
+  float run() {
+    time += frequency;
+    return tan( time ) * amplitude + offset;
+  }
+
+  void setAmp(float _amp){
+    amplitude = _amp;
+  }
+
+  void setTime(float _ti){
+    time = _ti;
+  }
+
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>/timing-and-pacing/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Triangulation!</title>
+		<link>/triangulation/</link>
+					<comments>/triangulation/#comments</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Thu, 16 Jan 2014 17:06:22 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[ICM_Processing]]></category>
+		<category><![CDATA[ohyay]]></category>
+		<category><![CDATA[processing]]></category>
+		<category><![CDATA[toxiclibs]]></category>
+		<category><![CDATA[triangulation]]></category>
+		<category><![CDATA[video]]></category>
+		<guid isPermaLink="false">/?p=677</guid>
+
+					<description><![CDATA[Triangulation.. Finally! Want it so bad for a semester. Luckily having a winter break to do it. Have a lot of rooms for improvement but still, one step further! *UPDATE*(in... <a class="read-more" href="/triangulation/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p style="font-family: HelveticaNeue, Arial, 'Helvetica Neue', Helvetica, FreeSans, 'Liberation Sans', 'Nimbus Sans L', sans-serif; font-style: normal;">Triangulation.. Finally! Want it so bad for a semester. Luckily having a winter break to do it. Have a lot of rooms for improvement but still, one step further!</p>
+<h3 style="font-family: HelveticaNeue, Arial, 'Helvetica Neue', Helvetica, FreeSans, 'Liberation Sans', 'Nimbus Sans L', sans-serif; font-style: normal;"><span style="color: #ff3366;">*UPDATE*(in the middle of writing this post UGH)</span></h3>
+<p style="font-family: HelveticaNeue, Arial, 'Helvetica Neue', Helvetica, FreeSans, 'Liberation Sans', 'Nimbus Sans L', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; line-height: 21px;"><strong>New version.</strong> Normal speed!</p>
+<p style="font-family: HelveticaNeue, Arial, 'Helvetica Neue', Helvetica, FreeSans, 'Liberation Sans', 'Nimbus Sans L', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; line-height: 21px;"><iframe loading="lazy" src="//player.vimeo.com/video/84282840?color=c9ff23" height="585" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p style="font-family: HelveticaNeue, Arial, 'Helvetica Neue', Helvetica, FreeSans, 'Liberation Sans', 'Nimbus Sans L', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; line-height: 21px;">In the middle of documentation, the ill performance, both low speed running and wrong color picking bothered me a lot, so I went through the whole codes again and making adjustment around. And then I found out what the problem is! It&#8217;s the <span style="text-decoration: underline; color: #17e8be;"><strong>random plotting of points</strong></span> for triangles! It not only slows down the process, but also causes the ill performance of choosing the right color for the triangle. OH YEAH SO HAPPY. It&#8217;s the similar &#8220;bitter yet sweet moment&#8221; I usually will have when coding&#8230; I think I&#8217;m ready for the new semester!</p>
+<p style="font-family: HelveticaNeue, Arial, 'Helvetica Neue', Helvetica, FreeSans, 'Liberation Sans', 'Nimbus Sans L', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; line-height: 21px;"><strong>Old version.</strong> x3 speed! Slow and chaos.</p>
+<p style="font-family: HelveticaNeue, Arial, 'Helvetica Neue', Helvetica, FreeSans, 'Liberation Sans', 'Nimbus Sans L', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; line-height: 21px;"><iframe loading="lazy" src="//player.vimeo.com/video/84256296?color=c9ff23" height="585" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p style="font-family: HelveticaNeue, Arial, 'Helvetica Neue', Helvetica, FreeSans, 'Liberation Sans', 'Nimbus Sans L', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; line-height: 21px;"><strong>Old Line version.</strong> Slow but it seems to have better outcome with the random plotting points methods!!</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/84251593?color=c9ff23" height="585" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p>&nbsp;</p>
+<p><strong>Image Gallery</strong></p>
+<p><img loading="lazy" class="aligncenter size-full wp-image-701" alt="colorV20252" src="/wp-content/uploads/2014/01/colorV20252.jpg" width="720" height="480" srcset="/wp-content/uploads/2014/01/colorV20252.jpg 720w, /wp-content/uploads/2014/01/colorV20252-300x200.jpg 300w" sizes="(max-width: 720px) 100vw, 720px" /><a href="/wp-content/uploads/2014/01/line544.jpg"><img loading="lazy" class="aligncenter size-full wp-image-681" alt="line544" src="/wp-content/uploads/2014/01/line544.jpg" width="720" height="480" srcset="/wp-content/uploads/2014/01/line544.jpg 720w, /wp-content/uploads/2014/01/line544-300x200.jpg 300w" sizes="(max-width: 720px) 100vw, 720px" /></a><a href="/wp-content/uploads/2014/01/outcome06.jpg"><img loading="lazy" class="aligncenter size-large wp-image-696" alt="outcome06" src="/wp-content/uploads/2014/01/outcome06.jpg" width="1000" height="336" srcset="/wp-content/uploads/2014/01/outcome06.jpg 1000w, /wp-content/uploads/2014/01/outcome06-300x100.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="/wp-content/uploads/2014/01/outcome01.jpg"><img loading="lazy" class="aligncenter size-full wp-image-691" alt="outcome01" src="/wp-content/uploads/2014/01/outcome01.jpg" width="1000" height="500" srcset="/wp-content/uploads/2014/01/outcome01.jpg 1000w, /wp-content/uploads/2014/01/outcome01-300x150.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="/wp-content/uploads/2014/01/outcome04.jpg"><img loading="lazy" class="aligncenter size-large wp-image-694" alt="outcome04" src="/wp-content/uploads/2014/01/outcome04.jpg" width="1000" height="751" srcset="/wp-content/uploads/2014/01/outcome04.jpg 1000w, /wp-content/uploads/2014/01/outcome04-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="/wp-content/uploads/2014/01/outcome02.jpg"><img loading="lazy" class="aligncenter size-full wp-image-692" alt="outcome02" src="/wp-content/uploads/2014/01/outcome02.jpg" width="1000" height="340" srcset="/wp-content/uploads/2014/01/outcome02.jpg 1000w, /wp-content/uploads/2014/01/outcome02-300x102.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="/wp-content/uploads/2014/01/outcome03.jpg"><img loading="lazy" class="aligncenter size-full wp-image-693" alt="outcome03" src="/wp-content/uploads/2014/01/outcome03.jpg" width="1000" height="751" srcset="/wp-content/uploads/2014/01/outcome03.jpg 1000w, /wp-content/uploads/2014/01/outcome03-300x225.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="/wp-content/uploads/2014/01/outcome05.jpg"><img loading="lazy" class="aligncenter size-full wp-image-695" alt="outcome05" src="/wp-content/uploads/2014/01/outcome05.jpg" width="1000" height="336" srcset="/wp-content/uploads/2014/01/outcome05.jpg 1000w, /wp-content/uploads/2014/01/outcome05-300x100.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> <a href="/wp-content/uploads/2014/01/outcome07.jpg"><img loading="lazy" class="aligncenter size-full wp-image-697" alt="outcome07" src="/wp-content/uploads/2014/01/outcome07.jpg" width="1000" height="284" srcset="/wp-content/uploads/2014/01/outcome07.jpg 1000w, /wp-content/uploads/2014/01/outcome07-300x85.jpg 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>&nbsp;</p>
+<p><strong>Basic idea of code</strong></p>
+<ol>
+<li>capture image from webcam and save as PImage <em>source</em></li>
+<li>iterate through source, pick up every pixel, compare either <span style="text-decoration: underline;">a) colors</span> or <span style="text-decoration: underline;">b) brightness</span> difference(I found comparing by colors will be more accurate).</li>
+<li>if the difference is bigger than certain threshold, plant a point in class <em>Voronoi. </em>Voronoi does all the calculation to transform points into triangles.</li>
+<li>for each triangle gotten out from Voronoi, using getCentroid() to pickup the color to fill the triangle built up with beginShape(), endShape() and vertex().</li>
+<li>wipe out Voronoi and build a new one every 10 frames to speed up the performance.</li>
+</ol>
+<p>&nbsp;</p>
+<p><strong>References</strong></p>
+<ul>
+<li>from <a href="http://robbietilton.com/blog/?p=607" target="_blank">Robbie Tilton</a>. ITP alumnus! This is where my base came from! Clear description made me not afraid of trying the code out! From him, I got the idea of using Cols and Rows to boost up the performance, and plotting points for triangles with a random deviation of 5 pixels to make it look less grid-like(<span style="text-decoration: underline; color: #000000;"><span style="text-decoration: underline;">BUT randomness is not good for picking color, and it also slows down the performance</span></span>).</li>
+<li><span style="font-size: 1em;">from </span><a style="font-size: 1em;" href="http://vormplus.be/blog/article/voronoi-paintings-with-toxiclibs" target="_blank">Jan Vantomme</a><span style="font-size: 1em;">. Very well documentation! From him, I learned the difference between getCentroid() and getSites(), and also learned that, since getCentroid() and getSites() don’t return the voronoi regions and points in same order, to fill the right color for right position it has to be looped to iterate through, picking and filling up the color at the same time.</span></li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Inspiration &amp; Further</strong></p>
+<ul>
+<li>amazing <a href="http://www.fastcodesign.com/1672028/algorithmic-portraits-reimagine-faces-as-software#1" target="_blank">algorithmic portraits</a> by Diana Lange.</li>
+<li>triangulation <a href="http://learn.postspectacular.com/hg/bezalel-2011-delaunayunwrap/" target="_blank">tools</a> done by <a href="http://www.flickr.com/photos/toxi/5639608667/in/set-72157626419717867" target="_blank">Bezalel workshop</a>, so complicated yet the outcomes are so gorgeous.</li>
+<li><a href="http://hemesh.wblut.com/" target="_blank">hemesh</a> &#8211;&gt; being able to make 3D triangulation mesh(printable too)</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Code</strong>, as below: <span id="more-677"></span></p>
+<pre class="brush: java; gutter: true">//references:
+//http://www.processing.org/tutorials/pixels/
+//http://robbietilton.com/blog/?p=607
+//http://vormplus.be/blog/article/voronoi-paintings-with-toxiclibs
+
+import toxi.geom.*;
+import toxi.geom.mesh2d.*; 
+import toxi.util.*;
+import toxi.util.datatypes.*; 
+import toxi.processing.*;
+import processing.video.*;
+
+Capture video;
+float size = 10000;
+Voronoi voronoi;
+PImage source;
+
+int pointDensity = 70;
+int cols, rows;
+int x, y;
+int numPixels;
+float colorThreshold = 30;
+
+void setup() {
+  size(640,480);
+  //size(source.width, source.height);
+  video = new Capture(this, width, height);
+  video.start();
+
+  //source = loadImage(&quot;test.png&quot;);
+  source = createImage(640,480,RGB);
+  smooth();
+
+  cols = width/pointDensity;
+  rows = height/pointDensity;
+  numPixels = source.width * source.height;
+
+  voronoi = new Voronoi(size);
+
+}
+
+void addPoint() {
+  source.copy(video,0,0,640,480,0,0,640,480);
+  source.updatePixels();
+
+  for (x=1; x&lt;source.width; x+=cols) {
+    for (y=1; y&lt;source.height; y+=rows) {       int loc = x + y*source.width;       color pix = source.pixels[loc];              int leftLoc = (x-1) + (y-1)*source.width;       color leftPix = source.pixels[leftLoc];              // compare ver: color       float r1 = red(pix); float g1 = green(pix); float b1 = blue(pix);       float r2 = red(leftPix); float g2 = green(leftPix); float b2 = blue(leftPix);       float diff = dist(r1,g1,b1,r2,g2,b2);              // compare ver: brightness //      float diff = abs(brightness(pix)-brightness(leftPix));       if (diff &gt; colorThreshold) {
+//        voronoi.addPoint(new Vec2D(x+random(-2, 2), y+random(-2, 2)));
+        voronoi.addPoint(new Vec2D(x, y));
+      }
+    }
+  }
+}  
+
+void drawTriangle(){
+
+  for (Triangle2D t : voronoi.getTriangles()) {
+    color pix;
+
+    // use Centroid&#039;s color
+    Vec2D locVec = t.computeCentroid();
+    int loc = (int)((locVec.x) + (locVec.y)*source.width);
+
+    pix = source.pixels[constrain(loc,0,numPixels-1)];
+//    stroke(pix,100);
+    fill(pix);
+//    noFill();
+    noStroke();
+
+    beginShape(TRIANGLES);
+    stroke(pix);
+//    strokeWeight(.1);
+    vertex(t.a.x, t.a.y);
+    vertex(t.b.x, t.b.y);
+    vertex(t.c.x, t.c.y);
+    endShape();    
+  }
+}
+
+void draw() {
+  background(255);
+  video.read();
+  //image(video,0,0);
+
+  if(showImg) {
+    image(source, 0, 0);
+  } else {
+    addPoint(); 
+    drawTriangle();
+  }
+
+  fill(0);  
+  rect(15,5,30,20);
+
+  // show frame rate
+  fill(255);
+  text(int(frameRate), 20, 20);
+
+  updatePixels();
+
+  if (frameCount%10 == 0)
+    voronoi = new Voronoi(size);
+
+}
+
+boolean showImg = false;
+boolean saveImg = false;
+
+void keyPressed() {
+  if(key == &#039;i&#039;)
+    showImg = !showImg;
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>/triangulation/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>WShow_Glitchtchtchitch</title>
+		<link>/wshow_glitchtchtchitch/</link>
+					<comments>/wshow_glitchtchtchitch/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Fri, 20 Dec 2013 16:59:14 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Fall 2013]]></category>
+		<category><![CDATA[ICM_Processing]]></category>
+		<category><![CDATA[processing]]></category>
+		<category><![CDATA[show]]></category>
+		<guid isPermaLink="false">/?p=596</guid>
+
+					<description><![CDATA[@ ITP Winter Show 2013. Category: Processing, pixels. Set-up: Webcam, Macbook pro, 9 sketches. Details: blog post. &#160; &#160;]]></description>
+										<content:encoded><![CDATA[<p>@ ITP Winter Show 2013.</p>
+<p>Category: Processing, pixels.</p>
+<p>Set-up: Webcam, Macbook pro, 9 sketches.</p>
+<p>Details: <a href="/glitchtchtchitch/">blog post</a>.</p>
+<p><a href="/wp-content/uploads/2013/11/version_id.png"><img loading="lazy" class="alignnone size-large wp-image-612" alt="version_id" src="/wp-content/uploads/2013/11/version_id-1024x469.png" width="1024" height="469" srcset="/wp-content/uploads/2013/11/version_id-1024x469.png 1024w, /wp-content/uploads/2013/11/version_id-300x137.png 300w, /wp-content/uploads/2013/11/version_id-500x229.png 500w, /wp-content/uploads/2013/11/version_id.png 1300w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a href='/wshow_glitchtchtchitch/2013-12-15-15-26-59/'><img width="150" height="150" src="/wp-content/uploads/2013/12/2013-12-15-15.26.59-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/?attachment_id=566'><img width="150" height="150" src="/wp-content/uploads/2013/12/glitchtchtchitch-150x150.jpeg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/wshow_glitchtchtchitch/2013-12-15-15-33-11/'><img width="150" height="150" src="/wp-content/uploads/2013/12/2013-12-15-15.33.11-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/wshow_glitchtchtchitch/2013-12-15-15-34-08/'><img width="150" height="150" src="/wp-content/uploads/2013/12/2013-12-15-15.34.08-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/wshow_glitchtchtchitch/2013-12-15-15-40-06/'><img width="150" height="150" src="/wp-content/uploads/2013/12/2013-12-15-15.40.06-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/wshow_glitchtchtchitch/2013-12-15-17-31-13/'><img width="150" height="150" src="/wp-content/uploads/2013/12/2013-12-15-17.31.13-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/wshow_glitchtchtchitch/img_1145/'><img width="150" height="150" src="/wp-content/uploads/2013/12/IMG_1145-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/wshow_glitchtchtchitch/img_1147/'><img width="150" height="150" src="/wp-content/uploads/2013/12/IMG_1147-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/wshow_glitchtchtchitch/img_1152/'><img width="150" height="150" src="/wp-content/uploads/2013/12/IMG_1152-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/wshow_glitchtchtchitch/img_1154/'><img width="150" height="150" src="/wp-content/uploads/2013/12/IMG_1154-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/wshow_glitchtchtchitch/img_1173/'><img width="150" height="150" src="/wp-content/uploads/2013/12/IMG_1173-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/wshow_glitchtchtchitch/img_1177/'><img width="150" height="150" src="/wp-content/uploads/2013/12/IMG_1177-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/wshow_glitchtchtchitch/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ICM_Glitchtchtchitch</title>
+		<link>/glitchtchtchitch/</link>
+					<comments>/glitchtchtchitch/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Thu, 28 Nov 2013 17:21:32 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[ICM_Processing]]></category>
+		<category><![CDATA[final]]></category>
+		<category><![CDATA[ohyay]]></category>
+		<category><![CDATA[presentation]]></category>
+		<category><![CDATA[processing]]></category>
+		<category><![CDATA[video]]></category>
+		<guid isPermaLink="false">/?p=470</guid>
+
+					<description><![CDATA[ICM Final&#8211; Glitchtchtchitch. Manipulation and surveillance visualization. Featured in ITP Winter Show 2013(See all the pics!). Glitchtchtchitch is a live interactive installation showing multiple short-lived fault in a system. By... <a class="read-more" href="/glitchtchtchitch/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>ICM Final&#8211; <strong>Glitchtchtchitch</strong>.</p>
+<blockquote><p>Manipulation and surveillance visualization.</p></blockquote>
+<p>Featured in <a href="/wshow_glitchtchtchitch/" target="_blank">ITP Winter Show 2013(See all the pics!)</a>.</p>
+<p>Glitchtchtchitch is a live interactive installation showing multiple short-lived fault in a system. By bringing out the imperfection of technology with massive pixels manipulation, sound distortion, and multiple screens display, Glitchtchtchitch visualize the transient fault and the incapability of communication. Although mainly sending serious messages, with the effect of headless illusions, heads displacement, and delay, it leaves audience undergoing an experience without too much pressure.</p>
+<p>Glitchtchtchitch is presented by running more than 10 Processing sketches at the same time, and using 2-3 projectors to increase the amount of screen, the variety, and increase the level of distortion.</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/80522589?color=c9ff23" width="700" height="383" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>&nbsp;</p>
+<p>Main idea &#8211;&gt;  In order to cubify heads, instead of just altering pixels, I made an object &#8220;Cube&#8221; to get, restore, alter, and display the pixels of specific range. Also to achieve the headless effect, besides the library <a href="https://github.com/atduskgreg/opencv-processing" target="_blank">OpenCV</a>, I took a background image beforehand, and display its pixels within certain ranges, once detecting a face. <a href="http://bit.ly/Glitchtchtchitch" target="_blank">ALL THE SOURCE CODES</a></p>
+<p>&nbsp;</p>
+<p><a href='/glitchtchtchitch/attachment/13/'><img width="150" height="150" src="/wp-content/uploads/2013/11/13-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/18/'><img width="150" height="150" src="/wp-content/uploads/2013/11/18-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/19/'><img width="150" height="150" src="/wp-content/uploads/2013/11/19-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/2/'><img width="150" height="150" src="/wp-content/uploads/2013/11/2-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/4/'><img width="150" height="150" src="/wp-content/uploads/2013/11/4-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/1/'><img width="150" height="150" src="/wp-content/uploads/2013/11/1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/3/'><img width="150" height="150" src="/wp-content/uploads/2013/11/3-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/5/'><img width="150" height="150" src="/wp-content/uploads/2013/11/5-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/16/'><img width="150" height="150" src="/wp-content/uploads/2013/11/16-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/14/'><img width="150" height="150" src="/wp-content/uploads/2013/11/14-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/15/'><img width="150" height="150" src="/wp-content/uploads/2013/11/15-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/8/'><img width="150" height="150" src="/wp-content/uploads/2013/11/8-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/17/'><img width="150" height="150" src="/wp-content/uploads/2013/11/17-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/7/'><img width="150" height="150" src="/wp-content/uploads/2013/11/7-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/6/'><img width="150" height="150" src="/wp-content/uploads/2013/11/6-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/12/'><img width="150" height="150" src="/wp-content/uploads/2013/11/12-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/20/'><img width="150" height="150" src="/wp-content/uploads/2013/11/20-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/9/'><img width="150" height="150" src="/wp-content/uploads/2013/11/9-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/11/'><img width="150" height="150" src="/wp-content/uploads/2013/11/11-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/glitchtchtchitch/attachment/10/'><img width="150" height="150" src="/wp-content/uploads/2013/11/10-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+<p><strong>Notes</strong></p>
+<ul>
+<li>Speed issue has room for improvement.</li>
+<li>Different scale presentation style(projectors included) looks nice.</li>
+<li>From user test and presentation feedback, people love headless and delay effect the most. Because they’re the most bizarre, unrealistic, and uncommon visual impact.</li>
+</ul>
+<p><strong>Problems with solutions</strong></p>
+<ul>
+<li>OutOfBounds —&gt; constrain(xxx, 0, numPixels-1)</li>
+<li>flip horizontal —&gt; video.width-fx-1</li>
+<li>can’t cover image with pixels[ ] —&gt; solved by using pixels for both</li>
+<li>improve the sketch speed —&gt; P2D, PFrame,</li>
+<li>connect to webcam? PS eye? —&gt; camera list, example</li>
+</ul>
+<p><strong>References</strong></p>
+<ul>
+<li>scale PImage <span style="text-decoration: underline;">http://stackoverflow.com/questions/17705781/video-delay-buffer-in-processing-2-0</span></li>
+<li>Minim noise <span style="text-decoration: underline;">http://code.compartmental.net/tools/minim/manual-noise/</span></li>
+<li>hide menu <span style="text-decoration: underline;">http://processing.org/discourse/beta/num_1224367967.html</span></li>
+</ul>
+<p><strong>Original proposal </strong>&#8211;&gt; <a href="http://jhclaura.com/Glitchtchtchlitch_proposal/assets/player/KeynoteDHTMLPlayer.html#0" target="_blank">Here</a>.</p>
+<p><![if !IE]><iframe loading="lazy" src="http://docs.google.com/viewer?url=http%3A%2F%2Fjhclaura.com%2FGlitchtchtchlitch_proposal%2FGlitchtchtchlitch_proposal.pdf&amp;embedded=true" class="pdf" frameborder="0" style="height:750px;width:500px;border:0" width="500" height="750"></iframe><![endif]><!--[if IE]><object width="500" height="750" type="application/pdf" data="http://jhclaura.com/Glitchtchtchlitch_proposal/Glitchtchtchlitch_proposal.pdf" class="pdf ie">
+ 
+<div style="width:500;height:750;text-align:center;background:#fff;color:#000;margin:0;border:0;padding:0">Unable to display PDF<br /><a href="http://jhclaura.com/Glitchtchtchlitch_proposal/Glitchtchtchlitch_proposal.pdf">Click here to download</a></div>
+ 
+</object><![endif]--></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/glitchtchtchitch/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ICM_4_PatchBallsFlies</title>
+		<link>/icm_4_patchballsflies/</link>
+					<comments>/icm_4_patchballsflies/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Tue, 01 Oct 2013 05:17:02 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[ICM_Processing]]></category>
+		<category><![CDATA[brain-squeezing]]></category>
+		<category><![CDATA[processing]]></category>
+		<guid isPermaLink="false">/?p=229</guid>
+
+					<description><![CDATA[Here&#8217;s the combination of what I&#8217;ve learned so far from Learning Processing and The Nature of Code. I call it &#8220;Patch. Balls. and Flies&#8221;. It&#8217;s kind of messy but I&#8217;m glad... <a class="read-more" href="/icm_4_patchballsflies/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>Here&#8217;s the combination of what I&#8217;ve learned so far from <span style="color: #0066cc;"><a href="http://www.learningprocessing.com/" target="_blank"><span style="color: #0066cc;">Learning Processing</span></a></span> and <span style="color: #0066cc;"><a href="http://natureofcode.com/book/" target="_blank"><span style="color: #0066cc;">The Nature of Code</span></a></span>. I call it &#8220;Patch. Balls. and Flies&#8221;. It&#8217;s kind of messy but I&#8217;m glad all the interactions with each others work! Yah! <span style="text-decoration: underline;"><strong><a href="http://www.openprocessing.org/sketch/112762" target="_blank"><span style="color: #99cc00; text-decoration: underline;">Check it out(click click )</span></a></strong></span><strong><a href="http://www.openprocessing.org/sketch/112762" target="_blank"><span style="color: #99cc00;">!</span></a></strong></p>
+<div id="description">
+<p>Functions:<br />
+1) move patch to stop bouncing balls<br />
+2) press mouse to drag balls with patch<br />
+3) long-press keyboard to see flies clubbing!! B-)   (surprisingly fit <span style="text-decoration: underline;"><strong><span style="color: #ff3366; text-decoration: underline;"><a href="http://www.youtube.com/watch?v=PVzljDmoPVs&amp;list=RD02PVzljDmoPVs" target="_blank">this</a></span></strong></span> perfectly, the most EXCITING part, DANCING time!!)<br />
+4) let go keyboard(== keyReleased) to calm down the flies, and gather all the balls within the patch</p>
+<p>(Forgive me the awful screen pics, can&#8217;t screenshot since this one involve functions of KEY.)</p>
+</div>
+<p style="text-align: center;"><img loading="lazy" class="aligncenter  wp-image-231" alt="bouncing" src="/wp-content/uploads/2013/09/bouncing-1024x884.jpg" width="450" height="388" srcset="/wp-content/uploads/2013/09/bouncing-1024x884.jpg 1024w, /wp-content/uploads/2013/09/bouncing-300x259.jpg 300w, /wp-content/uploads/2013/09/bouncing.jpg 1550w" sizes="(max-width: 450px) 100vw, 450px" /></p>
+<p style="text-align: center;"><a href="/wp-content/uploads/2013/09/clubbing_flies.jpg"><img loading="lazy" class="aligncenter  wp-image-230" alt="clubbing_flies" src="/wp-content/uploads/2013/09/clubbing_flies-1024x877.jpg" width="450" height="385" srcset="/wp-content/uploads/2013/09/clubbing_flies-1024x877.jpg 1024w, /wp-content/uploads/2013/09/clubbing_flies-300x257.jpg 300w, /wp-content/uploads/2013/09/clubbing_flies.jpg 1489w" sizes="(max-width: 450px) 100vw, 450px" /></a></p>
+<p style="text-align: center;"><a href="/wp-content/uploads/2013/09/reset.jpg"><img loading="lazy" class="aligncenter  wp-image-232" alt="reset" src="/wp-content/uploads/2013/09/reset-1024x894.jpg" width="450" height="392" srcset="/wp-content/uploads/2013/09/reset-1024x894.jpg 1024w, /wp-content/uploads/2013/09/reset-300x261.jpg 300w, /wp-content/uploads/2013/09/reset.jpg 1396w" sizes="(max-width: 450px) 100vw, 450px" /></a></p>
+<p style="text-align: left;">Here&#8217;s some struggles I&#8217;ve been through:</p>
+<ol>
+<li>when dragging balls, I calculated the distance with patch and ball, and then planed to add this fixed distance to the position of patch and set it as the position of balls. But since I wrote this code in <span style="color: #008000;">void mouseDragged()</span>, I recalculated the distance every time I dragged and that caused flickering. Thanks to the office hour w/ Daniel Shiffman, this calculation codes were moved into <span style="color: #008000;">void mousePressed()</span> and it worked!!! (tearing)</li>
+<li>same stupid things happened when I want to bump flies with balls: I forgot to set conditions and thus make flies be affected by every balls!</li>
+<li>Things getting complicated when I want to make the music band. In the end I successfully saved the original color, and changed the color once it&#8217;s been hit(<span style="color: #99cc00;">hitGround == true</span> &amp;&amp;  <span style="color: #99cc00;">cubes.x &lt; ball.x &lt;cubes.x+w</span>  &amp;&amp; <span style="color: #99cc00;">ball.y &lt; (height-h)</span>), and then restored the colors back later.</li>
+</ol>
+<p>And codes time!</p>
+<p><span id="more-229"></span></p>
+<p>Main</p>
+<pre class="brush: java; gutter: true">Mover[] movers = new Mover[20];
+Band musicBand;
+Rain[] rains = new Rain[50];
+
+boolean pressing = false;
+
+void setup() {
+
+  size(600, 500);
+  for (int i=0; i&lt;movers.length; i++) {
+    movers[i] = new Mover(random(0.5, 2.5), random(width), random(20,50));
+  }
+
+  musicBand = new Band(0, 21, 80);
+  musicBand.setColor();
+
+  for (int i=0; i&lt;rains.length; i++) {
+    rains[i] = new Rain();
+  }
+}
+
+void draw() {
+
+  background(255);
+
+  // set up musicBand
+  musicBand.checkHit();
+  musicBand.display();
+  musicBand.colorBack();
+
+  // set up forces
+  float c = 0.5;
+  float normal = 1;
+  float frictionMag = c*normal;
+
+  PVector wind = new PVector(0.01, 0);
+  PVector gravity = new PVector(0, 0.1);
+
+  for (int i=0; i&lt;movers.length; i++) {
+
+    PVector friction = movers[i].velocity.get();
+    friction.mult(-1);
+    friction.normalize();    
+    friction.mult(frictionMag);
+
+    // if movers in the range of patch, add firction and change color
+    if (movers[i].location.x &gt; mouseX-100/2 &amp;&amp; movers[i].location.x &lt; mouseX+100/2
+      &amp;&amp; movers[i].location.y &gt; mouseY-100/2 &amp;&amp; movers[i].location.y &lt; mouseY+100/2) {
+      movers[i].applyForce(friction);
+
+      boolean insideColor = true;
+      movers[i].insideColor = insideColor;
+
+    } else {
+      boolean insideColor = false;
+      movers[i].insideColor = insideColor;
+    }
+
+    movers[i].applyForce(wind);
+    movers[i].applyForce(gravity);
+
+    movers[i].update();
+    movers[i].checkEdges(width, height-musicBand.h-movers[i].mass*16/2);
+    movers[i].display();
+
+  }
+
+  // set up flies
+  for (int j=0; j&lt;rains.length; j++) {
+
+    // be affected by balls
+    for (int i=0; i&lt;movers.length; i++) {
+      rains[j].updateMover(movers[i].location.x, movers[i].location.y);
+    }
+
+    rains[j].checkFloor();
+    rains[j].show();
+  }
+
+  // patch
+  rectMode(CENTER);
+  pushStyle();
+  noStroke();
+  fill(150,50);
+  rect(mouseX, mouseY, 100, 100);
+  stroke(220,100);
+  for (int i=0; i&lt;=100; i+=5) {
+    line(mouseX-50+i, mouseY-50, mouseX-50+i, mouseY+50);
+  }
+  for (int i=0; i&lt;=100; i+=5) {
+    line(mouseX-50, mouseY-50+i, mouseX+50, mouseY-50+i);
+  }
+  popStyle();
+  rectMode(CORNER);
+
+  // event when key pressed
+  if (pressing == true) {
+    pushStyle();
+    fill(0);
+    noStroke();
+    rect(0,0,width,height);
+    popStyle();
+  }
+
+}
+
+void mousePressed() {
+
+  for (int i=0; i&lt;movers.length; i++) {
+
+    // if in the range of the patch, be able to drag balls
+    if (movers[i].location.x &gt; mouseX-100/2 &amp;&amp; movers[i].location.x &lt; mouseX+100/2 &amp;&amp;
+      movers[i].location.y &gt; mouseY-100/2 &amp;&amp; movers[i].location.y &lt; mouseY+100/2) {
+
+      boolean inside = true;
+      movers[i].inside = inside;
+
+      PVector mouse = new PVector(mouseX, mouseY);
+      PVector dis = PVector.sub(movers[i].location, mouse);
+      movers[i].dis = dis;
+
+    } else {
+
+      boolean inside = false;
+      movers[i].inside = inside;
+    }
+
+  }
+}
+
+void mouseDragged() {
+  for (int i=0; i&lt;movers.length; i++) {
+
+    PVector mouse = new PVector(mouseX, mouseY);
+    if (movers[i].inside == true) {
+      movers[i].location = PVector.add(mouse, movers[i].dis);
+    }
+
+  }
+}
+
+void keyPressed() {
+  background(0);
+
+  pressing = true;
+
+  // calm down all the balls and gather them into patch
+  for (int i=0; i&lt;movers.length; i++) {
+    movers[i].location.x = mouseX+random(-40,40);
+    movers[i].location.y = mouseY+random(-30,30);;
+    movers[i].velocity.mult(0);
+    movers[i].acceleration.mult(0);
+  }
+
+  for (int j=0; j&lt;rains.length; j++) {
+    rains[j].checkFloor();
+    rains[j].show();
+  }
+
+}
+
+void keyReleased() {
+  pressing = false;
+
+  // reset all the flies
+  for (int j=0; j&lt;rains.length; j++) {
+    rains[j] = new Rain();
+  }
+
+}</pre>
+<p>Mover</p>
+<pre class="brush: java; gutter: true">class Mover {
+
+  PVector location;
+  PVector velocity;
+  PVector acceleration;
+
+  float mass;
+
+  PVector dis;
+  boolean inside = false;
+  boolean insideColor = false;
+
+  boolean lastHitState = false;
+  boolean hitState = false;
+  boolean hitGround = false;
+
+  Mover() {
+    location = new PVector(random(width/2), random(height/2));
+    velocity = new PVector(0, 0);
+    acceleration = new PVector(0, 0);
+    mass = 1;
+  }
+
+  Mover(float m, float x, float y) {
+    mass = m;
+    location = new PVector(x, y);
+    velocity = new PVector(0, 0);
+    acceleration = new PVector(0, 0);
+  }
+
+  void update() {
+
+    velocity.add(acceleration);
+    location.add(velocity);
+    acceleration.mult(0);
+  }
+
+  void display() {
+    pushStyle();
+    noStroke();
+
+    float time = second();
+    fill(time % 255, 50);
+    ellipse(location.x, location.y, mass*20, mass*20);
+
+    if (insideColor == true) {
+      fill(252, 255, 3, 180);
+    } else {
+      fill(0, 232, 254, 150);
+    }
+
+    ellipse(location.x, location.y, mass*12.5, mass*12.5);
+
+    popStyle();
+  }
+
+  void checkEdges(float w, float h) {
+    if (location.x &gt; w) {
+      location.x = w;
+      velocity.x *= -1;
+    } 
+    else if (location.x &lt; 0) {
+      location.x = 0;
+      velocity.x *= -1;
+    }
+
+    if (location.y &gt; h) {
+      location.y = h;
+      velocity.y *= -1;
+      hitGround = !hitGround;
+    }
+
+    if (location.y &lt; h-100) {
+      hitGround = false;
+    }
+
+  }
+
+  void applyForce(PVector force) {
+    PVector f = PVector.div(force, mass);
+    acceleration.add(f);
+  }
+}</pre>
+<p>Rain</p>
+<pre class="brush: java; gutter: true">class Rain{
+
+  PVector location;
+  PVector velocity;
+  PVector acceleration;
+  PVector distance;
+  PVector distanceRain;
+
+  Bug bug;
+
+  float w, h;
+  float topSpeed;
+  color c;
+
+  Rain() {
+
+    location = new PVector(random(width), -50);
+    velocity = new PVector(random(-0.1, 0.1), random(-0.1, 0.1));
+    distance = new PVector(20, 20);
+    distanceRain = new PVector(10, 10);
+
+    w = 4;
+    h = 6.5;
+    topSpeed = 3;
+
+  }
+
+  void show() {
+
+    smooth();
+    pushStyle();
+
+    noStroke();
+    bug = new Bug(location.x, location.y, w, h);
+    bug.show();
+
+    popStyle();
+  }
+
+  void updateMover(float x_, float y_) {
+
+    PVector mover = new PVector(x_, y_);
+    PVector dir = PVector.sub(mover, location);
+
+    acceleration = new PVector(0, 0);
+
+    if (dir.mag() &lt; distanceRain.mag()) {
+
+      dir.normalize();
+      dir.x *= random(-0.2);
+      dir.y *= random(-0.2);
+      acceleration = dir;
+
+    }
+
+    velocity.add(acceleration);
+    velocity.limit(topSpeed);
+    location.add(velocity);
+  }
+
+  void checkFloor() {
+
+    if (location.y &gt; (height - musicBand.h)) {
+      location.y = 0;
+    } else if (location.y &lt; 0) {
+      location.y = (height - musicBand.h);
+    }
+
+    if (location.x &gt; width) {
+      location.x = 0;
+    } else if (location.x &lt; 0) {
+      location.x = width;
+    }
+
+  }
+
+}</pre>
+<p>Drop</p>
+<pre class="brush: java; gutter: true">class Drop{
+
+  float x, y, w, h;
+
+  Drop(float _x, float _y, float _w, float _h) {
+    x = _x;
+    y = _y;
+    w = _w;
+    h = _h;
+  }
+
+  void show() {
+
+    pushStyle();
+    smooth();
+    noStroke();
+    triangle(x, y-h, x+w/2, y, x-w/2, y);
+    ellipse(x, y, w, w);
+    popStyle();
+  }
+
+}</pre>
+<p>Cube</p>
+<pre class="brush: java; gutter: true">class Cube{
+  float x; 
+  float y;
+  float w, h;
+  color c;
+
+  boolean beHit;
+
+  Cube(float _x, float _y, float _w, float _h, color _c) {
+    x = _x;
+    y = _y;
+    w = _w;
+    h = _h;
+    c = _c;
+    beHit = false;
+  }
+
+  void display() {
+    pushStyle();
+    noStroke();
+    fill(c);
+    rect(x, y, w, h);
+    popStyle();
+  }
+
+}</pre>
+<p>Bug</p>
+<pre class="brush: java; gutter: true">class Bug{
+
+  float x, y, w, h;
+  Drop[] drops;
+
+  Bug(float _x, float _y, float _w, float _h) {
+    x = _x;
+    y = _y;
+    w = _w;
+    h = _h;
+    drops = new Drop[4];
+  }
+
+  void show() {
+    pushStyle();
+    smooth();
+    fill(173, 191, 216, 150);
+
+    pushMatrix();
+    translate(x, y);
+    rotate(radians(40));
+    drops[0] = new Drop(0, 6, w, h);
+    drops[0].show();
+    rotate(radians(70));
+    drops[1] = new Drop(0, 6, h, h);
+    drops[1].show();
+    rotate(radians(140));
+    drops[2] = new Drop(0, 6, h, h);
+    drops[2].show();
+    rotate(radians(70));
+    drops[3] = new Drop(0, 6, w, h);
+    drops[3].show();
+
+    popMatrix();
+    popStyle();
+  }
+
+}</pre>
+<p>Band</p>
+<pre class="brush: java; gutter: true">class Band {
+  float x; 
+  float y;
+  float w, h;
+  int interval;
+  color[] colors;
+  color[] colorSave;
+
+  Cube[] cubes;
+
+  Band(float _x, int _interval, float _h) {
+    x = _x;
+    interval = _interval;
+    h = _h;
+
+    w = width / interval;
+    y = height - h;
+    colors = new color[interval];
+    colorSave = new color[interval];
+    cubes = new Cube[interval];
+  }
+
+  void setColor() {
+    for (int i=0; i&lt;interval; i++) {
+      float cc = random(130);
+      colors[i] = color(cc, cc+120, cc+60);
+      colorSave[i] = colors[i];
+    }
+  }
+
+  void checkHit() {
+    for (int i=0; i&lt;interval; i++) {
+      for (int j=0; j&lt;movers.length; j++) {
+        if (movers[j].hitGround == true &amp;&amp; movers[j].location.x &gt; cubes[i].x &amp;&amp; 
+          movers[j].location.x &lt; cubes[i].x+w &amp;&amp; movers[j].location.y &lt; (height-h)) {
+          float cc = random(130);
+          colors[i] = color(cc+120, cc+120, 0);
+        }
+      }
+    }
+  }
+
+  void colorBack() {
+    for (int i=0; i&lt;interval; i++) {
+      for (int j=0; j&lt;movers.length; j++) {
+        if (movers[j].hitGround == false) {
+          colors[i] = colorSave[i];
+        }
+      }
+    }
+  }
+
+  void display() {
+    float tempX = x;
+
+    for (int i=0; i&lt;interval; i++) {
+      cubes[i] = new Cube(tempX, y, w, h, colors[i]);
+      cubes[i].display();
+      tempX += w;
+    }
+  }
+
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>/icm_4_patchballsflies/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

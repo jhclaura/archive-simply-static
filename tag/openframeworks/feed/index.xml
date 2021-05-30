@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Openframeworks &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/openframeworks/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Mon, 21 Mar 2016 14:10:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>{Walk &#038; Talk}</title>
+		<link>/walk-n-talk/</link>
+					<comments>/walk-n-talk/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Fri, 16 May 2014 01:01:20 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Spatial Media]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[final]]></category>
+		<category><![CDATA[group]]></category>
+		<category><![CDATA[kinect]]></category>
+		<category><![CDATA[Openframeworks]]></category>
+		<category><![CDATA[video]]></category>
+		<guid isPermaLink="false">/?p=1430</guid>
+
+					<description><![CDATA[Walk &#38; Talk is the final project of me and Ziv for Spatial Media. &#160; Ideas For the final of Spatial Media, there&#8217;s no restriction on content and context, so... <a class="read-more" href="/walk-n-talk/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2014/04/IMG_5162-copy.jpg"><img loading="lazy" class="alignnone size-full wp-image-1525" src="/wp-content/uploads/2014/04/IMG_5162-copy.jpg" alt="IMG_5162 copy" width="800" height="1200" srcset="/wp-content/uploads/2014/04/IMG_5162-copy.jpg 800w, /wp-content/uploads/2014/04/IMG_5162-copy-200x300.jpg 200w, /wp-content/uploads/2014/04/IMG_5162-copy-682x1024.jpg 682w, /wp-content/uploads/2014/04/IMG_5162-copy-304x456.jpg 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p><span style="color: #33cccc; font-size: 14pt;"><strong><span style="font-family: 'andale mono', times;">Walk &amp; Talk</span></strong></span></p>
+<p>is the final project of me and <a href="http://zivschneider.com/" target="_blank">Ziv</a> for Spatial Media.</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/96936924?byline=0&amp;color=c9ff23" width="800" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/96968168?byline=0&amp;color=c9ff23" width="800" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; font-family: 'andale mono', times;">Ideas</span></p>
+<p>For the final of Spatial Media, there&#8217;s no restriction on content and context, so because of the struggling process of brainstorming, we decided to make a project helping brainstorming! Getting the inspirations from <em>Land and Sea</em>, a game heard from Ziv from Israel, and the <a href="http://www.snibbe.com/projects/interactive/boundaryfunctions" target="_blank">Boundary Functions</a> of Scott Snibbe that exploring the relation between people and spaces, we built up a system that people can expand their territory by walking and shaking, and once people stop moving, their territories will shrink and eventually disappear. Based on several researches proved that “Body Movements Can Influence Problem Solving”(e.g. Science Daily, May 13, 2009), it has the potential to be installed in office space, and help employees brainstorming.</p>
+<p><a href="/wp-content/uploads/2014/04/traditional_territory_small.jpg"><img loading="lazy" class="alignnone size-full wp-image-1529" src="/wp-content/uploads/2014/04/traditional_territory_small.jpg" alt="traditional_territory_small" width="698" height="800" srcset="/wp-content/uploads/2014/04/traditional_territory_small.jpg 698w, /wp-content/uploads/2014/04/traditional_territory_small-261x300.jpg 261w, /wp-content/uploads/2014/04/traditional_territory_small-304x348.jpg 304w" sizes="(max-width: 698px) 100vw, 698px" /></a></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-size: 14pt; font-family: 'andale mono', times;">Concept</span></strong></p>
+<p>Each person in the game is assigned an initial territory, which he can expand by walking. If they don&#8217;t walk, their territory gets smaller. Also, if they don&#8217;t talk (to brainstorm or just chit chat), their territories will shrink. This way, people have to <span style="font-family: 'book antiqua', palatino; font-size: 12pt;"><strong><span style="color: #00ccff;">walk and talk</span></strong></span> in order to keep his/her territory.</p>
+<p>&nbsp;</p>
+<p><strong><span style="font-size: 14pt; font-family: 'andale mono', times;">Context</span></strong></p>
+<p>This game can be used for multiple purposes, e.g. DECISION MAKING • BRAINSTORMING • VOTING ON IDEAS • BUDGET PLANNING. Overall the main function is provoking thoughts about sharing and space with movements.</p>
+<p><![if !IE]><iframe loading="lazy" src="http://docs.google.com/viewer?url=https%3A%2F%2Fwww.jhclaura.com%2Fwp-content%2Fuploads%2F2014%2F04%2Fwalk-n-talk.pdf&amp;embedded=true" class="pdf" frameborder="0" style="height:750px;width:500px;border:0" width="500" height="750"></iframe><![endif]><!--[if IE]><object width="500" height="750" type="application/pdf" data="/wp-content/uploads/2014/04/walk-n-talk.pdf" class="pdf ie">
+ 
+<div style="width:500;height:750;text-align:center;background:#fff;color:#000;margin:0;border:0;padding:0">Unable to display PDF<br /><a href="/wp-content/uploads/2014/04/walk-n-talk.pdf">Click here to download</a></div>
+ 
+</object><![endif]--></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt;"><strong><span style="font-family: 'andale mono', times;">Technique</span></strong></span></p>
+<p><a href="/wp-content/uploads/2014/04/process.png"><img loading="lazy" class="alignnone size-full wp-image-1527" src="/wp-content/uploads/2014/04/process.png" alt="process" width="1482" height="253" srcset="/wp-content/uploads/2014/04/process.png 1482w, /wp-content/uploads/2014/04/process-300x51.png 300w, /wp-content/uploads/2014/04/process-1024x174.png 1024w, /wp-content/uploads/2014/04/process-304x51.png 304w" sizes="(max-width: 1482px) 100vw, 1482px" /></a></p>
+<p><strong>Tools</strong>: OpenFrameworks, Kinect*1, projectors*2.</p>
+<p>&nbsp;</p>
+<p><strong><span style="font-family: 'andale mono', times; font-size: 14pt;">Developing</span></strong></p>
+<p>1) The first attempt to expand the territories based on the blobs movement captured by Kinect.</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/93098890?byline=0&amp;color=c9ff23" width="800" height="565" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>2) Using ofPolylines to smooth the shape of geometry.</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/96971421?byline=0&amp;color=c9ff23" width="800" height="595" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>3) Beautiful mistakes ;)</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/93806426?byline=0&amp;color=c9ff23" width="800" height="600" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>4) Final version of color-filled geometry.</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/96995503?byline=0&amp;color=c9ff23" width="800" height="600" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/walk-n-talk/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Roofwing</title>
+		<link>/roofwing/</link>
+					<comments>/roofwing/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sat, 15 Mar 2014 00:49:28 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Spatial Media]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[computer vision]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[documentation]]></category>
+		<category><![CDATA[fantasy]]></category>
+		<category><![CDATA[group]]></category>
+		<category><![CDATA[midterm]]></category>
+		<category><![CDATA[Openframeworks]]></category>
+		<guid isPermaLink="false">/?p=1246</guid>
+
+					<description><![CDATA[A flying + walking, surreal experience design for rooftop. Work done with amazing John. It&#8217;s all start from an assignment in the class Spatial Media, with specific requirement as below:... <a class="read-more" href="/roofwing/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2014/03/IMG_1826.jpg"><img loading="lazy" class="alignnone size-large wp-image-1253" alt="IMG_1826" src="/wp-content/uploads/2014/03/IMG_1826-1024x682.jpg" width="1024" height="682" srcset="/wp-content/uploads/2014/03/IMG_1826-1024x682.jpg 1024w, /wp-content/uploads/2014/03/IMG_1826-300x200.jpg 300w, /wp-content/uploads/2014/03/IMG_1826-304x202.jpg 304w, /wp-content/uploads/2014/03/IMG_1826.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>A flying + walking, surreal experience design for <em><span style="font-family: Georgia, Palatino; font-size: medium;">rooftop</span></em>. Work done with amazing <a href="http://www.j-namuchoi.com/" target="_blank">John</a>.</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/89071351?byline=0&amp;color=c9ff23" height="450" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p>It&#8217;s all start from an assignment in the class <span style="font-family: Georgia, Palatino;"><em>Spatial Media</em></span>, with specific requirement as below:<span style="font-family: Verdana, Geneva;"><br />
+</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;">+ be site specific (i.e. be designed for an actual location)</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + be designed for use by more than one person</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + involve a horizontal surface</span></p>
+<p><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">START FROM SPACE</span></p>
+<p>Because we wanted the experience to be strongly connected with space, we developed the idea starting from <span style="font-size: medium;"><em><span style="font-family: Georgia, Palatino;">space</span></em></span>. We chose rooftop because its exciting yet rusted characters, and we thought it has the potential to be a relaxing playground for citizens, especially for cities with limited space.</p>
+<p><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">CONCEPT</span></p>
+<p><span style="font-family: Verdana, Geneva;"><span style="font-family: Georgia, Palatino; font-size: small;">+ Utilize the height and windy characters directly from space</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;">+ Cooperate with your teammates to maximize and exaggerate the excitement</span><br />
+</span></p>
+<p><a href="/wp-content/uploads/2014/02/SP_Rooftop_old.jpeg"><img loading="lazy" class="alignnone size-large wp-image-1067" alt="SP_Rooftop_old" src="/wp-content/uploads/2014/02/SP_Rooftop_old-1024x854.jpeg" width="1024" height="854" srcset="/wp-content/uploads/2014/02/SP_Rooftop_old-1024x854.jpeg 1024w, /wp-content/uploads/2014/02/SP_Rooftop_old-300x250.jpeg 300w, /wp-content/uploads/2014/02/SP_Rooftop_old-304x253.jpeg 304w, /wp-content/uploads/2014/02/SP_Rooftop_old.jpeg 1853w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">SWINGS PRODUCTION(making miniature!)</span></p>
+<p><span style="font-family: Georgia, Palatino; font-size: small;">+ woods</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + necklace chains &amp; rings</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + thin hemp rope</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + webcam</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + monitor</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + white board</span></p>
+<p><a href='/roofwing/2014-02-27-15-00-18/'><img width="150" height="150" src="/wp-content/uploads/2014/03/2014-02-27-15.00.18-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/2014-02-28-19-39-32/'><img width="150" height="150" src="/wp-content/uploads/2014/03/2014-02-28-19.39.32-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing_progress-media-content/img_3032/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3032-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/img_3229/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3229-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/img_3059/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3059-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing_progress-media-content/img_3018/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3018-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/img_3235/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3235-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+<p><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">TECHNIQUES</span></p>
+<p><span style="font-family: Georgia, Palatino; font-size: small;"> + Openframeworks</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + videoGrabber</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + videoPlayer</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + color detection</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + image sequences</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + soundPlayer</span></p>
+<p><em>Swing range test</em><br />
+<iframe loading="lazy" src="//player.vimeo.com/video/88273783?byline=0&amp;color=c9ff23" height="597" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p><em>Infinite Loop</em><br />
+This is one of the amazing beautiful mistake with the infinite loop between monitor showing what camera capturing and camera capturing monitor.<br />
+<iframe loading="lazy" src="//player.vimeo.com/video/89045870?byline=0&amp;color=c9ff23" height="450" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">HOW IT WORKS</span></p>
+<p><span style="font-family: Georgia, Palatino; font-size: small;"> + Team A &amp; Team B</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + swing people*5 need to cooperate to swing as high as they can to shoot out the strong thunder, or either weak thunder or NO thunder will be shoot out(different thunder sound effects).</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + people in the center can block the thunders by stepping on them(scoring sound effect + spark sequence), so two team have to try to rope in the people in the center</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + once thunders reach the other side, strong thunder gets 2 scores, weak thunder gets 1 score.</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + SWING OR DIE.</span></p>
+<p><a href='/roofwing/img_1841/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_1841-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/img_1834/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_1834-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/?attachment_id=1245'><img width="150" height="150" src="/wp-content/uploads/2014/03/present-150x150.jpeg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/img_1856/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_1856-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/roofwing/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Timing and Pacing	</title>
+	<atom:link href="/timing-and-pacing/feed/" rel="self" type="application/rss+xml" />
+	<link>/timing-and-pacing/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Fri, 20 Nov 2015 22:20:21 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>
+		By: CEI #000008 – Waves, Curves and Electrons &#124; BYUNNNN!@#$ ITP		</title>
+		<link>/timing-and-pacing/#comment-988</link>
+
+		<dc:creator><![CDATA[CEI #000008 – Waves, Curves and Electrons &#124; BYUNNNN!@#$ ITP]]></dc:creator>
+		<pubDate>Mon, 31 Mar 2014 13:07:52 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1338#comment-988</guid>
+
+					<description><![CDATA[[&#8230;] I don&#8217;t really understand that well. The above image reminded me of Laura&#8217;s sketch (link here) and I thought: &#8220;The waves and the curves maybe the [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] I don&#8217;t really understand that well. The above image reminded me of Laura&#8217;s sketch (link here) and I thought: &#8220;The waves and the curves maybe the [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: study note_{Three.js} &#124; Laura Juo-Hsin Chen		</title>
+		<link>/timing-and-pacing/#comment-987</link>
+
+		<dc:creator><![CDATA[study note_{Three.js} &#124; Laura Juo-Hsin Chen]]></dc:creator>
+		<pubDate>Mon, 31 Mar 2014 13:03:39 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1338#comment-987</guid>
+
+					<description><![CDATA[[&#8230;] in Web journey starts! Trying to convert last week&#8217;s sketch from Processing into Three.js. But can&#8217;t finished it by Monday for the class, still in [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] in Web journey starts! Trying to convert last week&#8217;s sketch from Processing into Three.js. But can&#8217;t finished it by Monday for the class, still in [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

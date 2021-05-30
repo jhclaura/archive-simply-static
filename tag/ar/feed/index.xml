@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>AR &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/ar/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Sun, 11 Oct 2020 20:49:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>David Bowie Is &#8211; AR Exhibition</title>
+		<link>/david-bowie-is/</link>
+					<comments>/david-bowie-is/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sat, 17 Aug 2019 21:09:47 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[AR]]></category>
+		<category><![CDATA[exhibition]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[Unity]]></category>
+		<guid isPermaLink="false">/?p=3064</guid>
+
+					<description><![CDATA[David Bowie Is &#8211; AR Exhibition, is an AR project by The David Bowie Archive, Sony Music Entertainment (Japan) Inc. and Planeta. In this post, I jotted down some of... <a class="read-more" href="/david-bowie-is/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<figure class="wp-block-image size-large is-resized"><img loading="lazy" src="/wp-content/uploads/2019/03/16x9-1024x576.jpg" alt="" class="wp-image-2863" width="512" height="288" srcset="/wp-content/uploads/2019/03/16x9-1024x576.jpg 1024w, /wp-content/uploads/2019/03/16x9-300x169.jpg 300w, /wp-content/uploads/2019/03/16x9-768x432.jpg 768w, /wp-content/uploads/2019/03/16x9-400x225.jpg 400w, /wp-content/uploads/2019/03/16x9-210x118.jpg 210w, /wp-content/uploads/2019/03/16x9.jpg 1200w" sizes="(max-width: 512px) 100vw, 512px" /></figure>
+<p><a rel="noreferrer noopener" aria-label="David Bowie Is - AR Exhibition (opens in a new tab)" href="https://davidbowieisreal.com/" target="_blank">David Bowie Is &#8211; AR Exhibition</a>, is an AR project by The David Bowie Archive, Sony Music Entertainment (Japan) Inc. and Planeta. In this post, I jotted down some of my development as Lead Developer, under Director Nick Dangerfield, Art Direction Seth Tillett, and Tech Director Dan Brewster.</p>
+<figure class="wp-block-image is-resized"><img loading="lazy" src="/wp-content/uploads/2019/08/IMG_7817.png" alt="" class="wp-image-3104" width="514" height="289" srcset="/wp-content/uploads/2019/08/IMG_7817.png 1000w, /wp-content/uploads/2019/08/IMG_7817-300x169.png 300w, /wp-content/uploads/2019/08/IMG_7817-768x432.png 768w, /wp-content/uploads/2019/08/IMG_7817-400x225.png 400w, /wp-content/uploads/2019/08/IMG_7817-210x118.png 210w" sizes="(max-width: 514px) 100vw, 514px" /></figure>
+<div style="height:33px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Paper Interaction</strong></p>
+<p>The irl exhibition has a lot of 2D materials, and for browsing them in a mobile app, there is a subtle balance we want to maintain, a balance between <strong>efficiency</strong> and <strong>AR-ness</strong>. We tried several ways, shuffle, fade in/out, but ultimately it feels the most natural to see them laying or leaning on some sort of surface. </p>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile is-image-fill" style="grid-template-columns:64% auto">
+<figure class="wp-block-media-text__media" style="background-image:url(/wp-content/uploads/2019/08/paper_move.jpg);background-position:50% 50%"><img loading="lazy" width="900" height="506" src="/wp-content/uploads/2019/08/paper_move.jpg" alt="" class="wp-image-3099" srcset="/wp-content/uploads/2019/08/paper_move.jpg 900w, /wp-content/uploads/2019/08/paper_move-300x169.jpg 300w, /wp-content/uploads/2019/08/paper_move-768x432.jpg 768w, /wp-content/uploads/2019/08/paper_move-400x225.jpg 400w, /wp-content/uploads/2019/08/paper_move-210x118.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+<div class="wp-block-media-text__content">
+<p>And just like how you would expect and do in real life, we made the 2D materials move with your fingertip. </p>
+</div>
+</div>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/paper.mp4"></video></figure>
+<p class="has-text-align-center">The effect especially works great on small paper cutout.<br />(<em>Note</em> &#8211; all videos in the post are direct screen recordings on my old iPhone6s)</p>
+<p>And as a tabletop AR, some 2D artifacts need to be stacked in order for all to fit in, thus we need to a way to shuffle them. </p>
+<div class="wp-block-media-text alignwide is-image-fill" style="grid-template-columns:68% auto">
+<figure class="wp-block-media-text__media" style="background-image:url(/wp-content/uploads/2019/08/paper_stack-1.jpg);background-position:50% 50%"><img loading="lazy" width="900" height="506" src="/wp-content/uploads/2019/08/paper_stack-1.jpg" alt="" class="wp-image-3094" srcset="/wp-content/uploads/2019/08/paper_stack-1.jpg 900w, /wp-content/uploads/2019/08/paper_stack-1-300x169.jpg 300w, /wp-content/uploads/2019/08/paper_stack-1-768x432.jpg 768w, /wp-content/uploads/2019/08/paper_stack-1-400x225.jpg 400w, /wp-content/uploads/2019/08/paper_stack-1-210x118.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+<div class="wp-block-media-text__content">
+<p>After testing, we found out that, bringing the &#8220;focus&#8221; artifact to the front of the stack after being sent back, feels the most natural and intuitive.</p>
+</div>
+</div>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/sort.mov"></video></figure>
+<p class="has-text-align-center">Paper stack shuffle.</p>
+<div style="height:38px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Scene Changes Mask</strong></p>
+<p>To pack the whole physical show into a tabletop AR mobile app, it is important to find a way to navigate the rich contents.</p>
+<blockquote style="text-align:center" class="wp-block-quote is-style-large">
+<p style="font-family: Helvetica; font-size: 1.1em; margin-bottom:0px"> It includes over 400 high resolution captures of David Bowie’s costumes, sketches, handwritten lyrics, notes, music videos and original works of art are presented in striking arrangements and immersive settings, as well as dozens of never before seen items, including archival videos, drawings, photographs, and notes.</p>
+<p><cite style="font-size: 0.6em"><a href="https://davidbowieisreal.com/">davidbowieisreal.com</a></cite></p></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center is-image-fill" style="grid-template-columns:65% auto">
+<figure class="wp-block-media-text__media" style="background-image:url(/wp-content/uploads/2019/08/menu.jpg);background-position:51% 52%"><img loading="lazy" width="900" height="506" src="/wp-content/uploads/2019/08/menu.jpg" alt="" class="wp-image-3098" srcset="/wp-content/uploads/2019/08/menu.jpg 900w, /wp-content/uploads/2019/08/menu-300x169.jpg 300w, /wp-content/uploads/2019/08/menu-768x432.jpg 768w, /wp-content/uploads/2019/08/menu-400x225.jpg 400w, /wp-content/uploads/2019/08/menu-210x118.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+<div class="wp-block-media-text__content">
+<p>Within the show, we decided to condense each section into a digestible <em>Diorama</em>, and make them navigable through a map.</p>
+<p>And within each diorama, we need to make some sub-scene changes as well to accommodate all the contents.</p>
+</div>
+</div>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile is-image-fill" style="grid-template-columns:65% auto">
+<figure class="wp-block-media-text__media" style="background-image:url(/wp-content/uploads/2019/08/slider_mask.jpg);background-position:50% 50%"><img loading="lazy" width="900" height="506" src="/wp-content/uploads/2019/08/slider_mask.jpg" alt="" class="wp-image-3097" srcset="/wp-content/uploads/2019/08/slider_mask.jpg 900w, /wp-content/uploads/2019/08/slider_mask-300x169.jpg 300w, /wp-content/uploads/2019/08/slider_mask-768x432.jpg 768w, /wp-content/uploads/2019/08/slider_mask-400x225.jpg 400w, /wp-content/uploads/2019/08/slider_mask-210x118.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+<div class="wp-block-media-text__content">
+<p>For this, I used a lot of invisible 3D mask.</p>
+<p>The mask uses depth buffer to occlude and prevent the contents from being shown. It is a simple but effective graphic trick, and more can be found <a rel="noreferrer noopener" href="http://wiki.unity3d.com/index.php?title=DepthMask" target="_blank">here</a>. </p>
+</div>
+</div>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/hunger.mp4"></video></figure>
+<p class="has-text-align-center">For example in <em>Hunger City</em>, two masks are places on the sides of the stage, to hide the off-stage contents.</p>
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Scene Making</strong></p>
+<p>Under the guidance of Director and Art Director and with feedback from the whole development team, I build the AR scenes including: Early Influences, Space Oddity, Cultural Influences, Songwriting, Recording, Characters, Collaborations, Life On Mars, Ziggy Stardust, Hunger City, Stage and Screen, New York, and Black &amp; White Years. Below are the in-app screen recording of some of those scenes.</p>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/early.mp4"></video></figure>
+<p class="has-text-align-center">Early Influences</p>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/hunger_transition.mp4"></video></figure>
+<p class="has-text-align-center">Hunger City</p>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/bnw.mp4"></video></figure>
+<p class="has-text-align-center">Black and White Years</p>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/s_n_s.mp4"></video></figure>
+<p class="has-text-align-center">Stage and Screen</p>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/ny.mp4"></video></figure>
+<p class="has-text-align-center">New York</p>
+<figure class="wp-block-video aligncenter"><video autoplay loop muted style="height:600px" src="/wp-content/uploads/2019/08/ziggy_.mp4"></video></figure>
+<p class="has-text-align-center">Ziggy Stardust</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/david-bowie-is/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		<enclosure url="/wp-content/uploads/2019/08/paper.mp4" length="3093927" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/sort.mov" length="8745823" type="video/quicktime" />
+<enclosure url="/wp-content/uploads/2019/08/hunger.mp4" length="4716610" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/early.mp4" length="2776595" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/hunger_transition.mp4" length="6500929" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/bnw.mp4" length="4466937" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/s_n_s.mp4" length="3097039" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/ny.mp4" length="4357604" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/ziggy_.mp4" length="12887943" type="video/mp4" />
+
+			</item>
+		<item>
+		<title>[Stupid_Hackathon] Peep Rack / Intestine AR</title>
+		<link>/peep-rack/</link>
+					<comments>/peep-rack/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Tue, 28 Feb 2017 04:07:02 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[analog]]></category>
+		<category><![CDATA[AR]]></category>
+		<category><![CDATA[stupid hackathon]]></category>
+		<guid isPermaLink="false">/?p=2630</guid>
+
+					<description><![CDATA[(Update 3/1) It&#8217;s my honor to give Peep Rack a new name Intestine AR, granted by Stupid Hackathon. For STUPID SHIT NO ONE NEEDS &#38; TERRIBLE IDEAS HACKATHON 2017, I made... <a class="read-more" href="/peep-rack/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="alignnone wp-image-2631" src="/wp-content/uploads/2017/02/PeepRack.jpg" width="2000" height="1125" srcset="/wp-content/uploads/2017/02/PeepRack.jpg 4032w, /wp-content/uploads/2017/02/PeepRack-300x169.jpg 300w, /wp-content/uploads/2017/02/PeepRack-768x432.jpg 768w, /wp-content/uploads/2017/02/PeepRack-1024x576.jpg 1024w, /wp-content/uploads/2017/02/PeepRack-400x225.jpg 400w, /wp-content/uploads/2017/02/PeepRack-210x118.jpg 210w" sizes="(max-width: 2000px) 100vw, 2000px" /></p>
+<p><iframe loading="lazy" src="https://player.vimeo.com/video/205994659?color=c9ff23&amp;portrait=0" width="750" height="422" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>(Update 3/1) It&#8217;s my honor to give Peep Rack a new name <span style="font-family: 'Andale Mono', Times; color: #0be0cf;"><strong>Intestine AR</strong></span>, granted by Stupid Hackathon.</p>
+<p>For <a href="https://stupidhackathon.com/"><em>STUPID SHIT NO ONE NEEDS &amp; TERRIBLE IDEAS HACKATHON 2017</em></a>, I made <span style="font-family: 'Andale Mono', Times; color: #0be0cf;"><strong>Peep Rack</strong></span>, a head-mounted display for you to see the world through intestine, a.k.a. <strong><span style="font-family: 'Times New Roman', Times;"><em>sphincter</em></span></strong>. It&#8217;s analog AR, the combination of <em>Peep Show box</em> and <em>cloth drying rack</em>. Made of wood nails, fragile wood sticks, transparency films, strings, and acrylic paints.</p>
+<p><img width="150" height="150" src="/wp-content/uploads/2017/02/1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" columns="4" link="none" ids="2632,2634,2636,2640" orderby="post__in" include="2632,2634,2636,2640" /><br />
+<img width="150" height="150" src="/wp-content/uploads/2017/02/3-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" columns="4" link="none" ids="2632,2634,2636,2640" orderby="post__in" include="2632,2634,2636,2640" /><br />
+<img width="150" height="150" src="/wp-content/uploads/2017/02/2-1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" columns="4" link="none" ids="2632,2634,2636,2640" orderby="post__in" include="2632,2634,2636,2640" /><br />
+<img width="150" height="150" src="/wp-content/uploads/2017/02/4-3-e1488254360130-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" columns="4" link="none" ids="2632,2634,2636,2640" orderby="post__in" include="2632,2634,2636,2640" /></p>
+<p>Because it&#8217;s transparency films, user can create whatever contents they want, and it&#8217;s sharable! Besides the sphincter, I also made a less practical one, containing different moods, scenarios, and functions.</p>
+<p><img loading="lazy" class="alignnone wp-image-2639 size-full" src="/wp-content/uploads/2017/02/PeepRack_useless.png" width="2446" height="1376" srcset="/wp-content/uploads/2017/02/PeepRack_useless.png 2446w, /wp-content/uploads/2017/02/PeepRack_useless-300x169.png 300w, /wp-content/uploads/2017/02/PeepRack_useless-768x432.png 768w, /wp-content/uploads/2017/02/PeepRack_useless-1024x576.png 1024w, /wp-content/uploads/2017/02/PeepRack_useless-400x225.png 400w, /wp-content/uploads/2017/02/PeepRack_useless-210x118.png 210w" sizes="(max-width: 2446px) 100vw, 2446px" /></p>
+<p><img loading="lazy" class="alignnone wp-image-2641" src="/wp-content/uploads/2017/02/IMG_3381.jpg" width="2032" height="1143" srcset="/wp-content/uploads/2017/02/IMG_3381.jpg 4032w, /wp-content/uploads/2017/02/IMG_3381-300x169.jpg 300w, /wp-content/uploads/2017/02/IMG_3381-768x432.jpg 768w, /wp-content/uploads/2017/02/IMG_3381-1024x576.jpg 1024w, /wp-content/uploads/2017/02/IMG_3381-400x225.jpg 400w, /wp-content/uploads/2017/02/IMG_3381-210x118.jpg 210w" sizes="(max-width: 2032px) 100vw, 2032px" /></p>
+<p><span style="color: #ff428e;"><em><span style="font-family: 'Andale Mono', Times;">&lt;&lt; clock, apps, map, life, reminder, target, curtain, snow, grass, ocean &gt;&gt;</span></em></span></p>
+<p><img loading="lazy" class="alignnone wp-image-2643" src="/wp-content/uploads/2017/02/IMG_3400-1.jpg" width="2000" height="1125" srcset="/wp-content/uploads/2017/02/IMG_3400-1.jpg 3876w, /wp-content/uploads/2017/02/IMG_3400-1-300x169.jpg 300w, /wp-content/uploads/2017/02/IMG_3400-1-768x432.jpg 768w, /wp-content/uploads/2017/02/IMG_3400-1-1024x576.jpg 1024w, /wp-content/uploads/2017/02/IMG_3400-1-400x225.jpg 400w, /wp-content/uploads/2017/02/IMG_3400-1-210x118.jpg 210w" sizes="(max-width: 2000px) 100vw, 2000px" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/peep-rack/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>chewing &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/chewing/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Mon, 22 May 2017 04:25:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Chewing Mask on instructables!</title>
+		<link>/chewing-mask-on-instructables/</link>
+					<comments>/chewing-mask-on-instructables/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Mon, 22 May 2017 04:23:22 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Personal project]]></category>
+		<category><![CDATA[chewing]]></category>
+		<category><![CDATA[Daily Life VR]]></category>
+		<category><![CDATA[eat]]></category>
+		<category><![CDATA[MASK]]></category>
+		<guid isPermaLink="false">/?p=2659</guid>
+
+					<description><![CDATA[Yeah finally make one! Time to wrap up the Chapter 2 Eat of Daily Life VR!!! www.instructables.com/id/Chewing-Mask (so long, too long&#8230;)]]></description>
+										<content:encoded><![CDATA[<p>Yeah finally make one! Time to wrap up the Chapter 2 Eat of Daily Life VR!!!</p>
+<p><span style="font-size: 14pt;"><strong><span style="color: #ff6600; font-family: 'Andale Mono', Times;"><a style="color: #ff6600;" href="https://www.instructables.com/id/Chewing-Mask/" target="_blank" rel="noopener noreferrer">www.instructables.com/id/Chewing-Mask</a></span></strong></span></p>
+<div style="width: 280px" class="wp-caption alignnone"><img loading="lazy" class="size-full" src="https://media.giphy.com/media/xfIY8sPUWd344/giphy.gif" width="270" height="480" /></p>
+<p class="wp-caption-text">chew chew chew!</p>
+</div>
+<p>(so long, too long&#8230;)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/chewing-mask-on-instructables/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

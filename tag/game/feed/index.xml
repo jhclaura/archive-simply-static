@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>game &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/game/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Fri, 20 Nov 2015 22:15:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>{Rabbit_Hole}</title>
+		<link>/composition-rabbit_hole/</link>
+					<comments>/composition-rabbit_hole/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Mon, 14 Apr 2014 02:41:32 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Coding for Emotional Impact]]></category>
+		<category><![CDATA[brain-squeezing]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[fantasy]]></category>
+		<category><![CDATA[final]]></category>
+		<category><![CDATA[game]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[life]]></category>
+		<category><![CDATA[Maya]]></category>
+		<category><![CDATA[project]]></category>
+		<category><![CDATA[three.js]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">/?p=1409</guid>
+
+					<description><![CDATA[{currently works with Chrome and Firefox browser} For the composition assignment the final of Coding for Emotional Impact class, I want to create something with multiple layers and is self-explained. Inspired by... <a class="read-more" href="/composition-rabbit_hole/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><span style="font-size: 14pt;">{currently works with <span style="color: #000000;">Chrome</span> and Firefox browser}</span></p>
+<p>For <del>the composition assignment</del> the final of <em>Coding for Emotional Impact</em> class, I want to create something with multiple layers and is self-explained. Inspired by the description of computer vision is a rabbit hole from <a href="http://andysigler.com/" target="_blank">Andy</a>(because I&#8217;m learning <a href="http://threejs.org/" target="_blank">Three.js</a> by myself recently), I wanted to make a game about &#8220;Rabbit Hole&#8221;, and my biggest assumption is that everyone is sort of down the rabbit hole.</p>
+<p>ps. It&#8217;s not really a fun game to play. Still confusing should it be fun to play or just an emotion-building nowhere&#8230;</p>
+<div style="color: #222222;">&#8211; Title</div>
+<div style="color: #222222;"><strong><span style="font-size: 12pt;"><span style="font-family: 'andale mono', times;">Rabbit Hole</span></span></strong></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;">&#8211; Environment</div>
+<div style="color: #222222;"><a href="/wp-content/uploads/2014/04/environment.png"><img loading="lazy" class="alignnone wp-image-1426 " src="/wp-content/uploads/2014/04/environment.png" alt="environment" width="382" height="494" srcset="/wp-content/uploads/2014/04/environment.png 500w, /wp-content/uploads/2014/04/environment-231x300.png 231w, /wp-content/uploads/2014/04/environment-304x393.png 304w" sizes="(max-width: 382px) 100vw, 382px" /></a>     <a href="/wp-content/uploads/2014/04/environment2.png"><img loading="lazy" class="alignnone wp-image-1427 " src="/wp-content/uploads/2014/04/environment2.png" alt="environment2" width="383" height="496" srcset="/wp-content/uploads/2014/04/environment2.png 500w, /wp-content/uploads/2014/04/environment2-231x300.png 231w, /wp-content/uploads/2014/04/environment2-304x393.png 304w" sizes="(max-width: 383px) 100vw, 383px" /></a></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;">&#8211; Audience</div>
+<div style="color: #222222;"><span style="font-family: 'andale mono', times; font-size: 12pt;">Whoever also down the rabbit hole or wonder how it feel down there.</span></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;"><span style="font-family: 'andale mono', times; font-size: 12pt;"> </span></div>
+<div style="color: #222222;">&#8211; Narrative arc</div>
+<div style="color: #222222;"><span style="font-family: 'Book Antiqua', Palatino; font-size: medium;"><span style="font-family: 'Andale Mono', Times;"><strong>Rabbit Hole</strong>&#8211;</span></span><span style="font-family: 'Book Antiqua', Palatino; font-size: medium; color: #888888;"><em>Metaphor for the conceptual path which is thought to lead to the true nature of reality. Infinitesimally deep and complex, venturing too far down is probably not that great of an idea.</em></span></div>
+<p dir="ltr"><span style="font-family: 'Andale Mono', Times; font-size: medium;"><strong>Literary Nonsense-</strong></span> <span style="font-size: medium; color: #808080;"><em><span style="line-height: 1.5em; font-family: 'Book Antiqua', Palatino;">has no system of logic, although it may imply the existence of an inscrutable one, just beyond our grasp.</span></em></span></p>
+<p dir="ltr">And below are three snapshots of what I&#8217;ve built so far. I made my own models in Maya and drew textures in Photoshop. <span style="color: #999999;"><del>Can&#8217;t view online because of some web-related issue I can&#8217;t solve to load the music</del></span>(SOLVED_by hard coding the url of music file path). But have no ideas how to do the transition from scene to scene&#8230;</p>
+<p dir="ltr">SCENE_ZERO: <a href="http://www.rabbithole.link/" target="_blank">http://www.rabbithole.link/</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/open.png"><img loading="lazy" class="alignnone size-full wp-image-1477" src="/wp-content/uploads/2014/04/open.png" alt="open" width="800" height="403" srcset="/wp-content/uploads/2014/04/open.png 800w, /wp-content/uploads/2014/04/open-300x151.png 300w, /wp-content/uploads/2014/04/open-304x153.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_ONE: <a href="http://www.rabbithole.link/index_D.html" target="_blank">http://www.rabbithole.link/index_D.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM.png"><img loading="lazy" class="alignnone size-full wp-image-1411" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM.png" alt="Screen Shot 2014-04-13 at 10.26.14 PM" width="800" height="436" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM.png 800w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM-300x163.png 300w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM-304x165.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENCE_TWO: <a href="http://www.rabbithole.link/index_G.html" target="_blank">http://www.rabbithole.link/index_G.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM.png"><img loading="lazy" class="alignnone size-full wp-image-1412" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM.png" alt="Screen Shot 2014-04-13 at 10.27.30 PM" width="800" height="436" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM.png 800w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM-300x163.png 300w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM-304x165.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_THREE: <a href="http://www.rabbithole.link/index_S.html" target="_blank">http://www.rabbithole.link/index_S.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM.png"><img loading="lazy" class="alignnone size-full wp-image-1425" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM.png" alt="Screen Shot 2014-04-20 at 6.44.00 PM" width="800" height="397" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM.png 800w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM-300x148.png 300w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM-304x150.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_FOUR: <a href="http://www.rabbithole.link/index_M.html" target="_blank">http://www.rabbithole.link/index_M.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/maze.png"><img loading="lazy" class="alignnone size-full wp-image-1463" src="/wp-content/uploads/2014/04/maze.png" alt="maze" width="800" height="401" srcset="/wp-content/uploads/2014/04/maze.png 800w, /wp-content/uploads/2014/04/maze-300x150.png 300w, /wp-content/uploads/2014/04/maze-304x152.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_FIVE: <a href="http://www.rabbithole.link/index_T.html" target="_blank">http://www.rabbithole.link/index_T.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/TV.png"><img loading="lazy" class="alignnone size-full wp-image-1467" src="/wp-content/uploads/2014/04/TV.png" alt="TV" width="800" height="295" srcset="/wp-content/uploads/2014/04/TV.png 800w, /wp-content/uploads/2014/04/TV-300x110.png 300w, /wp-content/uploads/2014/04/TV-304x112.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_SIX: <a href="http://www.rabbithole.link/index_F.html" target="_blank">http://www.rabbithole.link/index_F.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/jump.png"><img loading="lazy" class="alignnone size-full wp-image-1472" src="/wp-content/uploads/2014/04/jump.png" alt="jump" width="800" height="397" srcset="/wp-content/uploads/2014/04/jump.png 800w, /wp-content/uploads/2014/04/jump-300x148.png 300w, /wp-content/uploads/2014/04/jump-304x150.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_SEVEN: <a href="http://www.rabbithole.link/index_V.html" target="_blank">http://www.rabbithole.link/index_V.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/voice.png"><img loading="lazy" class="alignnone size-full wp-image-1469" src="/wp-content/uploads/2014/04/voice.png" alt="voice" width="800" height="309" srcset="/wp-content/uploads/2014/04/voice.png 800w, /wp-content/uploads/2014/04/voice-300x115.png 300w, /wp-content/uploads/2014/04/voice-304x117.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_EIGHT: <a href="http://www.rabbithole.link/index_E.html" target="_blank">http://www.rabbithole.link/index_E.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Elevator.png"><img loading="lazy" class="alignnone size-full wp-image-1474" src="/wp-content/uploads/2014/04/Elevator.png" alt="Elevator" width="800" height="399" srcset="/wp-content/uploads/2014/04/Elevator.png 800w, /wp-content/uploads/2014/04/Elevator-300x149.png 300w, /wp-content/uploads/2014/04/Elevator-304x151.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">( Three.js + web stuff ) == super deep rabbit hole.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/composition-rabbit_hole/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

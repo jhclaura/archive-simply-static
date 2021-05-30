@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Coding for Emotional Impact &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/category/spring-2014/coding-for-emotional-impact/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Fri, 20 Nov 2015 22:20:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>{Rabbit_Hole}</title>
+		<link>/composition-rabbit_hole/</link>
+					<comments>/composition-rabbit_hole/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Mon, 14 Apr 2014 02:41:32 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Coding for Emotional Impact]]></category>
+		<category><![CDATA[brain-squeezing]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[fantasy]]></category>
+		<category><![CDATA[final]]></category>
+		<category><![CDATA[game]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[life]]></category>
+		<category><![CDATA[Maya]]></category>
+		<category><![CDATA[project]]></category>
+		<category><![CDATA[three.js]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">/?p=1409</guid>
+
+					<description><![CDATA[{currently works with Chrome and Firefox browser} For the composition assignment the final of Coding for Emotional Impact class, I want to create something with multiple layers and is self-explained. Inspired by... <a class="read-more" href="/composition-rabbit_hole/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><span style="font-size: 14pt;">{currently works with <span style="color: #000000;">Chrome</span> and Firefox browser}</span></p>
+<p>For <del>the composition assignment</del> the final of <em>Coding for Emotional Impact</em> class, I want to create something with multiple layers and is self-explained. Inspired by the description of computer vision is a rabbit hole from <a href="http://andysigler.com/" target="_blank">Andy</a>(because I&#8217;m learning <a href="http://threejs.org/" target="_blank">Three.js</a> by myself recently), I wanted to make a game about &#8220;Rabbit Hole&#8221;, and my biggest assumption is that everyone is sort of down the rabbit hole.</p>
+<p>ps. It&#8217;s not really a fun game to play. Still confusing should it be fun to play or just an emotion-building nowhere&#8230;</p>
+<div style="color: #222222;">&#8211; Title</div>
+<div style="color: #222222;"><strong><span style="font-size: 12pt;"><span style="font-family: 'andale mono', times;">Rabbit Hole</span></span></strong></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;">&#8211; Environment</div>
+<div style="color: #222222;"><a href="/wp-content/uploads/2014/04/environment.png"><img loading="lazy" class="alignnone wp-image-1426 " src="/wp-content/uploads/2014/04/environment.png" alt="environment" width="382" height="494" srcset="/wp-content/uploads/2014/04/environment.png 500w, /wp-content/uploads/2014/04/environment-231x300.png 231w, /wp-content/uploads/2014/04/environment-304x393.png 304w" sizes="(max-width: 382px) 100vw, 382px" /></a>     <a href="/wp-content/uploads/2014/04/environment2.png"><img loading="lazy" class="alignnone wp-image-1427 " src="/wp-content/uploads/2014/04/environment2.png" alt="environment2" width="383" height="496" srcset="/wp-content/uploads/2014/04/environment2.png 500w, /wp-content/uploads/2014/04/environment2-231x300.png 231w, /wp-content/uploads/2014/04/environment2-304x393.png 304w" sizes="(max-width: 383px) 100vw, 383px" /></a></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;">&#8211; Audience</div>
+<div style="color: #222222;"><span style="font-family: 'andale mono', times; font-size: 12pt;">Whoever also down the rabbit hole or wonder how it feel down there.</span></div>
+<div style="color: #222222;"></div>
+<div style="color: #222222;"><span style="font-family: 'andale mono', times; font-size: 12pt;"> </span></div>
+<div style="color: #222222;">&#8211; Narrative arc</div>
+<div style="color: #222222;"><span style="font-family: 'Book Antiqua', Palatino; font-size: medium;"><span style="font-family: 'Andale Mono', Times;"><strong>Rabbit Hole</strong>&#8211;</span></span><span style="font-family: 'Book Antiqua', Palatino; font-size: medium; color: #888888;"><em>Metaphor for the conceptual path which is thought to lead to the true nature of reality. Infinitesimally deep and complex, venturing too far down is probably not that great of an idea.</em></span></div>
+<p dir="ltr"><span style="font-family: 'Andale Mono', Times; font-size: medium;"><strong>Literary Nonsense-</strong></span> <span style="font-size: medium; color: #808080;"><em><span style="line-height: 1.5em; font-family: 'Book Antiqua', Palatino;">has no system of logic, although it may imply the existence of an inscrutable one, just beyond our grasp.</span></em></span></p>
+<p dir="ltr">And below are three snapshots of what I&#8217;ve built so far. I made my own models in Maya and drew textures in Photoshop. <span style="color: #999999;"><del>Can&#8217;t view online because of some web-related issue I can&#8217;t solve to load the music</del></span>(SOLVED_by hard coding the url of music file path). But have no ideas how to do the transition from scene to scene&#8230;</p>
+<p dir="ltr">SCENE_ZERO: <a href="http://www.rabbithole.link/" target="_blank">http://www.rabbithole.link/</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/open.png"><img loading="lazy" class="alignnone size-full wp-image-1477" src="/wp-content/uploads/2014/04/open.png" alt="open" width="800" height="403" srcset="/wp-content/uploads/2014/04/open.png 800w, /wp-content/uploads/2014/04/open-300x151.png 300w, /wp-content/uploads/2014/04/open-304x153.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_ONE: <a href="http://www.rabbithole.link/index_D.html" target="_blank">http://www.rabbithole.link/index_D.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM.png"><img loading="lazy" class="alignnone size-full wp-image-1411" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM.png" alt="Screen Shot 2014-04-13 at 10.26.14 PM" width="800" height="436" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM.png 800w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM-300x163.png 300w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.26.14-PM-304x165.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENCE_TWO: <a href="http://www.rabbithole.link/index_G.html" target="_blank">http://www.rabbithole.link/index_G.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM.png"><img loading="lazy" class="alignnone size-full wp-image-1412" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM.png" alt="Screen Shot 2014-04-13 at 10.27.30 PM" width="800" height="436" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM.png 800w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM-300x163.png 300w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-13-at-10.27.30-PM-304x165.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_THREE: <a href="http://www.rabbithole.link/index_S.html" target="_blank">http://www.rabbithole.link/index_S.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM.png"><img loading="lazy" class="alignnone size-full wp-image-1425" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM.png" alt="Screen Shot 2014-04-20 at 6.44.00 PM" width="800" height="397" srcset="/wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM.png 800w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM-300x148.png 300w, /wp-content/uploads/2014/04/Screen-Shot-2014-04-20-at-6.44.00-PM-304x150.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_FOUR: <a href="http://www.rabbithole.link/index_M.html" target="_blank">http://www.rabbithole.link/index_M.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/maze.png"><img loading="lazy" class="alignnone size-full wp-image-1463" src="/wp-content/uploads/2014/04/maze.png" alt="maze" width="800" height="401" srcset="/wp-content/uploads/2014/04/maze.png 800w, /wp-content/uploads/2014/04/maze-300x150.png 300w, /wp-content/uploads/2014/04/maze-304x152.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_FIVE: <a href="http://www.rabbithole.link/index_T.html" target="_blank">http://www.rabbithole.link/index_T.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/TV.png"><img loading="lazy" class="alignnone size-full wp-image-1467" src="/wp-content/uploads/2014/04/TV.png" alt="TV" width="800" height="295" srcset="/wp-content/uploads/2014/04/TV.png 800w, /wp-content/uploads/2014/04/TV-300x110.png 300w, /wp-content/uploads/2014/04/TV-304x112.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_SIX: <a href="http://www.rabbithole.link/index_F.html" target="_blank">http://www.rabbithole.link/index_F.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/jump.png"><img loading="lazy" class="alignnone size-full wp-image-1472" src="/wp-content/uploads/2014/04/jump.png" alt="jump" width="800" height="397" srcset="/wp-content/uploads/2014/04/jump.png 800w, /wp-content/uploads/2014/04/jump-300x148.png 300w, /wp-content/uploads/2014/04/jump-304x150.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_SEVEN: <a href="http://www.rabbithole.link/index_V.html" target="_blank">http://www.rabbithole.link/index_V.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/voice.png"><img loading="lazy" class="alignnone size-full wp-image-1469" src="/wp-content/uploads/2014/04/voice.png" alt="voice" width="800" height="309" srcset="/wp-content/uploads/2014/04/voice.png 800w, /wp-content/uploads/2014/04/voice-300x115.png 300w, /wp-content/uploads/2014/04/voice-304x117.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">SCENE_EIGHT: <a href="http://www.rabbithole.link/index_E.html" target="_blank">http://www.rabbithole.link/index_E.html</a></p>
+<p dir="ltr"><a href="/wp-content/uploads/2014/04/Elevator.png"><img loading="lazy" class="alignnone size-full wp-image-1474" src="/wp-content/uploads/2014/04/Elevator.png" alt="Elevator" width="800" height="399" srcset="/wp-content/uploads/2014/04/Elevator.png 800w, /wp-content/uploads/2014/04/Elevator-300x149.png 300w, /wp-content/uploads/2014/04/Elevator-304x151.png 304w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p dir="ltr">( Three.js + web stuff ) == super deep rabbit hole.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/composition-rabbit_hole/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>{Rabbit_Hole} update!</title>
+		<link>/rabbit_hole-update-half-way-to-go/</link>
+					<comments>/rabbit_hole-update-half-way-to-go/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Mon, 28 Apr 2014 03:17:12 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Coding for Emotional Impact]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[final]]></category>
+		<category><![CDATA[RabbitHole]]></category>
+		<category><![CDATA[three.js]]></category>
+		<guid isPermaLink="false">/?p=1436</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<p><iframe loading="lazy" src="https://docs.google.com/presentation/d/1UP_n7l4r-ZdcueNbdV9g5uRBcsBFXeobt2OsJm9b3_Q/embed?start=false&#038;loop=true&#038;delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/rabbit_hole-update-half-way-to-go/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>EmoCode final_{Rabbit Hole}</title>
+		<link>/emocode-final_rabbit-hole/</link>
+					<comments>/emocode-final_rabbit-hole/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Fri, 20 Nov 2015 22:15:43 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Coding for Emotional Impact]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<guid isPermaLink="false">/?p=1404</guid>
+
+					<description><![CDATA[Rabbit Hole &#8220;down the rabbit hole&#8221;, a metaphor for adventure into the unknown, from its use in Alice&#8217;s Adventures in Wonderland a slang expression for a psychedelic experience, from the same usage... <a class="read-more" href="/emocode-final_rabbit-hole/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>Rabbit Hole</p>
+<ul>
+<li><span style="line-height: 1.5em;">&#8220;down the rabbit hole&#8221;, a metaphor for adventure into the unknown, from its use in </span><i style="line-height: 1.5em;">Alice&#8217;s Adventures in Wonderland</i></li>
+<li><span style="line-height: 1.5em;">a slang expression for a <a href="http://en.wikipedia.org/wiki/Psychedelic_experience" target="_blank">psychedelic experience</a>, from the same usage</span></li>
+<li>ARG, Alternative Reality Game(http://en.wikipedia.org/wiki/Alternate_reality_game#Unique_terminology) &#8211;</li>
+<li>TING, This is not a game</li>
+<li>
+<h1 id="firstHeading" lang="en">Literary nonsense</h1>
+<ul>
+<li>these supernatural phenomena are not nonsensical if they have a discernible logic supporting their existence</li>
+<li>has no system of logic, although it may imply the existence of an inscrutable one, just beyond our grasp.</li>
+<li></li>
+</ul>
+</li>
+<li>
+<h3>Eating and devouring[<a title="Edit section: Eating and devouring" href="http://en.wikipedia.org/w/index.php?title=Alice%27s_Adventures_in_Wonderland&amp;action=edit&amp;section=8">edit</a>]</h3>
+<p>Carina Garland notes how the world is &#8220;expressed via representations of food and appetite&#8221;, naming Alice&#8217;s frequent desire for consumption (of both food and words), her &#8216;Curious Appetites&#8217;.<sup id="cite_ref-26"><a href="http://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland#cite_note-26">[26]</a></sup> Often, the idea of eating coincides to make gruesome images. After the riddle “Why is a raven like a writing-desk?”, the Hatter claims that Alice might as well say, “I see what I eat…I eat what I see” and so the riddle’s solution, put forward by Boe Birns,<sup id="cite_ref-27"><a href="http://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland#cite_note-27">[27]</a></sup> could be that &#8220;A raven eats worms; a writing desk is worm-eaten&#8221;; this idea of food encapsulates idea of life feeding on life, for the worm is being eaten and then becomes the eater  – a horrific image of mortality.</p>
+<p>Nina Auerbach discusses how the novel revolves around eating and drinking which “motivates much of her [Alice&#8217;s] behaviour”, for the story is essentially about things “entering and leaving her mouth”<sup id="cite_ref-28"><a href="http://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland#cite_note-28">[28]</a></sup> The animals of Wonderland are of particular interest, for Alice&#8217;s relation to them shifts constantly because, as Lovell-Smith states, Alice&#8217;s changes in size continually reposition her in the food chain, serving as a way to make her acutely aware of the ‘eat or be eaten’ attitude that permeates Wonderland.<sup id="cite_ref-29"><a href="http://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland#cite_note-29">[29]</a></sup></li>
+<li> How Doth the Little Crocodile
+<ul>
+<li>
+<dl>
+<dd>How doth the little crocodile</dd>
+<dd>Improve his shining tail,</dd>
+<dd>And pour the waters of the Nile</dd>
+<dd>On every golden scale!</dd>
+</dl>
+<dl>
+<dd>How cheerfully he seems to grin,</dd>
+<dd>How neatly spreads his claws,</dd>
+<dd>And welcomes little fishes in</dd>
+<dd>With gently smiling jaws!</dd>
+</dl>
+</li>
+</ul>
+</li>
+<li>The effect of <span style="font-size: xx-large;"><strong>nonsense</strong></span> is often caused by an <em><span style="font-size: x-large;">excess of meaning</span></em>, rather than a lack of it.</li>
+<li></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>/emocode-final_rabbit-hole/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Timing and Pacing</title>
+		<link>/timing-and-pacing/</link>
+					<comments>/timing-and-pacing/#comments</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sun, 23 Mar 2014 00:02:40 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Coding for Emotional Impact]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[analyze]]></category>
+		<category><![CDATA[music]]></category>
+		<category><![CDATA[observation]]></category>
+		<category><![CDATA[processing]]></category>
+		<guid isPermaLink="false">/?p=1338</guid>
+
+					<description><![CDATA[For this week&#8217;s subject Timing and Pacing, I chose &#8220;No Safe-House&#8221; in the soundtrack of The Grand Budapest Hotel to decode. &#160; effect I intend to achieve &#8211;&#62; emotion accumulation,... <a class="read-more" href="/timing-and-pacing/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>For this week&#8217;s subject Timing and Pacing, I chose &#8220;<a href="https://play.spotify.com/track/7bPZmJll7J8afrEfjNZ26p?play=true&amp;utm_source=open.spotify.com&amp;utm_medium=open" target="_blank"><strong>No Safe-House</strong></a>&#8221; in the soundtrack of The Grand Budapest Hotel to decode.</p>
+<p><a href="/wp-content/uploads/2014/03/timing.png"><img loading="lazy" class="alignnone size-full wp-image-1339" alt="timing" src="/wp-content/uploads/2014/03/timing.png" width="1000" height="489" srcset="/wp-content/uploads/2014/03/timing.png 1000w, /wp-content/uploads/2014/03/timing-300x146.png 300w, /wp-content/uploads/2014/03/timing-304x148.png 304w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>&nbsp;</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/89797686?byline=0&amp;color=c9ff23" height="637" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p><span style="font-family: 'Andale Mono', Times; font-size: medium;"><em><strong>effect</strong></em></span> I intend to achieve</p>
+<p>&#8211;&gt; emotion accumulation, cheerful and narrative.</p>
+<p><span style="font-size: medium;"><span style="font-family: 'Andale Mono', Times;"><strong><em>notes</em></strong></span></span></p>
+<ul>
+<li>library I used for camera in 3D &#8211;&gt;  http://mrfeinberg.com/peasycam/#about</li>
+<li>using PShape to store the tetrahedron I made and set their movements with trigonometry functions, noise, hsl, and <span style="color: #00ccff; font-size: large;"><strong><em><span style="font-family: 'Book Antiqua', Palatino;">hard-coding</span></em></strong></span> frameCount!!!(see how long and tedious my codes are :P)</li>
+<li><strong>issues</strong> to work on, since I used frameCount, it&#8217;s different all the time, depending how fast my computer run. need to use <span style="color: #ff6666;"><strong><span style="font-family: 'Courier New', Courier; font-size: medium;">millis()</span></strong></span> next time!</li>
+<li>next step will be using library Minim to generate the patterns directly from the analysis of sound file.</li>
+</ul>
+<p><span style="font-family: 'Andale Mono', Times; font-size: medium;"><strong><em>codes</em></strong> </span></p>
+<p><span id="more-1338"></span></p>
+<pre class="brush: java; gutter: true">import peasy.test.*;
+import peasy.org.apache.commons.math.*;
+import peasy.*;
+import peasy.org.apache.commons.math.geometry.*;
+import ddf.minim.*;
+
+Minim minim;
+AudioPlayer player;
+PeasyCam cam;
+
+float spin = 0.0;
+
+SinWave sinW1;
+SinWave sinW2;  //time=0
+CosWave cosW1;
+CosWave cosW2;  //time=0;
+TanWave tanW1;
+TanWave tanW2;  //time=0;
+
+//SinWave sw1;
+//SinWave sw2;
+//first circle
+ArrayList&lt;SinWave&gt; sw1;
+ArrayList&lt;SinWave&gt; sw2;
+ArrayList&lt;TanWave&gt; tw;
+ArrayList&lt;CosWave&gt; cw1;
+
+//second circle
+ArrayList&lt;SinWave&gt; sw1b;
+ArrayList&lt;SinWave&gt; sw2b;
+ArrayList&lt;TanWave&gt; twb;
+ArrayList&lt;CosWave&gt; cw1b;
+
+//3rd circle
+ArrayList&lt;SinWave&gt; sw1c;
+ArrayList&lt;SinWave&gt; sw2c;
+ArrayList&lt;TanWave&gt; twc;
+ArrayList&lt;CosWave&gt; cw1c;
+
+float frequency = 0.01;
+float time1 = PI/2;
+float time2 = 0;
+float amplitude = 5;
+float offset = 0;
+float increaseAmp = 0.01;
+float increaseBri = 0.01;
+float increaseBri2 = 0.01;
+float increaseTime = 0.01;
+float radiusCircle = 0.0;
+
+float ang;
+float posX;
+float posY;
+float posZ;
+
+float posX2;
+float posY2;
+float posZ2;
+
+float posCX;
+float posCY;
+
+ArrayList&lt;Tetrahedron&gt; triS;
+ArrayList&lt;Tetrahedron&gt; triCircleS;
+ArrayList&lt;Tetrahedron&gt; triCircle2S;
+ArrayList&lt;Tetrahedron&gt; triCircle3S;
+
+float noiseVal;
+float noiseScale=0.02;
+
+int octaves;
+float falloff;
+float time;
+
+boolean increase = true;
+
+int circleNum = 60;
+float size;
+
+//Camera
+float xmag, ymag = 0;
+float newXmag, newYmag = 0; 
+float averagePosX = 0;
+
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+//////////////////////  SET_UP  ////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+void setup() {
+  noCursor();
+  noFill();
+  //stroke(255);
+  size(1000, 800, P3D);
+  colorMode(HSB,100);
+
+  //Camera-------------------------------------------------
+  //-------------------------------------------------------
+  cam = new PeasyCam(this, 0, 0, 0, 1000);
+//  cam.setActive(false);
+//  cam.setYawRotationMode();
+
+  //audio
+  minim = new Minim(this);
+  player = minim.loadFile(&quot;No Safe-House.mp3&quot;);
+  player.play();
+
+  sinW1 = new SinWave(time1, frequency, amplitude, offset);
+  sinW2 = new SinWave(time2, frequency, amplitude, offset);
+  cosW1 = new CosWave(time1, frequency, amplitude, offset);
+  cosW2 = new CosWave(time2, frequency, amplitude, offset);
+  tanW1 = new TanWave(time1, frequency, amplitude, offset);
+  tanW2 = new TanWave(time2, frequency, amplitude, offset);
+
+  triS = new ArrayList&lt;Tetrahedron&gt;();
+  triCircleS = new ArrayList&lt;Tetrahedron&gt;();
+  triCircle2S = new ArrayList&lt;Tetrahedron&gt;();
+  triCircle3S = new ArrayList&lt;Tetrahedron&gt;();
+
+  sw1 = new ArrayList&lt;SinWave&gt;();
+  sw2 = new ArrayList&lt;SinWave&gt;();
+  tw = new ArrayList&lt;TanWave&gt;();
+  cw1 = new ArrayList&lt;CosWave&gt;();
+
+  sw1b = new ArrayList&lt;SinWave&gt;();
+  sw2b = new ArrayList&lt;SinWave&gt;();
+  twb = new ArrayList&lt;TanWave&gt;();
+  cw1b = new ArrayList&lt;CosWave&gt;();
+
+  sw1c = new ArrayList&lt;SinWave&gt;();
+  sw2c = new ArrayList&lt;SinWave&gt;();
+  twc = new ArrayList&lt;TanWave&gt;();
+  cw1c = new ArrayList&lt;CosWave&gt;();
+
+  //first circle
+  for(int i=0; i&lt;circleNum; i++){
+    Tetrahedron t = new Tetrahedron(color((i)*(100/circleNum), 100, 100));
+
+    SinWave x = new SinWave(radians(360/circleNum*i), frequency, amplitude, offset);
+    sw1.add(x);
+    SinWave y = new SinWave(PI/2+radians(360/circleNum*i), frequency, amplitude, offset);
+    sw2.add(y);
+    TanWave tt = new TanWave(radians(360/(circleNum*2)*i), frequency, amplitude, offset);
+    tw.add(tt);
+    CosWave v = new CosWave(radians(180/2*i), 0.1, 0.2, offset);
+    cw1.add(v);
+
+    t.update(x.run()*100, v.run()*50, y.run()*100, tt.run()*0.05);
+    triCircleS.add(t);
+  }
+
+  //spread circle
+  int amount = 30;
+  for(int j=0; j&lt;amount; j++){
+    Tetrahedron tet = new Tetrahedron();
+    Tetrahedron t = new Tetrahedron();
+
+    SinWave x2 = new SinWave(radians(360/amount*j), frequency, amplitude, offset);
+    sw1b.add(x2);
+    SinWave y2 = new SinWave(PI/2+radians(360/amount*j), frequency, amplitude, offset);
+    sw2b.add(y2);
+    TanWave tt2 = new TanWave(radians(360/(amount*2)*j), frequency, amplitude, offset);
+    twb.add(tt2);
+    CosWave v2 = new CosWave(radians(180/2*j), 0.1, 0.2, offset);
+    cw1b.add(v2);
+
+    SinWave x3 = new SinWave(radians(360/amount*j), frequency, amplitude, offset);
+    sw1c.add(x3);
+    SinWave y3 = new SinWave(PI/2+radians(360/amount*j), frequency, amplitude, offset);
+    sw2c.add(y3);
+    TanWave tt3 = new TanWave(radians(360/(amount*2)*j), frequency, amplitude, offset);
+    twc.add(tt3);
+    CosWave v3 = new CosWave(PI/2+radians(180/2*j), frequency, amplitude, 0);
+    cw1c.add(v3);
+
+    tet.update(x2.run()*100, v2.run()*50, y2.run()*100, tt2.run()*0.05);
+
+    t.update(x3.run()*100, v3.run()*50, v3.run()*100, tt3.run()*0.05);
+
+    triCircle2S.add(tet);
+    triCircle3S.add(t);
+  }
+
+  size=2;
+
+}
+
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+///////////////////////  DRAW  /////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+void draw() {
+  rotateX(-.2);
+  //rotateY(-.2);
+
+  background(255/23);
+  //lights();
+  noFill();
+  //stroke(255);
+  //strokeWeight(3);
+
+  //Camera-------------------------------------------------
+  //-------------------------------------------------------
+//  if(frameCount &lt; 60*20)
+//    cam.setYawRotationMode();
+
+  //rotateX(-PI/2);
+  noiseDetail(octaves, falloff);
+
+  posX = sinW1.run();
+  posY = cosW2.run();
+  posZ = cosW1.run();
+
+  posX2 = cosW1.run();
+  posY2 = sinW2.run();
+  posZ2 = cosW2.run();
+
+  spin = 0.05*tanW1.run();
+
+  //inner circle---------------------------------------------------
+  //0:00~0:32------------------------------------------------------
+  if(triCircleS.size()&gt;0){    
+    //circle
+    for(int i=0; i&lt;triCircleS.size(); i++){
+      Tetrahedron t = triCircleS.get(i);
+      SinWave x = sw1.get(i);
+      SinWave y = sw2.get(i);
+      TanWave tt = tw.get(i);
+      CosWave v = cw1.get(i);
+
+      t.update(x.run()*(70+radiusCircle), v.run()*50, y.run()*(70+radiusCircle), tt.run()*0.05);      
+
+      if(frameCount &gt; 3500) {
+       if(frameCount &lt; 3720)
+         radiusCircle += 0.002;
+       else if(frameCount &lt; 3720+60*2)
+         radiusCircle -= 0.002;
+      }
+
+      //sizing---------------------------------------------------------
+      //0:00~0:32------------------------------------------------------
+      if(frameCount &lt; 900) {
+        size += 0.00007;
+      }
+      else if(frameCount &lt; 960) {
+        size -= 0.00105;
+      }
+      else if(frameCount &lt; 1860) {
+        size += 0.0001;
+      }
+      else if(frameCount &lt; 1920) {
+        size -= 0.0015;
+      }
+
+      if(frameCount &lt; 60*3.5)
+          radiusCircle += 0.003;
+      else if(frameCount &lt; 60*8)
+        radiusCircle -= 0.003;
+      else if(frameCount &lt; 60*11)
+        radiusCircle += 0.002;
+      else if(frameCount &lt; 60*12)
+        radiusCircle -= 0.003;        
+      else if(frameCount &lt; 60*16)
+        radiusCircle += 0.002;
+
+      else if(frameCount &lt; 60*20)
+        radiusCircle -= 0.003;
+      else if(frameCount &lt; 60*24)
+        radiusCircle += 0.002;
+      else if(frameCount &lt; 60*27)
+        radiusCircle -= 0.003;
+      else if(frameCount &lt; 60*28)
+        radiusCircle += 0.003;        
+      else if(frameCount &lt; 60*32.5)
+        radiusCircle -= 0.002;
+
+      else if(frameCount &lt; 60*36)
+        radiusCircle += 0.003;
+      else if(frameCount &lt; 60*40)
+        radiusCircle -= 0.003;
+      else if(frameCount &lt; 60*42)
+        radiusCircle += 0.003;
+      else if(frameCount &lt; 60*44)
+        radiusCircle -= 0.003;
+      else if(frameCount &lt; 60*48)
+        radiusCircle += 0.003;
+
+      //Up &amp; Down------------------------------------------------------
+      //0:46~------------------------------------------------------
+      if(frameCount &gt; 2800 &amp;&amp; frameCount &lt; 2900){   // &amp;&amp; frameCount &lt; 3900
+        if(size&gt;0)
+          size -= 0.0005;
+      }
+      if(frameCount &gt; 2900 &amp;&amp; frameCount &lt; 3000)
+        size += 0.0005;
+
+      if (frameCount == 2900)
+        v.setTime(radians(180*i));
+      if (frameCount &gt; 2850 &amp;&amp; frameCount &lt; 3300) {
+        if(v.frequency&gt;0.06)
+          v.frequency -= 0.001;
+      } 
+
+      //Up &amp; Down_speedUp----------------------------------------------
+      //0:58~0:70------------------------------------------------------
+      else if (frameCount &gt; 3500 &amp;&amp; frameCount &lt; 4200) {
+        v.frequency += 0.0005;
+      }
+
+      println(v.frequency);
+
+      t.setSize(size);
+
+      t.display();
+    }
+  }
+
+  //spread---------------------------------------------------------
+  //0:32~0:47------------------------------------------------------
+  if(frameCount &gt; 1920){
+    pushStyle();
+    if(frameCount &lt; 4530)
+      stroke(100*53/359, 100, increaseBri);      
+    else {
+      if(frameCount % 60 &lt; 30)
+        stroke(100*184/359, 89, 100);
+      else
+        stroke(100*331/359, 100, 100);
+    }
+    for(int i=0; i&lt;triCircle2S.size(); i++){
+      Tetrahedron tet = triCircle2S.get(i);
+      SinWave x2 = sw1b.get(i);
+      SinWave y2 = sw2b.get(i);
+      TanWave tt2 = twb.get(i);
+      CosWave v2 = cw1b.get(i);
+
+      x2.setAmp(amplitude+increaseAmp);
+      y2.setAmp(amplitude+increaseAmp);
+
+      if(frameCount &lt; 1920+60)
+        increaseAmp +=0.0005;
+      else if(frameCount &lt; 1920+60*2)
+        increaseAmp -=0.0005;
+      else if(frameCount &lt; 1920+60*3)
+        increaseAmp +=0.0005;
+      else if(frameCount &lt; 1920+60*4)
+        increaseAmp -=0.0005;
+      else if(frameCount &lt; 1920+60*5)
+        increaseAmp +=0.0005;
+      else if(frameCount &lt; 1920+60*6)
+        increaseAmp -=0.0005;
+      else if(frameCount &lt; 1920+60*7)
+        increaseAmp +=0.0005;
+      else if(frameCount &lt; 1920+60*8)
+        increaseAmp -=0.0005;
+      else if(frameCount &lt; 1920+60*9)
+        increaseAmp +=0.0005;
+      else if(frameCount &lt; 1920+60*10)
+        increaseAmp -=0.0005;
+      else if(frameCount &lt; 1920+60*11)
+        increaseAmp +=0.0005;
+      else if(frameCount &lt; 1920+60*12)
+        increaseAmp -=0.0005;
+      else if(frameCount &lt; 1920+60*13)
+        increaseAmp +=0.0005;
+      else if(frameCount &lt; 1920+60*14)
+        increaseAmp -=0.0005;
+
+      if(frameCount &gt; 60*75.5 &amp;&amp; frameCount &lt; 60*77.1)   // &amp;&amp; frameCount &lt; 3900
+        v2.amplitude -= 0.05;
+
+      tet.update(x2.run()*100, v2.run()*(50+increaseAmp)+50, y2.run()*100, tt2.run()*0.05);
+      tet.display();
+    }
+    popStyle();
+    increaseBri += 0.8;
+  }
+
+  //another spread-------------------------------------------------
+  //------------------------------------------------------
+  if(frameCount &gt; 60*61){
+    pushStyle();
+
+    stroke((int)random(100)*100/359,100,100);
+
+    for(int i=0; i&lt;triCircle3S.size(); i++){
+      Tetrahedron ttt = triCircle3S.get(i);
+      ttt.setSize(1);
+
+      if(frameCount &lt; 60*70) {
+        if(frameCount % 30 == 0){
+          ttt.setSize(random(2));
+          strokeWeight(random(1,5));
+        }
+      } else if(frameCount &lt; 60*77) {
+        if(frameCount % 30 == 0){
+          ttt.setSize(random(2,5));
+          strokeWeight(random(3,7));
+        }
+      }
+
+      SinWave x3 = sw1c.get(i);
+      SinWave y3 = sw2c.get(i);
+      TanWave tt3 = twc.get(i);
+      CosWave v3 = cw1c.get(i);
+
+      ttt.update(x3.run()*100, y3.run()*50, v3.run()*100, tt3.run()*0.05);
+      ttt.display();
+    }
+    popStyle();
+  }
+
+  //auto create flying ones
+  if(frameCount &gt; 60*16 &amp;&amp; frameCount &lt; 60*46){
+    if(frameCount % (60*4) &lt; (60*1)) {
+      if(frameCount % 10 ==0)
+        newTri();
+    }
+
+  }
+
+  if(frameCount &gt; 60*55 &amp;&amp; frameCount &lt; 60*60) {
+    octaves += 0.1;
+    falloff += 0.007;
+  }
+
+  if(triS.size()&gt;0){
+    pushStyle();
+
+    //flying around
+    color triC = color(50, 70, increaseBri2);
+
+    int direction = 1;
+
+    //appear
+    if(frameCount &gt; 60*10) {
+      if(increaseBri2 &lt; 50) {
+        increaseBri2 += 0.1*direction;
+
+      }
+    } else if (frameCount &gt; 60*77) {
+      if(increaseBri2 &lt; 100) {
+        increaseBri2 += 0.1*direction;
+
+      }
+    }
+
+    for(int i=0; i&lt;triS.size(); i++){
+      Tetrahedron t = triS.get(i);
+
+      if(frameCount &lt; 60*61)
+        t.setSize(size/2);
+      else if(frameCount &lt; 60*70) {
+        if(frameCount % 30 == 15){
+          t.setSize(random(2));
+          strokeWeight(random(1,5));
+        }
+      } else if(frameCount &lt; 60*77) {
+        if(frameCount % 30 == 15){
+          t.setSize(random(2,5));
+          strokeWeight(random(3,7));
+        }
+        triC = color(random(1,100), 70, increaseBri2);
+
+      } else if(frameCount &lt; 60*86) {
+        t.setSize(random(2));
+        triC = color(random(1,100), 70, increaseBri2);
+      } else {
+        t.setSize(random(100,500));
+        triC = color(random(1,100), 70, 100);
+      }
+
+      t.setAngle(radians(i*10));
+
+      if(i%2 == 0)
+        t.update(t.x+posX, t.y+posY, t.z+(noise(time)*posZ), spin);
+      else
+        t.update(t.x+posX2, t.y+posY2, t.z+(noise(time)*posZ2), spin);
+
+      t.display( triC );      
+    }    
+    popStyle();
+  }
+}
+
+void newTri(){
+
+  Tetrahedron t = new Tetrahedron();
+  triS.add(t);
+}
+
+void mousePressed(){
+
+  newTri();
+}
+
+void keyPressed() {
+
+  switch(keyCode) {
+  case UP:
+    octaves++;
+    break;
+  case DOWN:
+    octaves--;
+    break;
+  case RIGHT:
+    falloff+=.1;
+    break;
+  case LEFT:
+    falloff-=.1;
+    break;
+  }
+
+  octaves = constrain(octaves, 0, 25);
+  falloff = constrain(falloff, 0.0, 1.1);
+}</pre>
+<pre class="brush: java; gutter: true">class Tetrahedron {
+
+  PShape t;
+  PShape t1, t2, t3, t4;
+
+  float x, y, z;
+  float scale = 5;
+  float angleY;
+
+  color c;
+
+  Tetrahedron() {
+    //c = color(0,0,100);
+
+    t = createShape(GROUP);
+
+    t1 = createShape();
+    t1.beginShape();
+    t1.stroke(c);
+    t1.vertex(-3, 0, 0);
+    t1.vertex(3, 0, 0);
+    t1.vertex(0, 0, -4);
+    t1.endShape(CLOSE);
+
+    t2 = createShape();
+    t2.beginShape();
+    t2.stroke(c);
+    t2.vertex(-3, 0, 0);
+    t2.vertex(0, 4, -1.7);
+    t2.vertex(3, 0, 0);
+    t2.endShape(CLOSE);
+
+    t3 = createShape();
+    t3.beginShape();
+    t3.stroke(c);
+    t3.vertex(3, 0, 0);
+    t3.vertex(0, 4, -1.7);
+    t3.vertex(0, 0, -4);
+    t3.endShape(CLOSE);
+
+    t4 = createShape();
+    t4.beginShape();
+    t4.stroke(c);
+    t4.vertex(-3, 0, 0);
+    t4.vertex(0, 0, -4);
+    t4.vertex(0, 4, -1.7);
+    t4.endShape(CLOSE);
+
+    t.addChild(t1);
+    t.addChild(t2);
+    t.addChild(t3);
+    t.addChild(t4);
+
+    x = random(-200, 200);
+    y = random(-200, 200);
+    z = random(-200,200);
+
+    t.disableStyle();
+    t1.disableStyle();
+    t2.disableStyle();
+    t3.disableStyle();
+    t4.disableStyle();
+  }
+
+  Tetrahedron(color _c) {
+    c = _c;
+
+    t = createShape(GROUP);
+
+    t1 = createShape();
+    t1.beginShape();
+    t1.stroke(c);
+    t1.vertex(-3, 0, 0);
+    t1.vertex(3, 0, 0);
+    t1.vertex(0, 0, -4);
+    t1.endShape(CLOSE);
+
+    t2 = createShape();
+    t2.beginShape();
+    t2.stroke(c);
+    t2.vertex(-3, 0, 0);
+    t2.vertex(0, 4, -1.7);
+    t2.vertex(3, 0, 0);
+    t2.endShape(CLOSE);
+
+    t3 = createShape();
+    t3.beginShape();
+    t3.stroke(c);
+    t3.vertex(3, 0, 0);
+    t3.vertex(0, 4, -1.7);
+    t3.vertex(0, 0, -4);
+    t3.endShape(CLOSE);
+
+    t4 = createShape();
+    t4.beginShape();
+    t4.stroke(c);
+    t4.vertex(-3, 0, 0);
+    t4.vertex(0, 0, -4);
+    t4.vertex(0, 4, -1.7);
+    t4.endShape(CLOSE);
+
+    t.addChild(t1);
+    t.addChild(t2);
+    t.addChild(t3);
+    t.addChild(t4);
+
+    x = random(-200, 200);
+    y = random(-200, 200);
+    z = random(-200,200);
+
+  }
+
+  void update(float _x, float _y, float _z) {
+    x = _x;
+    y = _y;
+    z = _z;
+  }
+
+  void update(float _x, float _y, float _z, float _angleY) {
+    x = _x;
+    y = _y;
+    z = _z;
+    angleY = _angleY;
+  }
+
+  void update(float _x, float _y, float _z, color _c) {
+    x = _x;
+    y = _y;
+    z = _z;
+    c = _c;
+  }
+
+  void update(float _x, float _y, float _z, color _c, float _angleY) {
+    x = _x;
+    y = _y;
+    z = _z;
+    c = _c;
+    angleY = _angleY;
+  }
+
+  void setZ(float _z) {
+    z = _z;
+  }
+
+  void setAngle(float _angleY) {
+    angleY = _angleY;
+  }
+
+  void setSize(float _scale) {
+    scale = _scale;
+  }
+
+  void display() {
+    pushMatrix();    
+
+    translate(x, y, z);
+    rotateY(angleY);
+    rotateZ(angleY);
+    scale(scale);
+
+    shape(t);
+    popMatrix();
+  }
+
+  void display(color _color) {
+    pushMatrix();    
+    pushStyle();
+
+    fill(_color);
+    noStroke();
+
+    translate(x, y, z);
+    rotateY(angleY);
+    rotateZ(angleY);
+    scale(scale);
+
+    shape(t);
+
+    popStyle();
+    popMatrix();
+  }
+}
+
+class Wave{
+
+  float time, frequency, amplitude, offset;
+
+  Wave(float _time, float _frequency, float _amplitude, float _offset){
+    time = _time;
+    frequency = _frequency;
+    amplitude = _amplitude;
+    offset = _offset;
+  }
+
+  float run(){
+    time += frequency;
+    return sin( time ) * amplitude + offset;
+  }
+
+  void setAmp(float _amp){
+    amplitude = _amp;
+  }
+
+  void setTime(float _ti){
+    time = _ti;
+  }
+
+}
+
+class SinWave {
+  float time, frequency, amplitude, offset;
+
+  SinWave(float _time, float _frequency, float _amplitude, float _offset){
+    time = _time;
+    frequency = _frequency;
+    amplitude = _amplitude;
+    offset = _offset;
+  }
+
+  float run() {
+    time += frequency;
+    return sin( time ) * amplitude + offset;
+  }
+
+  void setAmp(float _amp){
+    amplitude = _amp;
+  }
+
+  void setTime(float _ti){
+    time = _ti;
+  }
+}
+
+class CosWave{
+  float time, frequency, amplitude, offset;
+
+  CosWave(float _time, float _frequency, float _amplitude, float _offset){
+    time = _time;
+    frequency = _frequency;
+    amplitude = _amplitude;
+    offset = _offset;
+  }
+
+  float run() {
+    time += frequency;
+    return cos( time ) * amplitude + offset;
+  }
+
+  void setAmp(float _amp){
+    amplitude = _amp;
+  }
+
+  void setTime(float _ti){
+    time = _ti;
+  }
+
+}
+
+class TanWave {
+  float time, frequency, amplitude, offset;
+
+  TanWave(float _time, float _frequency, float _amplitude, float _offset){
+    time = _time;
+    frequency = _frequency;
+    amplitude = _amplitude;
+    offset = _offset;
+  }
+
+  float run() {
+    time += frequency;
+    return tan( time ) * amplitude + offset;
+  }
+
+  void setAmp(float _amp){
+    amplitude = _amp;
+  }
+
+  void setTime(float _ti){
+    time = _ti;
+  }
+
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>/timing-and-pacing/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

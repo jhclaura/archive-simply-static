@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>computer vision &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/computer-vision/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Mon, 21 Mar 2016 14:10:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Experiment_04</title>
+		<link>/experiment_04/</link>
+					<comments>/experiment_04/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sat, 07 Mar 2015 04:59:52 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Thesis - MASK]]></category>
+		<category><![CDATA[computer vision]]></category>
+		<category><![CDATA[dirty test]]></category>
+		<category><![CDATA[face detection]]></category>
+		<guid isPermaLink="false">/?p=2278</guid>
+
+					<description><![CDATA[Computer vision Talked with Kyle McDonald My project reminded him of anonymous hugging Suggested testing different ways to max the performance, setting benchmark and see which part costs the most Face detection... <a class="read-more" href="/experiment_04/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<h2>Computer vision</h2>
+<ul>
+<li>Talked with<span style="color: #33cccc;"> <a style="color: #33cccc;" href="http://kylemcdonald.net/" target="_blank">Kyle McDonald</a></span>
+<ul>
+<li>My project reminded him of <span style="color: #33cccc;"><a style="color: #33cccc;" href="http://fromkeetra.com/anonymous-hugging/" target="_blank">anonymous hugging</a></span></li>
+<li>Suggested testing different ways to max the performance, setting benchmark and see which part costs the most</li>
+</ul>
+</li>
+<li>Face detection
+<ul>
+<li>Use small canvas for executing face detection, display the image with big size of canvas.</li>
+<li>From below test pics you can see, it&#8217;s much better to <span style="text-decoration: underline;">analyze with smaller canvas</span>, but there&#8217;s no big difference between displaying big and small canvas, so for better resolution, it seems <span style="text-decoration: underline;">ok to display bigger canvas</span>.</li>
+</ul>
+</li>
+</ul>
+<div id="attachment_263" style="width: 815px" class="wp-caption alignnone"><a href="http://itp.io/thesis/jhc551/wp-content/uploads/sites/617/2015/03/bigCanvasAnalyze.png" target="_blank"><img aria-describedby="caption-attachment-263" loading="lazy" class="wp-image-263 " src="http://itp.io/thesis/jhc551/wp-content/uploads/sites/617/2015/03/bigCanvasAnalyze.png" alt="bigCanvasAnalyze" width="805" height="453" /></a></p>
+<p id="caption-attachment-263" class="wp-caption-text">bigCanvasAnalyze</p>
+</div>
+<div id="attachment_262" style="width: 811px" class="wp-caption alignnone"><a href="http://itp.io/thesis/jhc551/wp-content/uploads/sites/617/2015/03/bigCanvasDisplay.png" target="_blank"><img aria-describedby="caption-attachment-262" loading="lazy" class="wp-image-262 " src="http://itp.io/thesis/jhc551/wp-content/uploads/sites/617/2015/03/bigCanvasDisplay.png" alt="bigCanvasDisplay" width="801" height="451" /></a></p>
+<p id="caption-attachment-262" class="wp-caption-text">bigCanvasDisplay</p>
+</div>
+<div id="attachment_261" style="width: 813px" class="wp-caption alignnone"><a href="http://itp.io/thesis/jhc551/wp-content/uploads/sites/617/2015/03/smallCanvasDisplay.png" target="_blank"><img aria-describedby="caption-attachment-261" loading="lazy" class="wp-image-261 " src="http://itp.io/thesis/jhc551/wp-content/uploads/sites/617/2015/03/smallCanvasDisplay.png" alt="smallCanvasDisplay" width="803" height="452" /></a></p>
+<p id="caption-attachment-261" class="wp-caption-text">smallCanvasDisplay</p>
+</div>
+<div style="width: 810px" class="wp-caption alignnone"><img loading="lazy" class="" src="https://lh3.googleusercontent.com/1v0bIlBGrctWMWW1n8Ut__t9z-tIq-oVk5ELyOqfqEY=w1068-h601-no" alt="" width="800" height="450" /></p>
+<p class="wp-caption-text">Greyscale + Blur</p>
+</div>
+<div style="width: 811px" class="wp-caption alignnone"><img loading="lazy" class="" src="https://lh4.googleusercontent.com/kTJF4YsAr2KtFk5mISrU7WT2L5akKW5bv9ibgcOqlOg=w1068-h601-no" alt="" width="801" height="451" /></p>
+<p class="wp-caption-text">multiple faces detection, yet not stable due to changing lightness</p>
+</div>
+<ul>
+<li>Collect personal moment as taking photos &#8211;&gt; accompany with you all the time to comfort you to confront unknown<img loading="lazy" class="alignnone" src="https://lh5.googleusercontent.com/-VxGhw7sky5U/VPxN48uZNLI/AAAAAAAAGOg/h27C1G4SWA8/w1116-h628-no/Screenshot_2015-03-08-09-16-19.png" alt="" width="1116" height="628" /></li>
+<li>Affecting virtual world</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Wireless Wooo</h2>
+<p><a href="http://itp.io/thesis/jhc551/wp-content/uploads/sites/617/2015/03/localhostTest.png"><img loading="lazy" class="alignnone size-full wp-image-257" src="http://itp.io/thesis/jhc551/wp-content/uploads/sites/617/2015/03/localhostTest.png" alt="localhostTest" width="1000" height="563" /></a></p>
+<p>Thanks to<span style="color: #33cccc;"> <a style="color: #33cccc;" href="http://andysigler.com/" target="_blank">Andy</a></span>&#8216;s advice on hooking up localhost of my laptop through itpsandbox wifi, now I can run codes on mobile phone using laptop as server! (ps. It also works at home, just in NYU because of the security issue, using ITPSANDBOX is needed.)</p>
+<p>*<span style="text-decoration: underline;">Note</span>* It&#8217;s not advised to run server elsewhere (e.g. heroku, digitalOcean) because it takes more time to transfer the data back and forth. Localhost with laptop is the best option for proof of concept!</p>
+<p>&nbsp;</p>
+<h2><del>Paper Mache</del></h2>
+<p>&#8211;&gt; Decide to do it after finalizing the virtual content.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/experiment_04/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Roofwing</title>
+		<link>/roofwing/</link>
+					<comments>/roofwing/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sat, 15 Mar 2014 00:49:28 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Spatial Media]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[computer vision]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[documentation]]></category>
+		<category><![CDATA[fantasy]]></category>
+		<category><![CDATA[group]]></category>
+		<category><![CDATA[midterm]]></category>
+		<category><![CDATA[Openframeworks]]></category>
+		<guid isPermaLink="false">/?p=1246</guid>
+
+					<description><![CDATA[A flying + walking, surreal experience design for rooftop. Work done with amazing John. It&#8217;s all start from an assignment in the class Spatial Media, with specific requirement as below:... <a class="read-more" href="/roofwing/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2014/03/IMG_1826.jpg"><img loading="lazy" class="alignnone size-large wp-image-1253" alt="IMG_1826" src="/wp-content/uploads/2014/03/IMG_1826-1024x682.jpg" width="1024" height="682" srcset="/wp-content/uploads/2014/03/IMG_1826-1024x682.jpg 1024w, /wp-content/uploads/2014/03/IMG_1826-300x200.jpg 300w, /wp-content/uploads/2014/03/IMG_1826-304x202.jpg 304w, /wp-content/uploads/2014/03/IMG_1826.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>A flying + walking, surreal experience design for <em><span style="font-family: Georgia, Palatino; font-size: medium;">rooftop</span></em>. Work done with amazing <a href="http://www.j-namuchoi.com/" target="_blank">John</a>.</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/89071351?byline=0&amp;color=c9ff23" height="450" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p>It&#8217;s all start from an assignment in the class <span style="font-family: Georgia, Palatino;"><em>Spatial Media</em></span>, with specific requirement as below:<span style="font-family: Verdana, Geneva;"><br />
+</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;">+ be site specific (i.e. be designed for an actual location)</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + be designed for use by more than one person</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + involve a horizontal surface</span></p>
+<p><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">START FROM SPACE</span></p>
+<p>Because we wanted the experience to be strongly connected with space, we developed the idea starting from <span style="font-size: medium;"><em><span style="font-family: Georgia, Palatino;">space</span></em></span>. We chose rooftop because its exciting yet rusted characters, and we thought it has the potential to be a relaxing playground for citizens, especially for cities with limited space.</p>
+<p><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">CONCEPT</span></p>
+<p><span style="font-family: Verdana, Geneva;"><span style="font-family: Georgia, Palatino; font-size: small;">+ Utilize the height and windy characters directly from space</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;">+ Cooperate with your teammates to maximize and exaggerate the excitement</span><br />
+</span></p>
+<p><a href="/wp-content/uploads/2014/02/SP_Rooftop_old.jpeg"><img loading="lazy" class="alignnone size-large wp-image-1067" alt="SP_Rooftop_old" src="/wp-content/uploads/2014/02/SP_Rooftop_old-1024x854.jpeg" width="1024" height="854" srcset="/wp-content/uploads/2014/02/SP_Rooftop_old-1024x854.jpeg 1024w, /wp-content/uploads/2014/02/SP_Rooftop_old-300x250.jpeg 300w, /wp-content/uploads/2014/02/SP_Rooftop_old-304x253.jpeg 304w, /wp-content/uploads/2014/02/SP_Rooftop_old.jpeg 1853w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">SWINGS PRODUCTION(making miniature!)</span></p>
+<p><span style="font-family: Georgia, Palatino; font-size: small;">+ woods</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + necklace chains &amp; rings</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + thin hemp rope</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + webcam</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + monitor</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + white board</span></p>
+<p><a href='/roofwing/2014-02-27-15-00-18/'><img width="150" height="150" src="/wp-content/uploads/2014/03/2014-02-27-15.00.18-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/2014-02-28-19-39-32/'><img width="150" height="150" src="/wp-content/uploads/2014/03/2014-02-28-19.39.32-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing_progress-media-content/img_3032/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3032-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/img_3229/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3229-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/img_3059/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3059-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing_progress-media-content/img_3018/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3018-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/img_3235/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_3235-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+<p><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">TECHNIQUES</span></p>
+<p><span style="font-family: Georgia, Palatino; font-size: small;"> + Openframeworks</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + videoGrabber</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + videoPlayer</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + color detection</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + image sequences</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + soundPlayer</span></p>
+<p><em>Swing range test</em><br />
+<iframe loading="lazy" src="//player.vimeo.com/video/88273783?byline=0&amp;color=c9ff23" height="597" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p><em>Infinite Loop</em><br />
+This is one of the amazing beautiful mistake with the infinite loop between monitor showing what camera capturing and camera capturing monitor.<br />
+<iframe loading="lazy" src="//player.vimeo.com/video/89045870?byline=0&amp;color=c9ff23" height="450" width="800" allowfullscreen="" frameborder="0"></iframe></p>
+<p><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">HOW IT WORKS</span></p>
+<p><span style="font-family: Georgia, Palatino; font-size: small;"> + Team A &amp; Team B</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + swing people*5 need to cooperate to swing as high as they can to shoot out the strong thunder, or either weak thunder or NO thunder will be shoot out(different thunder sound effects).</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + people in the center can block the thunders by stepping on them(scoring sound effect + spark sequence), so two team have to try to rope in the people in the center</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + once thunders reach the other side, strong thunder gets 2 scores, weak thunder gets 1 score.</span><br />
+<span style="font-family: Georgia, Palatino; font-size: small;"> + SWING OR DIE.</span></p>
+<p><a href='/roofwing/img_1841/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_1841-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/img_1834/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_1834-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/?attachment_id=1245'><img width="150" height="150" src="/wp-content/uploads/2014/03/present-150x150.jpeg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/roofwing/img_1856/'><img width="150" height="150" src="/wp-content/uploads/2014/03/IMG_1856-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/roofwing/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

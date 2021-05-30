@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>performance &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/performance/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Fri, 20 Nov 2015 22:20:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>HHouse_Immersive Performance_Elevator Ticket</title>
+		<link>/hhouse_immersive-performance/</link>
+					<comments>/hhouse_immersive-performance/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Thu, 11 Sep 2014 13:57:54 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Haunted House]]></category>
+		<category><![CDATA[group]]></category>
+		<category><![CDATA[performance]]></category>
+		<guid isPermaLink="false">/?p=1558</guid>
+
+					<description><![CDATA[For the first week assignment &#8211; a simple immersive performance, to put a new slant on an everyday situation or interaction.Ben, Tom and me present the Elevator Ticket! And here&#8217;s the... <a class="read-more" href="/hhouse_immersive-performance/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>For the first week assignment &#8211; a simple immersive performance, to put a new slant on an everyday situation or interaction.Ben, Tom and me present the <span style="font-family: 'Andale Mono', Times; font-size: 12pt; color: #ff6600;"><strong>Elevator Ticket</strong></span>!</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/105708701" width="500" height="281" frameborder="0" title="Elevator Ticket" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+<p>And here&#8217;s the nicely put-together by Tom:</p>
+<p style="padding-left: 30px;">In New York there isn’t much more routine then taking an elevator ride. With the exception of <a href="http://www.nytimes.com/2011/12/15/nyregion/elevator-accident-kills-a-woman-in-a-madison-avenue-building.html?_r=0">freak accidents</a> elevators usually function in the same way. Press the button, wait, get in and awkwardly attempt not to look at other people, get off.</p>
+<p style="padding-left: 30px;">As routine as elevator rides may be, we imagined disrupting the routine of elevator usage.</p>
+<p style="padding-left: 30px;">In the style of old train tickets, we created an elevator ticket and instructed visitors to the NYU Tisch building that a ticket was required for using the elevator.</p>
+<p style="padding-left: 30px;">Using the reasoning of ‘safety’ and ‘efficiency’ we asked visitors for his/her destination floor and collected tickets prior to boarding the elevator. The ticket was not presented as an option but instead as a requirement to use the elevator.</p>
+<p style="padding-left: 30px;">The responses varied from mild amusement, to annoyance and non compliance. It was interesting that most elevator users accepted the reasoning of ‘efficiency’ or ‘safety’ at face value, even as we were not dressed in a way that might suggest authority.</p>
+<p style="padding-left: 30px;">We imagined that to enhance the performance we could  dress in uniform and have operators standing inside of the elevator asking for tickets from passengers and pressing floor button for them. During the ride the operator could talk about the imaginary floor news and wish passengers a merry imaginary scenario day when arriving.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/hhouse_immersive-performance/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

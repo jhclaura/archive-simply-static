@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Unity &#8211; Laura Juo-Hsin Chen</title>
+	<atom:link href="/tag/unity/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>We are imaginative beasts.</description>
+	<lastBuildDate>Sun, 11 Oct 2020 20:49:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>David Bowie Is &#8211; AR Exhibition</title>
+		<link>/david-bowie-is/</link>
+					<comments>/david-bowie-is/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Sat, 17 Aug 2019 21:09:47 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[AR]]></category>
+		<category><![CDATA[exhibition]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[Unity]]></category>
+		<guid isPermaLink="false">/?p=3064</guid>
+
+					<description><![CDATA[David Bowie Is &#8211; AR Exhibition, is an AR project by The David Bowie Archive, Sony Music Entertainment (Japan) Inc. and Planeta. In this post, I jotted down some of... <a class="read-more" href="/david-bowie-is/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<figure class="wp-block-image size-large is-resized"><img loading="lazy" src="/wp-content/uploads/2019/03/16x9-1024x576.jpg" alt="" class="wp-image-2863" width="512" height="288" srcset="/wp-content/uploads/2019/03/16x9-1024x576.jpg 1024w, /wp-content/uploads/2019/03/16x9-300x169.jpg 300w, /wp-content/uploads/2019/03/16x9-768x432.jpg 768w, /wp-content/uploads/2019/03/16x9-400x225.jpg 400w, /wp-content/uploads/2019/03/16x9-210x118.jpg 210w, /wp-content/uploads/2019/03/16x9.jpg 1200w" sizes="(max-width: 512px) 100vw, 512px" /></figure>
+<p><a rel="noreferrer noopener" aria-label="David Bowie Is - AR Exhibition (opens in a new tab)" href="https://davidbowieisreal.com/" target="_blank">David Bowie Is &#8211; AR Exhibition</a>, is an AR project by The David Bowie Archive, Sony Music Entertainment (Japan) Inc. and Planeta. In this post, I jotted down some of my development as Lead Developer, under Director Nick Dangerfield, Art Direction Seth Tillett, and Tech Director Dan Brewster.</p>
+<figure class="wp-block-image is-resized"><img loading="lazy" src="/wp-content/uploads/2019/08/IMG_7817.png" alt="" class="wp-image-3104" width="514" height="289" srcset="/wp-content/uploads/2019/08/IMG_7817.png 1000w, /wp-content/uploads/2019/08/IMG_7817-300x169.png 300w, /wp-content/uploads/2019/08/IMG_7817-768x432.png 768w, /wp-content/uploads/2019/08/IMG_7817-400x225.png 400w, /wp-content/uploads/2019/08/IMG_7817-210x118.png 210w" sizes="(max-width: 514px) 100vw, 514px" /></figure>
+<div style="height:33px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Paper Interaction</strong></p>
+<p>The irl exhibition has a lot of 2D materials, and for browsing them in a mobile app, there is a subtle balance we want to maintain, a balance between <strong>efficiency</strong> and <strong>AR-ness</strong>. We tried several ways, shuffle, fade in/out, but ultimately it feels the most natural to see them laying or leaning on some sort of surface. </p>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile is-image-fill" style="grid-template-columns:64% auto">
+<figure class="wp-block-media-text__media" style="background-image:url(/wp-content/uploads/2019/08/paper_move.jpg);background-position:50% 50%"><img loading="lazy" width="900" height="506" src="/wp-content/uploads/2019/08/paper_move.jpg" alt="" class="wp-image-3099" srcset="/wp-content/uploads/2019/08/paper_move.jpg 900w, /wp-content/uploads/2019/08/paper_move-300x169.jpg 300w, /wp-content/uploads/2019/08/paper_move-768x432.jpg 768w, /wp-content/uploads/2019/08/paper_move-400x225.jpg 400w, /wp-content/uploads/2019/08/paper_move-210x118.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+<div class="wp-block-media-text__content">
+<p>And just like how you would expect and do in real life, we made the 2D materials move with your fingertip. </p>
+</div>
+</div>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/paper.mp4"></video></figure>
+<p class="has-text-align-center">The effect especially works great on small paper cutout.<br />(<em>Note</em> &#8211; all videos in the post are direct screen recordings on my old iPhone6s)</p>
+<p>And as a tabletop AR, some 2D artifacts need to be stacked in order for all to fit in, thus we need to a way to shuffle them. </p>
+<div class="wp-block-media-text alignwide is-image-fill" style="grid-template-columns:68% auto">
+<figure class="wp-block-media-text__media" style="background-image:url(/wp-content/uploads/2019/08/paper_stack-1.jpg);background-position:50% 50%"><img loading="lazy" width="900" height="506" src="/wp-content/uploads/2019/08/paper_stack-1.jpg" alt="" class="wp-image-3094" srcset="/wp-content/uploads/2019/08/paper_stack-1.jpg 900w, /wp-content/uploads/2019/08/paper_stack-1-300x169.jpg 300w, /wp-content/uploads/2019/08/paper_stack-1-768x432.jpg 768w, /wp-content/uploads/2019/08/paper_stack-1-400x225.jpg 400w, /wp-content/uploads/2019/08/paper_stack-1-210x118.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+<div class="wp-block-media-text__content">
+<p>After testing, we found out that, bringing the &#8220;focus&#8221; artifact to the front of the stack after being sent back, feels the most natural and intuitive.</p>
+</div>
+</div>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/sort.mov"></video></figure>
+<p class="has-text-align-center">Paper stack shuffle.</p>
+<div style="height:38px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Scene Changes Mask</strong></p>
+<p>To pack the whole physical show into a tabletop AR mobile app, it is important to find a way to navigate the rich contents.</p>
+<blockquote style="text-align:center" class="wp-block-quote is-style-large">
+<p style="font-family: Helvetica; font-size: 1.1em; margin-bottom:0px"> It includes over 400 high resolution captures of David Bowie’s costumes, sketches, handwritten lyrics, notes, music videos and original works of art are presented in striking arrangements and immersive settings, as well as dozens of never before seen items, including archival videos, drawings, photographs, and notes.</p>
+<p><cite style="font-size: 0.6em"><a href="https://davidbowieisreal.com/">davidbowieisreal.com</a></cite></p></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center is-image-fill" style="grid-template-columns:65% auto">
+<figure class="wp-block-media-text__media" style="background-image:url(/wp-content/uploads/2019/08/menu.jpg);background-position:51% 52%"><img loading="lazy" width="900" height="506" src="/wp-content/uploads/2019/08/menu.jpg" alt="" class="wp-image-3098" srcset="/wp-content/uploads/2019/08/menu.jpg 900w, /wp-content/uploads/2019/08/menu-300x169.jpg 300w, /wp-content/uploads/2019/08/menu-768x432.jpg 768w, /wp-content/uploads/2019/08/menu-400x225.jpg 400w, /wp-content/uploads/2019/08/menu-210x118.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+<div class="wp-block-media-text__content">
+<p>Within the show, we decided to condense each section into a digestible <em>Diorama</em>, and make them navigable through a map.</p>
+<p>And within each diorama, we need to make some sub-scene changes as well to accommodate all the contents.</p>
+</div>
+</div>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile is-image-fill" style="grid-template-columns:65% auto">
+<figure class="wp-block-media-text__media" style="background-image:url(/wp-content/uploads/2019/08/slider_mask.jpg);background-position:50% 50%"><img loading="lazy" width="900" height="506" src="/wp-content/uploads/2019/08/slider_mask.jpg" alt="" class="wp-image-3097" srcset="/wp-content/uploads/2019/08/slider_mask.jpg 900w, /wp-content/uploads/2019/08/slider_mask-300x169.jpg 300w, /wp-content/uploads/2019/08/slider_mask-768x432.jpg 768w, /wp-content/uploads/2019/08/slider_mask-400x225.jpg 400w, /wp-content/uploads/2019/08/slider_mask-210x118.jpg 210w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+<div class="wp-block-media-text__content">
+<p>For this, I used a lot of invisible 3D mask.</p>
+<p>The mask uses depth buffer to occlude and prevent the contents from being shown. It is a simple but effective graphic trick, and more can be found <a rel="noreferrer noopener" href="http://wiki.unity3d.com/index.php?title=DepthMask" target="_blank">here</a>. </p>
+</div>
+</div>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/hunger.mp4"></video></figure>
+<p class="has-text-align-center">For example in <em>Hunger City</em>, two masks are places on the sides of the stage, to hide the off-stage contents.</p>
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<p class="has-medium-font-size"><strong>Scene Making</strong></p>
+<p>Under the guidance of Director and Art Director and with feedback from the whole development team, I build the AR scenes including: Early Influences, Space Oddity, Cultural Influences, Songwriting, Recording, Characters, Collaborations, Life On Mars, Ziggy Stardust, Hunger City, Stage and Screen, New York, and Black &amp; White Years. Below are the in-app screen recording of some of those scenes.</p>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/early.mp4"></video></figure>
+<p class="has-text-align-center">Early Influences</p>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/hunger_transition.mp4"></video></figure>
+<p class="has-text-align-center">Hunger City</p>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/bnw.mp4"></video></figure>
+<p class="has-text-align-center">Black and White Years</p>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/s_n_s.mp4"></video></figure>
+<p class="has-text-align-center">Stage and Screen</p>
+<figure class="wp-block-video"><video autoplay loop muted src="/wp-content/uploads/2019/08/ny.mp4"></video></figure>
+<p class="has-text-align-center">New York</p>
+<figure class="wp-block-video aligncenter"><video autoplay loop muted style="height:600px" src="/wp-content/uploads/2019/08/ziggy_.mp4"></video></figure>
+<p class="has-text-align-center">Ziggy Stardust</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/david-bowie-is/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		<enclosure url="/wp-content/uploads/2019/08/paper.mp4" length="3093927" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/sort.mov" length="8745823" type="video/quicktime" />
+<enclosure url="/wp-content/uploads/2019/08/hunger.mp4" length="4716610" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/early.mp4" length="2776595" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/hunger_transition.mp4" length="6500929" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/bnw.mp4" length="4466937" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/s_n_s.mp4" length="3097039" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/ny.mp4" length="4357604" type="video/mp4" />
+<enclosure url="/wp-content/uploads/2019/08/ziggy_.mp4" length="12887943" type="video/mp4" />
+
+			</item>
+		<item>
+		<title>MASK v2.0 &#8211; Unity!</title>
+		<link>/mask-v2-0-unity/</link>
+					<comments>/mask-v2-0-unity/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Fri, 09 Oct 2015 16:02:08 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Fall 2015]]></category>
+		<category><![CDATA[MASK]]></category>
+		<category><![CDATA[Personal project]]></category>
+		<category><![CDATA[3D]]></category>
+		<category><![CDATA[Cardboard]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VR]]></category>
+		<guid isPermaLink="false">/?p=2484</guid>
+
+					<description><![CDATA[Unity3D version of MASK! Since it&#8217;s much more stable with App than with Webpage, maybe it&#8217;s worth a try to make a unity version of MASK collection. Hmm such a sweet... <a class="read-more" href="/mask-v2-0-unity/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="alignnone" src="https://lh3.googleusercontent.com/-TYJP_pDkPZeSm402qRb4koBLDGQRGsiTw2rPIotM8BC8ZP70n-7-2dS1grUlSDk0DbmnKoyw_Uav4df9AkrNUi1uIxYmuvAisy0IwxdsM8dcpVzJ77q87aykcypp86p_2DHOzgbUFGLPk67FqhYJ4DP_lI7qaAHKlljikBujrybbItG29fdJ4bqljfAHDdXxaln3OcBf3-TxSPiYOgwljehHFD2LKu38wt9tVev1jEva8mUN1SX-sJgp1R_Fta_iTRbXXIgdvKlI2It_I47EMebFVN9IDkpPYO3XVQk4dMb0_hTIfZycPxIH4cN0xKQpIb9a4Oc2jmWcL3b59ZiiaVPvSB5yk9SL5L1nt9K_cf8WzqmlL_5qcTGNgR0cDGNta-1eM_rTB1PEjazOzf0kXu35-ORiPa2sBmRxdqlT8Px-JaAbsQA05ZJvAeWfkeRqvsphPk6sfqrCRQgJusQXDfmGt6TNBdgPjnl96A2IOftXhOS8n65A0dwVLItHPfNLNqMrbEFjxxAWIP0VRVzNgneznhEuV_uAg4VJq3coHun=w1307-h735-no" alt="" width="1307" height="735" /></p>
+<p>Unity3D version of MASK!</p>
+<p>Since it&#8217;s much more stable with App than with Webpage, maybe it&#8217;s worth a try to make a unity version of MASK collection. Hmm such a sweet dilemma!</p>
+<p>Codes of accessing camera on the phone&#8230; omg so simple!</p>
+<pre class="brush: csharp; gutter: true">WebCamDevice[] devices = WebCamTexture.devices;
+mCamera = new WebCamTexture ();
+
+//for(var i=0; i&lt;devices.Length; i++){
+//	Debug.Log(devices[i].name);
+//}
+
+if (devices.Length &gt; 0) {
+	mCamera.deviceName = devices[0].name;
+	displayPlan.GetComponent&lt;Renderer&gt;().material.mainTexture = mCamera;
+	mCamera.Play ();
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>/mask-v2-0-unity/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Summer Throwback Three: We Are What We Pretend To Be Inc. established!</title>
+		<link>/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/</link>
+					<comments>/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Fri, 18 Sep 2015 00:07:53 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Fall 2015]]></category>
+		<category><![CDATA[Personal project]]></category>
+		<category><![CDATA[Summer 2015]]></category>
+		<category><![CDATA[3D]]></category>
+		<category><![CDATA[Cardboard]]></category>
+		<category><![CDATA[handcraft]]></category>
+		<category><![CDATA[installation]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VR]]></category>
+		<category><![CDATA[WAWPRE]]></category>
+		<guid isPermaLink="false">/?p=2337</guid>
+
+					<description><![CDATA[The third major experiment I had this summer was a street car journey. At first it&#8217;s just another experiment with Unity, but then it leads me to an idea for the project... <a class="read-more" href="/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="alignnone" src="https://lh3.googleusercontent.com/XTEpQxO_3nX643aCcenQUnajE_mqPsB_5kWvYziqr1uRcwU_bstBUDuzOg9DOcXgJVc5s_ZF58Bi5zj65Px0sEHvZV2sKKBIoV6RgqBfu8sjl8IXbfxKmFSHNEi-lapROHWrgAGoAvbYKPgrjhq02cS_hyJC36fjVn52wcND7IrQdM5zaEqM4OpqVU56oW8Z631xejWucTGRBv84sSo0QH9S0ar5JnYbVwc12IP7voJ4EA7A5QiDYpvunOkgTakKopGcor9wG5RPNhqPHXanhDrEe_UwejNiFvP-4e9ZLYyPJ_dQ3kuMe3kTQTBpXXeBoHhtGCXaGHIbk3NqBSE8MFRzLLaDQkqT6BLYUgvuoLInRh7pcE5VO1N-RPUkzSu_eWxrRg38MYv8zobmUPpeAI1lD5epCjpPd3FK4aBpStYZBDce6CBcGtFpT-tZLH98q6xIQ8MIeFUvItBpZyeRK_3D-srHr4GijxEgZ0k4enZ24UzmxiCbiSXJFk1VJqBisyH8dUj7s68Boz2Mpu6PZybRfScQi82J9u-4-6PKR5PC=w1268-h691-no" alt="" width="1268" height="691" />The third major experiment I had this summer was a street car journey. At first it&#8217;s just another experiment with Unity, but then it leads me to an idea for the project I want to do this year, as the Research Fellow at ITP.</p>
+<p>I decided to establish an incorporation, called <span style="font-size: 18pt;"><em><strong>WE ARE WHAT WE PRETEND TO BE Inc.</strong></em></span>.</p>
+<p>It&#8217;s inspired by the quotes of writer <a href="https://en.wikipedia.org/wiki/Kurt_Vonnegut" target="_blank">Kurt Vonnegut</a>:</p>
+<blockquote><p>&#8220;We are what we pretend to be, so we must be careful about what we pretend to be.&#8221;</p></blockquote>
+<p>I discovered this when I was doing research for my thesis, and it inspired me a lot to shape the idea, and to make the <strong><span style="font-family: 'Andale Mono', Times;"><a href="http://jhclaura.github.io/MASK/" target="_blank">MASK</a></span></strong> series.</p>
+<p><em>WE ARE WHAT WE PRETEND TO BE Inc.(<strong>WAWPRE</strong>) </em>is an entity for my series experiments about the relationship between our <strong>free will</strong> and <strong>unfree (uncontrollable) will</strong>. Can I change my unfree will by change my free will? How can I shift self identity by ultering my and also others perspective?</p>
+<p>&nbsp;</p>
+<p>The first product of <em><strong>WE ARE WHAT WE PRETEND TO BE Inc.</strong> </em>is <span style="color: #33cccc;"><strong><span style="font-family: 'Andale Mono', Times;"><a style="color: #33cccc;" href="http://jhclaura.github.io/MASK/" target="_blank">MASK</a></span></strong></span>, a customized VR headset that helps the user become what they want to be.</p>
+<p><a href="/wp-content/uploads/2015/09/MASK_lineup.png"><img loading="lazy" class="alignnone size-full wp-image-2378" src="/wp-content/uploads/2015/09/MASK_lineup.png" alt="MASK_lineup" width="2880" height="1920" srcset="/wp-content/uploads/2015/09/MASK_lineup.png 2880w, /wp-content/uploads/2015/09/MASK_lineup-300x200.png 300w, /wp-content/uploads/2015/09/MASK_lineup-1024x683.png 1024w, /wp-content/uploads/2015/09/MASK_lineup-400x267.png 400w, /wp-content/uploads/2015/09/MASK_lineup-210x140.png 210w" sizes="(max-width: 2880px) 100vw, 2880px" /></a></p>
+<p>&nbsp;</p>
+<p>The second service of <strong><em>WE ARE WHAT WE PRETEND TO BE Inc.</em></strong> is <span style="font-family: 'Andale Mono', Times; color: #33cccc;"><strong>THE TRAM</strong></span>.</p>
+<p><a href="/wp-content/uploads/2015/09/We-Are-What-We-Pretend-To-Be.jpg"><img loading="lazy" class="alignnone size-full wp-image-2375" src="/wp-content/uploads/2015/09/We-Are-What-We-Pretend-To-Be.jpg" alt="We Are What We Pretend To Be" width="3201" height="2400" srcset="/wp-content/uploads/2015/09/We-Are-What-We-Pretend-To-Be.jpg 3201w, /wp-content/uploads/2015/09/We-Are-What-We-Pretend-To-Be-300x225.jpg 300w, /wp-content/uploads/2015/09/We-Are-What-We-Pretend-To-Be-1024x768.jpg 1024w, /wp-content/uploads/2015/09/We-Are-What-We-Pretend-To-Be-400x300.jpg 400w, /wp-content/uploads/2015/09/We-Are-What-We-Pretend-To-Be-210x157.jpg 210w" sizes="(max-width: 3201px) 100vw, 3201px" /></a></p>
+<p>It&#8217;s an installation that provided customized virtual reality experience that users (aka passengers) can design their tram journey based on their mood, destination, favorite color, and cloth to wear. Also from the cutout hole on the cardboard box, which is usually covered with curtain, I will take a picture of the passengers, so the passengers will be able to see themselves in the VR.</p>
+<blockquote><p><strong><em>WE ARE WHAT WE PRETEND TO BE Inc. THE TRAM</em> </strong>takes you to wherever you want, fulfill whatever desire you want, therefore you become whomever you want. You set yourself free.</p></blockquote>
+<p>I joined <em><a href="http://yami-ichi.biz/nyc/" target="_blank">Internet Yami-Ichi in New York</a></em> this summer, and displayed my little handcraft Home Depot cardboard box as an installation + experience seller. For the software, I used Unity and started developing it on and off since August, since I was notified that I was selected to join the event. As for the box, I made it with recycled materials I found in junk shelf in <em><strong>one night</strong></em> before the event! Holy cow SO NERVOUS.</p>
+<p>It&#8217;s really a successful experiments, for first ever user test! The users used it for a long time, average at least more than 1 minute! Which is a huge difference for me.  I think that&#8217;s because the tram keeps moving, the scenery outside the window keeps changing, plus there are ghost passengers getting on the bus when the tram stops at the tram station, the user is expecting things to happen, thus enjoys the VR experience for the longer time.<br />
+<iframe loading="lazy" src="https://player.vimeo.com/video/139861020?color=c9ff23" width="750" height="422" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><span style="font-family: 'Andale Mono', Times;"><strong>Screen captures with different customized setup</strong></span></p>
+<p><a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-31-57-pm/'><img width="300" height="151" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.31.57-PM-300x151.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.31.57-PM-300x151.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.31.57-PM-400x201.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.31.57-PM-210x106.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.31.57-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-32-29-pm/'><img width="300" height="150" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.29-PM-300x150.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.29-PM-300x150.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.29-PM-400x200.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.29-PM-210x105.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.29-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-32-19-pm/'><img width="300" height="149" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.19-PM-300x149.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.19-PM-300x149.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.19-PM-400x199.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.19-PM-210x104.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.19-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-32-53-pm/'><img width="300" height="150" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.53-PM-300x150.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.53-PM-300x150.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.53-PM-400x200.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.53-PM-210x105.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.32.53-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-33-11-pm/'><img width="300" height="149" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.11-PM-300x149.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.11-PM-300x149.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.11-PM-400x199.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.11-PM-210x104.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.11-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-33-46-pm/'><img width="300" height="149" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.46-PM-300x149.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.46-PM-300x149.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.46-PM-400x199.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.46-PM-210x104.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.46-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-33-56-pm/'><img width="300" height="148" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.56-PM-300x148.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.56-PM-300x148.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.56-PM-400x198.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.56-PM-210x104.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.33.56-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-34-36-pm/'><img width="300" height="149" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.36-PM-300x149.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.36-PM-300x149.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.36-PM-400x198.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.36-PM-210x104.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.36-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-34-46-pm/'><img width="300" height="149" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.46-PM-300x149.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.46-PM-300x149.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.46-PM-400x198.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.46-PM-210x104.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.34.46-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-35-06-pm/'><img width="300" height="150" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.06-PM-300x150.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.06-PM-300x150.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.06-PM-400x200.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.06-PM-210x105.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.06-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-35-21-pm/'><img width="300" height="150" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.21-PM-300x150.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.21-PM-300x150.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.21-PM-400x200.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.21-PM-210x105.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.21-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-35-46-pm/'><img width="300" height="150" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.46-PM-300x150.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.46-PM-300x150.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.46-PM-400x200.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.46-PM-210x105.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.35.46-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-36-09-pm/'><img width="300" height="150" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.09-PM-300x150.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.09-PM-300x150.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.09-PM-400x200.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.09-PM-210x105.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.09-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/screen-shot-2015-09-22-at-1-36-42-pm/'><img width="300" height="150" src="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.42-PM-300x150.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.42-PM-300x150.png 300w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.42-PM-400x200.png 400w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.42-PM-210x105.png 210w, /wp-content/uploads/2015/09/Screen-Shot-2015-09-22-at-1.36.42-PM.png 800w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-family: 'Andale Mono', Times;">Contents development</span></strong></p>
+<p>It&#8217;s a subtraction process, because of limited time haha</p>
+<div style="width: 481px" class="wp-caption alignnone"><img loading="lazy" class="" src="https://lh3.googleusercontent.com/KbS5Ma_tv_94fCi11olXKh8r1JBvb_LjB19vlgMMSiHtkuZLp90V7_RuoHoPthBr9S5zDvJoOV8smEMXAeqg-_3_6La3VYyeFYqykH_b0i-Jq4WL6l0N2PLScWUg2Kd28xlfIA22pOIDBV19nM_s5YQw9QmLkel8CSxR6Cja5GrUp9Y-yKtlgT2s2JfXxqaVhFlhrWQbmxs3qc2HGKdIzpu8ONss6KiHC0NKSrIu3JK1rzqCnWCjJw0SblUM0DnWTOs-VKj-5azQM3BA42bW6ZmBOX-lJoX7CvJySolmtV6_P5XdKaF68YXTo2vIjYyULYyAx-Oh2b9n6CWJlBnidZS9Wlm459ikBijvryAAeXa4blNqj2pItt38Z_J1P5yywY9siYuDF62haKHCTbXEaaWvwSeR9UBdPm-inNVnUOQhJe8GXCjj-VaEbovvwpcO0fen1c0C2eqJUVKL2jYEUwe3_gG6N0U4AY8sBkX65i9sp9A9jT6x6KZimWVVlodKp529XQLZBBsd1i26CGB4r3XjaR7lgO_7aq_IaHcuy0xS=w493-h691-no" alt="" width="471" height="662" /></p>
+<p class="wp-caption-text">You can escape into different spaces, under different circumstances.</p>
+</div>
+<div style="width: 479px" class="wp-caption alignnone"><img loading="lazy" class="" src="https://lh3.googleusercontent.com/ktgJII5vFXS56tvCmnDkIKz40Uc8rhe8nXd2TwwJ54ca103A7FRFDBU30o41jyfzEx5o7qQWn5j27iY0IpK4R8tX2DjV9bYYIQQ957Ogt8M74mQx8L2xuTm28XD_B3E9zHtC0tlASWsDdZUIzo2dMKz-EAXAkL55M6AJ6nxhDXLPUivC73IPCGnUxgPVRuJBn8YXy8kc25fdt3RvlBJ9fxEIwWuKYLkW1h_e_e7iaQjodFD7Izq52enJ52VoRJ5m42OHSm0i2lY78JspRip2mRI4hQoMKWpUd8wO7r6hpR2OzQ6Rsk0t-OU__xo991QV3lXGkaUeFlrjRf3sbhFqOciO9-ClbjVm9LJN94DP8V5THsUmdjTqnkmsEO3LV3zn1KuowueigekANtdGy9Vkm3CCN8fegOER3ATjkUSWZ_J4u9IFeMhpvay-3VNrOePJ5GrswDlRpKahAX55cug1fIKS3Qv4INbpYMUG0GdTUkLN4BHk9mN9d6UxdA0l6SrqhB4PpO58-vuN5hdNO0SCBIbAUF6_OisGfNZV8tCpAxtf=w507-h691-no" alt="" width="469" height="639" /></p>
+<p class="wp-caption-text">Different customized options &amp; graphic design</p>
+</div>
+<div style="width: 478px" class="wp-caption alignnone"><img loading="lazy" src="https://lh3.googleusercontent.com/IpVmw659WMIJCeXfncYB01sK72bTkPHijoI_FTS_iHhIg_J6JvtvT5BGEyDLDTvHGmL56Ewrv5AhGOJTLACSMN6_lFAJDYZwOkVFNVg4FPduhaMs7GqnMHeQ7Ry7uPkU6bTcNMINViGV7TQChhuLKo2SlJYPIYyXVfYpmznS5H4oDRvwJ41OpsvnmGlkg587orR8vgq4eO9jbfRkKCDnGg39v96zOyMMP1aIFtpkvyL6aEuRocCkhDLjMjg9NE8yx-VpKv7_tsGpnHo1_Bhgv3jPndBBZtcVtGvyxflrc9He0MkFy7cqPXV6NKL6CjJyl0f25nDvp8x_nuVfchrJKKPzdgTpG5qoQ5e0IPeB_GDoXA5T9xFFdvzyvwMo2-G_ZZv43dDpEge0VfnUkAx0Y3tKha2a_YZhUVGM2a2x2Is3eUCStFs_vUHNNjZuWTlOAtomN3xCIMEJdnXzHB6ymJ_yY8LVG6vezO-_Q_FdH9s7zoXJ6SKJYDQr4iafgJCGNuN-xNDc6jqhTXQagDiSDNVIDA_D48C0bX9_VUAhSN3n=w469-h691-no" alt="" width="468" height="691" /></p>
+<p class="wp-caption-text">Ideas finalizing</p>
+</div>
+<p>&nbsp;</p>
+<p><strong><span style="font-family: 'Andale Mono', Times;">Internet Yami-Ichi </span></strong></p>
+<p><a href="/wp-content/uploads/2015/09/IMG_20150912_131813.jpg"><img loading="lazy" class="alignnone wp-image-2429" src="/wp-content/uploads/2015/09/IMG_20150912_131813.jpg" alt="IMG_20150912_131813" width="700" height="525" srcset="/wp-content/uploads/2015/09/IMG_20150912_131813.jpg 1000w, /wp-content/uploads/2015/09/IMG_20150912_131813-300x225.jpg 300w, /wp-content/uploads/2015/09/IMG_20150912_131813-400x300.jpg 400w, /wp-content/uploads/2015/09/IMG_20150912_131813-210x158.jpg 210w" sizes="(max-width: 700px) 100vw, 700px" /></a> <a href="/wp-content/uploads/2015/09/IMG_20150912_133938.jpg"><img loading="lazy" class="alignnone wp-image-2430" src="/wp-content/uploads/2015/09/IMG_20150912_133938.jpg" alt="IMG_20150912_133938" width="700" height="525" srcset="/wp-content/uploads/2015/09/IMG_20150912_133938.jpg 1000w, /wp-content/uploads/2015/09/IMG_20150912_133938-300x225.jpg 300w, /wp-content/uploads/2015/09/IMG_20150912_133938-400x300.jpg 400w, /wp-content/uploads/2015/09/IMG_20150912_133938-210x158.jpg 210w" sizes="(max-width: 700px) 100vw, 700px" /></a> <a href="/wp-content/uploads/2015/09/IMG_20150912_142812.jpg"><img loading="lazy" class="alignnone wp-image-2432" src="/wp-content/uploads/2015/09/IMG_20150912_142812.jpg" alt="IMG_20150912_142812" width="700" height="525" srcset="/wp-content/uploads/2015/09/IMG_20150912_142812.jpg 1000w, /wp-content/uploads/2015/09/IMG_20150912_142812-300x225.jpg 300w, /wp-content/uploads/2015/09/IMG_20150912_142812-400x300.jpg 400w, /wp-content/uploads/2015/09/IMG_20150912_142812-210x158.jpg 210w" sizes="(max-width: 700px) 100vw, 700px" /></a><a href="/wp-content/uploads/2015/09/11997881_10207456961200394_772412524_n.jpg"><img loading="lazy" class="alignnone wp-image-2428" src="/wp-content/uploads/2015/09/11997881_10207456961200394_772412524_n.jpg" alt="11997881_10207456961200394_772412524_n" width="350" height="467" srcset="/wp-content/uploads/2015/09/11997881_10207456961200394_772412524_n.jpg 720w, /wp-content/uploads/2015/09/11997881_10207456961200394_772412524_n-225x300.jpg 225w, /wp-content/uploads/2015/09/11997881_10207456961200394_772412524_n-400x533.jpg 400w, /wp-content/uploads/2015/09/11997881_10207456961200394_772412524_n-210x280.jpg 210w" sizes="(max-width: 350px) 100vw, 350px" /></a><a href="/wp-content/uploads/2015/09/IMG_20150912_182150.jpg"><img loading="lazy" class="alignnone wp-image-2433" src="/wp-content/uploads/2015/09/IMG_20150912_182150.jpg" alt="IMG_20150912_182150" width="350" height="467" srcset="/wp-content/uploads/2015/09/IMG_20150912_182150.jpg 750w, /wp-content/uploads/2015/09/IMG_20150912_182150-225x300.jpg 225w, /wp-content/uploads/2015/09/IMG_20150912_182150-400x533.jpg 400w, /wp-content/uploads/2015/09/IMG_20150912_182150-210x280.jpg 210w" sizes="(max-width: 350px) 100vw, 350px" /></a> <a href="/wp-content/uploads/2015/09/IMG_20150912_184804.jpg"><img loading="lazy" class="alignnone wp-image-2434" src="/wp-content/uploads/2015/09/IMG_20150912_184804.jpg" alt="IMG_20150912_184804" width="700" height="525" srcset="/wp-content/uploads/2015/09/IMG_20150912_184804.jpg 1000w, /wp-content/uploads/2015/09/IMG_20150912_184804-300x225.jpg 300w, /wp-content/uploads/2015/09/IMG_20150912_184804-400x300.jpg 400w, /wp-content/uploads/2015/09/IMG_20150912_184804-210x158.jpg 210w" sizes="(max-width: 700px) 100vw, 700px" /></a></p>
+<p>&nbsp;</p>
+<p>Thank you all my lovely first ever passengers&lt;3 &lt;3 &lt;3</p>
+<p><a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_124011/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_124011-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_125657/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_125657-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_130351/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_130351-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_132442/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_132442-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_134449/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_134449-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_134824/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_134824-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_141430/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_141430-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_143038/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_143038-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_143718/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_143718-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_144732/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_144732-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_145814/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_145814-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_150621/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_150621-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_152401/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_152401-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_152824/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_152824-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_154941/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_154941-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_160328/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_160328-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_161038/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_161038-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_161929/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_161929-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_163806/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_163806-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_164922/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_164922-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_171712/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_171712-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_173024/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_173024-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_173351/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_173351-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_173738/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_173738-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_175451/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_175451-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_180148/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_180148-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_182412/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_182412-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a><br />
+<a href='/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/img_20150912_183809/'><img width="150" height="150" src="/wp-content/uploads/2015/09/IMG_20150912_183809-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" /></a></p>
+<p>Let me thank you with this passengers all together gif &lt;3&lt;3&lt;3 Thank you guys!!!</p>
+<p><a href="/wp-content/uploads/2015/09/ppp.gif"><img loading="lazy" class="alignnone size-full wp-image-2437" src="/wp-content/uploads/2015/09/ppp.gif" alt="ppp" width="1400" height="692" /></a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/summer-throwback-three-we-are-what-we-pretend-to-be-inc-established/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Summer Throwback Two: Big Mac Index VR</title>
+		<link>/summer-throwback-two-big-mac-index-vr/</link>
+					<comments>/summer-throwback-two-big-mac-index-vr/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Thu, 17 Sep 2015 21:59:46 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Experiments]]></category>
+		<category><![CDATA[Summer 2015]]></category>
+		<category><![CDATA[3D]]></category>
+		<category><![CDATA[burger]]></category>
+		<category><![CDATA[Cardboard]]></category>
+		<category><![CDATA[The Economist]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[VR]]></category>
+		<guid isPermaLink="false">/?p=2349</guid>
+
+					<description><![CDATA[In this summer, I was interning in The Economist Media Lab. It&#8217;s a tight team of Ron Diorio, Frank J. Andrejasich, and Ziv Schneider. The goal of this internship is exploring how... <a class="read-more" href="/summer-throwback-two-big-mac-index-vr/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>In this summer, I was interning in The Economist Media Lab. It&#8217;s a tight team of Ron Diorio, Frank J. Andrejasich, and <a href="http://zivschneider.com/" target="_blank">Ziv Schneider</a>. The goal of this internship is exploring how The Economist can use virtual reality to enhance the editorial piece, reach broader audience, and create unusual experience.</p>
+<p>Because of my previous <a href="/portfolio/urbanization/" target="_blank">3D data visualization</a> experiments, The Economist is interested how they can do data viz in VR, since data representation is one of their forte. Luckily, I could choose what I want to create, so I picked Big Mac Index. Why? Because it is <em><span style="font-family: 'Andale Mono', Times;">BURGER</span></em> dude. <strong><em><span style="font-family: 'Andale Mono', Times;">BURGER</span></em></strong>.</p>
+<p>About Big Mac Index:</p>
+<blockquote><p><span style="font-family: 'Times New Roman', Times;"><em>One of the most famous index of The Economist. The earliest data starts from</em><em> September 1986, and it has been used as a semi-humorous illustration of purchasing power parity (PPP). It makes exchange-rate theory a bit more digestible.</em></span></p></blockquote>
+<p>For this, I use the every half a year data since 2000, and the countries include: Argentina, Australia, Brazil, Britain, Canada, Chile, China, Czech Republic, Denmark, Euro area, Hong Kong, Hungary, Indonesia, Japan, Malaysia, Mexico, New Zealand, Poland, Russia, Singapore, South Africa, South Korea, Sweden, Switzerland, Taiwan, Thailand, and United States.</p>
+<p><iframe loading="lazy" src="https://player.vimeo.com/video/135134993?color=c9ff23" width="750" height="422" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>&nbsp;</p>
+<p>There are total three scenes in this Big Mac Index VR: 1) Intro, 2) Map, 3) Comparison Mode.</p>
+<p><strong><span style="font-family: 'Andale Mono', Times;">INTRO</span></strong></p>
+<p><a href='/summer-throwback-two-big-mac-index-vr/1-2/'><img width="300" height="202" src="/wp-content/uploads/2015/09/1-300x202.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/1-300x202.png 300w, /wp-content/uploads/2015/09/1-400x270.png 400w, /wp-content/uploads/2015/09/1-210x142.png 210w, /wp-content/uploads/2015/09/1.png 1022w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/2-2/'><img width="300" height="203" src="/wp-content/uploads/2015/09/2-300x203.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/2-300x203.png 300w, /wp-content/uploads/2015/09/2-400x271.png 400w, /wp-content/uploads/2015/09/2-210x142.png 210w, /wp-content/uploads/2015/09/2.png 1021w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/4-2/'><img width="300" height="203" src="/wp-content/uploads/2015/09/4-300x203.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/4-300x203.png 300w, /wp-content/uploads/2015/09/4-400x271.png 400w, /wp-content/uploads/2015/09/4-210x142.png 210w, /wp-content/uploads/2015/09/4.png 1021w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/5-2/'><img width="300" height="203" src="/wp-content/uploads/2015/09/5-300x203.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/5-300x203.png 300w, /wp-content/uploads/2015/09/5-1024x693.png 1024w, /wp-content/uploads/2015/09/5-400x271.png 400w, /wp-content/uploads/2015/09/5-210x142.png 210w, /wp-content/uploads/2015/09/5.png 1025w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>With bunch of graphics and little texts, the opening shows how to navigate and interact in the virtual world, and gives an intro about the Index. It’s like the traditional motion graphic voice-over video, yet it’s 3D and interactable.</p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Andale Mono', Times;"><strong>MAP</strong></span></p>
+<p>Map is the major part of Big Mac Index VR. There are two kinds of data: first one is “How many Big Mac you can buy with $10 value equivalent in the currency?”, second one is: “The valuation of the currency compared with US Dollar”. For each one, I use burger tower and color of map to represent it. Throughout different time periods, the height of the burger tower and the color of the map change.</p>
+<p><a href="/wp-content/uploads/2015/09/views.png"><img loading="lazy" class="alignnone size-full wp-image-2365" src="/wp-content/uploads/2015/09/views.png" alt="views" width="965" height="536" srcset="/wp-content/uploads/2015/09/views.png 965w, /wp-content/uploads/2015/09/views-300x167.png 300w, /wp-content/uploads/2015/09/views-400x222.png 400w, /wp-content/uploads/2015/09/views-210x117.png 210w" sizes="(max-width: 965px) 100vw, 965px" /></a></p>
+<p>There are also two modes for how to display the data, one is automatic time passing by (default), another one is being designated. By tilting the headset 90 degree clockwise, the menu is toggled up to be chosen from. Once it&#8217;s not in auto mode, the time period appears in the sky for be chosen, and the map only shows data for specific year.</p>
+<p><a href='/summer-throwback-two-big-mac-index-vr/6-2/'><img width="300" height="199" src="/wp-content/uploads/2015/09/6-300x199.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/6-300x199.png 300w, /wp-content/uploads/2015/09/6-400x265.png 400w, /wp-content/uploads/2015/09/6-210x139.png 210w, /wp-content/uploads/2015/09/6.png 1022w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/9-2/'><img width="300" height="199" src="/wp-content/uploads/2015/09/9-300x199.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/9-300x199.png 300w, /wp-content/uploads/2015/09/9-400x265.png 400w, /wp-content/uploads/2015/09/9-210x139.png 210w, /wp-content/uploads/2015/09/9.png 1023w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/8-2/'><img width="300" height="199" src="/wp-content/uploads/2015/09/8-300x199.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/8-300x199.png 300w, /wp-content/uploads/2015/09/8.png 1024w, /wp-content/uploads/2015/09/8-400x265.png 400w, /wp-content/uploads/2015/09/8-210x139.png 210w" sizes="(max-width: 300px) 100vw, 300px" /></a><br />
+<a href='/summer-throwback-two-big-mac-index-vr/7-2/'><img width="300" height="198" src="/wp-content/uploads/2015/09/7-300x198.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2015/09/7-300x198.png 300w, /wp-content/uploads/2015/09/7-400x264.png 400w, /wp-content/uploads/2015/09/7-210x139.png 210w, /wp-content/uploads/2015/09/7.png 1022w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Andale Mono', Times;"><strong>COMPARISON</strong></span></p>
+<p>Still in progress :) It&#8217;s for clear comparison in small group with selected countries.</p>
+<p><a href="/wp-content/uploads/2015/09/11.png"><img loading="lazy" class="alignnone size-full wp-image-2359" src="/wp-content/uploads/2015/09/11.png" alt="11" width="1019" height="670" srcset="/wp-content/uploads/2015/09/11.png 1019w, /wp-content/uploads/2015/09/11-300x197.png 300w, /wp-content/uploads/2015/09/11-400x263.png 400w, /wp-content/uploads/2015/09/11-210x138.png 210w" sizes="(max-width: 1019px) 100vw, 1019px" /></a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/summer-throwback-two-big-mac-index-vr/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Summer Throwback One: Facebook Land</title>
+		<link>/summer-throwback-one-facebook-land/</link>
+					<comments>/summer-throwback-one-facebook-land/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Thu, 17 Sep 2015 19:23:03 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Experiments]]></category>
+		<category><![CDATA[Summer 2015]]></category>
+		<category><![CDATA[2D]]></category>
+		<category><![CDATA[3D]]></category>
+		<category><![CDATA[gif]]></category>
+		<category><![CDATA[mini project]]></category>
+		<category><![CDATA[Unity]]></category>
+		<guid isPermaLink="false">/?p=2342</guid>
+
+					<description><![CDATA[Originally is a birthday present to Andy S. But it ends up to be an Facebook post exploration journey. Below is the instructions: Start the journey Log into Facebook with... <a class="read-more" href="/summer-throwback-one-facebook-land/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="alignnone" src="https://33.media.tumblr.com/6064b666e7b3fca97b827fa2b0db2653/tumblr_nqs7chv7wG1u7sgsso1_1280.gif" alt="" width="900" height="446" /></p>
+<p>Originally is a birthday present to Andy S. But it ends up to be an Facebook post exploration journey. Below is the instructions:</p>
+<ul>
+<li>Start the journey</li>
+<li>Log into Facebook with token</li>
+<li>Hear happy birthday wishes from <span style="font-family: 'Andale Mono', Times; color: #999999;"><strong>Yelling Kid</strong></span></li>
+<li>Your latest 20 posts from the news feed show up, include: name, contents, and picture.</li>
+<li>Be checked out by <span style="font-family: 'Andale Mono', Times; color: #ff6600;"><strong>Andy the Candy</strong></span></li>
+<li>Press <em>Space</em> key to have confusing conversations with <span style="font-family: 'Andale Mono', Times;"><strong><span style="color: #ff6600;">Andy the Candy</span></strong></span></li>
+<li><span style="font-family: 'Andale Mono', Times; color: #ff6600;"><strong>Andy the Candy</strong></span> starts walking</li>
+<li>Follow <span style="font-family: 'Andale Mono', Times;"><strong><span style="color: #ff6600;">Andy the Candy</span></strong></span> to a post</li>
+<li>Press <em>Space</em> key to view the content</li>
+<li><span style="font-family: 'Andale Mono', Times; color: #ff6600;"><strong>Andy the Candy</strong></span> greets you when you are back</li>
+<li><span style="font-family: 'Andale Mono', Times; color: #ff6600;"><strong>Andy the Candy</strong></span> leads you to another post</li>
+<li>(Loop)</li>
+</ul>
+<p><iframe loading="lazy" src="https://player.vimeo.com/video/139623501?color=c9ff23" width="750" height="422" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Very fun experiments! Possible next steps: More posts you browse, the darker the environment it becomes, and eventually shut down the application :&gt;</p>
+<p><span style="color: #33cccc; font-size: 17pt;"><strong><span style="font-family: 'Andale Mono', Times;"><em>Just don&#8217;t fall for FB too much yo ^_&lt;</em></span></strong></span></p>
+<p>&nbsp;</p>
+<p>Materials &#8211;&gt; 3D-like 2D gif images</p>
+<p><img loading="lazy" class="alignnone" src="https://38.media.tumblr.com/1d4fb242c36a88d687a426e15f93739d/tumblr_npskuqHWGy1u7sgsso1_1280.gif" alt="" width="538" height="538" /></p>
+<p><img loading="lazy" class="alignnone" src="https://38.media.tumblr.com/c54be7af95faf8646dba09caad1ab718/tumblr_npslrzPSeW1u7sgsso1_540.gif" alt="" width="540" height="540" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/summer-throwback-one-facebook-land/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How are you my foreign friend Unity3D</title>
+		<link>/how-are-you-my-foreign-friend-unity3d/</link>
+					<comments>/how-are-you-my-foreign-friend-unity3d/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Thu, 11 Jun 2015 04:08:10 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[gif]]></category>
+		<category><![CDATA[Unity]]></category>
+		<guid isPermaLink="false">/?p=2246</guid>
+
+					<description><![CDATA[&#160; Unity revisit, start now!]]></description>
+										<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2015/06/ahh.gif"><img loading="lazy" class="alignnone size-full wp-image-2247" src="/wp-content/uploads/2015/06/ahh.gif" alt="ahh" width="600" height="295" /></a></p>
+<p>&nbsp;</p>
+<p>Unity revisit, start now!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/how-are-you-my-foreign-friend-unity3d/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Virtual Reality Tour of Met</title>
+		<link>/virtual-reality-tour-of-met/</link>
+					<comments>/virtual-reality-tour-of-met/#respond</comments>
+		
+		<dc:creator><![CDATA[Laura]]></dc:creator>
+		<pubDate>Fri, 09 May 2014 22:40:34 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Spring 2014]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[3D]]></category>
+		<category><![CDATA[Oculus Rift]]></category>
+		<category><![CDATA[The Metropolitan Museum of Art]]></category>
+		<category><![CDATA[tour]]></category>
+		<category><![CDATA[Unity]]></category>
+		<guid isPermaLink="false">/?p=1444</guid>
+
+					<description><![CDATA[For my internship during Spring semester 2014 in Media Lab of The Metropolitan Museum of Art, I hooked up 3D models of Met from the Architecture Department Official Audio Guide... <a class="read-more" href="/virtual-reality-tour-of-met/">Read The Rest &#8594;</a>]]></description>
+										<content:encoded><![CDATA[<p>For my internship during Spring semester 2014 in Media Lab of The Metropolitan Museum of Art, I hooked up</p>
+<ol>
+<ol>
+<li>3D models of Met from the Architecture Department</li>
+<li>Official Audio Guide</li>
+<li>3D models art pieces in Greek and Roman gallery, made by 3D scan with photos</li>
+<li>Unity as game engine</li>
+<li>virtual reality head-mounted display Oculus Rift as controller</li>
+</ol>
+</ol>
+<p>and create an immersive virtual reality tour of Met!</p>
+<p><iframe loading="lazy" src="//player.vimeo.com/video/98892817?byline=0&amp;color=c9ff23" width="840" height="473" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><a href="/wp-content/uploads/2014/05/forBlog.png"><img loading="lazy" class="alignnone size-full wp-image-1448" src="/wp-content/uploads/2014/05/forBlog.png" alt="forBlog" width="1000" height="548" srcset="/wp-content/uploads/2014/05/forBlog.png 1000w, /wp-content/uploads/2014/05/forBlog-300x164.png 300w, /wp-content/uploads/2014/05/forBlog-304x166.png 304w" sizes="(max-width: 1000px) 100vw, 1000px" /></a> With Oculus Rift, users can wonder around the museum, listening to the audio guide and admiring art pieces, walk upstair, watch butterflies, being blocked by huge bowl, and being inside of the surreal mash-up models(credits to Decho&lt;horse&gt; and Rui&lt;uncolor triangulars&gt;). <a href="/wp-content/uploads/2014/05/metTour.png"><img loading="lazy" class="alignnone size-full wp-image-1446" src="/wp-content/uploads/2014/05/metTour.png" alt="metTour" width="3318" height="804" srcset="/wp-content/uploads/2014/05/metTour.png 3318w, /wp-content/uploads/2014/05/metTour-300x72.png 300w, /wp-content/uploads/2014/05/metTour-1024x248.png 1024w, /wp-content/uploads/2014/05/metTour-304x73.png 304w" sizes="(max-width: 3318px) 100vw, 3318px" /></a></p>
+<h2><span style="font-family: 'andale mono', times;">IDEA</span></h2>
+<p>With a background as VFX artist of 3D animation and post production, I&#8217;m always interested in 3D and how it can be interactive in the creative way. Once I got the chance to intern in Media Lab of the Met and knew we can access the 3D models of museum, I wanted to use Oculus Rift to walk inside the fantasy version of the Met, and to enjoy the immersive experience in space.</p>
+<p>&nbsp;</p>
+<h2><span style="font-family: 'andale mono', times;">PROJECT_DEVELOPMENT</span></h2>
+<p>Virtual Met Museum &#8211;&gt; Fantasy Experiment &#8211;&gt; Art piece + Audio Guide</p>
+<p>&nbsp;</p>
+<h2><span style="font-family: 'andale mono', times;">BASIC_SETUP_HOW_TO</span></h2>
+<p style="padding-left: 30px;">First of all, tons of basic knowledge about Unity <a href="https://unity3d.com/learn/tutorials/projects/stealth" target="_blank">here</a>. And setup a project from scratch, <a href="https://unity3d.com/learn/tutorials/projects/roll-a-ball/set-up" target="_blank">here</a>.</p>
+<p>&nbsp;</p>
+<h3><span style="font-family: 'andale mono', times;"><span style="color: #545454;">✓ </span>Import BIM 3D models into Unity</span></h3>
+<p style="padding-left: 30px;">Basically just put the <strong>fbx</strong> file into the <span style="color: #ff6600;"><strong>Assets</strong></span> folder of the project you just created. Not too complicated but there&#8217;s one thing you should be aware of, the SCALE. It&#8217;s a good practice to setup scale right in the modeling application before importing the model to Unity, and associated details described as below:</p>
+<ul>
+<li>1 Unity unit = 1m</li>
+<li>the fewer GameObjects the better. Also, use 1 material if you can</li>
+<li>useful link: <a href="http://wiki.unity3d.com/index.php/Tips#3D_Tools" target="_blank">wiki unity3d</a></li>
+</ul>
+<p>&nbsp;</p>
+<h3><span style="font-family: 'andale mono', times;"><span style="color: #545454;">✓ </span>Oculus Rift Plugin in Unity 3d Setup</span></h3>
+<p style="padding-left: 30px;">Just follow<a href="https://www.youtube.com/watch?v=7kuQYcIYPvQ" target="_blank"> the clear instruction on youtube</a>!</p>
+<p>&nbsp;</p>
+<h3><span style="font-family: 'andale mono', times;"><span style="color: #545454;">✓ Add collider to meshes</span></span></h3>
+<p style="padding-left: 30px;">In order to preventing player walking through meshes(e.g. walls, stairs), we need to add <span style="color: #ff6600;"><strong>Collider</strong></span> attribute on models, steps as below:</p>
+<ul>
+<li>select model</li>
+<li>@inspector</li>
+<li><span style="color: #ff6600;"><strong>Add Component</strong></span> &#8211;&gt; <strong><span style="color: #ff6600;">Physics</span></strong> &#8211;&gt; <span style="color: #ff6600;"><strong>Box Collider</strong></span> or <strong><span style="color: #ff6600;">Mesh Collider</span></strong></li>
+<li>Mesh Collider is more specific than box collider but at the same time is more expensive to use.</li>
+</ul>
+<p><a href="/wp-content/uploads/2014/05/collider-copy.png"><img loading="lazy" class="alignnone size-full wp-image-1456" src="/wp-content/uploads/2014/05/collider-copy.png" alt="collider copy" width="1000" height="537" srcset="/wp-content/uploads/2014/05/collider-copy.png 1000w, /wp-content/uploads/2014/05/collider-copy-300x161.png 300w, /wp-content/uploads/2014/05/collider-copy-304x163.png 304w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>&nbsp;</p>
+<h3><span style="font-family: 'andale mono', times;"><span style="color: #545454;">✓ </span>Occlusion Culling</span></h3>
+<p style="padding-left: 30px;">Means that things you aren&#8217;t looking at, aren&#8217;t loading into memory, so game will run faster.</p>
+<ul>
+<li> geometry must be broken into sensibly sized pieces.
+<ul>
+<li>if you have one object that contains all the furniture, either all or none of the entire set of furniture will be culled.</li>
+</ul>
+</li>
+<li>tag all scene objects that you want to be part of the occlusion to <b>Occluder Static</b> in the <b>Inspector</b>.</li>
+<li>Back!</li>
+<li>useful link: <a href="https://docs.unity3d.com/Documentation/Manual/OcclusionCulling.html" target="_blank">unity3d manual</a></li>
+</ul>
+<p>&nbsp;</p>
+<h3><span style="font-family: 'andale mono', times;"><span style="color: #545454;">✓ Import 3D-Scanned Models from </span></span></h3>
+<ul>
+<li>Take about 20 photos around the object you want to 3D scan of(360 degrees!).</li>
+<li>Upload the photos to <a href="http://www.123dapp.com/catch" target="_blank">123D Catch</a>.</li>
+<li>Yeah now you&#8217;ll have both .obj model file and texture file!</li>
+<li>Just download the file, and drag whole folder into the <span style="color: #ff6600; font-size: 12pt;"><strong>Asset</strong></span> folder of Unity!</li>
+</ul>
+<p>&nbsp;</p>
+<h2><span style="font-family: 'andale mono', times;">POSSIBILITIES</span></h2>
+<ul>
+<li>Gain accessibility for people who can&#8217;t visit the museum in person.</li>
+<li>Installation design simulation.</li>
+</ul>
+<p>&nbsp;</p>
+<h2><span style="font-family: 'andale mono', times;">Thank_to</span></h2>
+<p style="padding-left: 30px;">It&#8217;s really a good experience interning at MediaLab of Met. I know I want to keep working on 3D and also step into virtual reality world with Oculus Rift, and it&#8217;s a great match that I can have this topic as my own project, and also match to the needs of Met! From this internship, I gained valuable resources from the museum, and also knowing amazing mentors and colleagues from Labs. This project leads me to the world of virtual reality and I&#8217;m glad and also thankful that I&#8217;m a Spring 14&#8242; intern of Media Lab of The Metropolitan Museum of Art.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/virtual-reality-tour-of-met/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
